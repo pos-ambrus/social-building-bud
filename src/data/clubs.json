@@ -1,0 +1,142 @@
+[
+  {
+    "id": "hammertime-cafe",
+    "name": "HammerTime Cafe",
+    "category": "Társasjáték",
+    "district": "IX. kerület",
+    "description": "Geek kávézó és wargame közösség Warhammer- és társasjáték-rajongóknak, rendszeres klubnapokkal.",
+    "website_url": "https://hammertimecafe.hu/en/",
+    "instagram_url": null,
+    "featured": true
+  },
+  {
+    "id": "mate-tarsasjatekos-egyesulet",
+    "name": "Magyar Társasjátékos Egyesület (MATE)",
+    "category": "Társasjáték",
+    "district": null,
+    "description": "Országos társasjátékos egyesület, amely rendszeres budapesti klubnapokat és eseményeket szervez.",
+    "website_url": "https://tarsasjatekos.hu/",
+    "instagram_url": "https://www.instagram.com/tarsasjatekos.egyesulet/",
+    "featured": false
+  },
+  {
+    "id": "bridget-runners-budapest",
+    "name": "Bridget Runners Budapest",
+    "category": "Sport / Futás",
+    "district": null,
+    "description": "Budapest első női futóklubja, közös hétvégi futásokkal és brunch-csal, kezdőknek is barátságos.",
+    "website_url": "https://linktr.ee/bridgetrunners",
+    "instagram_url": null,
+    "featured": true
+  },
+  {
+    "id": "budapest-futoklub",
+    "name": "Budapest Futóklub",
+    "category": "Sport / Futás",
+    "district": null,
+    "description": "Közösségi futóklub rendszeres, közös edzésekkel minden szintű futónak.",
+    "website_url": "https://www.facebook.com/budapestfutoklub/",
+    "instagram_url": "https://www.instagram.com/budapest_futoklub/",
+    "featured": false
+  },
+  {
+    "id": "runners-high-budapest",
+    "name": "Runners High | Budapest Run Club",
+    "category": "Sport / Futás",
+    "district": null,
+    "description": "Futóklub keddi és csütörtöki esti, valamint vasárnap reggeli közös futásokkal.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/runnershighbud/",
+    "featured": false
+  },
+  {
+    "id": "run-in-budapest",
+    "name": "Run in Budapest",
+    "category": "Sport / Futás",
+    "district": null,
+    "description": "Futóközösség rendszeres heti közös futásokkal a városban.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/run_in_budapest/",
+    "featured": false
+  },
+  {
+    "id": "angyalfoldi-futoklub",
+    "name": "Angyalföldi Futóklub",
+    "category": "Sport / Futás",
+    "district": "XIII. kerület",
+    "description": "Kerületi futóklub kezdőknek és haladóknak egyaránt.",
+    "website_url": "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
+    "instagram_url": null,
+    "featured": false
+  },
+  {
+    "id": "budapest-language-exchange",
+    "name": "Budapest Language Exchange (BPLX)",
+    "category": "Nyelvcsere / Networking",
+    "district": null,
+    "description": "2012 óta működő nyelvcsere közösség, ahol helyiek és külföldiek gyakorolhatnak nyelveket egymással.",
+    "website_url": "https://www.meetup.com/budapest/",
+    "instagram_url": null,
+    "featured": true
+  },
+  {
+    "id": "international-socializing-budapest",
+    "name": "International Socializing in Budapest",
+    "category": "Nyelvcsere / Networking",
+    "district": null,
+    "description": "Heti szombat esti összejövetel helyieknek, expatoknak és utazóknak nyelvgyakorlásra és ismerkedésre.",
+    "website_url": "https://www.meetup.com/international-socializing-in-budapest/",
+    "instagram_url": null,
+    "featured": false
+  },
+  {
+    "id": "unicorn-book-club",
+    "name": "Unicorn Book Club",
+    "category": "Könyvklub",
+    "district": null,
+    "description": "Non-fiction fókuszú könyvklub havi rendszerességű beszélgetésekkel Budapesten.",
+    "website_url": "https://unicornbookclub.hu/",
+    "instagram_url": null,
+    "featured": false
+  },
+  {
+    "id": "konyvklub-budapesten",
+    "name": "Könyvklub Budapesten",
+    "category": "Könyvklub",
+    "district": null,
+    "description": "Olvasósarok könyvszerető embereknek, közös beszélgetésekkel és ajánlókkal.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/budapestolvasosarok/",
+    "featured": false
+  },
+  {
+    "id": "turazok-baratikore",
+    "name": "Túrázók Baráti Köre",
+    "category": "Túra / Természetjárás",
+    "district": null,
+    "description": "Természetjáró egyesület rendszeres közös túrákkal minden szintű túrázónak.",
+    "website_url": "https://turakor.hu/",
+    "instagram_url": null,
+    "featured": false
+  },
+  {
+    "id": "ibusz-termeszetjaro-egyesulet",
+    "name": "IBUSZ Természetjáró Egyesület",
+    "category": "Túra / Természetjárás",
+    "district": null,
+    "description": "Hosszú múltra visszatekintő túraegyesület rendszeres kirándulásokkal és túrákkal.",
+    "website_url": "https://ibuszte.hu/",
+    "instagram_url": null,
+    "featured": false
+  },
+  {
+    "id": "grund64-sakkterem",
+    "name": "Grund64 - a sakkterem",
+    "category": "Sakk",
+    "district": "VIII. kerület",
+    "description": "Sakkterem és közösségi tér sakkrajongóknak a VIII. kerületben.",
+    "website_url": "https://www.facebook.com/grund64/",
+    "instagram_url": null,
+    "featured": false
+  }
+]
