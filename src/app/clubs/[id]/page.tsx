@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { clubs, getClubById } from "@/data/clubs";
 import { getCategoryClasses } from "@/lib/categoryColors";
+import { getClubLogoUrl } from "@/lib/clubImage";
 import ClubLinkButton from "@/components/ClubLinkButton";
 
 export function generateStaticParams() {
@@ -21,19 +22,21 @@ export default async function ClubDetailPage({
     notFound();
   }
 
+  const logoUrl = getClubLogoUrl(club);
+
   return (
     <div className="mx-auto max-w-3xl px-6 py-12">
       <Link href="/" className="text-sm text-foreground/60 hover:text-accent">
         ← Vissza a klubokhoz
       </Link>
 
-      <div className="relative mt-6 aspect-[2/1] overflow-hidden rounded-2xl">
+      <div className="relative mt-6 flex aspect-[2/1] items-center justify-center overflow-hidden rounded-2xl bg-white">
         <Image
-          src={club.image_url}
+          src={logoUrl ?? club.image_url}
           alt={club.name}
           fill
           sizes="(min-width: 768px) 768px, 100vw"
-          className="object-cover"
+          className={logoUrl ? "object-contain p-16" : "object-cover"}
           priority
         />
       </div>

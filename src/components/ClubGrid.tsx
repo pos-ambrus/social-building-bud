@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import type { Club } from "@/data/clubs";
 import ClubCard from "./ClubCard";
 
-const PAGE_SIZE = 10;
+const PAGE_SIZE = 8;
 
 type Props = {
   clubs: Club[];
