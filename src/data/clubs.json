@@ -418,5 +418,77 @@
     "image_url": "https://picsum.photos/seed/budapest-personal-growth-meetup/600/450",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "startup-hungary",
+    "name": "Startup Hungary",
+    "category": "Startup / Tech",
+    "district": null,
+    "description": "Vállalkozó-vezette közösség, amely évi 50+ eseménnyel (First Monday, workshopok, alapítói vacsorák) pörgeti a magyar startup ökoszisztémát.",
+    "website_url": "https://www.startuphungary.io/",
+    "instagram_url": "https://www.instagram.com/startup_hungary/",
+    "image_url": "https://picsum.photos/seed/startup-hungary/600/450",
+    "featured": true,
+    "type": "Közösség"
+  },
+  {
+    "id": "sharetech-ai-deeptech",
+    "name": "ShareTech | AI & DeepTech Community",
+    "category": "Startup / Tech",
+    "district": null,
+    "description": "\"Ahol az AI-építők találkoznak\" — mérnökök, alapítók és kutatók közössége, akik a mesterséges intelligencia jövőjét építik.",
+    "website_url": "https://www.meetup.com/budapest-ai-hub/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/sharetech-ai-deeptech/600/450",
+    "featured": true,
+    "type": "Közösség"
+  },
+  {
+    "id": "ai-meetup-budapest",
+    "name": "AI Meetup Budapest",
+    "category": "Startup / Tech",
+    "district": null,
+    "description": "Havi rendszerességű mesterséges intelligencia közösségi találkozó, ahol AI-szakemberek és érdeklődők osztják meg tapasztalataikat.",
+    "website_url": "https://aimeetup.hu/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/ai-meetup-budapest/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "pyladies-budapest",
+    "name": "PyLadies Budapest",
+    "category": "Startup / Tech",
+    "district": null,
+    "description": "Barátságos szakmai közösség nőknek, akiket érdekel az adatelemzés vagy a Python programozás, sztereotípiáktól mentes környezetben.",
+    "website_url": "https://www.facebook.com/pyladiesbudapest/",
+    "instagram_url": "https://www.instagram.com/pyladiesbudapest/",
+    "image_url": "https://picsum.photos/seed/pyladies-budapest/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "budapest-new-technology-meetup",
+    "name": "Budapest New Technology Meetup",
+    "category": "Startup / Tech",
+    "district": null,
+    "description": "Tech-közösségi találkozó, ahol rövid, lényegre törő előadások után lehet ismerkedni és beszélgetni új technológiákról.",
+    "website_url": "https://www.facebook.com/newtechmeetup/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/budapest-new-technology-meetup/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "budapest-startup-cocktails",
+    "name": "Budapest Startup Cocktails",
+    "category": "Startup / Tech",
+    "district": null,
+    "description": "Laza networking esték startupoknak, fiatal vállalkozóknak és kreatívoknak, ahol ötleteket és tapasztalatokat osztanak meg egymással.",
+    "website_url": "https://www.meetup.com/budapest-startup-cocktails/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/budapest-startup-cocktails/600/450",
+    "featured": false,
+    "type": "Közösség"
   }
 ]
