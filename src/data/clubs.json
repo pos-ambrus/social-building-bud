@@ -490,5 +490,89 @@
     "image_url": "https://picsum.photos/seed/budapest-startup-cocktails/600/450",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "open-mic-budapest",
+    "name": "Open Mic Budapest",
+    "category": "Stand-up / Improv",
+    "district": null,
+    "description": "\"Kiindulópontod a budapesti open mic estékhez\" — stand-up és nyílt színpados közösség, változó helyszíneken.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/openmicbudapest/",
+    "image_url": "https://picsum.photos/seed/open-mic-budapest/600/450",
+    "featured": true,
+    "type": "Közösség"
+  },
+  {
+    "id": "standup-budapest",
+    "name": "Stand-up Budapest",
+    "category": "Stand-up / Improv",
+    "district": null,
+    "description": "Közösség, amely rendszeres fellépési lehetőséget biztosít kezdő és feltörekvő stand-up comedy előadóknak.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/standupbp/",
+    "image_url": "https://picsum.photos/seed/standup-budapest/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "noi-vallalkozok-klubja",
+    "name": "Női Vállalkozók Klubja",
+    "category": "Női közösség",
+    "district": null,
+    "description": "Közösség, amely inspirációt és támogatást nyújt női vállalkozóknak tippekkel, tanácsokkal.",
+    "website_url": "https://www.facebook.com/noivallalkozokklubja/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/noi-vallalkozok-klubja/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "feminista-meetup-budapest",
+    "name": "Feminista Meetup Budapest",
+    "category": "Női közösség",
+    "district": null,
+    "description": "Feminista közösségi találkozók, ahol az érdeklődők beszélgethetnek és kapcsolódhatnak egymáshoz.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/feministameetup/",
+    "image_url": "https://picsum.photos/seed/feminista-meetup-budapest/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "dykes-on-hikes-budapest",
+    "name": "Dykes on Hikes Budapest",
+    "category": "LMBTQ+ Közösség",
+    "district": null,
+    "description": "Leszbikus túraközösség, amely rendszeres közös kirándulásokat szervez Budapest környékén.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/dykesonhikes_budapest/",
+    "image_url": "https://picsum.photos/seed/dykes-on-hikes-budapest/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "fisz-fiatal-irok-szovetsege",
+    "name": "FISZ – Fiatal Írók Szövetsége",
+    "category": "Írói kör / Irodalom",
+    "district": null,
+    "description": "Fiatal írók közössége, amely irodalmi esteket, felolvasásokat és közös alkotói programokat szervez.",
+    "website_url": "https://www.facebook.com/fiatalirokszovetsege/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/fisz-fiatal-irok-szovetsege/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "karaoke-bulik-budapesten",
+    "name": "Karaoke Bulik Budapesten és Országosan",
+    "category": "Karaoke",
+    "district": null,
+    "description": "Facebook közösség karaoke-rajongóknak, ahol a tagok megosztják egymással a legjobb karaoke-alkalmakat.",
+    "website_url": "https://www.facebook.com/groups/426996557321875/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/karaoke-bulik-budapesten/600/450",
+    "featured": false,
+    "type": "Közösség"
   }
 ]
