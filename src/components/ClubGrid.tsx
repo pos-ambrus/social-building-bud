@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import type { Club } from "@/data/clubs";
+import { getCategoryIcon } from "@/lib/categoryIcons";
 import ClubCard from "./ClubCard";
 
 const PAGE_SIZE = 8;
@@ -50,6 +51,30 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
 
   return (
     <div>
+      <div className="mb-8">
+        <h2 className="mb-3 text-sm font-semibold text-foreground/60">Böngéssz kategória szerint</h2>
+        <div className="flex flex-wrap gap-2">
+          {categories.map((c) => {
+            const isActive = category === c;
+            return (
+              <button
+                key={c}
+                type="button"
+                onClick={() => setCategory(isActive ? "" : c)}
+                className={`flex items-center gap-1.5 rounded-xl border px-3 py-2 text-sm font-medium transition-colors ${
+                  isActive
+                    ? "border-accent bg-accent text-white"
+                    : "border-accent-soft bg-white/70 text-foreground/70 hover:border-accent"
+                }`}
+              >
+                <span>{getCategoryIcon(c)}</span>
+                {c}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
       <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-center">
         <input
           type="text"
@@ -58,18 +83,6 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
           placeholder="Keress klub neve vagy leírás alapján…"
           className="w-full flex-1 rounded-full border border-accent-soft bg-white/70 px-4 py-2.5 text-sm text-foreground placeholder:text-foreground/40 focus:border-accent focus:outline-none"
         />
-        <select
-          value={category}
-          onChange={(e) => setCategory(e.target.value)}
-          className="rounded-full border border-accent-soft bg-white/70 px-4 py-2.5 text-sm text-foreground focus:border-accent focus:outline-none"
-        >
-          <option value="">Minden kategória</option>
-          {categories.map((c) => (
-            <option key={c} value={c}>
-              {c}
-            </option>
-          ))}
-        </select>
         <select
           value={district}
           onChange={(e) => setDistrict(e.target.value)}
@@ -94,7 +107,7 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
         </p>
       ) : (
         <>
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
             {paginated.map((club) => (
               <ClubCard key={club.id} club={club} />
             ))}
