@@ -350,5 +350,82 @@
     "instagram_url": "https://www.instagram.com/crossfitglasshouse/",
     "image_url": "https://picsum.photos/seed/crossfit-glasshouse/600/450",
     "featured": false
+  },
+  {
+    "id": "alibi-ijaszklub",
+    "name": "Alibi Íjászklub",
+    "category": "Sport / Íjászat",
+    "district": null,
+    "description": "Íjászklub kezdőknek és haladóknak, hagyományos, vadász- és teremíjászattal, 30 méteres pályával.",
+    "website_url": "https://www.facebook.com/alibi.ijaszklub/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/alibi-ijaszklub/600/450",
+    "featured": false
+  },
+  {
+    "id": "budapesti-sportijasz-egyesulet",
+    "name": "Budapesti Sportíjász Egyesület",
+    "category": "Sport / Íjászat",
+    "district": null,
+    "description": "Sportíjász egyesület, amely feltételeket teremt a gyakorló és az újonnan érdeklődő íjászok számára.",
+    "website_url": "https://sportijasz.hu/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/budapesti-sportijasz-egyesulet/600/450",
+    "featured": false
+  },
+  {
+    "id": "mirage-poker-club",
+    "name": "Mirage Poker Club",
+    "category": "Kártya / Póker",
+    "district": null,
+    "description": "Magyarország legnagyobb pókerklubja, három kártyateremmel és rendszeres versenyekkel.",
+    "website_url": "https://miragepoker.eu/en/",
+    "instagram_url": "https://www.instagram.com/miragepokerbudapest/",
+    "image_url": "https://picsum.photos/seed/mirage-poker-club/600/450",
+    "featured": false
+  },
+  {
+    "id": "the-workshop-budapest",
+    "name": "The Workshop",
+    "category": "Kézműves / Workshop",
+    "district": null,
+    "description": "Kézműves közösségi műhely, ahol különféle alkotó workshopokon vehetsz részt.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/theworkshop_budapest/",
+    "image_url": "https://picsum.photos/seed/the-workshop-budapest/600/450",
+    "featured": false
+  },
+  {
+    "id": "paloma-artspace",
+    "name": "Paloma Artspace",
+    "category": "Kézműves / Workshop",
+    "district": null,
+    "description": "Belvárosi alkotótér, ahol helyi tervezők és alkotók tartanak közösségi kézműves workshopokat.",
+    "website_url": "https://www.palomaartspace.hu/workshopok",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/paloma-artspace/600/450",
+    "featured": false
+  },
+  {
+    "id": "budapest-jazz-club",
+    "name": "Budapest Jazz Club",
+    "category": "Zene / Jam Session",
+    "district": null,
+    "description": "Jazzklub, amely rendszeres ingyenes jam sessionöket tart hétvégenként, bárkit szívesen látnak.",
+    "website_url": "https://www.bjc.hu/programs/free-bjc-jam-session-nights/",
+    "instagram_url": "https://www.instagram.com/budapestjazzclub/",
+    "image_url": "https://picsum.photos/seed/budapest-jazz-club/600/450",
+    "featured": true
+  },
+  {
+    "id": "impulzus-kreativ-zenei-muhely",
+    "name": "ImPulzus Kreatív Zenei Műhely",
+    "category": "Zene / Jam Session",
+    "district": null,
+    "description": "Kreatív zenei műhely hangszeres és elméleti kurzusokkal, kórussal és közösségi zenéléssel.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/impulzusmusic/",
+    "image_url": "https://picsum.photos/seed/impulzus-kreativ-zenei-muhely/600/450",
+    "featured": false
   }
 ]
