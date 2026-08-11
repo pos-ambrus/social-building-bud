@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import { clubs, getClubById } from "@/data/clubs";
 import ClubLinkButton from "@/components/ClubLinkButton";
@@ -25,13 +26,15 @@ export default async function ClubDetailPage({
         ← Vissza a klubokhoz
       </Link>
 
-      <div className="mt-6 flex aspect-[2/1] items-center justify-center rounded-2xl bg-gradient-to-br from-neutral-100 to-neutral-200 text-5xl font-semibold text-neutral-400 dark:from-neutral-800 dark:to-neutral-900 dark:text-neutral-600">
-        {club.name
-          .split(" ")
-          .slice(0, 2)
-          .map((w) => w[0])
-          .join("")
-          .toUpperCase()}
+      <div className="relative mt-6 aspect-[2/1] overflow-hidden rounded-2xl">
+        <Image
+          src={club.image_url}
+          alt={club.name}
+          fill
+          sizes="(min-width: 768px) 768px, 100vw"
+          className="object-cover"
+          priority
+        />
       </div>
 
       <h1 className="mt-6 text-3xl font-semibold tracking-tight text-neutral-900 dark:text-white">

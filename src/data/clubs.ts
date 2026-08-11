@@ -8,6 +8,7 @@ export type Club = {
   description: string;
   website_url: string | null;
   instagram_url: string | null;
+  image_url: string;
   featured: boolean;
 };
 

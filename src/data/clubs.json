@@ -7,6 +7,7 @@
     "description": "Geek kávézó és wargame közösség Warhammer- és társasjáték-rajongóknak, rendszeres klubnapokkal.",
     "website_url": "https://hammertimecafe.hu/en/",
     "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/hammertime-cafe/600/450",
     "featured": true
   },
   {
@@ -17,6 +18,7 @@
     "description": "Országos társasjátékos egyesület, amely rendszeres budapesti klubnapokat és eseményeket szervez.",
     "website_url": "https://tarsasjatekos.hu/",
     "instagram_url": "https://www.instagram.com/tarsasjatekos.egyesulet/",
+    "image_url": "https://picsum.photos/seed/mate-tarsasjatekos-egyesulet/600/450",
     "featured": false
   },
   {
@@ -27,6 +29,7 @@
     "description": "Budapest első női futóklubja, közös hétvégi futásokkal és brunch-csal, kezdőknek is barátságos.",
     "website_url": "https://linktr.ee/bridgetrunners",
     "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/bridget-runners-budapest/600/450",
     "featured": true
   },
   {
@@ -37,6 +40,7 @@
     "description": "Közösségi futóklub rendszeres, közös edzésekkel minden szintű futónak.",
     "website_url": "https://www.facebook.com/budapestfutoklub/",
     "instagram_url": "https://www.instagram.com/budapest_futoklub/",
+    "image_url": "https://picsum.photos/seed/budapest-futoklub/600/450",
     "featured": false
   },
   {
@@ -47,6 +51,7 @@
     "description": "Futóklub keddi és csütörtöki esti, valamint vasárnap reggeli közös futásokkal.",
     "website_url": null,
     "instagram_url": "https://www.instagram.com/runnershighbud/",
+    "image_url": "https://picsum.photos/seed/runners-high-budapest/600/450",
     "featured": false
   },
   {
@@ -57,6 +62,7 @@
     "description": "Futóközösség rendszeres heti közös futásokkal a városban.",
     "website_url": null,
     "instagram_url": "https://www.instagram.com/run_in_budapest/",
+    "image_url": "https://picsum.photos/seed/run-in-budapest/600/450",
     "featured": false
   },
   {
@@ -67,6 +73,7 @@
     "description": "Kerületi futóklub kezdőknek és haladóknak egyaránt.",
     "website_url": "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
     "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/angyalfoldi-futoklub/600/450",
     "featured": false
   },
   {
@@ -77,6 +84,7 @@
     "description": "2012 óta működő nyelvcsere közösség, ahol helyiek és külföldiek gyakorolhatnak nyelveket egymással.",
     "website_url": "https://www.meetup.com/budapest/",
     "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/budapest-language-exchange/600/450",
     "featured": true
   },
   {
@@ -87,6 +95,7 @@
     "description": "Heti szombat esti összejövetel helyieknek, expatoknak és utazóknak nyelvgyakorlásra és ismerkedésre.",
     "website_url": "https://www.meetup.com/international-socializing-in-budapest/",
     "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/international-socializing-budapest/600/450",
     "featured": false
   },
   {
@@ -97,6 +106,7 @@
     "description": "Non-fiction fókuszú könyvklub havi rendszerességű beszélgetésekkel Budapesten.",
     "website_url": "https://unicornbookclub.hu/",
     "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/unicorn-book-club/600/450",
     "featured": false
   },
   {
@@ -107,6 +117,7 @@
     "description": "Olvasósarok könyvszerető embereknek, közös beszélgetésekkel és ajánlókkal.",
     "website_url": null,
     "instagram_url": "https://www.instagram.com/budapestolvasosarok/",
+    "image_url": "https://picsum.photos/seed/konyvklub-budapesten/600/450",
     "featured": false
   },
   {
@@ -117,6 +128,7 @@
     "description": "Természetjáró egyesület rendszeres közös túrákkal minden szintű túrázónak.",
     "website_url": "https://turakor.hu/",
     "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/turazok-baratikore/600/450",
     "featured": false
   },
   {
@@ -127,6 +139,7 @@
     "description": "Hosszú múltra visszatekintő túraegyesület rendszeres kirándulásokkal és túrákkal.",
     "website_url": "https://ibuszte.hu/",
     "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/ibusz-termeszetjaro-egyesulet/600/450",
     "featured": false
   },
   {
@@ -137,6 +150,205 @@
     "description": "Sakkterem és közösségi tér sakkrajongóknak a VIII. kerületben.",
     "website_url": "https://www.facebook.com/grund64/",
     "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/grund64-sakkterem/600/450",
+    "featured": false
+  },
+  {
+    "id": "kobanyai-fotoklub",
+    "name": "Kőbányai Fotóklub",
+    "category": "Fotózás",
+    "district": "X. kerület",
+    "description": "Fotós közösség rendszeres klubnapokkal és közös fotós kiruccanásokkal a városban.",
+    "website_url": "https://fotoklubkobanya.hu/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/kobanyai-fotoklub/600/450",
+    "featured": false
+  },
+  {
+    "id": "fotoclub-bkk",
+    "name": "FOTOCLUB BKK",
+    "category": "Fotózás",
+    "district": null,
+    "description": "Fotós közösség, filmlabor és stúdió, ahol a fotózás szerelmesei találkozhatnak és alkothatnak.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/fotoclubbkk/",
+    "image_url": "https://picsum.photos/seed/fotoclub-bkk/600/450",
+    "featured": false
+  },
+  {
+    "id": "bachata-club-hungary",
+    "name": "Bachata Club Hungary",
+    "category": "Tánc",
+    "district": null,
+    "description": "Bachata táncközösség kezdőknek és haladóknak, rendszeres social dance alkalmakkal.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/bachataclubhungary/",
+    "image_url": "https://picsum.photos/seed/bachata-club-hungary/600/450",
+    "featured": false
+  },
+  {
+    "id": "salsa-bachata-social-club",
+    "name": "Salsa Bachata Social Club",
+    "category": "Tánc",
+    "district": null,
+    "description": "Latin táncos közösség salsa és bachata estekkel, ahol bárki csatlakozhat előzetes tudás nélkül.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/salsa_bachata_social/",
+    "image_url": "https://picsum.photos/seed/salsa-bachata-social-club/600/450",
+    "featured": false
+  },
+  {
+    "id": "margitszigeti-joga",
+    "name": "Margitszigeti Jóga",
+    "category": "Jóga / Wellness",
+    "district": null,
+    "description": "Közösségi szabadtéri jógaórák a Margitszigeten, tíz éve működő, barátságos csapattal.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/margitszigetijoga.hu/",
+    "image_url": "https://picsum.photos/seed/margitszigeti-joga/600/450",
+    "featured": true
+  },
+  {
+    "id": "utkozben-joga",
+    "name": "Útközben Jóga és Buddhista Központ",
+    "category": "Jóga / Wellness",
+    "district": "III. kerület",
+    "description": "Jóga és buddhista közösségi központ Óbudán, rendszeres órákkal és jógatáborokkal.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/utkozbenjoga/",
+    "image_url": "https://picsum.photos/seed/utkozben-joga/600/450",
+    "featured": false
+  },
+  {
+    "id": "borjour",
+    "name": "Borjour",
+    "category": "Bor / Gasztro",
+    "district": null,
+    "description": "Magyarország legnagyobb borközössége, rendszeres borkóstolókkal és gasztroeseményekkel.",
+    "website_url": "https://borjour.hu/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/borjour/600/450",
+    "featured": false
+  },
+  {
+    "id": "start-filmklub",
+    "name": "START Filmklub",
+    "category": "Filmklub",
+    "district": "IX. kerület",
+    "description": "Filmklub közösségi vetítésekkel és beszélgetésekkel a Napraforgó utcai Sonnenschein-házban.",
+    "website_url": "https://www.facebook.com/STARTFilmklub/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/start-filmklub/600/450",
+    "featured": false
+  },
+  {
+    "id": "i-bike-budapest",
+    "name": "I Bike Budapest (Kerékpárosklub)",
+    "category": "Sport / Kerékpár",
+    "district": null,
+    "description": "Kerékpáros közösség és érdekvédelmi klub, amely rendszeres közös felvonulásokat és túrákat szervez.",
+    "website_url": "https://kerekparosklub.hu/critical-mass-budapest",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/i-bike-budapest/600/450",
+    "featured": false
+  },
+  {
+    "id": "monkey-boulder",
+    "name": "Monkey Boulder",
+    "category": "Sport / Mászás",
+    "district": "III. kerület",
+    "description": "Beltéri boulder mászóterem közössége Óbudán, heti új falakkal és edzésekkel kezdőknek és haladóknak.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/monkey_boulder/",
+    "image_url": "https://picsum.photos/seed/monkey-boulder/600/450",
+    "featured": false
+  },
+  {
+    "id": "flow-boulder",
+    "name": "Flow Boulder",
+    "category": "Sport / Mászás",
+    "district": "XI. kerület",
+    "description": "Falmászó közösség és terem, ahol kezdők és haladó mászók egyaránt otthon érezhetik magukat.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/flowboulderhungary/",
+    "image_url": "https://picsum.photos/seed/flow-boulder/600/450",
+    "featured": false
+  },
+  {
+    "id": "boulder-academy-budapest",
+    "name": "Boulder Academy Budapest",
+    "category": "Sport / Mászás",
+    "district": null,
+    "description": "Mászóközösség és edzőterem, oktatással és rendszeres közösségi mászóestékkel.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/boulderacademybudapest/",
+    "image_url": "https://picsum.photos/seed/boulder-academy-budapest/600/450",
+    "featured": false
+  },
+  {
+    "id": "budapesti-kosarlabdazok-egyesulete",
+    "name": "Budapesti Kosárlabdázók Egyesülete",
+    "category": "Sport / Kosárlabda",
+    "district": null,
+    "description": "Amatőr kosárlabda közösség rendszeres mérkőzésekkel és edzésekkel minden szintű játékosnak.",
+    "website_url": "https://www.budbasket.hu/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/budapesti-kosarlabdazok-egyesulete/600/450",
+    "featured": false
+  },
+  {
+    "id": "jozsefvarosi-kosarlabda-club",
+    "name": "Józsefvárosi Kosárlabda Club",
+    "category": "Sport / Kosárlabda",
+    "district": "VIII. kerület",
+    "description": "Kerületi kosárlabdaklub, amely amatőr és utánpótlás csapatokat is összefog.",
+    "website_url": "https://www.nyockerbasket.hu/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/jozsefvarosi-kosarlabda-club/600/450",
+    "featured": false
+  },
+  {
+    "id": "zold-kez-tenisz-klub",
+    "name": "Zöld Kéz Tenisz Klub",
+    "category": "Sport / Tenisz",
+    "district": null,
+    "description": "Teniszklub rendszeres edzésekkel és közösségi programokkal minden korosztálynak.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/zoldkezteniszklub/",
+    "image_url": "https://picsum.photos/seed/zold-kez-tenisz-klub/600/450",
+    "featured": false
+  },
+  {
+    "id": "park-teniszklub",
+    "name": "Park Teniszklub",
+    "category": "Sport / Tenisz",
+    "district": "XI. kerület",
+    "description": "Budapest egyik legrégebbi teniszkomplexuma, agyagpályás közösségi klubélettel.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/park_teniszklub_official/",
+    "image_url": "https://picsum.photos/seed/park-teniszklub/600/450",
+    "featured": false
+  },
+  {
+    "id": "crossfit-grund",
+    "name": "CrossFit Grund",
+    "category": "Sport / Fitness",
+    "district": null,
+    "description": "CrossFit közösség a belvárosban, gimnasztika, súlyemelés és mobilitás edzésekkel.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/crossfitgrund/",
+    "image_url": "https://picsum.photos/seed/crossfit-grund/600/450",
+    "featured": false
+  },
+  {
+    "id": "crossfit-glasshouse",
+    "name": "CrossFit Glasshouse",
+    "category": "Sport / Fitness",
+    "district": null,
+    "description": "Támogató CrossFit közösség kezdőbarát edzésekkel, erő és önbizalom építésére fókuszálva.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/crossfitglasshouse/",
+    "image_url": "https://picsum.photos/seed/crossfit-glasshouse/600/450",
     "featured": false
   }
 ]
