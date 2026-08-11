@@ -16,8 +16,9 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState<string>("");
   const [district, setDistrict] = useState<string>("");
+  const [type, setType] = useState<string>("");
   const [page, setPage] = useState(1);
-  const [appliedFilters, setAppliedFilters] = useState({ search, category, district });
+  const [appliedFilters, setAppliedFilters] = useState({ search, category, district, type });
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -28,16 +29,18 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
         club.description.toLowerCase().includes(q);
       const matchesCategory = !category || club.category === category;
       const matchesDistrict = !district || club.district === district;
-      return matchesSearch && matchesCategory && matchesDistrict;
+      const matchesType = !type || club.type === type;
+      return matchesSearch && matchesCategory && matchesDistrict && matchesType;
     });
-  }, [clubs, search, category, district]);
+  }, [clubs, search, category, district, type]);
 
   if (
     search !== appliedFilters.search ||
     category !== appliedFilters.category ||
-    district !== appliedFilters.district
+    district !== appliedFilters.district ||
+    type !== appliedFilters.type
   ) {
-    setAppliedFilters({ search, category, district });
+    setAppliedFilters({ search, category, district, type });
     setPage(1);
   }
 
@@ -81,6 +84,15 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
               {d}
             </option>
           ))}
+        </select>
+        <select
+          value={type}
+          onChange={(e) => setType(e.target.value)}
+          className="rounded-full border border-accent-soft bg-white/70 px-4 py-2.5 text-sm text-foreground focus:border-accent focus:outline-none"
+        >
+          <option value="">Helyszín és közösség is</option>
+          <option value="Helyszín">📍 Csak helyszínek</option>
+          <option value="Közösség">🤝 Csak közösségek</option>
         </select>
       </div>
 

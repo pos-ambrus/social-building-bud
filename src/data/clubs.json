@@ -8,7 +8,8 @@
     "website_url": "https://hammertimecafe.hu/en/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/hammertime-cafe/600/450",
-    "featured": true
+    "featured": true,
+    "type": "Helyszín"
   },
   {
     "id": "mate-tarsasjatekos-egyesulet",
@@ -19,7 +20,8 @@
     "website_url": "https://tarsasjatekos.hu/",
     "instagram_url": "https://www.instagram.com/tarsasjatekos.egyesulet/",
     "image_url": "https://picsum.photos/seed/mate-tarsasjatekos-egyesulet/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "bridget-runners-budapest",
@@ -30,7 +32,8 @@
     "website_url": "https://linktr.ee/bridgetrunners",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/bridget-runners-budapest/600/450",
-    "featured": true
+    "featured": true,
+    "type": "Közösség"
   },
   {
     "id": "budapest-futoklub",
@@ -41,7 +44,8 @@
     "website_url": "https://www.facebook.com/budapestfutoklub/",
     "instagram_url": "https://www.instagram.com/budapest_futoklub/",
     "image_url": "https://picsum.photos/seed/budapest-futoklub/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "runners-high-budapest",
@@ -52,7 +56,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/runnershighbud/",
     "image_url": "https://picsum.photos/seed/runners-high-budapest/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "run-in-budapest",
@@ -63,7 +68,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/run_in_budapest/",
     "image_url": "https://picsum.photos/seed/run-in-budapest/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "angyalfoldi-futoklub",
@@ -74,7 +80,8 @@
     "website_url": "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/angyalfoldi-futoklub/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "budapest-language-exchange",
@@ -85,7 +92,8 @@
     "website_url": "https://www.meetup.com/budapest/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/budapest-language-exchange/600/450",
-    "featured": true
+    "featured": true,
+    "type": "Közösség"
   },
   {
     "id": "international-socializing-budapest",
@@ -96,7 +104,8 @@
     "website_url": "https://www.meetup.com/international-socializing-in-budapest/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/international-socializing-budapest/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "unicorn-book-club",
@@ -107,7 +116,8 @@
     "website_url": "https://unicornbookclub.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/unicorn-book-club/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "konyvklub-budapesten",
@@ -118,7 +128,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/budapestolvasosarok/",
     "image_url": "https://picsum.photos/seed/konyvklub-budapesten/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "turazok-baratikore",
@@ -129,7 +140,8 @@
     "website_url": "https://turakor.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/turazok-baratikore/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "ibusz-termeszetjaro-egyesulet",
@@ -140,7 +152,8 @@
     "website_url": "https://ibuszte.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/ibusz-termeszetjaro-egyesulet/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "grund64-sakkterem",
@@ -151,7 +164,8 @@
     "website_url": "https://www.facebook.com/grund64/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/grund64-sakkterem/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "kobanyai-fotoklub",
@@ -162,7 +176,8 @@
     "website_url": "https://fotoklubkobanya.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/kobanyai-fotoklub/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "fotoclub-bkk",
@@ -173,7 +188,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/fotoclubbkk/",
     "image_url": "https://picsum.photos/seed/fotoclub-bkk/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "bachata-club-hungary",
@@ -184,7 +200,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/bachataclubhungary/",
     "image_url": "https://picsum.photos/seed/bachata-club-hungary/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "salsa-bachata-social-club",
@@ -195,7 +212,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/salsa_bachata_social/",
     "image_url": "https://picsum.photos/seed/salsa-bachata-social-club/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "margitszigeti-joga",
@@ -206,7 +224,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/margitszigetijoga.hu/",
     "image_url": "https://picsum.photos/seed/margitszigeti-joga/600/450",
-    "featured": true
+    "featured": true,
+    "type": "Helyszín"
   },
   {
     "id": "utkozben-joga",
@@ -217,7 +236,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/utkozbenjoga/",
     "image_url": "https://picsum.photos/seed/utkozben-joga/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "borjour",
@@ -228,7 +248,8 @@
     "website_url": "https://borjour.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/borjour/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "start-filmklub",
@@ -239,7 +260,8 @@
     "website_url": "https://www.facebook.com/STARTFilmklub/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/start-filmklub/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "i-bike-budapest",
@@ -250,7 +272,8 @@
     "website_url": "https://kerekparosklub.hu/critical-mass-budapest",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/i-bike-budapest/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "monkey-boulder",
@@ -261,7 +284,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/monkey_boulder/",
     "image_url": "https://picsum.photos/seed/monkey-boulder/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "flow-boulder",
@@ -272,7 +296,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/flowboulderhungary/",
     "image_url": "https://picsum.photos/seed/flow-boulder/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "boulder-academy-budapest",
@@ -283,7 +308,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/boulderacademybudapest/",
     "image_url": "https://picsum.photos/seed/boulder-academy-budapest/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "budapesti-kosarlabdazok-egyesulete",
@@ -294,7 +320,8 @@
     "website_url": "https://www.budbasket.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/budapesti-kosarlabdazok-egyesulete/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "jozsefvarosi-kosarlabda-club",
@@ -305,7 +332,8 @@
     "website_url": "https://www.nyockerbasket.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/jozsefvarosi-kosarlabda-club/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "zold-kez-tenisz-klub",
@@ -316,7 +344,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/zoldkezteniszklub/",
     "image_url": "https://picsum.photos/seed/zold-kez-tenisz-klub/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "park-teniszklub",
@@ -327,7 +356,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/park_teniszklub_official/",
     "image_url": "https://picsum.photos/seed/park-teniszklub/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "crossfit-grund",
@@ -338,7 +368,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/crossfitgrund/",
     "image_url": "https://picsum.photos/seed/crossfit-grund/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "crossfit-glasshouse",
@@ -349,7 +380,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/crossfitglasshouse/",
     "image_url": "https://picsum.photos/seed/crossfit-glasshouse/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "alibi-ijaszklub",
@@ -360,7 +392,8 @@
     "website_url": "https://www.facebook.com/alibi.ijaszklub/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/alibi-ijaszklub/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "budapesti-sportijasz-egyesulet",
@@ -371,7 +404,8 @@
     "website_url": "https://sportijasz.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/budapesti-sportijasz-egyesulet/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "mirage-poker-club",
@@ -382,7 +416,8 @@
     "website_url": "https://miragepoker.eu/en/",
     "instagram_url": "https://www.instagram.com/miragepokerbudapest/",
     "image_url": "https://picsum.photos/seed/mirage-poker-club/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "the-workshop-budapest",
@@ -393,7 +428,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/theworkshop_budapest/",
     "image_url": "https://picsum.photos/seed/the-workshop-budapest/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "paloma-artspace",
@@ -404,7 +440,8 @@
     "website_url": "https://www.palomaartspace.hu/workshopok",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/paloma-artspace/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "budapest-jazz-club",
@@ -415,7 +452,8 @@
     "website_url": "https://www.bjc.hu/programs/free-bjc-jam-session-nights/",
     "instagram_url": "https://www.instagram.com/budapestjazzclub/",
     "image_url": "https://picsum.photos/seed/budapest-jazz-club/600/450",
-    "featured": true
+    "featured": true,
+    "type": "Helyszín"
   },
   {
     "id": "impulzus-kreativ-zenei-muhely",
@@ -426,7 +464,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/impulzusmusic/",
     "image_url": "https://picsum.photos/seed/impulzus-kreativ-zenei-muhely/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "saturday-toastmasters-budapest",
@@ -437,7 +476,8 @@
     "website_url": "https://www.facebook.com/saturdaytm/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/saturday-toastmasters-budapest/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "skylarks-toastmasters-budapest",
@@ -448,7 +488,8 @@
     "website_url": "https://www.facebook.com/skylarkstoastmasters/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/skylarks-toastmasters-budapest/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "budapest-toastmasters",
@@ -459,7 +500,8 @@
     "website_url": "https://www.facebook.com/BudapestToastmasters/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/budapest-toastmasters/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "quiznight-hu",
@@ -470,7 +512,8 @@
     "website_url": "https://www.facebook.com/quiznight.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/quiznight-hu/600/450",
-    "featured": true
+    "featured": true,
+    "type": "Közösség"
   },
   {
     "id": "quizzone",
@@ -481,7 +524,8 @@
     "website_url": "https://www.facebook.com/quizzone.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/quizzone/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "vegan-kozosseg",
@@ -492,7 +536,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/vegan_kozosseg/",
     "image_url": "https://picsum.photos/seed/vegan-kozosseg/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "tudatos-vegetarianus-vegan-kozosseg",
@@ -503,7 +548,8 @@
     "website_url": "https://www.facebook.com/groups/274180306727041/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/tudatos-vegetarianus-vegan-kozosseg/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "meditation-center-budapest",
@@ -514,7 +560,8 @@
     "website_url": "https://www.facebook.com/MeditationCenterBudapest/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/meditation-center-budapest/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "one-drop-zen",
@@ -525,7 +572,8 @@
     "website_url": "https://www.facebook.com/onedropzendo/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/one-drop-zen/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "budai-judo-akademia",
@@ -536,7 +584,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/budaijudoakademia/",
     "image_url": "https://picsum.photos/seed/budai-judo-akademia/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "ujbuda-kyokushin-karate",
@@ -547,7 +596,8 @@
     "website_url": "https://www.facebook.com/ujbudakarate/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/ujbuda-kyokushin-karate/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "the-cafe-club-budapest",
@@ -558,7 +608,8 @@
     "website_url": "https://www.facebook.com/thecafeclubbudapest/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/the-cafe-club-budapest/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   },
   {
     "id": "budapest-evezos-egyesulet",
@@ -569,7 +620,8 @@
     "website_url": "https://www.evezz.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/budapest-evezos-egyesulet/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "csepeli-kajak-kenu-egyesulet",
@@ -580,7 +632,8 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/csepelikajakkenuegyesulet/",
     "image_url": "https://picsum.photos/seed/csepeli-kajak-kenu-egyesulet/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "bkv-elore-kajak-kenu",
@@ -591,7 +644,8 @@
     "website_url": "https://bkvkajakkenu.hu/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/bkv-elore-kajak-kenu/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Helyszín"
   },
   {
     "id": "budapest-digital-nomads",
@@ -602,6 +656,7 @@
     "website_url": "https://www.facebook.com/groups/648464231947085/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/budapest-digital-nomads/600/450",
-    "featured": false
+    "featured": false,
+    "type": "Közösség"
   }
 ]

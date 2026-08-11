@@ -23,6 +23,16 @@ export default function ClubCard({ club }: { club: Club }) {
               {club.name}
             </h3>
           </Link>
+          <span
+            className="shrink-0 whitespace-nowrap text-xs font-medium text-foreground/50"
+            title={
+              club.type === "Helyszín"
+                ? "Fizikai helyszín, ahova el lehet menni"
+                : "Közösségi kezdeményezés, saját fix helyszín nélkül"
+            }
+          >
+            {club.type === "Helyszín" ? "📍 Helyszín" : "🤝 Közösség"}
+          </span>
         </div>
         <div className="flex flex-wrap items-center gap-2 text-xs">
           <span className={`rounded-full px-2.5 py-1 font-medium ${getCategoryClasses(club.category)}`}>

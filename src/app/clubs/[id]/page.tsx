@@ -38,9 +38,14 @@ export default async function ClubDetailPage({
         />
       </div>
 
-      <h1 className="mt-6 text-3xl font-semibold tracking-tight text-foreground">
-        {club.name}
-      </h1>
+      <div className="mt-6 flex items-start justify-between gap-2">
+        <h1 className="text-3xl font-semibold tracking-tight text-foreground">
+          {club.name}
+        </h1>
+        <span className="shrink-0 whitespace-nowrap pt-1 text-sm font-medium text-foreground/50">
+          {club.type === "Helyszín" ? "📍 Helyszín" : "🤝 Közösség"}
+        </span>
+      </div>
 
       <div className="mt-3 flex flex-wrap gap-2 text-xs">
         <span className={`rounded-full px-2.5 py-1 font-medium ${getCategoryClasses(club.category)}`}>

@@ -1,5 +1,7 @@
 import clubsData from "./clubs.json";
 
+export type ClubType = "Helyszín" | "Közösség";
+
 export type Club = {
   id: string;
   name: string;
@@ -10,6 +12,7 @@ export type Club = {
   instagram_url: string | null;
   image_url: string;
   featured: boolean;
+  type: ClubType;
 };
 
 export const clubs: Club[] = clubsData as Club[];
