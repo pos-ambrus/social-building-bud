@@ -1,17 +1,5 @@
 [
   {
-    "id": "hammertime-cafe",
-    "name": "HammerTime Cafe",
-    "category": "Társasjáték",
-    "district": "IX. kerület",
-    "description": "Geek kávézó és wargame közösség Warhammer- és társasjáték-rajongóknak, rendszeres klubnapokkal.",
-    "website_url": "https://hammertimecafe.hu/en/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/hammertime-cafe/600/450",
-    "featured": true,
-    "type": "Helyszín"
-  },
-  {
     "id": "mate-tarsasjatekos-egyesulet",
     "name": "Magyar Társasjátékos Egyesület (MATE)",
     "category": "Társasjáték",
@@ -156,42 +144,6 @@
     "type": "Közösség"
   },
   {
-    "id": "grund64-sakkterem",
-    "name": "Grund64 - a sakkterem",
-    "category": "Sakk",
-    "district": "VIII. kerület",
-    "description": "Sakkterem és közösségi tér sakkrajongóknak a VIII. kerületben.",
-    "website_url": "https://www.facebook.com/grund64/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/grund64-sakkterem/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "kobanyai-fotoklub",
-    "name": "Kőbányai Fotóklub",
-    "category": "Fotózás",
-    "district": "X. kerület",
-    "description": "Fotós közösség rendszeres klubnapokkal és közös fotós kiruccanásokkal a városban.",
-    "website_url": "https://fotoklubkobanya.hu/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/kobanyai-fotoklub/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "fotoclub-bkk",
-    "name": "FOTOCLUB BKK",
-    "category": "Fotózás",
-    "district": null,
-    "description": "Fotós közösség, filmlabor és stúdió, ahol a fotózás szerelmesei találkozhatnak és alkothatnak.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/fotoclubbkk/",
-    "image_url": "https://picsum.photos/seed/fotoclub-bkk/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
     "id": "bachata-club-hungary",
     "name": "Bachata Club Hungary",
     "category": "Tánc",
@@ -225,19 +177,7 @@
     "instagram_url": "https://www.instagram.com/margitszigetijoga.hu/",
     "image_url": "https://picsum.photos/seed/margitszigeti-joga/600/450",
     "featured": true,
-    "type": "Helyszín"
-  },
-  {
-    "id": "utkozben-joga",
-    "name": "Útközben Jóga és Buddhista Központ",
-    "category": "Jóga / Wellness",
-    "district": "III. kerület",
-    "description": "Jóga és buddhista közösségi központ Óbudán, rendszeres órákkal és jógatáborokkal.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/utkozbenjoga/",
-    "image_url": "https://picsum.photos/seed/utkozben-joga/600/450",
-    "featured": false,
-    "type": "Helyszín"
+    "type": "Közösség"
   },
   {
     "id": "borjour",
@@ -252,18 +192,6 @@
     "type": "Közösség"
   },
   {
-    "id": "start-filmklub",
-    "name": "START Filmklub",
-    "category": "Filmklub",
-    "district": "IX. kerület",
-    "description": "Filmklub közösségi vetítésekkel és beszélgetésekkel a Napraforgó utcai Sonnenschein-házban.",
-    "website_url": "https://www.facebook.com/STARTFilmklub/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/start-filmklub/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
     "id": "i-bike-budapest",
     "name": "I Bike Budapest (Kerékpárosklub)",
     "category": "Sport / Kerékpár",
@@ -274,42 +202,6 @@
     "image_url": "https://picsum.photos/seed/i-bike-budapest/600/450",
     "featured": false,
     "type": "Közösség"
-  },
-  {
-    "id": "monkey-boulder",
-    "name": "Monkey Boulder",
-    "category": "Sport / Mászás",
-    "district": "III. kerület",
-    "description": "Beltéri boulder mászóterem közössége Óbudán, heti új falakkal és edzésekkel kezdőknek és haladóknak.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/monkey_boulder/",
-    "image_url": "https://picsum.photos/seed/monkey-boulder/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "flow-boulder",
-    "name": "Flow Boulder",
-    "category": "Sport / Mászás",
-    "district": "XI. kerület",
-    "description": "Falmászó közösség és terem, ahol kezdők és haladó mászók egyaránt otthon érezhetik magukat.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/flowboulderhungary/",
-    "image_url": "https://picsum.photos/seed/flow-boulder/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "boulder-academy-budapest",
-    "name": "Boulder Academy Budapest",
-    "category": "Sport / Mászás",
-    "district": null,
-    "description": "Mászóközösség és edzőterem, oktatással és rendszeres közösségi mászóestékkel.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/boulderacademybudapest/",
-    "image_url": "https://picsum.photos/seed/boulder-academy-budapest/600/450",
-    "featured": false,
-    "type": "Helyszín"
   },
   {
     "id": "budapesti-kosarlabdazok-egyesulete",
@@ -324,78 +216,6 @@
     "type": "Közösség"
   },
   {
-    "id": "jozsefvarosi-kosarlabda-club",
-    "name": "Józsefvárosi Kosárlabda Club",
-    "category": "Sport / Kosárlabda",
-    "district": "VIII. kerület",
-    "description": "Kerületi kosárlabdaklub, amely amatőr és utánpótlás csapatokat is összefog.",
-    "website_url": "https://www.nyockerbasket.hu/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/jozsefvarosi-kosarlabda-club/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "zold-kez-tenisz-klub",
-    "name": "Zöld Kéz Tenisz Klub",
-    "category": "Sport / Tenisz",
-    "district": null,
-    "description": "Teniszklub rendszeres edzésekkel és közösségi programokkal minden korosztálynak.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/zoldkezteniszklub/",
-    "image_url": "https://picsum.photos/seed/zold-kez-tenisz-klub/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "park-teniszklub",
-    "name": "Park Teniszklub",
-    "category": "Sport / Tenisz",
-    "district": "XI. kerület",
-    "description": "Budapest egyik legrégebbi teniszkomplexuma, agyagpályás közösségi klubélettel.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/park_teniszklub_official/",
-    "image_url": "https://picsum.photos/seed/park-teniszklub/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "crossfit-grund",
-    "name": "CrossFit Grund",
-    "category": "Sport / Fitness",
-    "district": null,
-    "description": "CrossFit közösség a belvárosban, gimnasztika, súlyemelés és mobilitás edzésekkel.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/crossfitgrund/",
-    "image_url": "https://picsum.photos/seed/crossfit-grund/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "crossfit-glasshouse",
-    "name": "CrossFit Glasshouse",
-    "category": "Sport / Fitness",
-    "district": null,
-    "description": "Támogató CrossFit közösség kezdőbarát edzésekkel, erő és önbizalom építésére fókuszálva.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/crossfitglasshouse/",
-    "image_url": "https://picsum.photos/seed/crossfit-glasshouse/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "alibi-ijaszklub",
-    "name": "Alibi Íjászklub",
-    "category": "Sport / Íjászat",
-    "district": null,
-    "description": "Íjászklub kezdőknek és haladóknak, hagyományos, vadász- és teremíjászattal, 30 méteres pályával.",
-    "website_url": "https://www.facebook.com/alibi.ijaszklub/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/alibi-ijaszklub/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
     "id": "budapesti-sportijasz-egyesulet",
     "name": "Budapesti Sportíjász Egyesület",
     "category": "Sport / Íjászat",
@@ -406,66 +226,6 @@
     "image_url": "https://picsum.photos/seed/budapesti-sportijasz-egyesulet/600/450",
     "featured": false,
     "type": "Közösség"
-  },
-  {
-    "id": "mirage-poker-club",
-    "name": "Mirage Poker Club",
-    "category": "Kártya / Póker",
-    "district": null,
-    "description": "Magyarország legnagyobb pókerklubja, három kártyateremmel és rendszeres versenyekkel.",
-    "website_url": "https://miragepoker.eu/en/",
-    "instagram_url": "https://www.instagram.com/miragepokerbudapest/",
-    "image_url": "https://picsum.photos/seed/mirage-poker-club/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "the-workshop-budapest",
-    "name": "The Workshop",
-    "category": "Kézműves / Workshop",
-    "district": null,
-    "description": "Kézműves közösségi műhely, ahol különféle alkotó workshopokon vehetsz részt.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/theworkshop_budapest/",
-    "image_url": "https://picsum.photos/seed/the-workshop-budapest/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "paloma-artspace",
-    "name": "Paloma Artspace",
-    "category": "Kézműves / Workshop",
-    "district": null,
-    "description": "Belvárosi alkotótér, ahol helyi tervezők és alkotók tartanak közösségi kézműves workshopokat.",
-    "website_url": "https://www.palomaartspace.hu/workshopok",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/paloma-artspace/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "budapest-jazz-club",
-    "name": "Budapest Jazz Club",
-    "category": "Zene / Jam Session",
-    "district": null,
-    "description": "Jazzklub, amely rendszeres ingyenes jam sessionöket tart hétvégenként, bárkit szívesen látnak.",
-    "website_url": "https://www.bjc.hu/programs/free-bjc-jam-session-nights/",
-    "instagram_url": "https://www.instagram.com/budapestjazzclub/",
-    "image_url": "https://picsum.photos/seed/budapest-jazz-club/600/450",
-    "featured": true,
-    "type": "Helyszín"
-  },
-  {
-    "id": "impulzus-kreativ-zenei-muhely",
-    "name": "ImPulzus Kreatív Zenei Műhely",
-    "category": "Zene / Jam Session",
-    "district": null,
-    "description": "Kreatív zenei műhely hangszeres és elméleti kurzusokkal, kórussal és közösségi zenéléssel.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/impulzusmusic/",
-    "image_url": "https://picsum.photos/seed/impulzus-kreativ-zenei-muhely/600/450",
-    "featured": false,
-    "type": "Helyszín"
   },
   {
     "id": "saturday-toastmasters-budapest",
@@ -552,54 +312,6 @@
     "type": "Közösség"
   },
   {
-    "id": "meditation-center-budapest",
-    "name": "Meditation Center Budapest",
-    "category": "Meditáció / Spiritualitás",
-    "district": null,
-    "description": "Meditációs klub ingyenes előadásokkal és rendszeres közösségi meditációs alkalmakkal.",
-    "website_url": "https://www.facebook.com/MeditationCenterBudapest/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/meditation-center-budapest/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "one-drop-zen",
-    "name": "One Drop Zen",
-    "category": "Meditáció / Spiritualitás",
-    "district": "VI. kerület",
-    "description": "Zen közösség, amely meditáción és tudatos cselekvésen keresztül támogatja a fenntarthatóbb életmódot.",
-    "website_url": "https://www.facebook.com/onedropzendo/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/one-drop-zen/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "budai-judo-akademia",
-    "name": "Budai Judo Akadémia",
-    "category": "Sport / Harcművészet",
-    "district": null,
-    "description": "Judo közösség cross-training elemekkel, az egészséges életmódra és a családias hangulatra fókuszálva.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/budaijudoakademia/",
-    "image_url": "https://picsum.photos/seed/budai-judo-akademia/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "ujbuda-kyokushin-karate",
-    "name": "Budai Harcművész SE – Újbuda Kyokushin Karate",
-    "category": "Sport / Harcművészet",
-    "district": null,
-    "description": "Kyokushin karate egyesület hét edzéscsoporttal, kezdőknek és haladóknak egyaránt.",
-    "website_url": "https://www.facebook.com/ujbudakarate/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/ujbuda-kyokushin-karate/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
     "id": "the-cafe-club-budapest",
     "name": "The Café Club Budapest",
     "category": "Sport / Motoros",
@@ -612,42 +324,6 @@
     "type": "Közösség"
   },
   {
-    "id": "budapest-evezos-egyesulet",
-    "name": "Budapest Evezős Egyesület",
-    "category": "Sport / Evezés",
-    "district": null,
-    "description": "Evezés, sárkányhajózás, kajakozás és SUP közösség a Népszigeti csónakházban.",
-    "website_url": "https://www.evezz.hu/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/budapest-evezos-egyesulet/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "csepeli-kajak-kenu-egyesulet",
-    "name": "Csepeli Kajak-Kenu Egyesület",
-    "category": "Sport / Evezés",
-    "district": "XXI. kerület",
-    "description": "Kajak-kenu közösség, amely a sportág és az egészséges életmód népszerűsítését tűzte ki célul.",
-    "website_url": null,
-    "instagram_url": "https://www.instagram.com/csepelikajakkenuegyesulet/",
-    "image_url": "https://picsum.photos/seed/csepeli-kajak-kenu-egyesulet/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
-    "id": "bkv-elore-kajak-kenu",
-    "name": "BKV Előre Kajak-Kenu",
-    "category": "Sport / Evezés",
-    "district": null,
-    "description": "Kajak-kenu közösség a Római-parti csónakházban, a 20. századi budapesti evezős kultúra egyik alapítójánál.",
-    "website_url": "https://bkvkajakkenu.hu/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/bkv-elore-kajak-kenu/600/450",
-    "featured": false,
-    "type": "Helyszín"
-  },
-  {
     "id": "budapest-digital-nomads",
     "name": "Budapest Digital Nomads",
     "category": "Networking / Digitális Nomád",
@@ -656,6 +332,90 @@
     "website_url": "https://www.facebook.com/groups/648464231947085/",
     "instagram_url": null,
     "image_url": "https://picsum.photos/seed/budapest-digital-nomads/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "budapest-racquet-society",
+    "name": "Budapest Racquet Society",
+    "category": "Sport / Tenisz",
+    "district": null,
+    "description": "Ütős sportok közössége (tenisz, padel), amely közös játékalkalmakat szervez, saját pálya nélkül.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/budapestracquetsociety/",
+    "image_url": "https://picsum.photos/seed/budapest-racquet-society/600/450",
+    "featured": true,
+    "type": "Közösség"
+  },
+  {
+    "id": "running-latte-club",
+    "name": "Running Latte Club",
+    "category": "Sport / Futás",
+    "district": null,
+    "description": "Futóközösség, amely a közös futást kávézással köti össze — nem klubhelyiség, hanem baráti találkozópontok.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/runninglatteclub/",
+    "image_url": "https://picsum.photos/seed/running-latte-club/600/450",
+    "featured": true,
+    "type": "Közösség"
+  },
+  {
+    "id": "bikas-park-streetball",
+    "name": "Bikás Park Streetball",
+    "category": "Sport / Kosárlabda",
+    "district": "XI. kerület",
+    "description": "Utcai kosárlabda közösség a Bikás parki pályákon — bárki csatlakozhat egy spontán meccshez.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/bikas_park/",
+    "image_url": "https://picsum.photos/seed/bikas-park-streetball/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "bootcamp-budapest",
+    "name": "Bootcamp Budapest",
+    "category": "Sport / Fitness",
+    "district": null,
+    "description": "Ingyenes szabadtéri edzésközösség kezdőknek és haladóknak, saját teremhez kötöttség nélkül.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/bootcampbudapest/",
+    "image_url": "https://picsum.photos/seed/bootcamp-budapest/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "sup-budapest",
+    "name": "SUP Budapest",
+    "category": "Sport / Evezés",
+    "district": null,
+    "description": "Állópaddlézős (SUP) közösség, amely közös túrákat szervez a Dunán, klubhelyiség nélkül.",
+    "website_url": "https://www.facebook.com/supbudapest/",
+    "instagram_url": "https://www.instagram.com/supbudapest/",
+    "image_url": "https://picsum.photos/seed/sup-budapest/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "setamuhely-walkshop",
+    "name": "Sétaműhely – Budapest Walkshop",
+    "category": "Fotózás",
+    "district": null,
+    "description": "13 éve működő tematikus séta- és fotós közösség, amely a várost járja be gyalogosan, saját stúdió nélkül.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/setamuhely/",
+    "image_url": "https://picsum.photos/seed/setamuhely-walkshop/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "budapest-personal-growth-meetup",
+    "name": "Budapest Personal Growth Meetup",
+    "category": "Meditáció / Spiritualitás",
+    "district": null,
+    "description": "Nyílt, vallástól és szervezettől független meditációs és önismereti közösség, változó helyszíneken.",
+    "website_url": "https://www.meetup.com/budapest-personal-growth-szemelyes-fejl%C5%91des-meetup/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/budapest-personal-growth-meetup/600/450",
     "featured": false,
     "type": "Közösség"
   }

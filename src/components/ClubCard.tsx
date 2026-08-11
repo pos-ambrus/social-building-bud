@@ -17,23 +17,11 @@ export default function ClubCard({ club }: { club: Club }) {
         />
       </Link>
       <div className="flex flex-1 flex-col gap-3 p-5">
-        <div className="flex items-start justify-between gap-2">
-          <Link href={`/clubs/${club.id}`}>
-            <h3 className="text-lg font-semibold leading-snug text-foreground hover:text-accent">
-              {club.name}
-            </h3>
-          </Link>
-          <span
-            className="shrink-0 whitespace-nowrap text-xs font-medium text-foreground/50"
-            title={
-              club.type === "Helyszín"
-                ? "Fizikai helyszín, ahova el lehet menni"
-                : "Közösségi kezdeményezés, saját fix helyszín nélkül"
-            }
-          >
-            {club.type === "Helyszín" ? "📍 Helyszín" : "🤝 Közösség"}
-          </span>
-        </div>
+        <Link href={`/clubs/${club.id}`}>
+          <h3 className="text-lg font-semibold leading-snug text-foreground hover:text-accent">
+            {club.name}
+          </h3>
+        </Link>
         <div className="flex flex-wrap items-center gap-2 text-xs">
           <span className={`rounded-full px-2.5 py-1 font-medium ${getCategoryClasses(club.category)}`}>
             {club.category}
