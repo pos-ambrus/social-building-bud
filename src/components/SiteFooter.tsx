@@ -1,8 +1,8 @@
 export default function SiteFooter() {
   return (
-    <footer className="border-t border-neutral-200 py-8 dark:border-neutral-800">
-      <div className="mx-auto max-w-6xl px-6 text-sm text-neutral-500 dark:text-neutral-400">
-        © {new Date().getFullYear()} Budapesti Klubok — közösségi katalógus.
+    <footer className="border-t border-accent-soft py-8">
+      <div className="mx-auto max-w-6xl px-6 text-sm text-foreground/60">
+        © {new Date().getFullYear()} Budapesti Klubok — ingyenes, közösségi katalógus 💛
       </div>
     </footer>
   );

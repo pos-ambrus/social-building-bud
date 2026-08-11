@@ -56,12 +56,12 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Keress klub neve vagy leírás alapján…"
-          className="w-full flex-1 rounded-full border border-neutral-300 px-4 py-2.5 text-sm focus:border-neutral-900 focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white"
+          className="w-full flex-1 rounded-full border border-accent-soft bg-white/70 px-4 py-2.5 text-sm text-foreground placeholder:text-foreground/40 focus:border-accent focus:outline-none"
         />
         <select
           value={category}
           onChange={(e) => setCategory(e.target.value)}
-          className="rounded-full border border-neutral-300 px-4 py-2.5 text-sm focus:border-neutral-900 focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white"
+          className="rounded-full border border-accent-soft bg-white/70 px-4 py-2.5 text-sm text-foreground focus:border-accent focus:outline-none"
         >
           <option value="">Minden kategória</option>
           {categories.map((c) => (
@@ -73,7 +73,7 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
         <select
           value={district}
           onChange={(e) => setDistrict(e.target.value)}
-          className="rounded-full border border-neutral-300 px-4 py-2.5 text-sm focus:border-neutral-900 focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white"
+          className="rounded-full border border-accent-soft bg-white/70 px-4 py-2.5 text-sm text-foreground focus:border-accent focus:outline-none"
         >
           <option value="">Minden kerület</option>
           {districts.map((d) => (
@@ -84,12 +84,12 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
         </select>
       </div>
 
-      <p className="mb-6 text-sm text-neutral-500 dark:text-neutral-400">
+      <p className="mb-6 text-sm text-foreground/60">
         {filtered.length} klub található
       </p>
 
       {filtered.length === 0 ? (
-        <p className="rounded-2xl border border-dashed border-neutral-300 p-10 text-center text-neutral-500 dark:border-neutral-700">
+        <p className="rounded-2xl border border-dashed border-accent-soft p-10 text-center text-foreground/60">
           Nincs a szűrésnek megfelelő klub. Próbálj más keresést vagy szűrőt.
         </p>
       ) : (
@@ -106,7 +106,7 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
                 type="button"
                 onClick={() => setPage((p) => Math.max(1, p - 1))}
                 disabled={currentPage === 1}
-                className="rounded-full border border-neutral-300 px-4 py-2 text-sm font-medium text-neutral-700 disabled:cursor-not-allowed disabled:opacity-40 dark:border-neutral-700 dark:text-neutral-200"
+                className="rounded-full border border-accent-soft px-4 py-2 text-sm font-medium text-foreground/70 disabled:cursor-not-allowed disabled:opacity-40"
               >
                 Előző
               </button>
@@ -117,8 +117,8 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
                   onClick={() => setPage(p)}
                   className={`h-9 w-9 rounded-full text-sm font-medium transition-colors ${
                     p === currentPage
-                      ? "bg-neutral-900 text-white dark:bg-white dark:text-neutral-900"
-                      : "text-neutral-600 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800"
+                      ? "bg-accent text-white"
+                      : "text-foreground/60 hover:bg-accent-soft"
                   }`}
                 >
                   {p}
@@ -128,7 +128,7 @@ export default function ClubGrid({ clubs, categories, districts }: Props) {
                 type="button"
                 onClick={() => setPage((p) => Math.min(pageCount, p + 1))}
                 disabled={currentPage === pageCount}
-                className="rounded-full border border-neutral-300 px-4 py-2 text-sm font-medium text-neutral-700 disabled:cursor-not-allowed disabled:opacity-40 dark:border-neutral-700 dark:text-neutral-200"
+                className="rounded-full border border-accent-soft px-4 py-2 text-sm font-medium text-foreground/70 disabled:cursor-not-allowed disabled:opacity-40"
               >
                 Következő
               </button>

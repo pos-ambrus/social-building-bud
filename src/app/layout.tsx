@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="hu">
-      <body className={`${inter.variable} flex min-h-screen flex-col bg-white font-sans text-neutral-900 antialiased dark:bg-neutral-950 dark:text-neutral-100`}>
+      <body className={`${inter.variable} flex min-h-screen flex-col bg-background font-sans text-foreground antialiased`}>
         {GA_MEASUREMENT_ID && (
           <>
             <Script
