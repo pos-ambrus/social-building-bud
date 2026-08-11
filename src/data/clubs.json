@@ -574,5 +574,41 @@
     "image_url": "https://picsum.photos/seed/karaoke-bulik-budapesten/600/450",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "budapest-park-parkrun",
+    "name": "Budapest Park parkrun",
+    "category": "Sport / Futás",
+    "district": null,
+    "description": "Ingyenes, heti 5 km-es közösségi futóesemény, amelyhez bárki csatlakozhat, korra és szintre való tekintet nélkül.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/budapest_park_parkrun/",
+    "image_url": "https://picsum.photos/seed/budapest-park-parkrun/600/450",
+    "featured": true,
+    "type": "Közösség"
+  },
+  {
+    "id": "tia-game-cave",
+    "name": "TIA Game Cave",
+    "category": "Társasjáték",
+    "district": null,
+    "description": "Ingyenes belépésű társasjáték-közösség 14-99 éveseknek — nincs tagsági díj, csak csatlakozni kell.",
+    "website_url": "https://www.facebook.com/groups/263358474501496/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/tia-game-cave/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "budapest-bike-maffia",
+    "name": "Budapest Bike Maffia",
+    "category": "Önkéntesség / Közösségi akció",
+    "district": null,
+    "description": "Civil közösség, amely ingyenes, bárki által csatlakoztatható jótékonysági akciókat szervez kerékpárral.",
+    "website_url": "https://bikemaffia.com/",
+    "instagram_url": "https://www.instagram.com/budapest_bike_maffia/",
+    "image_url": "https://picsum.photos/seed/budapest-bike-maffia/600/450",
+    "featured": true,
+    "type": "Közösség"
   }
 ]
