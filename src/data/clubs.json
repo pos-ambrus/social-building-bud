@@ -427,5 +427,181 @@
     "instagram_url": "https://www.instagram.com/impulzusmusic/",
     "image_url": "https://picsum.photos/seed/impulzus-kreativ-zenei-muhely/600/450",
     "featured": false
+  },
+  {
+    "id": "saturday-toastmasters-budapest",
+    "name": "Saturday Toastmasters Club Budapest",
+    "category": "Nyilvános beszéd",
+    "district": null,
+    "description": "Szombatonként ülésező nyilvános beszéd és vezetőfejlesztő klub, ahol bárki gyakorolhatja a prezentációs készségeit.",
+    "website_url": "https://www.facebook.com/saturdaytm/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/saturday-toastmasters-budapest/600/450",
+    "featured": false
+  },
+  {
+    "id": "skylarks-toastmasters-budapest",
+    "name": "Skylarks Toastmasters Club Budapest",
+    "category": "Nyilvános beszéd",
+    "district": null,
+    "description": "Heti rendszerességű, hibrid (személyes és online) nyilvános beszéd klub a CEU épületében.",
+    "website_url": "https://www.facebook.com/skylarkstoastmasters/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/skylarks-toastmasters-budapest/600/450",
+    "featured": false
+  },
+  {
+    "id": "budapest-toastmasters",
+    "name": "Budapest Toastmasters",
+    "category": "Nyilvános beszéd",
+    "district": null,
+    "description": "Az egyik legrégebbi budapesti Toastmasters klub, ahol vezetői és előadói készségeket fejleszthetsz.",
+    "website_url": "https://www.facebook.com/BudapestToastmasters/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/budapest-toastmasters/600/450",
+    "featured": false
+  },
+  {
+    "id": "quiznight-hu",
+    "name": "QuizNight.hu",
+    "category": "Kvíz / Trivia",
+    "district": null,
+    "description": "Közel 10 000 követős kvízközösség, amely rendszeres kocsmakvízeket szervez értékes nyereményekkel.",
+    "website_url": "https://www.facebook.com/quiznight.hu/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/quiznight-hu/600/450",
+    "featured": true
+  },
+  {
+    "id": "quizzone",
+    "name": "Quizzone",
+    "category": "Kvíz / Trivia",
+    "district": null,
+    "description": "11 éve működő kvízszervező közösség, hétfőtől péntekig tartott estékkel több budapesti helyszínen.",
+    "website_url": "https://www.facebook.com/quizzone.hu/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/quizzone/600/450",
+    "featured": false
+  },
+  {
+    "id": "vegan-kozosseg",
+    "name": "Vegán Közösség",
+    "category": "Vegán / Vegetáriánus",
+    "district": null,
+    "description": "Instagram közösség vegán életmódot élőknek, receptekkel, eseményekkel és tapasztalatcserével.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/vegan_kozosseg/",
+    "image_url": "https://picsum.photos/seed/vegan-kozosseg/600/450",
+    "featured": false
+  },
+  {
+    "id": "tudatos-vegetarianus-vegan-kozosseg",
+    "name": "Tudatos Vegetáriánus és Vegán Közösség",
+    "category": "Vegán / Vegetáriánus",
+    "district": null,
+    "description": "Facebook közösségi csoport tudatos vegetáriánusoknak és vegánoknak tapasztalatcserére.",
+    "website_url": "https://www.facebook.com/groups/274180306727041/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/tudatos-vegetarianus-vegan-kozosseg/600/450",
+    "featured": false
+  },
+  {
+    "id": "meditation-center-budapest",
+    "name": "Meditation Center Budapest",
+    "category": "Meditáció / Spiritualitás",
+    "district": null,
+    "description": "Meditációs klub ingyenes előadásokkal és rendszeres közösségi meditációs alkalmakkal.",
+    "website_url": "https://www.facebook.com/MeditationCenterBudapest/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/meditation-center-budapest/600/450",
+    "featured": false
+  },
+  {
+    "id": "one-drop-zen",
+    "name": "One Drop Zen",
+    "category": "Meditáció / Spiritualitás",
+    "district": "VI. kerület",
+    "description": "Zen közösség, amely meditáción és tudatos cselekvésen keresztül támogatja a fenntarthatóbb életmódot.",
+    "website_url": "https://www.facebook.com/onedropzendo/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/one-drop-zen/600/450",
+    "featured": false
+  },
+  {
+    "id": "budai-judo-akademia",
+    "name": "Budai Judo Akadémia",
+    "category": "Sport / Harcművészet",
+    "district": null,
+    "description": "Judo közösség cross-training elemekkel, az egészséges életmódra és a családias hangulatra fókuszálva.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/budaijudoakademia/",
+    "image_url": "https://picsum.photos/seed/budai-judo-akademia/600/450",
+    "featured": false
+  },
+  {
+    "id": "ujbuda-kyokushin-karate",
+    "name": "Budai Harcművész SE – Újbuda Kyokushin Karate",
+    "category": "Sport / Harcművészet",
+    "district": null,
+    "description": "Kyokushin karate egyesület hét edzéscsoporttal, kezdőknek és haladóknak egyaránt.",
+    "website_url": "https://www.facebook.com/ujbudakarate/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/ujbuda-kyokushin-karate/600/450",
+    "featured": false
+  },
+  {
+    "id": "the-cafe-club-budapest",
+    "name": "The Café Club Budapest",
+    "category": "Sport / Motoros",
+    "district": null,
+    "description": "Motoros és kávérajongó közösség, amely közös túrákat szervez, bárkit szívesen látnak stílustól függetlenül.",
+    "website_url": "https://www.facebook.com/thecafeclubbudapest/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/the-cafe-club-budapest/600/450",
+    "featured": false
+  },
+  {
+    "id": "budapest-evezos-egyesulet",
+    "name": "Budapest Evezős Egyesület",
+    "category": "Sport / Evezés",
+    "district": null,
+    "description": "Evezés, sárkányhajózás, kajakozás és SUP közösség a Népszigeti csónakházban.",
+    "website_url": "https://www.evezz.hu/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/budapest-evezos-egyesulet/600/450",
+    "featured": false
+  },
+  {
+    "id": "csepeli-kajak-kenu-egyesulet",
+    "name": "Csepeli Kajak-Kenu Egyesület",
+    "category": "Sport / Evezés",
+    "district": "XXI. kerület",
+    "description": "Kajak-kenu közösség, amely a sportág és az egészséges életmód népszerűsítését tűzte ki célul.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/csepelikajakkenuegyesulet/",
+    "image_url": "https://picsum.photos/seed/csepeli-kajak-kenu-egyesulet/600/450",
+    "featured": false
+  },
+  {
+    "id": "bkv-elore-kajak-kenu",
+    "name": "BKV Előre Kajak-Kenu",
+    "category": "Sport / Evezés",
+    "district": null,
+    "description": "Kajak-kenu közösség a Római-parti csónakházban, a 20. századi budapesti evezős kultúra egyik alapítójánál.",
+    "website_url": "https://bkvkajakkenu.hu/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/bkv-elore-kajak-kenu/600/450",
+    "featured": false
+  },
+  {
+    "id": "budapest-digital-nomads",
+    "name": "Budapest Digital Nomads",
+    "category": "Networking / Digitális Nomád",
+    "district": null,
+    "description": "Facebook közösség digitális nomádoknak: állásajánlatok, szállás és rendszeres közösségi események.",
+    "website_url": "https://www.facebook.com/groups/648464231947085/",
+    "instagram_url": null,
+    "image_url": "https://picsum.photos/seed/budapest-digital-nomads/600/450",
+    "featured": false
   }
 ]
