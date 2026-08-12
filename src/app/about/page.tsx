@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Rólunk — Budapesti Klubok",
-  description: "Miért hoztuk létre a Budapesti Klubok katalógust, és hogyan kerülhet fel egy klub a listára.",
+  title: "Rólunk | Social Budapest",
+  description: "Miért hoztuk létre a Social Budapest katalógust, és hogyan kerülhet fel egy klub a listára.",
 };
 
 export default function AboutPage() {
@@ -14,35 +14,35 @@ export default function AboutPage() {
 
       <div className="mt-6 space-y-5 text-base leading-relaxed text-ink/80">
         <p>
-          Szia, Pethes Ambrus vagyok. Mindig is szerettem közösségeket létrehozni, és
-          hasonló gondolkodású embereknek programokat, eseményeket szervezni — ez a
-          katalógus is ebből a szenvedélyből született.
+          Szia, Ambrus vagyok. Mindig is szerettem közösségeket létrehozni, és hasonló
+          gondolkodású embereknek programokat, eseményeket szervezni, és ez a katalógus is
+          ebből a szenvedélyből született.
         </p>
         <p>
-          Budapesten hihetetlenül sok ilyen kezdeményezés fut — futóklubok, nyelvcserék,
-          társasjáték-esték, startup közösségek —, csak épp szétszórva, mindenhol máshol.
-          A Budapesti Klubok azért van, hogy egy helyen megtaláld, ami hozzád illik. Remélem,
+          Budapesten hihetetlenül sok ilyen kezdeményezés fut: futóklubok, nyelvcserék,
+          társasjáték-esték, startup közösségek, csak épp szétszórva, mindenhol máshol.
+          A Social Budapest azért van, hogy egy helyen megtaláld, ami hozzád illik. Remélem,
           te is rátalálsz a saját közösségedre.
         </p>
         <p>
           Szeretnéd, hogy a klubod is felkerüljön a listára, vagy javítanál egy meglévő
           bejegyzésen? Írj nekem közvetlenül:{" "}
           <a
-            href="mailto:hello@budapestiklubok.hu"
+            href="mailto:hello@socialbudapest.hu"
             className="font-medium text-pin-blue underline"
           >
-            hello@budapestiklubok.hu
+            hello@socialbudapest.hu
           </a>
-          . Ingyenes, nincs bürokrácia — csak küldd el a klub nevét és egy linket, a többit
+          . Ingyenes, nincs bürokrácia: csak küldd el a klub nevét és egy linket, a többit
           elintézem.
         </p>
         <p style={{ fontFamily: "var(--font-handwritten)" }} className="text-2xl text-ink">
-          — Ambrus
+          Ambrus
         </p>
         <p className="text-sm text-ink/50">
           Jogi nyilatkozat: az oldalon szereplő tartalom közösségileg összegyűjtött információ.
           Az oldal nem áll hivatalos kapcsolatban a listázott klubokkal, és nem vállal
-          felelősséget az adatok naprakészségéért — mindig ellenőrizd a klub hivatalos
+          felelősséget az adatok naprakészségéért: mindig ellenőrizd a klub hivatalos
           Instagram- vagy weboldalát a friss információkért.
         </p>
       </div>

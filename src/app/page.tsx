@@ -24,7 +24,7 @@ export default function Home() {
           Budapesten
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-lg text-ink/70">
-          Kurátori válogatás valódi budapesti közösségi klubokból — mintha egy hirdetőtáblán
+          Kurátori válogatás valódi budapesti közösségi klubokból, mintha egy hirdetőtáblán
           böngésznél, csak digitálisan.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
@@ -42,7 +42,7 @@ export default function Home() {
           </a>
         </div>
         <p className="mt-3 text-sm text-ink/50">
-          Ingyenes, nincs bürokrácia — csak küldj egy emailt, a többit elintézem.
+          Ingyenes, nincs bürokrácia: csak küldj egy emailt, a többit elintézem.
         </p>
       </section>
 

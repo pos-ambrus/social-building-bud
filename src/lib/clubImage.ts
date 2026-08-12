@@ -10,7 +10,7 @@ const GENERIC_HOSTS = new Set([
   "linktr.ee",
 ]);
 
-// Real logos only exist for clubs with their own domain — generic platform
+// Real logos only exist for clubs with their own domain: generic platform
 // links (Facebook/Instagram/Meetup) would just resolve to that platform's
 // icon, not the club's, so those keep the placeholder photo instead.
 export function getClubLogoUrl(club: Club): string | null {
