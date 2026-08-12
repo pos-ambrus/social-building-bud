@@ -14,7 +14,7 @@
   {
     "id": "bridget-runners-budapest",
     "name": "Bridget Runners Budapest",
-    "category": "Sport / Futás",
+    "category": "Sport",
     "district": null,
     "description": "Budapest első női futóklubja, közös hétvégi futásokkal és brunch-csal, kezdőknek is barátságos.",
     "website_url": "https://linktr.ee/bridgetrunners",
@@ -26,7 +26,7 @@
   {
     "id": "budapest-futoklub",
     "name": "Budapest Futóklub",
-    "category": "Sport / Futás",
+    "category": "Sport",
     "district": null,
     "description": "Közösségi futóklub rendszeres, közös edzésekkel minden szintű futónak.",
     "website_url": "https://www.facebook.com/budapestfutoklub/",
@@ -38,7 +38,7 @@
   {
     "id": "runners-high-budapest",
     "name": "Runners High | Budapest Run Club",
-    "category": "Sport / Futás",
+    "category": "Sport",
     "district": null,
     "description": "Futóklub keddi és csütörtöki esti, valamint vasárnap reggeli közös futásokkal.",
     "website_url": null,
@@ -50,7 +50,7 @@
   {
     "id": "run-in-budapest",
     "name": "Run in Budapest",
-    "category": "Sport / Futás",
+    "category": "Sport",
     "district": null,
     "description": "Futóközösség rendszeres heti közös futásokkal a városban.",
     "website_url": null,
@@ -62,7 +62,7 @@
   {
     "id": "angyalfoldi-futoklub",
     "name": "Angyalföldi Futóklub",
-    "category": "Sport / Futás",
+    "category": "Sport",
     "district": "XIII. kerület",
     "description": "Kerületi futóklub kezdőknek és haladóknak egyaránt.",
     "website_url": "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
@@ -194,7 +194,7 @@
   {
     "id": "i-bike-budapest",
     "name": "I Bike Budapest (Kerékpárosklub)",
-    "category": "Sport / Kerékpár",
+    "category": "Sport",
     "district": null,
     "description": "Kerékpáros közösség és érdekvédelmi klub, amely rendszeres közös felvonulásokat és túrákat szervez.",
     "website_url": "https://kerekparosklub.hu/critical-mass-budapest",
@@ -206,7 +206,7 @@
   {
     "id": "budapesti-kosarlabdazok-egyesulete",
     "name": "Budapesti Kosárlabdázók Egyesülete",
-    "category": "Sport / Kosárlabda",
+    "category": "Sport",
     "district": null,
     "description": "Amatőr kosárlabda közösség rendszeres mérkőzésekkel és edzésekkel minden szintű játékosnak.",
     "website_url": "https://www.budbasket.hu/",
@@ -218,7 +218,7 @@
   {
     "id": "budapesti-sportijasz-egyesulet",
     "name": "Budapesti Sportíjász Egyesület",
-    "category": "Sport / Íjászat",
+    "category": "Sport",
     "district": null,
     "description": "Sportíjász egyesület, amely feltételeket teremt a gyakorló és az újonnan érdeklődő íjászok számára.",
     "website_url": "https://sportijasz.hu/",
@@ -314,7 +314,7 @@
   {
     "id": "the-cafe-club-budapest",
     "name": "The Café Club Budapest",
-    "category": "Sport / Motoros",
+    "category": "Sport",
     "district": null,
     "description": "Motoros és kávérajongó közösség, amely közös túrákat szervez, bárkit szívesen látnak stílustól függetlenül.",
     "website_url": "https://www.facebook.com/thecafeclubbudapest/",
@@ -338,7 +338,7 @@
   {
     "id": "budapest-racquet-society",
     "name": "Budapest Racquet Society",
-    "category": "Sport / Tenisz",
+    "category": "Sport",
     "district": null,
     "description": "Ütős sportok közössége (tenisz, padel), amely közös játékalkalmakat szervez, saját pálya nélkül.",
     "website_url": null,
@@ -350,7 +350,7 @@
   {
     "id": "running-latte-club",
     "name": "Running Latte Club",
-    "category": "Sport / Futás",
+    "category": "Sport",
     "district": null,
     "description": "Futóközösség, amely a közös futást kávézással köti össze — nem klubhelyiség, hanem baráti találkozópontok.",
     "website_url": null,
@@ -362,7 +362,7 @@
   {
     "id": "bikas-park-streetball",
     "name": "Bikás Park Streetball",
-    "category": "Sport / Kosárlabda",
+    "category": "Sport",
     "district": "XI. kerület",
     "description": "Utcai kosárlabda közösség a Bikás parki pályákon — bárki csatlakozhat egy spontán meccshez.",
     "website_url": null,
@@ -374,7 +374,7 @@
   {
     "id": "bootcamp-budapest",
     "name": "Bootcamp Budapest",
-    "category": "Sport / Fitness",
+    "category": "Sport",
     "district": null,
     "description": "Ingyenes szabadtéri edzésközösség kezdőknek és haladóknak, saját teremhez kötöttség nélkül.",
     "website_url": null,
@@ -386,7 +386,7 @@
   {
     "id": "sup-budapest",
     "name": "SUP Budapest",
-    "category": "Sport / Evezés",
+    "category": "Sport",
     "district": null,
     "description": "Állópaddlézős (SUP) közösség, amely közös túrákat szervez a Dunán, klubhelyiség nélkül.",
     "website_url": "https://www.facebook.com/supbudapest/",
@@ -578,7 +578,7 @@
   {
     "id": "budapest-park-parkrun",
     "name": "Budapest Park parkrun",
-    "category": "Sport / Futás",
+    "category": "Sport",
     "district": null,
     "description": "Ingyenes, heti 5 km-es közösségi futóesemény, amelyhez bárki csatlakozhat, korra és szintre való tekintet nélkül.",
     "website_url": null,
