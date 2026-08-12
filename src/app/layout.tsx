@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Newsreader } from "next/font/google";
 import Script from "next/script";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
@@ -8,6 +8,12 @@ import "./globals.css";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+});
+
+const newsreader = Newsreader({
+  variable: "--font-newsreader",
+  subsets: ["latin"],
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
@@ -25,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="hu">
-      <body className={`${inter.variable} flex min-h-screen flex-col bg-background font-sans text-foreground antialiased`}>
+      <body className={`${inter.variable} ${newsreader.variable} flex min-h-screen flex-col bg-background font-sans text-foreground antialiased`}>
         {GA_MEASUREMENT_ID && (
           <>
             <Script

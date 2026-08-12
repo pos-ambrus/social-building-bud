@@ -1,6 +1,4 @@
-import Link from "next/link";
-import ClubGrid from "@/components/ClubGrid";
-import HeroCollage from "@/components/HeroCollage";
+import HomeContent from "@/components/HomeContent";
 import { clubs, getCategories, getDistricts } from "@/data/clubs";
 
 export default function Home() {
@@ -8,50 +6,39 @@ export default function Home() {
   const districts = getDistricts();
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-12">
-      <section className="relative mb-16 flex flex-col items-center gap-10 overflow-hidden lg:flex-row lg:justify-between">
-        <div
-          className="pointer-events-none absolute -left-24 -top-24 -z-10 h-72 w-72 rounded-full blur-3xl"
-          style={{ backgroundColor: "var(--blob-purple)", opacity: 0.5 }}
-        />
-        <div
-          className="pointer-events-none absolute -right-16 top-32 -z-10 h-56 w-56 rounded-full blur-3xl"
-          style={{ backgroundColor: "var(--blob-yellow)", opacity: 0.5 }}
-        />
-
-        <div className="max-w-xl">
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1 text-sm font-medium text-accent">
-            🎉 100% ingyenes, közösségi kezdeményezés
-          </span>
-          <h1 className="mt-5 text-5xl font-light tracking-tight text-foreground sm:text-6xl">
-            Találd meg a{" "}
-            <span className="gradient-text font-semibold">te közösséged</span>
-          </h1>
-          <p className="mt-5 text-lg text-foreground/70">
-            Sport, hobbi, nyelvcsere, tech és sok más — fedezd fel Budapest élő
-            közösségeit, szűrj kedvedre, és csatlakozz ahhoz, ami hozzád illik.
-          </p>
-          <div className="mt-8 flex flex-wrap items-center gap-5">
-            <a
-              href="#klubok"
-              className="inline-flex items-center rounded-full bg-foreground px-6 py-3 text-sm font-semibold text-background transition-opacity hover:opacity-90"
-            >
-              Fedezz fel közösségeket
-            </a>
-            <Link
-              href="/about"
-              className="inline-flex items-center gap-1.5 text-sm font-semibold text-foreground/70 hover:text-accent"
-            >
-              Indíts közösséget <span aria-hidden="true">→</span>
-            </Link>
-          </div>
+    <div>
+      <section className="border-b border-accent-soft bg-accent-soft/40 px-6 py-20 text-center">
+        <p className="text-sm font-semibold uppercase tracking-wide text-accent">
+          Ingyenes, közösségi katalógus
+        </p>
+        <h1
+          style={{ fontFamily: "var(--font-serif)" }}
+          className="mx-auto mt-4 max-w-3xl text-5xl font-medium leading-tight text-foreground sm:text-6xl"
+        >
+          Találd meg a <em className="text-accent">közösséged</em> Budapesten
+        </h1>
+        <p className="mx-auto mt-5 max-w-xl text-lg text-foreground/70">
+          Kurátori válogatás valódi budapesti közösségi klubokból — ingyenes böngészni,
+          ingyenes csatlakozni.
+        </p>
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+          <a
+            href="#klubok"
+            className="inline-flex items-center rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+          >
+            Böngéssz klubok között
+          </a>
+          <a
+            href="/about"
+            className="inline-flex items-center rounded-full border border-accent-soft bg-background px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:border-accent"
+          >
+            Regisztráld a klubod
+          </a>
         </div>
-
-        <HeroCollage />
       </section>
 
-      <div id="klubok">
-        <ClubGrid clubs={clubs} categories={categories} districts={districts} />
+      <div className="mx-auto max-w-6xl px-6 py-12">
+        <HomeContent clubs={clubs} categories={categories} districts={districts} />
       </div>
     </div>
   );
