@@ -1,36 +1,47 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #1a1523;
-  --accent: #6366f1;
-  --accent-soft: #eef0fe;
-  --gradient-from: #ec4899;
-  --gradient-to: #f97316;
-  --blob-purple: #ddd6fe;
-  --blob-pink: #fbcfe8;
-  --blob-yellow: #fef08a;
+  --background: #ede2cc;
+  --foreground: #201c18;
+  --board: #ede2cc;
+  --ink: #201c18;
+  --paper: #fffbf2;
+  --pin-yellow: #ffc629;
+  --pin-blue: #1b4b66;
+  --pin-red: #d6402a;
+  --accent: var(--pin-blue);
+  --accent-soft: #dfeaee;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-board: var(--board);
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-pin-yellow: var(--pin-yellow);
+  --color-pin-blue: var(--pin-blue);
+  --color-pin-red: var(--pin-red);
   --color-accent: var(--accent);
   --color-accent-soft: var(--accent-soft);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-serif: var(--font-newsreader);
+  --font-display: var(--font-anton);
+  --font-handwritten: var(--font-caveat);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #14121c;
-    --foreground: #f5f4fb;
-    --accent: #818cf8;
-    --accent-soft: #262244;
-    --blob-purple: #2e2650;
-    --blob-pink: #402234;
-    --blob-yellow: #3d3616;
+    --background: #211d17;
+    --foreground: #f3ead6;
+    --board: #211d17;
+    --ink: #f3ead6;
+    --paper: #2b2620;
+    --pin-yellow: #ffcf4d;
+    --pin-blue: #6fa9c4;
+    --pin-red: #ff6b52;
+    --accent: var(--pin-blue);
+    --accent-soft: #2a3639;
   }
 }
 
@@ -40,9 +51,43 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.gradient-text {
-  background-image: linear-gradient(90deg, var(--gradient-from), var(--gradient-to));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+/* Corkboard texture: faint repeating dot grain, no image asset needed. */
+.corkboard {
+  background-image: radial-gradient(circle, color-mix(in srgb, var(--ink) 8%, transparent) 1px, transparent 1.5px);
+  background-size: 14px 14px;
+}
+
+/* A card that looks pinned to the board: deterministic slight tilt that
+   straightens on hover, plus a small drawn push-pin at the top. */
+.pinned {
+  transform: rotate(var(--pin-rotation, -1deg));
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.pinned:hover {
+  transform: rotate(0deg) translateY(-2px);
+}
+.pin-dot {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 35% 30%, #ffffff, var(--pin-red) 55%, #8f2115 100%);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
+}
+
+/* Washi-tape corner accent for photos, evoking a flyer taped to a board. */
+.tape-corner::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 16px;
+  width: 56px;
+  height: 22px;
+  background: color-mix(in srgb, var(--pin-yellow) 70%, white 30%);
+  opacity: 0.85;
+  transform: rotate(-4deg);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }

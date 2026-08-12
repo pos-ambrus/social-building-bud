@@ -28,7 +28,7 @@ export default function ClubLinkButton({ href, clubName, linkType }: Props) {
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}
-      className="inline-flex items-center gap-1.5 rounded-full border border-accent/40 bg-accent-soft px-3.5 py-1.5 text-sm font-medium text-accent transition-colors hover:border-accent hover:bg-accent hover:text-white"
+      className="inline-flex items-center gap-1.5 border border-pin-blue/50 bg-accent-soft px-3.5 py-1.5 text-sm font-medium text-pin-blue transition-colors hover:border-pin-blue hover:bg-pin-blue hover:text-white"
     >
       {linkType === "instagram" ? (
         <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">

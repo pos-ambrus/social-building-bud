@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Newsreader } from "next/font/google";
+import { Anton, Caveat, Inter } from "next/font/google";
 import Script from "next/script";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
@@ -10,10 +10,16 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const newsreader = Newsreader({
-  variable: "--font-newsreader",
+const anton = Anton({
+  variable: "--font-anton",
   subsets: ["latin"],
-  style: ["normal", "italic"],
+  weight: "400",
+});
+
+const caveat = Caveat({
+  variable: "--font-caveat",
+  subsets: ["latin"],
+  weight: ["600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -31,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="hu">
-      <body className={`${inter.variable} ${newsreader.variable} flex min-h-screen flex-col bg-background font-sans text-foreground antialiased`}>
+      <body className={`${inter.variable} ${anton.variable} ${caveat.variable} flex min-h-screen flex-col bg-background font-sans text-foreground antialiased`}>
         {GA_MEASUREMENT_ID && (
           <>
             <Script

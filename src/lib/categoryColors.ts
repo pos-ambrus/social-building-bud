@@ -18,3 +18,24 @@ export function getCategoryClasses(category: string): string {
   }
   return PALETTE[hash];
 }
+
+const DOT_PALETTE = [
+  "bg-orange-500",
+  "bg-pink-500",
+  "bg-teal-500",
+  "bg-purple-500",
+  "bg-yellow-500",
+  "bg-blue-500",
+  "bg-green-500",
+  "bg-rose-500",
+  "bg-amber-500",
+  "bg-cyan-500",
+];
+
+export function getCategoryDotClass(category: string): string {
+  let hash = 0;
+  for (let i = 0; i < category.length; i++) {
+    hash = (hash * 31 + category.charCodeAt(i)) % DOT_PALETTE.length;
+  }
+  return DOT_PALETTE[hash];
+}
