@@ -41,6 +41,9 @@ export default function Home() {
             Regisztráld a klubod
           </a>
         </div>
+        <p className="mt-3 text-sm text-ink/50">
+          Ingyenes, nincs bürokrácia — csak küldj egy emailt, a többit elintézem.
+        </p>
       </section>
 
       <div className="mx-auto max-w-6xl px-6 py-12">

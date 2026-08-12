@@ -8,34 +8,38 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-2xl px-6 py-12">
-      <h1 className="text-3xl font-semibold tracking-tight text-foreground">
+      <h1 style={{ fontFamily: "var(--font-display)" }} className="text-3xl uppercase tracking-tight text-ink">
         Rólunk
       </h1>
 
-      <div className="mt-6 space-y-5 text-base leading-relaxed text-foreground/80">
+      <div className="mt-6 space-y-5 text-base leading-relaxed text-ink/80">
         <p>
-          A Budapesti Klubok egy ingyenes, független katalógus, amelynek célja, hogy egy helyen
-          gyűjtse össze és tegye könnyen összehasonlíthatóvá a városban működő közösségi és
-          társasági klubokat — legyen szó sportról, hobbiról, nyelvcseréről, könyvklubról vagy
-          bármilyen más közösségi kezdeményezésről.
+          Szia, Pethes Ambrus vagyok. Mindig is szerettem közösségeket létrehozni, és
+          hasonló gondolkodású embereknek programokat, eseményeket szervezni — ez a
+          katalógus is ebből a szenvedélyből született.
         </p>
         <p>
-          Célunk, hogy segítsünk mindenkinek megtalálni a hozzá illő közösséget: akár régóta
-          Budapesten élsz, akár most költöztél a városba, akár csak egy új hobbihoz keresel
-          társaságot.
+          Budapesten hihetetlenül sok ilyen kezdeményezés fut — futóklubok, nyelvcserék,
+          társasjáték-esték, startup közösségek —, csak épp szétszórva, mindenhol máshol.
+          A Budapesti Klubok azért van, hogy egy helyen megtaláld, ami hozzád illik. Remélem,
+          te is rátalálsz a saját közösségedre.
         </p>
         <p>
           Szeretnéd, hogy a klubod is felkerüljön a listára, vagy javítanál egy meglévő
-          bejegyzésen? Írj nekünk:{" "}
+          bejegyzésen? Írj nekem közvetlenül:{" "}
           <a
             href="mailto:hello@budapestiklubok.hu"
-            className="font-medium text-accent underline"
+            className="font-medium text-pin-blue underline"
           >
             hello@budapestiklubok.hu
           </a>
-          .
+          . Ingyenes, nincs bürokrácia — csak küldd el a klub nevét és egy linket, a többit
+          elintézem.
         </p>
-        <p className="text-sm text-foreground/50">
+        <p style={{ fontFamily: "var(--font-handwritten)" }} className="text-2xl text-ink">
+          — Ambrus
+        </p>
+        <p className="text-sm text-ink/50">
           Jogi nyilatkozat: az oldalon szereplő tartalom közösségileg összegyűjtött információ.
           Az oldal nem áll hivatalos kapcsolatban a listázott klubokkal, és nem vállal
           felelősséget az adatok naprakészségéért — mindig ellenőrizd a klub hivatalos
