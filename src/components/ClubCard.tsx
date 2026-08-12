@@ -1,6 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Club } from "@/data/clubs";
 import { getCategoryClasses } from "@/lib/categoryColors";
+import { getCategoryIcon } from "@/lib/categoryIcons";
 import { getClubLogoUrl, getClubPrimaryLink } from "@/lib/clubImage";
 import ClubLinkButton from "./ClubLinkButton";
 import TrackedLink from "./TrackedLink";
@@ -10,7 +12,7 @@ export default function ClubCard({ club }: { club: Club }) {
   const primaryLink = getClubPrimaryLink(club);
 
   const icon = (
-    <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-2xl bg-white ring-1 ring-accent-soft">
+    <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-full bg-white ring-1 ring-accent-soft">
       <Image
         src={logoUrl ?? club.image_url}
         alt={club.name}
@@ -22,7 +24,7 @@ export default function ClubCard({ club }: { club: Club }) {
   );
 
   return (
-    <div className="group flex gap-4 rounded-2xl border border-accent-soft bg-white/60 p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg dark:bg-white/5">
+    <div className="group flex gap-4 rounded-2xl border border-accent-soft bg-white/60 p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:scale-[1.01] hover:shadow-lg dark:bg-white/5">
       {primaryLink ? (
         <TrackedLink href={primaryLink.url} clubName={club.name} linkType={primaryLink.type} className="shrink-0">
           {icon}
@@ -41,23 +43,27 @@ export default function ClubCard({ club }: { club: Club }) {
           <h3 className="truncate text-base font-semibold leading-snug text-foreground">{club.name}</h3>
         )}
         <div className="flex flex-wrap items-center gap-1.5 text-xs">
-          <span className={`rounded-full px-2 py-0.5 font-medium ${getCategoryClasses(club.category)}`}>
+          <span className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 font-medium ${getCategoryClasses(club.category)}`}>
+            <span aria-hidden="true">{getCategoryIcon(club.category)}</span>
             {club.category}
           </span>
           {club.district && (
             <span className="rounded-full bg-accent-soft px-2 py-0.5 font-medium text-foreground/60">
-              {club.district}
+              📍 {club.district}
             </span>
           )}
         </div>
         <p className="line-clamp-2 text-sm text-foreground/70">{club.description}</p>
-        <div className="flex flex-wrap gap-2 pt-1">
+        <div className="flex flex-wrap items-center gap-2 pt-1">
           {club.instagram_url && (
             <ClubLinkButton href={club.instagram_url} clubName={club.name} linkType="instagram" />
           )}
           {club.website_url && (
             <ClubLinkButton href={club.website_url} clubName={club.name} linkType="website" />
           )}
+          <Link href={`/clubs/${club.id}`} className="text-xs font-medium text-foreground/40 hover:text-accent">
+            Részletek →
+          </Link>
         </div>
       </div>
     </div>
