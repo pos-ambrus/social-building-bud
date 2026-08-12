@@ -562,5 +562,53 @@
     "image_url": "https://picsum.photos/seed/budapest-bike-maffia/600/450",
     "featured": true,
     "type": "Közösség"
+  },
+  {
+    "id": "run-crew-budapest",
+    "name": "Run Crew Budapest",
+    "category": "Sport",
+    "district": null,
+    "description": "Elsősorban közösség, aztán futóklub: nyáron alakult csapat, amely együtt fut, majd együtt kávézik vagy strandol utána.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/the_runcrew/",
+    "image_url": "https://picsum.photos/seed/run-crew-budapest/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "mozaik-med-futas",
+    "name": "Mozaik Med közösségi futás",
+    "category": "Sport",
+    "district": null,
+    "description": "Ingyenes, keddenkénti közösségi futás a Margitszigeten, ahol bárki csatlakozhat futótempótól függetlenül.",
+    "website_url": "https://mozaikmed.hu/",
+    "instagram_url": "https://www.instagram.com/mozaikmed/",
+    "image_url": "https://picsum.photos/seed/mozaik-med-futas/600/450",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "just-connect",
+    "name": "Just Connect",
+    "category": "Túra / Természetjárás",
+    "district": null,
+    "description": "Offline közösségi eseménysorozat, amely hegyi túrákkal és laza összejövetelekkel hoz össze jófej, nyitott embereket.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/justconnect.hu/",
+    "image_url": "https://picsum.photos/seed/just-connect/600/450",
+    "featured": true,
+    "type": "Közösség"
+  },
+  {
+    "id": "moms-community-budapest",
+    "name": "Moms' Community Budapest",
+    "category": "Szülők / Családok",
+    "district": null,
+    "description": "Közösség kismamáknak és külföldi anyukáknak Budapesten, ahol találkozókat és beszélgetéseket szerveznek egymásnak.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/momscommunitybudapest/",
+    "image_url": "https://picsum.photos/seed/moms-community-budapest/600/450",
+    "featured": false,
+    "type": "Közösség"
   }
 ]

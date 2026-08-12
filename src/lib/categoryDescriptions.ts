@@ -12,6 +12,7 @@ const DESCRIPTIONS: Record<string, string> = {
   "Nyilvános beszéd": "Prezentációs és vezetői készségfejlesztő klubok.",
   "Női közösség": "Közösségek és programok nőknek.",
   Sport: "Futás, kerékpár, kosárlabda, tenisz, evezés és más sportos közösségek.",
+  "Szülők / Családok": "Közösségek kismamáknak, szülőknek és családoknak.",
   "Stand-up / Improv": "Stand-up és improvizációs esték.",
   "Startup / Tech": "Startup és technológiai közösségek, AI-építők.",
   Tánc: "Social dance esték és táncos közösségek.",

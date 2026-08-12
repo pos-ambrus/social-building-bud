@@ -12,6 +12,7 @@ const ICONS: Record<string, string> = {
   "Nyilvános beszéd": "🎙️",
   "Női közösség": "💜",
   Sport: "🏃",
+  "Szülők / Családok": "👶",
   "Stand-up / Improv": "😂",
   "Startup / Tech": "🚀",
   Tánc: "💃",
