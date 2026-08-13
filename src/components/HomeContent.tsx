@@ -5,7 +5,7 @@ import type { Club } from "@/data/clubs";
 import { getCategoryIcon } from "@/lib/categoryIcons";
 import ClubCard from "./ClubCard";
 
-const PAGE_SIZE = 8;
+const PAGE_SIZE = 9;
 
 type Props = {
   clubs: Club[];
@@ -106,7 +106,7 @@ export default function HomeContent({ clubs, categories, districts, initialCateg
         </p>
       ) : (
         <>
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-3">
             {paginated.map((club) => (
               <ClubCard key={club.id} club={club} />
             ))}
