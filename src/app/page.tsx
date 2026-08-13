@@ -1,9 +1,9 @@
-import HomeContent from "@/components/HomeContent";
-import { clubs, getCategories, getDistricts } from "@/data/clubs";
+import Link from "next/link";
+import CategoryBrowse from "@/components/CategoryBrowse";
+import { getCategories } from "@/data/clubs";
 
 export default function Home() {
   const categories = getCategories();
-  const districts = getDistricts();
 
   return (
     <div>
@@ -28,12 +28,12 @@ export default function Home() {
           böngésznél, csak digitálisan.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-          <a
-            href="#klubok"
+          <Link
+            href="/klubok"
             className="inline-flex items-center border-2 border-ink bg-ink px-6 py-3 text-sm font-bold uppercase tracking-wide text-paper transition-colors hover:bg-pin-blue hover:border-pin-blue"
           >
             Böngéssz klubok között
-          </a>
+          </Link>
           <a
             href="/about"
             className="inline-flex items-center border-2 border-dashed border-ink/40 bg-transparent px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:border-ink"
@@ -46,9 +46,7 @@ export default function Home() {
         </p>
       </section>
 
-      <div className="mx-auto max-w-6xl px-6 py-12">
-        <HomeContent clubs={clubs} categories={categories} districts={districts} />
-      </div>
+      <CategoryBrowse categories={categories} />
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function SiteHeader() {
           Social <span className="text-pin-blue">Budapest</span>
         </Link>
         <nav className="flex items-center gap-6 text-sm font-medium text-ink/70">
-          <Link href="/" className="transition-colors hover:text-pin-blue">
+          <Link href="/klubok" className="transition-colors hover:text-pin-blue">
             Klubok
           </Link>
           <Link href="/about" className="transition-colors hover:text-pin-blue">

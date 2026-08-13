@@ -432,18 +432,6 @@
     "type": "Közösség"
   },
   {
-    "id": "budapest-startup-cocktails",
-    "name": "Budapest Startup Cocktails",
-    "category": "Startup / Tech",
-    "district": null,
-    "description": "Laza networking esték startupoknak, fiatal vállalkozóknak és kreatívoknak, ahol ötleteket és tapasztalatokat osztanak meg egymással.",
-    "website_url": "https://www.meetup.com/budapest-startup-cocktails/",
-    "instagram_url": null,
-    "image_url": "https://picsum.photos/seed/budapest-startup-cocktails/600/450",
-    "featured": false,
-    "type": "Közösség"
-  },
-  {
     "id": "open-mic-budapest",
     "name": "Open Mic Budapest",
     "category": "Stand-up / Improv",
