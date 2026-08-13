@@ -10,16 +10,14 @@ const PAGE_SIZE = 9;
 type Props = {
   clubs: Club[];
   categories: string[];
-  districts: string[];
   initialCategory?: string;
 };
 
-export default function HomeContent({ clubs, categories, districts, initialCategory }: Props) {
+export default function HomeContent({ clubs, categories, initialCategory }: Props) {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState<string>(initialCategory ?? "");
-  const [district, setDistrict] = useState<string>("");
   const [page, setPage] = useState(1);
-  const [appliedFilters, setAppliedFilters] = useState({ search, category, district });
+  const [appliedFilters, setAppliedFilters] = useState({ search, category });
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -29,17 +27,12 @@ export default function HomeContent({ clubs, categories, districts, initialCateg
         club.name.toLowerCase().includes(q) ||
         club.description.toLowerCase().includes(q);
       const matchesCategory = !category || club.category === category;
-      const matchesDistrict = !district || club.district === district;
-      return matchesSearch && matchesCategory && matchesDistrict;
+      return matchesSearch && matchesCategory;
     });
-  }, [clubs, search, category, district]);
+  }, [clubs, search, category]);
 
-  if (
-    search !== appliedFilters.search ||
-    category !== appliedFilters.category ||
-    district !== appliedFilters.district
-  ) {
-    setAppliedFilters({ search, category, district });
+  if (search !== appliedFilters.search || category !== appliedFilters.category) {
+    setAppliedFilters({ search, category });
     setPage(1);
   }
 
@@ -69,18 +62,6 @@ export default function HomeContent({ clubs, categories, districts, initialCateg
           {categories.map((c) => (
             <option key={c} value={c}>
               {c}
-            </option>
-          ))}
-        </select>
-        <select
-          value={district}
-          onChange={(e) => setDistrict(e.target.value)}
-          className="border-2 border-ink/15 bg-paper px-4 py-2.5 text-sm text-ink focus:border-pin-blue focus:outline-none"
-        >
-          <option value="">Minden kerület</option>
-          {districts.map((d) => (
-            <option key={d} value={d}>
-              {d}
             </option>
           ))}
         </select>

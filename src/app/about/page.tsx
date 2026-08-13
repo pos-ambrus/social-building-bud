@@ -28,10 +28,10 @@ export default function AboutPage() {
           Szeretnéd, hogy a klubod is felkerüljön a listára, vagy javítanál egy meglévő
           bejegyzésen? Írj nekem közvetlenül:{" "}
           <a
-            href="mailto:hello@socialbudapest.hu"
+            href="mailto:budapestcommunity@gmail.com"
             className="font-medium text-pin-blue underline"
           >
-            hello@socialbudapest.hu
+            budapestcommunity@gmail.com
           </a>
           . Ingyenes, nincs bürokrácia: csak küldd el a klub nevét és egy linket, a többit
           elintézem.
