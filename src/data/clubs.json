@@ -216,18 +216,6 @@
     "type": "Közösség"
   },
   {
-    "id": "sharetech-ai-deeptech",
-    "name": "ShareTech | AI & DeepTech Community",
-    "category": "Startup / Tech",
-    "district": null,
-    "description": "\"Ahol az AI-építők találkoznak\": mérnökök, alapítók és kutatók közössége, akik a mesterséges intelligencia jövőjét építik.",
-    "website_url": "https://www.meetup.com/budapest-ai-hub/",
-    "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1675716921224-e087a0cca69a?w=600&h=450&fit=crop&auto=format&q=80",
-    "featured": true,
-    "type": "Közösség"
-  },
-  {
     "id": "ai-meetup-budapest",
     "name": "AI Meetup Budapest",
     "category": "Startup / Tech",
