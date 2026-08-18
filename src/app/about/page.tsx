@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Rólunk | Social Budapest",
-  description: "Miért hoztuk létre a Social Budapest katalógust, és hogyan kerülhet fel egy klub a listára.",
+  title: "Rólunk | Socially Budapest",
+  description: "Miért hoztuk létre a Socially Budapest katalógust, és hogyan kerülhet fel egy klub a listára.",
 };
 
 export default function AboutPage() {
@@ -21,17 +21,17 @@ export default function AboutPage() {
         <p>
           Budapesten hihetetlenül sok ilyen kezdeményezés fut: futóklubok, nyelvcserék,
           társasjáték-esték, startup közösségek, csak épp szétszórva, mindenhol máshol.
-          A Social Budapest azért van, hogy egy helyen megtaláld, ami hozzád illik. Remélem,
+          A Socially Budapest azért van, hogy egy helyen megtaláld, ami hozzád illik. Remélem,
           te is rátalálsz a saját közösségedre.
         </p>
         <p>
           Szeretnéd, hogy a klubod is felkerüljön a listára, vagy javítanál egy meglévő
           bejegyzésen? Írj nekem közvetlenül:{" "}
           <a
-            href="mailto:budapestcommunity@gmail.com"
+            href="mailto:sociallybudapest@gmail.com"
             className="font-medium text-pin-blue underline"
           >
-            budapestcommunity@gmail.com
+            sociallybudapest@gmail.com
           </a>
           . Ingyenes, nincs bürokrácia: csak küldd el a klub nevét és egy linket, a többit
           elintézem.

@@ -3,7 +3,7 @@ import HomeContent from "@/components/HomeContent";
 import { clubs, getCategories } from "@/data/clubs";
 
 export const metadata: Metadata = {
-  title: "Klubok | Social Budapest",
+  title: "Klubok | Socially Budapest",
   description: "Böngéssz az összes valódi budapesti közösségi klub között, kategória szerint szűrve.",
 };
 

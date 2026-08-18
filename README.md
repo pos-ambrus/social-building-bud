@@ -1,4 +1,4 @@
-# Social Budapest
+# Socially Budapest
 
 Közösségi klubok katalógusa Budapest számára: rácsos elrendezésű, kereshető/szűrhető
 klublista, minden klubnál Instagram és/vagy weboldal linkkel, About oldallal és Google

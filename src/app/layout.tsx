@@ -23,7 +23,7 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Social Budapest | Közösségi klubok katalógusa",
+  title: "Socially Budapest | Közösségi klubok katalógusa",
   description:
     "Fedezd fel és hasonlítsd össze Budapest közösségi klubjait: sport, hobbi, nyelvcsere, könyvklub és több.",
 };
