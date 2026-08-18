@@ -32,8 +32,8 @@ export default function Home() {
               Budapesten
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-lg text-ink/70 lg:mx-0">
-              Kurátori válogatás valódi budapesti közösségi klubokból, mintha egy hirdetőtáblán
-              böngésznél, csak digitálisan.
+              Kézzel válogatott, valódi budapesti közösségi klubok. Remélem, te is
+              megtalálod köztük az új közösséged.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
               <Link
