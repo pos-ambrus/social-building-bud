@@ -18,7 +18,7 @@ const FAQ = [
   },
   {
     q: "Hogyan kerülhet fel egy klub a listára?",
-    a: "Írj emailt a sociallybudapest@gmail.com címre a klub nevével és egy Instagram- vagy weboldal-linkkel, a többit elintézzük.",
+    a: "Írj emailt a sociallybud@gmail.com címre a klub nevével és egy Instagram- vagy weboldal-linkkel, a többit elintézzük.",
   },
   {
     q: "Milyen klubok szerepelnek az oldalon?",
@@ -70,10 +70,10 @@ export default function AboutPage() {
           Szeretnéd, hogy a klubod is felkerüljön a listára, vagy javítanál egy meglévő
           bejegyzésen? Írj nekem közvetlenül:{" "}
           <a
-            href="mailto:sociallybudapest@gmail.com"
+            href="mailto:sociallybud@gmail.com"
             className="font-medium text-pin-blue underline"
           >
-            sociallybudapest@gmail.com
+            sociallybud@gmail.com
           </a>
           . Ingyenes, nincs bürokrácia: csak küldd el a klub nevét és egy linket, a többit
           elintézem.
