@@ -28,7 +28,7 @@ export default function CategoryBrowse({ categories }: Props) {
             key={c}
             href={`/klubok?kategoria=${encodeURIComponent(c)}`}
             style={{ "--pin-rotation": `${tiltFor(c)}deg` } as React.CSSProperties}
-            className="pinned relative flex flex-col items-start bg-paper p-5 text-left shadow-sm transition-shadow hover:shadow-md"
+            className="pinned relative flex flex-col items-start rounded-2xl bg-paper p-5 text-left shadow-sm transition-shadow hover:shadow-md"
           >
             <span className="pin-dot" aria-hidden="true" />
             <span className="text-xl" aria-hidden="true">

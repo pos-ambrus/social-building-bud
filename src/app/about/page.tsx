@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const TITLE = "Rólunk";
+const TITLE = "Miért csináltam?";
 const DESCRIPTION = "Miért hoztuk létre a Socially Budapest katalógust, és hogyan kerülhet fel egy klub a listára.";
 
 export const metadata: Metadata = {
@@ -51,14 +51,14 @@ export default function AboutPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <h1 style={{ fontFamily: "var(--font-display)" }} className="text-3xl uppercase tracking-tight text-ink">
-        Rólunk
+        Miért csináltam?
       </h1>
 
       <div className="mt-6 space-y-5 text-base leading-relaxed text-ink/80">
         <p>
-          Szia, Ambrus vagyok. Mindig is szerettem közösségeket létrehozni, és hasonló
-          gondolkodású embereknek programokat, eseményeket szervezni, és ez a katalógus is
-          ebből a szenvedélyből született.
+          Szia! Mindig is szerettem közösségeket létrehozni, és hasonló gondolkodású
+          embereknek programokat, eseményeket szervezni, és ez a katalógus is ebből a
+          szenvedélyből született.
         </p>
         <p>
           Budapesten hihetetlenül sok ilyen kezdeményezés fut: futóklubok, nyelvcserék,
@@ -77,9 +77,6 @@ export default function AboutPage() {
           </a>
           . Ingyenes, nincs bürokrácia: csak küldd el a klub nevét és egy linket, a többit
           elintézem.
-        </p>
-        <p style={{ fontFamily: "var(--font-handwritten)" }} className="text-2xl text-ink">
-          Ambrus
         </p>
       </div>
 

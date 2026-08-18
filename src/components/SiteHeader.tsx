@@ -16,11 +16,11 @@ export default function SiteHeader() {
             Klubok
           </Link>
           <Link href="/about" className="transition-colors hover:text-pin-blue">
-            Rólunk
+            Miért csináltam?
           </Link>
           <Link
             href="/about"
-            className="inline-flex items-center border-2 border-cta bg-cta px-4 py-2 text-sm font-semibold text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
+            className="inline-flex items-center rounded-full border-2 border-cta bg-cta px-4 py-2 text-sm font-semibold text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
           >
             Regisztráld a klubod
           </Link>

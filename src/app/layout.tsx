@@ -56,10 +56,6 @@ const jsonLd = {
   url: SITE_URL,
   description: SITE_DESCRIPTION,
   inLanguage: "hu",
-  author: {
-    "@type": "Person",
-    name: "Ambrus",
-  },
 };
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
