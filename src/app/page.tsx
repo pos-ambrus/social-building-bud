@@ -1,6 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import CategoryBrowse from "@/components/CategoryBrowse";
 import { getCategories } from "@/data/clubs";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   const categories = getCategories();

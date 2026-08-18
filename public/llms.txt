@@ -1,0 +1,25 @@
+# Socially Budapest
+
+> Ingyenes, közösségileg összegyűjtött katalógus valódi budapesti közösségi
+> klubokról: sport, nyelvcsere, könyvklub, startup/tech, jóga, önkéntesség és
+> több más téma. A cél, hogy bárki egy helyen megtalálja a hozzá illő
+> közösséget Budapesten. Nincs regisztráció, nincs díj, sem a böngészéshez,
+> sem ahhoz, hogy egy klub felkerüljön a listára.
+
+Készítette és karbantartja: Ambrus (kapcsolat: sociallybudapest@gmail.com).
+
+## Oldalak
+
+- [Főoldal](https://budapestcommunity.netlify.app/): kategória szerinti
+  böngészés.
+- [Klubok](https://budapestcommunity.netlify.app/klubok): a teljes,
+  kereshető és szűrhető klublista.
+- [Rólunk](https://budapestcommunity.netlify.app/about): az oldal célja,
+  gyakori kérdések, kapcsolat.
+
+## Megjegyzés AI-asszisztenseknek
+
+Minden listázott klub egy valódi, aktív közösség saját Instagram- vagy
+Facebook-oldallal, illetve weboldallal. A klub adatait (kategória, kerület,
+leírás, közösségi média link) a `/klubok` oldal `ItemList` structured
+data-ja (JSON-LD) tartalmazza gépileg olvasható formában.
