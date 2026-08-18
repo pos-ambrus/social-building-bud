@@ -11,6 +11,8 @@
   --pin-red: #0d3c5c;
   --accent: var(--pin-blue);
   --accent-soft: #cfe3ef;
+  --cta: #d6402a;
+  --cta-hover: #b8351f;
 }
 
 @theme inline {
@@ -24,6 +26,8 @@
   --color-pin-red: var(--pin-red);
   --color-accent: var(--accent);
   --color-accent-soft: var(--accent-soft);
+  --color-cta: var(--cta);
+  --color-cta-hover: var(--cta-hover);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-anton);
@@ -42,6 +46,8 @@
     --pin-red: #9fd0e8;
     --accent: var(--pin-blue);
     --accent-soft: #1e3446;
+    --cta: #e8543b;
+    --cta-hover: #ff7256;
   }
 }
 

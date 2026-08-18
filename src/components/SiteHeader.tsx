@@ -20,7 +20,7 @@ export default function SiteHeader() {
           </Link>
           <Link
             href="/about"
-            className="inline-flex items-center border-2 border-ink bg-ink px-4 py-2 text-sm font-semibold text-paper transition-colors hover:bg-transparent hover:text-ink"
+            className="inline-flex items-center border-2 border-cta bg-cta px-4 py-2 text-sm font-semibold text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
           >
             Regisztráld a klubod
           </Link>

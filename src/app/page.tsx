@@ -38,7 +38,7 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
               <Link
                 href="/klubok"
-                className="inline-flex items-center border-2 border-ink bg-ink px-6 py-3 text-sm font-bold uppercase tracking-wide text-paper transition-colors hover:bg-pin-blue hover:border-pin-blue"
+                className="inline-flex items-center border-2 border-cta bg-cta px-6 py-3 text-sm font-bold uppercase tracking-wide text-paper shadow-lg transition-colors hover:border-cta-hover hover:bg-cta-hover"
               >
                 Böngéssz klubok között
               </Link>
