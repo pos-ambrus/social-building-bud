@@ -33,31 +33,49 @@ const PHOTOS = [
   },
 ];
 
+const MOBILE_ROTATIONS = [-6, 4, -3];
+
 export default function HeroPhotos() {
   return (
-    <div
-      className="relative hidden h-[420px] w-full max-w-md lg:block"
-      style={{ perspective: "1400px" }}
-      aria-hidden="true"
-    >
-      {PHOTOS.map((p, i) => (
-        <div
-          key={i}
-          className="absolute"
-          style={{
-            top: p.top,
-            left: p.left,
-            width: p.size,
-            height: p.size,
-            zIndex: p.z,
-            transform: `rotateY(${p.rotateY}deg) rotateZ(${p.rotateZ}deg) translateZ(${p.translateZ}px)`,
-          }}
-        >
-          <div className="tape-corner relative h-full w-full overflow-hidden rounded-2xl shadow-2xl ring-4 ring-paper">
-            <Image src={p.src} alt="" fill sizes="170px" className="object-cover" />
+    <>
+      {/* Desktop: absolutely-positioned 3D collage */}
+      <div
+        className="relative hidden h-[420px] w-full max-w-md lg:block"
+        style={{ perspective: "1400px" }}
+        aria-hidden="true"
+      >
+        {PHOTOS.map((p, i) => (
+          <div
+            key={i}
+            className="absolute"
+            style={{
+              top: p.top,
+              left: p.left,
+              width: p.size,
+              height: p.size,
+              zIndex: p.z,
+              transform: `rotateY(${p.rotateY}deg) rotateZ(${p.rotateZ}deg) translateZ(${p.translateZ}px)`,
+            }}
+          >
+            <div className="tape-corner relative h-full w-full overflow-hidden rounded-2xl shadow-2xl ring-4 ring-paper">
+              <Image src={p.src} alt="" fill sizes="170px" className="object-cover" />
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+
+      {/* Mobile/tablet: simple overlapping row, no 3D */}
+      <div className="flex w-full justify-center gap-3 py-2 lg:hidden" aria-hidden="true">
+        {PHOTOS.map((p, i) => (
+          <div
+            key={i}
+            className="tape-corner relative h-24 w-24 shrink-0 overflow-hidden rounded-xl shadow-lg ring-2 ring-paper sm:h-28 sm:w-28"
+            style={{ transform: `rotate(${MOBILE_ROTATIONS[i]}deg)` }}
+          >
+            <Image src={p.src} alt="" fill sizes="112px" className="object-cover" />
+          </div>
+        ))}
+      </div>
+    </>
   );
 }
