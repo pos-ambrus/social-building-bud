@@ -35,51 +35,53 @@ export default function ClubCard({ club }: { club: Club }) {
   return (
     <div
       style={{ "--pin-rotation": `${tiltFor(club.id)}deg` } as React.CSSProperties}
-      className="pinned group relative flex overflow-hidden rounded-2xl bg-paper shadow-sm hover:shadow-lg"
+      className="pinned relative pt-2"
     >
       <span className="pin-dot" aria-hidden="true" />
-      {primaryLink ? (
-        <TrackedLink
-          href={primaryLink.url}
-          clubName={club.name}
-          linkType={primaryLink.type}
-          className="block w-28 shrink-0 sm:w-32"
-        >
-          {photo}
-        </TrackedLink>
-      ) : (
-        photo
-      )}
-      <div className="flex flex-1 flex-col gap-1.5 p-3">
+      <div className="group flex overflow-hidden rounded-2xl bg-paper shadow-sm hover:shadow-lg">
         {primaryLink ? (
-          <TrackedLink href={primaryLink.url} clubName={club.name} linkType={primaryLink.type}>
-            <h3
-              style={{ fontFamily: "var(--font-display)" }}
-              className="text-lg leading-tight tracking-tight text-ink group-hover:text-pin-blue"
-            >
-              {club.name}
-            </h3>
+          <TrackedLink
+            href={primaryLink.url}
+            clubName={club.name}
+            linkType={primaryLink.type}
+            className="block w-28 shrink-0 sm:w-32"
+          >
+            {photo}
           </TrackedLink>
         ) : (
-          <h3 style={{ fontFamily: "var(--font-display)" }} className="text-lg leading-tight tracking-tight text-ink">
-            {club.name}
-          </h3>
+          photo
         )}
-        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink/55">
-          <span className="inline-flex items-center gap-1">
-            <span className={`h-1.5 w-1.5 rounded-full ${getCategoryDotClass()}`} aria-hidden="true" />
-            {club.category}
-          </span>
-          {club.district && <span>📍 {club.district}</span>}
-        </div>
-        <p className="line-clamp-2 flex-1 text-sm text-ink/55">{club.description}</p>
-        <div className="flex flex-wrap items-center gap-1.5 pt-1">
-          {club.instagram_url && (
-            <ClubLinkButton href={club.instagram_url} clubName={club.name} linkType="instagram" />
+        <div className="flex flex-1 flex-col gap-1.5 p-3">
+          {primaryLink ? (
+            <TrackedLink href={primaryLink.url} clubName={club.name} linkType={primaryLink.type}>
+              <h3
+                style={{ fontFamily: "var(--font-display)" }}
+                className="text-lg leading-tight tracking-tight text-ink group-hover:text-pin-blue"
+              >
+                {club.name}
+              </h3>
+            </TrackedLink>
+          ) : (
+            <h3 style={{ fontFamily: "var(--font-display)" }} className="text-lg leading-tight tracking-tight text-ink">
+              {club.name}
+            </h3>
           )}
-          {club.website_url && (
-            <ClubLinkButton href={club.website_url} clubName={club.name} linkType="website" />
-          )}
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink/55">
+            <span className="inline-flex items-center gap-1">
+              <span className={`h-1.5 w-1.5 rounded-full ${getCategoryDotClass()}`} aria-hidden="true" />
+              {club.category}
+            </span>
+            {club.district && <span>📍 {club.district}</span>}
+          </div>
+          <p className="line-clamp-2 flex-1 text-sm text-ink/55">{club.description}</p>
+          <div className="flex flex-wrap items-center gap-1.5 pt-1">
+            {club.instagram_url && (
+              <ClubLinkButton href={club.instagram_url} clubName={club.name} linkType="instagram" />
+            )}
+            {club.website_url && (
+              <ClubLinkButton href={club.website_url} clubName={club.name} linkType="website" />
+            )}
+          </div>
         </div>
       </div>
     </div>
