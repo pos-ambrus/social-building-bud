@@ -334,5 +334,41 @@
     "image_url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=450&fit=crop&auto=format&q=80",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "artemis-compass",
+    "name": "Artemis Compass",
+    "category": "Meditáció / Spiritualitás",
+    "district": null,
+    "description": "Természethez kapcsolódó, önismereti programok, ahol a természet csendje és nyugalma segít közelebb kerülni önmagunkhoz.",
+    "website_url": "https://www.facebook.com/profile.php?id=61574524619037",
+    "instagram_url": null,
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "havervagy",
+    "name": "Havervagy",
+    "category": "Nyelvcsere / Networking",
+    "district": null,
+    "description": "Közösség nyitott, hasonló gondolkodású embereknek, akik szeretnének új barátokat találni: rendszeres közösségi buliknak és programoknak ad otthont.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/havervagy/",
+    "image_url": "https://images.unsplash.com/photo-1635829933414-02613bc5464c?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "profi-med-performance-kozosseg",
+    "name": "Profi Med & Performance Közösség",
+    "category": "Networking / Digitális Nomád",
+    "district": null,
+    "description": "Szakmai közösség egészségügyi és teljesítményoptimalizálási szakembereknek, akik megosztják tapasztalataikat és kapcsolatokat építenek.",
+    "website_url": "https://www.facebook.com/groups/1596852831973904",
+    "instagram_url": null,
+    "image_url": "https://images.unsplash.com/photo-1758518729685-f88df7890776?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
   }
 ]
