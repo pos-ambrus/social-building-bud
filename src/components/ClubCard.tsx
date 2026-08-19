@@ -56,7 +56,7 @@ export default function ClubCard({ club }: { club: Club }) {
         )}
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink/60">
           <span className="inline-flex items-center gap-1">
-            <span className={`h-1.5 w-1.5 rounded-full ${getCategoryDotClass(club.category)}`} aria-hidden="true" />
+            <span className={`h-1.5 w-1.5 rounded-full ${getCategoryDotClass()}`} aria-hidden="true" />
             {club.category}
           </span>
           {club.district && <span>📍 {club.district}</span>}

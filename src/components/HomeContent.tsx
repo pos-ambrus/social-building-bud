@@ -51,12 +51,12 @@ export default function HomeContent({ clubs, categories, initialCategory }: Prop
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Keress klub neve vagy leírás alapján…"
-          className="w-full flex-1 border-2 border-ink/15 bg-paper px-4 py-2.5 text-sm text-ink placeholder:text-ink/40 focus:border-pin-blue focus:outline-none"
+          className="w-full flex-1 rounded-full border-2 border-ink/15 bg-paper px-5 py-2.5 text-sm text-ink placeholder:text-ink/40 focus:border-pin-blue focus:outline-none"
         />
         <select
           value={category}
           onChange={(e) => setCategory(e.target.value)}
-          className="border-2 border-ink/15 bg-paper px-4 py-2.5 text-sm text-ink focus:border-pin-blue focus:outline-none"
+          className="rounded-full border-2 border-ink/15 bg-paper px-5 py-2.5 text-sm text-ink focus:border-pin-blue focus:outline-none"
         >
           <option value="">Minden kategória</option>
           {categories.map((c) => (
@@ -72,7 +72,7 @@ export default function HomeContent({ clubs, categories, initialCategory }: Prop
           <button
             type="button"
             onClick={() => setCategory("")}
-            className="inline-flex items-center gap-1.5 border-2 border-pin-blue bg-accent-soft px-4 py-2.5 text-sm font-medium text-pin-blue"
+            className="inline-flex items-center gap-1.5 rounded-full border-2 border-pin-blue bg-accent-soft px-4 py-2.5 text-sm font-medium text-pin-blue"
           >
             {getCategoryIcon(category)} {category} ✕
           </button>
@@ -87,7 +87,7 @@ export default function HomeContent({ clubs, categories, initialCategory }: Prop
         </p>
       ) : (
         <>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 lg:grid-cols-3">
             {paginated.map((club) => (
               <ClubCard key={club.id} club={club} />
             ))}
