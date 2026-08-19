@@ -2,14 +2,21 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import CategoryBrowse from "@/components/CategoryBrowse";
 import HeroPhotos from "@/components/HeroPhotos";
-import { getCategories } from "@/data/clubs";
+import { clubs, getCategories } from "@/data/clubs";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
+const STAT_ROTATIONS = [-3, 2, -1.5];
+
 export default function Home() {
   const categories = getCategories();
+  const stats = [
+    { value: `${clubs.length}`, label: "közösség a listán" },
+    { value: `${categories.length}`, label: "különböző kategória" },
+    { value: "100%", label: "ingyenes, örökre" },
+  ];
 
   return (
     <div>
@@ -69,6 +76,21 @@ export default function Home() {
           />
         </svg>
       </section>
+
+      <div className="mx-auto -mt-6 flex max-w-4xl flex-wrap justify-center gap-6 px-6 sm:gap-10">
+        {stats.map((stat, i) => (
+          <div
+            key={stat.label}
+            style={{ transform: `rotate(${STAT_ROTATIONS[i]}deg)` }}
+            className="tape-corner relative bg-paper px-6 py-4 text-center shadow-md"
+          >
+            <p style={{ fontFamily: "var(--font-display)" }} className="text-3xl text-cta">
+              {stat.value}
+            </p>
+            <p className="mt-1 text-xs uppercase tracking-wide text-ink/60">{stat.label}</p>
+          </div>
+        ))}
+      </div>
 
       <CategoryBrowse categories={categories} />
     </div>

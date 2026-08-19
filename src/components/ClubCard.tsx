@@ -16,7 +16,7 @@ export default function ClubCard({ club }: { club: Club }) {
   const primaryLink = getClubPrimaryLink(club);
 
   const photo = (
-    <div className="tape-corner relative aspect-square w-[30%] shrink-0 overflow-hidden bg-accent-soft">
+    <div className="tape-corner relative aspect-square w-28 shrink-0 overflow-hidden bg-accent-soft sm:w-32">
       <Image
         src={club.image_url}
         alt={club.name}
@@ -29,14 +29,23 @@ export default function ClubCard({ club }: { club: Club }) {
           <Image src={logoUrl} alt="" fill sizes="24px" className="object-contain p-0.5" />
         </div>
       )}
+      {club.featured && (
+        <span
+          style={{ fontFamily: "var(--font-handwritten)" }}
+          className="absolute bottom-1 right-1 -rotate-6 rounded-sm bg-pin-yellow px-1.5 py-0.5 text-[11px] font-bold leading-none text-ink shadow"
+        >
+          ★ kiemelt
+        </span>
+      )}
     </div>
   );
 
   return (
     <div
       style={{ "--pin-rotation": `${tiltFor(club.id)}deg` } as React.CSSProperties}
-      className="pinned group flex overflow-hidden rounded-2xl bg-paper shadow-sm"
+      className="pinned group relative flex overflow-hidden rounded-2xl bg-paper shadow-sm hover:shadow-lg"
     >
+      <span className="pin-dot" aria-hidden="true" />
       {primaryLink ? (
         <TrackedLink href={primaryLink.url} clubName={club.name} linkType={primaryLink.type}>
           {photo}
