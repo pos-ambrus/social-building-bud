@@ -9,7 +9,7 @@ export default function SiteHeader() {
           style={{ fontFamily: "var(--font-display)" }}
           className="text-xl uppercase tracking-tight text-ink"
         >
-          Socially <span className="text-pin-blue">Budapest</span>
+          Budapesti <span className="text-pin-blue">Közösségek</span>
         </Link>
         <nav className="flex items-center gap-6 text-sm font-medium text-ink/70">
           <Link href="/klubok" className="transition-colors hover:text-pin-blue">

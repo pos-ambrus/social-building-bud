@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 const TITLE = "Miért csináltam?";
-const DESCRIPTION = "Miért hoztuk létre a Socially Budapest katalógust, és hogyan kerülhet fel egy klub a listára.";
+const DESCRIPTION = "Miért hoztuk létre a Budapesti Közösségek katalógust, és hogyan kerülhet fel egy klub a listára.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const FAQ = [
   {
-    q: "Ingyenes a Socially Budapest?",
+    q: "Ingyenes a Budapesti Közösségek?",
     a: "Igen, teljesen ingyenes: nincs regisztráció, nincs előfizetés, sem a böngészéshez, sem ahhoz, hogy egy klub felkerüljön a listára.",
   },
   {
@@ -26,7 +26,7 @@ const FAQ = [
   },
   {
     q: "Miért nincsenek egyesületek a listán?",
-    a: "A Socially Budapest kifejezetten olyan közösségeket gyűjt, ahová bárki csatlakozhat egy Instagram- vagy Facebook-oldalon keresztül, hivatalos tagság vagy bürokrácia nélkül.",
+    a: "A Budapesti Közösségek kifejezetten olyan közösségeket gyűjt, ahová bárki csatlakozhat egy Instagram- vagy Facebook-oldalon keresztül, hivatalos tagság vagy bürokrácia nélkül.",
   },
 ];
 
@@ -63,7 +63,7 @@ export default function AboutPage() {
         <p>
           Budapesten hihetetlenül sok ilyen kezdeményezés fut: futóklubok, nyelvcserék,
           társasjáték-esték, startup közösségek, csak épp szétszórva, mindenhol máshol.
-          A Socially Budapest azért van, hogy egy helyen megtaláld, ami hozzád illik. Remélem,
+          A Budapesti Közösségek azért van, hogy egy helyen megtaláld, ami hozzád illik. Remélem,
           te is rátalálsz a saját közösségedre.
         </p>
         <p>

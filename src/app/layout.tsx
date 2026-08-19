@@ -22,8 +22,8 @@ const caveat = Caveat({
   weight: ["600", "700"],
 });
 
-const SITE_URL = "https://budapestcommunity.netlify.app";
-const SITE_NAME = "Socially Budapest";
+const SITE_URL = "https://www.sociallybudapest.hu";
+const SITE_NAME = "Budapesti Közösségek";
 const SITE_DESCRIPTION =
   "Fedezd fel és hasonlítsd össze Budapest közösségi klubjait: sport, hobbi, nyelvcsere, könyvklub és több.";
 

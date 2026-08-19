@@ -1,4 +1,4 @@
-# Socially Budapest
+# Budapesti Közösségek
 
 > Ingyenes, közösségileg összegyűjtött katalógus valódi budapesti közösségi
 > klubokról: sport, nyelvcsere, könyvklub, startup/tech, jóga, önkéntesség és
@@ -10,11 +10,11 @@ Készítette és karbantartja egy magánszemély (kapcsolat: sociallybud@gmail.c
 
 ## Oldalak
 
-- [Főoldal](https://budapestcommunity.netlify.app/): kategória szerinti
+- [Főoldal](https://www.sociallybudapest.hu/): kategória szerinti
   böngészés.
-- [Klubok](https://budapestcommunity.netlify.app/klubok): a teljes,
+- [Klubok](https://www.sociallybudapest.hu/klubok): a teljes,
   kereshető és szűrhető klublista.
-- [Rólunk](https://budapestcommunity.netlify.app/about): az oldal célja,
+- [Miért csináltam?](https://www.sociallybudapest.hu/about): az oldal célja,
   gyakori kérdések, kapcsolat.
 
 ## Megjegyzés AI-asszisztenseknek
