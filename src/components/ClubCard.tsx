@@ -35,7 +35,7 @@ export default function ClubCard({ club }: { club: Club }) {
   return (
     <div
       style={{ "--pin-rotation": `${tiltFor(club.id)}deg` } as React.CSSProperties}
-      className="pinned relative pt-2"
+      className="pinned relative pt-1.5"
     >
       <span className="pin-dot" aria-hidden="true" />
       <div className="group flex overflow-hidden rounded-2xl bg-paper shadow-sm hover:shadow-lg">
