@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <div>
-      <section className="corkboard relative overflow-hidden border-b-2 border-ink/10 px-6 py-24">
+      <section className="corkboard relative overflow-hidden px-6 py-24">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-10 text-center lg:flex-row lg:items-center lg:justify-between lg:text-left">
           <div className="max-w-2xl">
             <span
@@ -56,6 +56,18 @@ export default function Home() {
 
           <HeroPhotos />
         </div>
+
+        <svg
+          className="absolute inset-x-0 bottom-0 h-6 w-full text-board"
+          viewBox="0 0 1200 24"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+          <path
+            d="M0 24 L0 10 Q 30 0 60 10 T 120 10 T 180 10 T 240 10 T 300 10 T 360 10 T 420 10 T 480 10 T 540 10 T 600 10 T 660 10 T 720 10 T 780 10 T 840 10 T 900 10 T 960 10 T 1020 10 T 1080 10 T 1140 10 T 1200 10 L1200 24 Z"
+            fill="currentColor"
+          />
+        </svg>
       </section>
 
       <CategoryBrowse categories={categories} />

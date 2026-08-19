@@ -35,7 +35,7 @@ export default function ClubCard({ club }: { club: Club }) {
   return (
     <div
       style={{ "--pin-rotation": `${tiltFor(club.id)}deg` } as React.CSSProperties}
-      className="pinned group flex overflow-hidden bg-paper shadow-sm"
+      className="pinned group flex overflow-hidden rounded-2xl bg-paper shadow-sm"
     >
       {primaryLink ? (
         <TrackedLink href={primaryLink.url} clubName={club.name} linkType={primaryLink.type}>
@@ -47,21 +47,26 @@ export default function ClubCard({ club }: { club: Club }) {
       <div className="flex flex-1 flex-col gap-1.5 p-3">
         {primaryLink ? (
           <TrackedLink href={primaryLink.url} clubName={club.name} linkType={primaryLink.type}>
-            <h3 className="text-base font-semibold leading-snug text-ink group-hover:text-pin-blue">
+            <h3
+              style={{ fontFamily: "var(--font-display)" }}
+              className="text-lg leading-tight tracking-tight text-ink group-hover:text-pin-blue"
+            >
               {club.name}
             </h3>
           </TrackedLink>
         ) : (
-          <h3 className="text-base font-semibold leading-snug text-ink">{club.name}</h3>
+          <h3 style={{ fontFamily: "var(--font-display)" }} className="text-lg leading-tight tracking-tight text-ink">
+            {club.name}
+          </h3>
         )}
-        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink/60">
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink/55">
           <span className="inline-flex items-center gap-1">
             <span className={`h-1.5 w-1.5 rounded-full ${getCategoryDotClass()}`} aria-hidden="true" />
             {club.category}
           </span>
           {club.district && <span>📍 {club.district}</span>}
         </div>
-        <p className="line-clamp-2 flex-1 text-sm text-ink/70">{club.description}</p>
+        <p className="line-clamp-2 flex-1 text-sm text-ink/55">{club.description}</p>
         <div className="flex flex-wrap items-center gap-1.5 pt-1">
           {club.instagram_url && (
             <ClubLinkButton href={club.instagram_url} clubName={club.name} linkType="instagram" />
