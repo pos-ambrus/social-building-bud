@@ -35,6 +35,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "mozaikmed.hu",
       },
+      {
+        protocol: "https",
+        hostname: "budapesthikers.com",
+      },
     ],
   },
 };
