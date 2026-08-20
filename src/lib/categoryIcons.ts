@@ -3,6 +3,7 @@ const ICONS: Record<string, string> = {
   Fotózás: "📷",
   "Jóga / Wellness": "🧘",
   Karaoke: "🎤",
+  "Katolikus Közösségek": "✝️",
   "Kvíz / Trivia": "🧠",
   Könyvklub: "📚",
   "LMBTQ+ Közösség": "🏳️‍🌈",

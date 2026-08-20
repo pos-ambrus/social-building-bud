@@ -370,5 +370,29 @@
     "image_url": "https://images.unsplash.com/photo-1758518729685-f88df7890776?w=600&h=450&fit=crop&auto=format&q=80",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "katolikus-kozossegek",
+    "name": "Katolikus Közösségek",
+    "category": "Katolikus Közösségek",
+    "district": null,
+    "description": "Katolikus közösségeket összegyűjtő portál: imacsoportok, kórusok, beszélgetős és hitmélyítő közösségek Budapesten és országszerte.",
+    "website_url": "https://kozossegek.hu/",
+    "instagram_url": null,
+    "image_url": "https://images.unsplash.com/photo-1609234656388-0ff363383899?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "socialgirlsbudapest",
+    "name": "SocialGirlsBudapest",
+    "category": "Női közösség",
+    "district": null,
+    "description": "Nők közössége Budapesten, ahol új, tartalmas barátságokat köthetsz hasonló gondolkodású emberekkel.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/socialgirlsbudapest/",
+    "image_url": "https://images.unsplash.com/photo-1695141482205-08e4e76c2a79?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
   }
 ]

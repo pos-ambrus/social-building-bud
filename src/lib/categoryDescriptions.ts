@@ -3,6 +3,7 @@ const DESCRIPTIONS: Record<string, string> = {
   Fotózás: "Fotós séták és közösségi alkotóprogramok.",
   "Jóga / Wellness": "Szabadtéri jóga és wellness-közösségek.",
   Karaoke: "Karaoke-esték és zenés összejövetelek.",
+  "Katolikus Közösségek": "Imacsoportok, kórusok és hitmélyítő közösségek Budapesten és országszerte.",
   "Kvíz / Trivia": "Kocsmakvízek és tudásversenyek hétről hétre.",
   Könyvklub: "Olvasókörök és könyvbeszélgetések.",
   "LMBTQ+ Közösség": "Közösségi programok az LMBTQ+ közösség számára.",

@@ -24,13 +24,14 @@ const caveat = Caveat({
 
 const SITE_URL = "https://www.sociallybudapest.hu";
 const SITE_NAME = "Budapesti Közösségek";
+const SITE_TITLE = "Budapesti Közösségi Klubok";
 const SITE_DESCRIPTION =
-  "Fedezd fel és hasonlítsd össze Budapest közösségi klubjait: sport, hobbi, nyelvcsere, könyvklub és több.";
+  "Ingyenes katalógus Budapest valódi közösségi klubjairól: futóklubok, nyelvcsere, könyvklub, jóga és sok más. Találd meg a hozzád illő közösséget.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} | Közösségi klubok katalógusa`,
+    default: SITE_TITLE,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
@@ -39,12 +40,12 @@ export const metadata: Metadata = {
     locale: "hu_HU",
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: `${SITE_NAME} | Közösségi klubok katalógusa`,
+    title: SITE_TITLE,
     description: SITE_DESCRIPTION,
   },
   twitter: {
     card: "summary",
-    title: `${SITE_NAME} | Közösségi klubok katalógusa`,
+    title: SITE_TITLE,
     description: SITE_DESCRIPTION,
   },
 };
