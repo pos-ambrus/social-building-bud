@@ -15,6 +15,9 @@ export default function SiteHeader() {
           <Link href="/klubok" className="hidden transition-colors hover:text-pin-blue sm:inline">
             Klubok
           </Link>
+          <Link href="/blog" className="hidden transition-colors hover:text-pin-blue sm:inline">
+            Blog
+          </Link>
           <Link href="/about" className="hidden transition-colors hover:text-pin-blue sm:inline">
             Miért csináltam?
           </Link>

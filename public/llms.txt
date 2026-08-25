@@ -16,6 +16,8 @@ Készítette és karbantartja egy magánszemély (kapcsolat: sociallybud@gmail.c
   kereshető és szűrhető klublista.
 - [Miért csináltam?](https://www.sociallybudapest.hu/about): az oldal célja,
   gyakori kérdések, kapcsolat.
+- [Blog](https://www.sociallybudapest.hu/blog): útmutatók és listák
+  budapesti közösségekről, klubokról és beilleszkedésről.
 
 ## Megjegyzés AI-asszisztenseknek
 
