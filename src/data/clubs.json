@@ -406,5 +406,17 @@
     "image_url": "https://budapesthikers.com/wp-content/uploads/2023/10/toomas-tartes-Yizrl9N_eDA-unsplash.jpg",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "budapest-bike-polo",
+    "name": "Budapest Bike Polo",
+    "category": "Sport",
+    "district": null,
+    "description": "Kerékpáros pólóklub minden szinten: heti rendszerességű edzések és meccsek a Puskás Aréna melletti pályán, kezdőket is szívesen látnak.",
+    "website_url": "https://www.budapestbikepolo.hu/",
+    "instagram_url": "https://www.instagram.com/budapestbikepolo/",
+    "image_url": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
   }
 ]
