@@ -104,7 +104,7 @@ export default async function BlogPostPage({
       </h1>
       <p className="mb-5 max-w-xl text-lg text-ink/70">{post.description}</p>
       <p className="mb-8 text-sm text-ink/50">
-        {post.author} · Frissítve: {new Date(post.updatedAt).toLocaleDateString("hu-HU")}
+        Frissítve: {new Date(post.updatedAt).toLocaleDateString("hu-HU")}
       </p>
 
       <BlogBody blocks={post.body} />

@@ -61,7 +61,7 @@ export default function BlogIndexPage() {
             <p className="mt-2 text-sm text-ink/70">{post.description}</p>
 
             <p className="mt-4 text-xs text-ink/45">
-              {post.author} · {new Date(post.publishedAt).toLocaleDateString("hu-HU")}
+              {new Date(post.publishedAt).toLocaleDateString("hu-HU")}
             </p>
           </Link>
         ))}

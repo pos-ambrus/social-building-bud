@@ -47,6 +47,21 @@ export default function BlogBody({ blocks }: { blocks: BlogBlock[] }) {
             </ol>
           );
         }
+        if (block.type === "citation") {
+          return (
+            <p key={i} className="border-l-2 border-pin-blue/40 pl-4 text-sm italic text-ink/60">
+              Forrás:{" "}
+              <a
+                href={block.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="not-italic text-pin-blue underline"
+              >
+                {block.text}
+              </a>
+            </p>
+          );
+        }
         // faq
         return (
           <div key={i} className="space-y-4 pt-2">
