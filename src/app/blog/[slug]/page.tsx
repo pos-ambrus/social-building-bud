@@ -103,11 +103,13 @@ export default async function BlogPostPage({
         {post.title}
       </h1>
       <p className="mb-5 max-w-xl text-lg text-ink/70">{post.description}</p>
-      <p className="mb-8 text-sm text-ink/50">
+      <p className="mb-6 text-sm text-ink/50">
         Frissítve: {new Date(post.updatedAt).toLocaleDateString("hu-HU")}
       </p>
 
-      <BlogBody blocks={post.body} />
+      <div className="rounded-2xl bg-paper p-6 shadow-sm sm:p-8">
+        <BlogBody blocks={post.body} />
+      </div>
 
       <div className="mt-10 border-t-2 border-ink/10 pt-6">
         <Link
