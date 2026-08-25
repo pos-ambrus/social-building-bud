@@ -10,6 +10,27 @@ export const metadata: Metadata = {
 
 const STAT_ROTATIONS = [-3, 2, -1.5];
 
+const STEPS = [
+  "Válassz egy kategóriát, vagy keress rá egy konkrét tevékenységre.",
+  "Nézd meg a hozzá tartozó klubokat: leírás, Instagram vagy weboldal egy helyen.",
+  "Vedd fel velük a kapcsolatot, és csatlakozz ingyen, regisztráció nélkül.",
+];
+
+const FAQ = [
+  {
+    q: "Mi az a Budapesti Közösségek?",
+    a: "Ingyenes, kézzel válogatott katalógus valódi budapesti közösségi klubokról: sport, nyelvcsere, könyvklub, jóga és sok más téma.",
+  },
+  {
+    q: "Hogyan találom meg a nekem való közösséget?",
+    a: "Böngéssz kategória szerint a főoldalon, vagy keress rá kulcsszóval a teljes klublistában — mindkettő ingyenes és regisztráció nélküli.",
+  },
+  {
+    q: "Fizetni kell egy klubhoz csatlakozáshoz?",
+    a: "A legtöbb itt listázott klub ingyenes. Ha egy adott klubnak mégis van díja, azt a klub saját oldalán tünteti fel, nem itt.",
+  },
+];
+
 export default function Home() {
   const categories = getCategories();
   const stats = [
@@ -18,8 +39,22 @@ export default function Home() {
     { value: "100%", label: "ingyenes, örökre" },
   ];
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQ.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <section className="corkboard relative overflow-hidden px-6 py-24">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-10 text-center lg:flex-row lg:items-center lg:justify-between lg:text-left">
           <div className="max-w-2xl">
@@ -93,6 +128,39 @@ export default function Home() {
       </div>
 
       <CategoryBrowse categories={categories} />
+
+      <section className="mx-auto max-w-6xl px-6 py-16">
+        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl uppercase tracking-tight text-ink">
+          Hogyan működik?
+        </h2>
+        <ol className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
+          {STEPS.map((step, i) => (
+            <li key={step} className="rounded-2xl bg-paper p-5 shadow-sm">
+              <span
+                style={{ fontFamily: "var(--font-display)" }}
+                className="text-3xl text-cta"
+              >
+                {i + 1}
+              </span>
+              <p className="mt-2 text-sm text-ink/70">{step}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-6 pb-16">
+        <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl uppercase tracking-tight text-ink">
+          Gyakran ismételt kérdések
+        </h2>
+        <div className="mt-6 space-y-6">
+          {FAQ.map((item) => (
+            <div key={item.q}>
+              <h3 className="font-semibold text-ink">{item.q}</h3>
+              <p className="mt-1 text-sm leading-relaxed text-ink/70">{item.a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

@@ -57,6 +57,12 @@ const jsonLd = {
   url: SITE_URL,
   description: SITE_DESCRIPTION,
   inLanguage: "hu",
+  dateModified: new Date().toISOString().slice(0, 10),
+  author: {
+    "@type": "Organization",
+    name: "Budapesti Közösségek szerkesztősége",
+    url: SITE_URL,
+  },
 };
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;

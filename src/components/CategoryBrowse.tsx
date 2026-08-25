@@ -16,7 +16,7 @@ export default function CategoryBrowse({ categories }: Props) {
   return (
     <section className="mx-auto max-w-6xl px-6 py-16">
       <h2 style={{ fontFamily: "var(--font-display)" }} className="text-2xl uppercase tracking-tight text-ink">
-        Böngéssz tevékenység szerint
+        Melyik közösség illik hozzád?
       </h2>
       <p className="mt-1 text-ink/60">
         Válassz egy kategóriát, és nézd meg az abban működő budapesti klubokat.

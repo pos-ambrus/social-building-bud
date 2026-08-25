@@ -67,6 +67,21 @@ export default function AboutPage() {
           te is rátalálsz a saját közösségedre.
         </p>
         <p>
+          Néhány példa a listán szereplő valódi közösségekre:{" "}
+          <a href="https://linktr.ee/bridgetrunners" target="_blank" rel="noopener noreferrer" className="font-medium text-pin-blue underline">
+            Bridget Runners Budapest
+          </a>
+          ,{" "}
+          <a href="https://kerekparosklub.hu/" target="_blank" rel="noopener noreferrer" className="font-medium text-pin-blue underline">
+            I Bike Budapest
+          </a>{" "}
+          és{" "}
+          <a href="https://toastmasters.hu/klubok/" target="_blank" rel="noopener noreferrer" className="font-medium text-pin-blue underline">
+            Toastmasters Magyarország
+          </a>
+          .
+        </p>
+        <p>
           Szeretnéd, hogy a klubod is felkerüljön a listára, vagy javítanál egy meglévő
           bejegyzésen? Írj nekem közvetlenül:{" "}
           <a

@@ -11,10 +11,13 @@ export type BlogPost = {
   description: string;
   kind: "listicle" | "guide";
   category: string | null;
+  author: string;
   publishedAt: string;
   updatedAt: string;
   body: BlogBlock[];
 };
+
+export const DEFAULT_AUTHOR = "Budapesti Közösségek szerkesztősége";
 
 export const posts: BlogPost[] = [
   {
@@ -24,6 +27,7 @@ export const posts: BlogPost[] = [
       "Női futóklub, kávézós futás, kerületi közösség és ingyenes szigeti futóest: hat valódi budapesti futóklub, amelyhez bárki csatlakozhat.",
     kind: "listicle",
     category: "Sport",
+    author: DEFAULT_AUTHOR,
     publishedAt: "2026-08-20",
     updatedAt: "2026-08-20",
     body: [
@@ -97,6 +101,7 @@ export const posts: BlogPost[] = [
       "Gyakorlati lépések, ha szeretnél új embereket megismerni Budapesten, de az első alkalom egyedül belépni egy idegen csoportba ijesztőnek tűnik.",
     kind: "guide",
     category: null,
+    author: DEFAULT_AUTHOR,
     publishedAt: "2026-08-20",
     updatedAt: "2026-08-20",
     body: [

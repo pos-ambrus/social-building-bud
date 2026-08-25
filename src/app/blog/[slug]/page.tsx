@@ -18,7 +18,7 @@ export async function generateMetadata({
   if (!post) return {};
 
   return {
-    title: post.title,
+    title: { absolute: post.title },
     description: post.description,
     alternates: { canonical: `/blog/${post.slug}` },
     openGraph: { title: post.title, description: post.description, url: `/blog/${post.slug}` },
@@ -45,6 +45,11 @@ export default async function BlogPostPage({
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
     inLanguage: "hu",
+    author: {
+      "@type": "Organization",
+      name: post.author,
+      url: "https://www.sociallybudapest.hu",
+    },
   };
 
   const faqJsonLd =
@@ -77,14 +82,29 @@ export default async function BlogPostPage({
         ← Blog
       </Link>
 
+      <div className="mt-4">
+        <span
+          className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wide ${
+            post.kind === "listicle" ? "bg-cta/10 text-cta" : "bg-accent-soft text-pin-blue"
+          }`}
+        >
+          <span
+            className={`h-1.5 w-1.5 rounded-full ${post.kind === "listicle" ? "bg-cta" : "bg-pin-blue"}`}
+            aria-hidden="true"
+          />
+          {post.category ?? (post.kind === "listicle" ? "Lista" : "Útmutató")}
+        </span>
+      </div>
+
       <h1
         style={{ fontFamily: "var(--font-display)" }}
-        className="mb-2 mt-4 text-3xl uppercase leading-tight tracking-tight text-ink"
+        className="mb-3 mt-3 text-3xl uppercase leading-tight tracking-tight text-ink"
       >
         {post.title}
       </h1>
+      <p className="mb-5 max-w-xl text-lg text-ink/70">{post.description}</p>
       <p className="mb-8 text-sm text-ink/50">
-        Frissítve: {new Date(post.updatedAt).toLocaleDateString("hu-HU")}
+        {post.author} · Frissítve: {new Date(post.updatedAt).toLocaleDateString("hu-HU")}
       </p>
 
       <BlogBody blocks={post.body} />
