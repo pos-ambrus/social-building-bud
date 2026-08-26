@@ -128,7 +128,17 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Ne az első csoportnál add fel" },
       {
         type: "p",
-        text: "Nem minden közösség hangulata fog illeni hozzád elsőre, és ez teljesen rendben van. Ha az első próbálkozás nem jött be, ez nem azt jelenti, hogy neked nem való a közösségi élet, csak azt, hogy ez a konkrét csoport nem volt a megfelelő. Budapesten ugyanabban a témában (legyen az futás, olvasás vagy társasjáték) rendszerint több különböző hangulatú közösség is működik párhuzamosan.",
+        text: "Nem minden közösség hangulata fog illeni hozzád elsőre, és ez teljesen rendben van. Ha az első próbálkozás nem jött be, ez nem azt jelenti, hogy neked nem való a közösségi élet, csak azt, hogy ez a konkrét csoport nem volt a megfelelő. Budapesten ugyanabban a témában (legyen az futás, olvasás vagy társasjáték) rendszerint több különböző hangulatú közösség is működik párhuzamosan, tehát ha az egyik nem vált be, van hova továbblépni.",
+      },
+      { type: "h2", text: "Figyelj a testbeszédedre, mielőtt megszólalnál" },
+      {
+        type: "p",
+        text: "Mielőtt bárkivel beszélgetnél, a testbeszéded már sokat elárul arról, mennyire vagy nyitott. Egy nyitott testtartás (nem keresztbe font kar, felemelt fej, rövid szemkontaktus) sokkal könnyebbé teszi mások számára, hogy odalépjenek hozzád, mintha telefonba nézve, zárkózottan állnál a csoport szélén. Nem kell azonnal beszélgetést kezdeményezned: elég, ha látszik rajtad, hogy szívesen fogadnál egy megszólítást.",
+      },
+      { type: "h2", text: "Használd ki a közös tevékenységet beszélgetési alapként" },
+      {
+        type: "p",
+        text: "Az egyik legnagyobb előnye annak, ha egy aktivitás köré szerveződő közösséghez csatlakozol (futás, könyvklub, társasjáték), hogy sosem kell a semmiből beszélgetést indítanod. Mindig ott a közös téma: hogy ment a mai táv, mit gondolsz a könyvről, ki nyerte az előző kört. Ez jóval kevésbé megterhelő, mint egy tisztán társasági eseményen, ahol a beszélgetést a nulláról kell felépíteni.",
       },
       {
         type: "list",
@@ -349,6 +359,16 @@ export const posts: BlogPost[] = [
       {
         type: "p",
         text: "Gyerekként és egyetemistaként a barátságok szinte automatikusan alakulnak ki: közös iskola, kollégium, közös órarend biztosítja a rendszeres találkozást. Felnőttként, munka mellett, ez a struktúra megszűnik, ezért kell tudatosan felkeresni azokat a helyeket (klubok, közösségek, rendszeres programok), amik pótolják ezt a korábban véletlenszerűen adott találkozási felületet.",
+      },
+      { type: "h2", text: "Mennyi közösség elég: a minőség vagy a mennyiség számít?" },
+      {
+        type: "p",
+        text: "Nem szükséges tucatnyi közösséghez csatlakozni ahhoz, hogy érezhető legyen a különbség. A kutatások szerint már egy vagy két, rendszeresen látogatott közösség is mérhetően csökkenti a magány érzését, feltéve, hogy a részvétel valóban rendszeres, és nem csak alkalmi. Sokkal nagyobb védőhatása van egy heti visszatérő futóklubnak, mint négy különböző, ritkán látogatott csoportnak, mert a rendszeresség az, ami a felszínes ismerkedésből tényleges kapcsolatot épít.",
+      },
+      { type: "h2", text: "Mi történik, ha halogatod a közösségkeresést?" },
+      {
+        type: "p",
+        text: "A magány sajátossága, hogy önerősítő folyamat: minél tovább marad valaki elszigetelve, annál nehezebbnek tűnik az első lépés megtétele, ami tovább mélyíti az elszigeteltséget. Ezért érdemes minél korábban, még mielőtt a magány krónikussá válna, tudatosan keresni egy rendszeres közösségi alkalmat, ahelyett hogy a megfelelő pillanatra várnánk. A kutatások szerint a halogatás maga is növeli a szorongást a társas helyzetekkel kapcsolatban, tehát minél tovább vársz, annál nehezebb lesz az első lépés.",
       },
       {
         type: "list",
