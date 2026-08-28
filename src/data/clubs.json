@@ -418,5 +418,17 @@
     "image_url": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&h=450&fit=crop&auto=format&q=80",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "pace-and-pour",
+    "name": "Pace & Pour",
+    "category": "Sport",
+    "district": null,
+    "description": "Budapesti futóklub, amely minden futót szívesen lát, aki hisz abban, hogy egy edzés legjobb része a közös kávé utána.",
+    "website_url": "https://www.strava.com/clubs/PacePour",
+    "instagram_url": "https://www.instagram.com/pacepour",
+    "image_url": "https://images.unsplash.com/photo-1634921363975-46fa99024422?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
   }
 ]
