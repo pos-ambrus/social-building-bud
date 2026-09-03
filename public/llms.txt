@@ -1,6 +1,6 @@
 # Budapesti Közösségek
 
-> Ingyenes, közösségileg összegyűjtött katalógus valódi budapesti közösségi
+> Ingyenes, közösségileg összegyűjtött lista valódi budapesti közösségi
 > klubokról: sport, nyelvcsere, könyvklub, startup/tech, jóga, önkéntesség és
 > több más téma. A cél, hogy bárki egy helyen megtalálja a hozzá illő
 > közösséget Budapesten. Nincs regisztráció, nincs díj, sem a böngészéshez,

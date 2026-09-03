@@ -96,7 +96,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "A teljes, kereshető és szűrhető sportklub-listát a Budapesti Közösségek katalógusában találod, ahol kerület és kategória szerint is szűrhetsz.",
+        text: "A teljes, kereshető és szűrhető sportklub-listát a Budapesti Közösségek listájában találod, ahol kerület és kategória szerint is szűrhetsz.",
       },
     ],
   },
@@ -168,7 +168,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Ha még nem tudod, hol kezdd, böngéssz a Budapesti Közösségek teljes katalógusában kategória szerint, és válassz egy olyan aktivitást, amit egyébként is szívesen csinálnál.",
+        text: "Ha még nem tudod, hol kezdd, böngéssz a Budapesti Közösségek teljes listájában kategória szerint, és válassz egy olyan aktivitást, amit egyébként is szívesen csinálnál.",
       },
     ],
   },
@@ -237,7 +237,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "A teljes nyelvcsere- és networking-közösség listát a Budapesti Közösségek katalógusában találod, ahol a többi kategóriát is böngészheted.",
+        text: "A teljes nyelvcsere- és networking-közösség listát a Budapesti Közösségek listájában találod, ahol a többi kategóriát is böngészheted.",
       },
     ],
   },
@@ -326,7 +326,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "A teljes, kereshető klublistát a Budapesti Közösségek katalógusában böngészheted kategória szerint.",
+        text: "A teljes, kereshető klublistát a Budapesti Közösségek listájában böngészheted kategória szerint.",
       },
     ],
   },
@@ -393,7 +393,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Ha szeretnél elkezdeni egy rendszeres közösségi alkalmat keresni, böngéssz kategória szerint a Budapesti Közösségek katalógusában.",
+        text: "Ha szeretnél elkezdeni egy rendszeres közösségi alkalmat keresni, böngéssz kategória szerint a Budapesti Közösségek listájában.",
       },
     ],
   },
@@ -452,7 +452,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "A teljes társasjáték- és hobbi-közösség listát a Budapesti Közösségek katalógusában találod, ahol más kategóriákat is böngészhetsz.",
+        text: "A teljes társasjáték- és hobbi-közösség listát a Budapesti Közösségek listájában találod, ahol más kategóriákat is böngészhetsz.",
       },
     ],
   },
@@ -521,7 +521,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "A teljes jóga, wellness és meditációs közösség listát a Budapesti Közösségek katalógusában böngészheted.",
+        text: "A teljes jóga, wellness és meditációs közösség listát a Budapesti Közösségek listájában böngészheted.",
       },
     ],
   },
@@ -590,7 +590,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "A teljes sport-közösség listát a Budapesti Közösségek katalógusában böngészheted kategória szerint.",
+        text: "A teljes sport-közösség listát a Budapesti Közösségek listájában böngészheted kategória szerint.",
       },
     ],
   },

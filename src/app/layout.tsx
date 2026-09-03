@@ -26,7 +26,7 @@ const SITE_URL = "https://www.sociallybudapest.hu";
 const SITE_NAME = "Budapesti Közösségek";
 const SITE_TITLE = "Budapesti Közösségi Klubok";
 const SITE_DESCRIPTION =
-  "Ingyenes katalógus Budapest valódi közösségi klubjairól: futóklubok, nyelvcsere, könyvklub, jóga és sok más. Találd meg a hozzád illő közösséget.";
+  "Ingyenes lista Budapest valódi közösségi klubjairól: futóklubok, nyelvcsere, könyvklub, jóga és sok más. Találd meg a hozzád illő közösséget.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

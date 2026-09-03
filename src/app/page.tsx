@@ -19,7 +19,7 @@ const STEPS = [
 const FAQ = [
   {
     q: "Mi az a Budapesti Közösségek?",
-    a: "Ingyenes, kézzel válogatott katalógus valódi budapesti közösségi klubokról: sport, nyelvcsere, könyvklub, jóga és sok más téma.",
+    a: "Ingyenes, kézzel válogatott lista valódi budapesti közösségi klubokról: sport, nyelvcsere, könyvklub, jóga és sok más téma.",
   },
   {
     q: "Hogyan találom meg a nekem való közösséget?",

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 const TITLE = "Miért csináltam?";
-const DESCRIPTION = "Miért hoztuk létre a Budapesti Közösségek katalógust, és hogyan kerülhet fel egy klub a listára.";
+const DESCRIPTION = "Miért hoztuk létre a Budapesti Közösségek oldalt, és hogyan kerülhet fel egy klub a listára.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -57,7 +57,7 @@ export default function AboutPage() {
       <div className="mt-6 space-y-5 text-base leading-relaxed text-ink/80">
         <p>
           Szia! Mindig is szerettem közösségeket létrehozni, és hasonló gondolkodású
-          embereknek programokat, eseményeket szervezni, és ez a katalógus is ebből a
+          embereknek programokat, eseményeket szervezni, és ez a lista is ebből a
           szenvedélyből született.
         </p>
         <p>
