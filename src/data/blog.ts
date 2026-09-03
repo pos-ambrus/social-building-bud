@@ -397,6 +397,188 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "tarsasjatek-kozossegek-budapesten",
+    title: "3 társasjáték-közösség Budapesten, ahova ingyen csatlakozhatsz",
+    description:
+      "Angol nyelvű és magyar társasjáték-esték, ahol modern klasszikusoktól a stratégiai játékokig mindent kipróbálhatsz új emberek társaságában.",
+    kind: "listicle",
+    category: "Társasjáték",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    body: [
+      {
+        type: "p",
+        text: "A társasjáték az egyik legjobb ürügy az ismerkedésre, mert a játék önmagában ad beszélgetési alapot, és nem kell aktívan társalgási témát keresned. Budapesten több aktív, ingyenesen látogatható társasjáték-közösség működik, ezek közül mutatunk be hármat, amelyekhez kortól és tapasztalattól függetlenül csatlakozhatsz.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "TIA Game Cave",
+            note: "Ingyenes belépésű társasjáték-közösség 14-99 éveseknek: nincs tagsági díj, csak csatlakozni kell. A közösség rendszeresen szervez alkalmakat, ahol modern és klasszikus társasjátékok is asztalra kerülnek.",
+            href: "https://www.facebook.com/groups/263358474501496/",
+          },
+          {
+            name: "Budapest Board Game Nights",
+            note: "Angol nyelvű társasjáték-esték, amelyek változó budapesti helyszíneken (gyakran társasjáték-bárokban) zajlanak. A közösség kifejezetten nyitott mindenkire, aki angolul szeretne beszélgetni és játszani egyszerre.",
+            href: "https://www.facebook.com/bpboardgames/",
+          },
+          {
+            name: "Board Games in English",
+            note: "Nemzetközi társasjáték-közösség több mint kétezer taggal, amely heti több alkalommal találkozik különböző társasjáték-bárokban és kávézókban. A kínálat a modern klasszikusoktól (Ticket to Ride, Catan) a szó- és stratégiai játékokig terjed.",
+            href: "https://www.meetup.com/board-games-in-english/",
+          },
+        ],
+      },
+      { type: "h2", text: "Melyiket válaszd, ha még sosem jártál társasjáték-közösségben?" },
+      {
+        type: "p",
+        text: "A TIA Game Cave a legjobb kiindulópont, ha magyar nyelvű, ingyenes és tagságmentes közeget keresel. Ha inkább nemzetközi, angol nyelvű társaságban ismerkednél, a Budapest Board Game Nights és a Board Games in English is kiváló választás: mindkettő rendszeresen vált helyszínt, így folyamatosan van apropó egy új találkozóra. A Board Games in English nagyobb létszáma miatt szinte minden héten van program, ha gyakrabban szeretnél járni.",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell-e saját társasjátékot vinnem magammal?",
+            a: "Nem szükséges, a legtöbb alkalmon a szervezők vagy a helyszín biztosítja a játékokat. Ha van kedvenced, természetesen elviheted, de nem elvárás.",
+          },
+          {
+            q: "Milyen korosztálynak ajánlottak ezek a közösségek?",
+            a: "A TIA Game Cave kifejezetten széles korosztályt (14-99 év) céloz meg, a nemzetközi közösségek pedig elsősorban felnőtteknek szólnak, de nincs szigorú korhatár egyiknél sem.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "A teljes társasjáték- és hobbi-közösség listát a Budapesti Közösségek katalógusában találod, ahol más kategóriákat is böngészhetsz.",
+      },
+    ],
+  },
+  {
+    slug: "joga-meditacio-kozossegek-kezdoknek",
+    title: "Jóga és meditáció Budapesten kezdőknek: 4 közösség, ahol nulla tapasztalattal is elindulhatsz",
+    description:
+      "Szabadtéri jóga, wellness-közösség és önismereti meditáció Budapesten: négy valódi közösség, amely kifejezetten kezdőknek is barátságos.",
+    kind: "listicle",
+    category: "Jóga / Wellness",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    body: [
+      {
+        type: "p",
+        text: "A jóga és a meditáció sokak számára ijesztően szakértőinek tűnik elsőre, pedig a legtöbb budapesti közösség pontosan azoknak szól, akik korábban sosem próbálták. Az alábbi négy közösség mind nyitott kezdőknek, és egyikhez sem kell drága stúdióbérlet vagy előzetes tudás.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Margitszigeti Jóga",
+            note: "Közösségi szabadtéri jógaórák a Margitszigeten, tíz éve működő, barátságos csapattal. A szabadtéri jelleg miatt kötetlenebb a hangulat, mint egy zárt stúdióban, ami sokak számára könnyebb belépési pontot jelent.",
+            href: "https://www.instagram.com/margitszigetijoga.hu/",
+          },
+          {
+            name: "Conscious Budapest",
+            note: "Wellness-közösség jógával, légzőgyakorlatokkal, alkoholmentes társasági alkalmakkal és közösségi sétákkal. A cél kifejezetten a valódi, mély kapcsolódás, nem csak a fizikai gyakorlat.",
+            href: "https://www.meetup.com/yogamindfulnessbudapest/",
+          },
+          {
+            name: "Budapest Personal Growth Meetup",
+            note: "Nyílt, vallástól és szervezettől független meditációs és önismereti közösség, változó helyszíneken. Kifejezetten azoknak ajánlott, akik a fizikai gyakorlat mellett a belső munkára is nyitottak.",
+            href: "https://www.meetup.com/budapest-personal-growth-szemelyes-fejl%C5%91des-meetup/",
+          },
+          {
+            name: "Artemis Compass",
+            note: "Természethez kapcsolódó, önismereti programok, ahol a természet csendje és nyugalma segít közelebb kerülni önmagunkhoz. Jó választás, ha a hagyományos teremben tartott meditáció helyett inkább a szabadban keresnéd a nyugalmat.",
+            href: "https://www.facebook.com/profile.php?id=61574524619037",
+          },
+        ],
+      },
+      { type: "h2", text: "Melyiket válaszd, ha teljesen kezdő vagy?" },
+      {
+        type: "p",
+        text: "Ha a fizikai gyakorlat áll közelebb hozzád, a Margitszigeti Jóga a legkevésbé megterhelő kezdés, mert szabadtéri, laza hangulatú, és nem igényel semmilyen előzetes tudást. Ha inkább a társasági, közösségi élmény a fontos, a Conscious Budapest szélesebb programkínálata (jóga mellett séták, teázások, szauna) jobban illik hozzád. Ha kifejezetten az önismereti, elmélyültebb irányba mennél, a Budapest Personal Growth Meetup vagy az Artemis Compass a jobb választás.",
+      },
+      {
+        type: "citation",
+        text: "We Love Budapest: hét angol nyelvű jógastúdió Budapesten, ha később mélyebben belevágnál",
+        href: "https://welovebudapest.com/en/toplist/7-english-language-yoga-studios-in-budapest",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell-e saját jógaszőnyeget vinnem?",
+            a: "Szabadtéri alkalmaknál (például a Margitszigeti Jóga esetében) érdemes saját szőnyeget vagy takarót hozni, a többi közösségnél érdemes előre rákérdezni az adott esemény leírásában.",
+          },
+          {
+            q: "Fizetni kell ezekhez a közösségekhez?",
+            a: "A legtöbb itt felsorolt közösségi alkalom ingyenes vagy önkéntes adományos alapú, ellentétben a fizetős jógastúdiókkal, amelyek külön szolgáltatásnak számítanak.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "A teljes jóga, wellness és meditációs közösség listát a Budapesti Közösségek katalógusában böngészheted.",
+      },
+    ],
+  },
+  {
+    slug: "hogyan-talalj-hobbi-sportcsapatot-budapesten",
+    title: "Hogyan találj hobbi sportcsapatot Budapesten, ha csapatjátékos vagy?",
+    description:
+      "Kosárlabda, foci, kerékpáros póló: gyakorlati tanácsok, ha nem egyéni sportot, hanem valódi csapatot keresel Budapesten, edzői szerződés nélkül.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    body: [
+      {
+        type: "p",
+        text: "Sokan azt hiszik, hogy Budapesten csak egyesületi keretek között, komoly elköteleződéssel lehet csapatsportot űzni. A valóság ennél sokkal lazább: a városban rengeteg hobbi szintű csapat és spontán meccs-közösség működik, ahova edzői szerződés és bajnokságba nevezés nélkül is be lehet kapcsolódni.",
+      },
+      { type: "h2", text: "Kezdd a spontán, nyílt pályás közösségeknél" },
+      {
+        type: "p",
+        text: "A legkönnyebb belépési pont azok a közösségek, ahol nincs fix csapatbeosztás, csak megjelensz, és csatlakozol az aktuális meccshez. Budapesten ilyen például a Bikás Park Streetball, ahol utcai kosárlabda-meccsekhez lehet spontán csatlakozni, vagy a Budapest Bike Polo, amely heti rendszerességű edzéseket és meccseket tart kezdőknek is nyitottan.",
+      },
+      { type: "h2", text: "Keress rá Facebook-csoportokra, ha konkrét sportágat szeretnél" },
+      {
+        type: "p",
+        text: "Ha kifejezetten focihoz, kosárlabdához vagy röplabdához keresel csapattársakat, érdemes rákeresni a hobbi csapatsport Facebook-csoportokra: ezekben rendszeresen posztolnak azok a csapatok, akiknek éppen hiányzik egy-két játékosuk egy adott meccshez vagy szezonhoz. Ez a legjobb módja annak, hogy fix csapatba kerülj anélkül, hogy egyesületi tagságot vállalnál.",
+      },
+      {
+        type: "citation",
+        text: "Facebook: Hobbi kosárlabda-, foci-, röplabda stb. csapattag kereső csoport Budapesten",
+        href: "https://www.facebook.com/groups/2866489026922478/",
+      },
+      { type: "h2", text: "Ne várd meg, amíg tökéletesen felkészült leszel" },
+      {
+        type: "p",
+        text: "A hobbi szintű csapatoknál a cél a közös élmény, nem a versenyszerű teljesítmény, ezért nem kell edzésbe hozott formában érkezned. A legtöbb szervező kifejezetten örül az új arcoknak, és a csapat szintjéhez igazítja a tempót, hasonlóan ahhoz, ahogy a futóklubok is vegyes szinteket fogadnak be.",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell-e felszerelés egy hobbi csapatsporthoz való csatlakozáshoz?",
+            a: "Sportáganként változó, de általában elég a megfelelő cipő és kényelmes sportruházat. Kerékpáros pólónál saját kerékpár és sisak szükséges, ezt a Budapest Bike Polo közösség oldalán érdemes előre tisztázni.",
+          },
+          {
+            q: "Mi van, ha egy adott csapatnál nincs éppen hely?",
+            a: "Ez gyakori, mert a hobbi csapatoknak korlátozott a létszáma. Érdemes több csoportba is beszállni és több csapatot is megkeresni, mert Budapesten egyszerre több hasonló kezdeményezés fut párhuzamosan.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "A teljes sport-közösség listát a Budapesti Közösségek katalógusában böngészheted kategória szerint.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

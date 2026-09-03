@@ -430,5 +430,41 @@
     "image_url": "https://images.unsplash.com/photo-1634921363975-46fa99024422?w=600&h=450&fit=crop&auto=format&q=80",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "budapest-board-game-nights",
+    "name": "Budapest Board Game Nights",
+    "category": "Társasjáték",
+    "district": null,
+    "description": "Angol nyelvű társasjáték-esték nyitva minden érdeklődőnek, változó budapesti helyszíneken, hangulatos, laza légkörben.",
+    "website_url": null,
+    "instagram_url": "https://www.facebook.com/bpboardgames/",
+    "image_url": "https://images.unsplash.com/photo-1677188010559-0667a1ed33a0?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "board-games-in-english",
+    "name": "Board Games in English",
+    "category": "Társasjáték",
+    "district": null,
+    "description": "Nemzetközi társasjáték-közösség Budapesten, amely rendszeresen találkozik különböző társasjáték-bárokban és kávézókban.",
+    "website_url": "https://www.meetup.com/board-games-in-english/",
+    "instagram_url": null,
+    "image_url": "https://images.unsplash.com/photo-1677094365537-c786fb4c7b84?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "conscious-budapest",
+    "name": "Conscious Budapest",
+    "category": "Jóga / Wellness",
+    "district": null,
+    "description": "Wellness-közösség jógával, légzőgyakorlatokkal, alkoholmentes társasági alkalmakkal és közösségi sétákkal, valódi kapcsolódás jegyében.",
+    "website_url": "https://www.meetup.com/yogamindfulnessbudapest/",
+    "instagram_url": null,
+    "image_url": "https://images.unsplash.com/photo-1529693662653-9d480530a697?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
   }
 ]
