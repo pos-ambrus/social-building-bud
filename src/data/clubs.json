@@ -466,5 +466,17 @@
     "image_url": "https://images.unsplash.com/photo-1529693662653-9d480530a697?w=600&h=450&fit=crop&auto=format&q=80",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "chempz",
+    "name": "ChempZ",
+    "category": "Sport",
+    "district": null,
+    "description": "Ingyenes sportpálya- és meccskereső app: fedezz fel pályákat a közeledben, találj játékostársakat és csapatot bármilyen sportághoz, fiók nélkül is böngészhető.",
+    "website_url": "https://chempz.hu/",
+    "instagram_url": "https://www.instagram.com/chempz_app/",
+    "image_url": "https://images.unsplash.com/photo-1770064319432-9c5f134afca7?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
   }
 ]
