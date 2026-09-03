@@ -405,8 +405,8 @@ export const posts: BlogPost[] = [
     kind: "listicle",
     category: "Társasjáték",
     author: DEFAULT_AUTHOR,
-    publishedAt: "2026-09-10",
-    updatedAt: "2026-09-10",
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
     body: [
       {
         type: "p",
@@ -464,8 +464,8 @@ export const posts: BlogPost[] = [
     kind: "listicle",
     category: "Jóga / Wellness",
     author: DEFAULT_AUTHOR,
-    publishedAt: "2026-09-10",
-    updatedAt: "2026-09-10",
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
     body: [
       {
         type: "p",
@@ -533,8 +533,8 @@ export const posts: BlogPost[] = [
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR,
-    publishedAt: "2026-09-10",
-    updatedAt: "2026-09-10",
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
     body: [
       {
         type: "p",
