@@ -490,5 +490,17 @@
     "image_url": "https://images.unsplash.com/photo-1693142518820-78d7a05f1546?w=600&h=450&fit=crop&auto=format&q=80",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "hot-girls-walk-club-budapest",
+    "name": "Hot Girls Walk Club Budapest",
+    "category": "Női közösség",
+    "district": null,
+    "description": "Nők közössége, akik rendszeres közös sétákat szerveznek Budapesten: mozgás, beszélgetés és új barátságok egyszerre.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/hotgirlswalkbudapest/",
+    "image_url": "https://images.unsplash.com/photo-1500027014421-46ccc843776a?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
   }
 ]
