@@ -478,5 +478,17 @@
     "image_url": "https://images.unsplash.com/photo-1770064319432-9c5f134afca7?w=600&h=450&fit=crop&auto=format&q=80",
     "featured": false,
     "type": "Közösség"
+  },
+  {
+    "id": "pickmeball-club",
+    "name": "PickMeBall Club",
+    "category": "Sport",
+    "district": null,
+    "description": "Budapesti pickleball közösség, amely rendszeres edzéseket és tornákat szervez kezdőknek és haladóknak egyaránt.",
+    "website_url": null,
+    "instagram_url": "https://www.instagram.com/pickmeball.club/",
+    "image_url": "https://images.unsplash.com/photo-1693142518820-78d7a05f1546?w=600&h=450&fit=crop&auto=format&q=80",
+    "featured": false,
+    "type": "Közösség"
   }
 ]
