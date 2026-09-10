@@ -4,6 +4,7 @@ export type BlogBlock =
   | { type: "list"; items: string[] }
   | { type: "clublist"; items: { name: string; note: string; href: string }[] }
   | { type: "citation"; text: string; href: string }
+  | { type: "table"; headers: string[]; rows: string[][] }
   | { type: "faq"; items: { q: string; a: string }[] };
 
 export type BlogPost = {
@@ -591,6 +592,226 @@ export const posts: BlogPost[] = [
       {
         type: "p",
         text: "A teljes sport-közösség listát a Budapesti Közösségek listájában böngészheted kategória szerint.",
+      },
+    ],
+  },
+  {
+    slug: "legjobb-platformok-budapesti-kozossegek-kereseshez",
+    title: "A legjobb platformok, ahol budapesti közösségeket kereshetsz, összehasonlítva",
+    description:
+      "Meetup, Facebook-csoportok, Instagram vagy egy dedikált klublista: melyik platform éri meg, ha budapesti közösséget keresel? Egyenes összehasonlítás.",
+    kind: "listicle",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    body: [
+      {
+        type: "p",
+        text: "Ha valaha megpróbáltál már közösséget keresni Budapesten, valószínűleg pontosan tudod, milyen szétszórt ez a terep: az egyik klub Meetup-on szervez, a másik Facebook-csoportban, a harmadik meg csak Instagramon posztol, valahol elrejtve a story highlightok között. Nincs egyetlen egyértelmű hely, ahova bárki automatikusan menne. Az alábbiakban négy platformot hasonlítunk össze aszerint, hogy melyik mire jó valójában, nem pedig aszerint, hogy melyiket ismered a legjobban.",
+      },
+      {
+        type: "table",
+        headers: ["Platform", "Nyelv", "Szűrhető kategória szerint", "Kell hozzá fiók", "Mikor a legjobb választás"],
+        rows: [
+          [
+            "Budapesti Közösségek",
+            "Magyar",
+            "Igen, kategória és kulcsszó szerint",
+            "Nem",
+            "Ha gyorsan át akarod látni, mi létezik egy adott témában",
+          ],
+          [
+            "Meetup",
+            "Túlnyomórészt angol",
+            "Részben, téma szerint",
+            "Igen, a csatlakozáshoz",
+            "Ha nemzetközi, angol nyelvű közösséget keresel",
+          ],
+          [
+            "Facebook-csoportok",
+            "Vegyes",
+            "Nem igazán, csak kulcsszavas keresés",
+            "Igen, Facebook-fiók",
+            "Ha már tudod a csoport nevét, vagy helyi, informális közösséget keresel",
+          ],
+          [
+            "Instagram",
+            "Vegyes",
+            "Nem, csak hashtag vagy keresés",
+            "Igen",
+            "Ha egy adott klubot már ismersz, és a friss posztjait, sztorijait követnéd",
+          ],
+        ],
+      },
+      { type: "h2", text: "Miért nehéz csak Facebookon vagy Instagramon keresgélni?" },
+      {
+        type: "p",
+        text: "A Facebook és az Instagram remek arra, hogy egy már megtalált közösséggel kapcsolatban maradj, de rossz felfedezőeszköz. A keresés a legtöbbször csak a csoport vagy a fiók nevére működik jól, a leírásra vagy a tevékenység típusára nem lehet rendesen szűrni. Ha nem tudod pontosan, mit keresel, könnyen tíz-húsz percet elveszíthetsz a görgetésben, mielőtt egyáltalán rátalálsz egy releváns csoportra.",
+      },
+      { type: "h2", text: "Miben más egy dedikált klublista, mint a Meetup?" },
+      {
+        type: "p",
+        text: "A Meetup nagyszerű nemzetközi eszköz, és Budapesten is több aktív angol nyelvű közösség szervez rajta programokat. A különbség inkább abban van, mennyire helyi és magyar nyelvű a kínálat: egy kifejezetten Budapestre fókuszáló, magyar nyelvű lista (mint amit itt olvasol) jobban lefedi azokat a kisebb, informális magyar közösségeket is, amik sosem regisztráltak Meetupra, mert nem érezték szükségét egy nemzetközi platformnak.",
+      },
+      {
+        type: "citation",
+        text: "Delivered Social: hogyan találj és válassz megfelelő Facebook-csoportot közösségkereséshez",
+        href: "https://deliveredsocial.com/groups-for-facebook-how-to-find-join-and-grow-the-right-communities/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Melyik platformot érdemes elsőként kipróbálni?",
+            a: "Ha még nem tudod pontosan, milyen közösséget keresel, egy kategória szerint böngészhető lista (mint a Budapesti Közösségek) a leggyorsabb kiindulópont, mert egy helyen látod az összes lehetőséget regisztráció nélkül.",
+          },
+          {
+            q: "Miért van szükség egyáltalán egy külön klublistára a Facebook és a Meetup mellett?",
+            a: "Mert egyik platform sem lett kifejezetten közösség-felfedezésre tervezve: mindkettő elsősorban a már megtalált csoportok kezelésére és eseményszervezésre optimalizált, nem a böngészésre.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ha kíváncsi vagy, milyen közösségek szerepelnek jelenleg a listánkban, böngéssz kategória szerint a Budapesti Közösségek teljes listájában.",
+      },
+    ],
+  },
+  {
+    slug: "hogyan-segitenek-sportkozossegek-ha-egyedul-kezdesz",
+    title: "Hogyan segítenek a budapesti sportközösségek, ha egyedül vágnál bele?",
+    description:
+      "Miért könnyebb egyedül csatlakozni egy sportközösséghez, mint azt elsőre gondolnád, és mely budapesti klubok a legjobb kiindulópontok ehhez.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    body: [
+      {
+        type: "p",
+        text: "Sokan azért halogatják a sportolást Budapesten, mert nincs kivel elmenniük. Ez érthető, de fordítva is igaz: a legtöbb budapesti sportközösség kifejezetten azokra épül, akik egyedül érkeznek. A közös mozgás olyan szerkezetet ad a találkozásnak, ami sok más társasági helyzetből hiányzik, és pontosan ez teszi könnyebbé az egyedüli kezdést, mint amilyennek elsőre tűnik.",
+      },
+      { type: "h2", text: "A közös mozgás levesz egy réteg nyomást a beszélgetésről" },
+      {
+        type: "p",
+        text: "Amikor futsz, kosarazol vagy pickleballozol valakivel, nem kell aktívan társalgási témát keresned. A mozgás maga adja a keretet: lehet csendben futni egymás mellett, aztán a szünetben szó nélkül is természetesen alakul ki beszélgetés. Ez sokkal kevésbé megterhelő, mint egy tisztán társasági eseményen ülni és aktívan beszélgetést kezdeményezni valakivel, akit még nem ismersz.",
+      },
+      { type: "h2", text: "A vegyes szintű csoportok miatt nem kell felkészültnek lenned" },
+      {
+        type: "p",
+        text: "A legtöbb itt felsorolt sportközösség kifejezetten vegyes szintekre épül: senki nem várja el, hogy versenyszerű formában érkezz. Az Angyalföldi Futóklub és a Mozaik Med közösségi futása pontosan emiatt jó kiindulópont, mert a tempót mindig a csoporthoz igazítják, nem fordítva.",
+      },
+      { type: "h2", text: "A spontán, nyílt alkalmak csökkentik a belépési küszöböt" },
+      {
+        type: "p",
+        text: "Azoknál a közösségeknél, ahol nincs fix csapatbeosztás, csak megjelensz és csatlakozol az aktuális meccshez, jóval kisebb a tétje az első alkalomnak. A Bikás Park Streetball és a PickMeBall Club is ilyen: nem kell előre bejelentkezned egy csapatba, elég odaállni, és a csoport magától befogad.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Mozaik Med közösségi futás",
+            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten, ahol bárki csatlakozhat futótempótól függetlenül.",
+            href: "https://mozaikmed.hu/",
+          },
+          {
+            name: "Bikás Park Streetball",
+            note: "Utcai kosárlabda közösség a Bikás parki pályákon, ahol bárki csatlakozhat egy spontán meccshez.",
+            href: "https://www.instagram.com/bikas_park/",
+          },
+          {
+            name: "PickMeBall Club",
+            note: "Budapesti pickleball közösség, amely rendszeres edzéseket és tornákat szervez kezdőknek és haladóknak egyaránt.",
+            href: "https://www.instagram.com/pickmeball.club/",
+          },
+          {
+            name: "ChempZ",
+            note: "Ingyenes sportpálya- és meccskereső app, amellyel egyedül is találhatsz nyitott meccset vagy játékostársat a közeledben.",
+            href: "https://chempz.hu/",
+          },
+        ],
+      },
+      {
+        type: "citation",
+        text: "Mayo Clinic: hogyan enyhíti a testmozgás a szorongás és a depresszió tüneteit",
+        href: "https://www.mayoclinic.org/diseases-conditions/depression/in-depth/depression-and-exercise/art-20046495",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Melyik sportközösséggel érdemes kezdeni, ha teljesen új vagyok ebben?",
+            a: "A Mozaik Med szigeti futása vagy a Bikás Park Streetball a legkevésbé megterhelő kezdés, mert nincs elvárt előzetes tudás, és a hangulat kifejezetten laza.",
+          },
+          {
+            q: "Mi van, ha egyáltalán nem vagyok formában?",
+            a: "Ez nem akadály: a legtöbb felsorolt közösség a tempót a csoporthoz igazítja, nem fordítva, tehát a fittségi szinted nem számít annyira, mint gondolnád.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "A teljes sport-közösség listát a Budapesti Közösségek listájában böngészheted kategória szerint.",
+      },
+    ],
+  },
+  {
+    slug: "legjobb-budapesti-sportkozossegek-osszehasonlitva",
+    title: "A legjobb budapesti sportközösségek összehasonlítva",
+    description:
+      "Futás, kerékpár, tenisz, kerékpáros póló, pickleball: melyik budapesti sportközösség illik hozzád? Gyors összehasonlítás sportág szerint.",
+    kind: "listicle",
+    category: "Sport",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    body: [
+      {
+        type: "p",
+        text: "Budapesten nem csak futóklubból van sok: szinte minden sportágnak megvan a maga informális, ingyenesen látogatható közössége. Az alábbi táblázat sportág szerint mutatja meg, hova érdemes menned, attól függően, mi érdekel és mennyire vagy kezdő.",
+      },
+      {
+        type: "table",
+        headers: ["Sportág", "Közösség", "Kezdőbarát", "Ingyenes", "Link"],
+        rows: [
+          ["Futás", "6 futóklub összehasonlítva külön cikkben", "Igen", "Igen", "lásd a futóklub-listánkat"],
+          ["Kerékpár", "I Bike Budapest (Kerékpárosklub)", "Igen", "Igen", "kerekparosklub.hu"],
+          ["Motoros túrázás", "The Café Club Budapest", "Igen", "Igen", "Facebook"],
+          ["Tenisz", "Budapest Racquet Society", "Igen", "Igen", "Instagram"],
+          ["Utcai kosárlabda", "Bikás Park Streetball", "Igen", "Igen", "Instagram"],
+          ["Kerékpáros póló", "Budapest Bike Polo", "Igen", "Igen", "budapestbikepolo.hu"],
+          ["Pickleball", "PickMeBall Club", "Igen", "Igen", "Instagram"],
+          ["Bármilyen sport, pálya- és társkeresés", "ChempZ (app)", "Igen", "Igen", "chempz.hu"],
+        ],
+      },
+      { type: "h2", text: "Melyiket válaszd, ha nem tudod, hol kezdd?" },
+      {
+        type: "p",
+        text: "Ha kifejezetten csapatban, meccsszerű keretek között sportolnál, a Bikás Park Streetball vagy a Budapest Bike Polo a jó kiindulópont, mert mindkettőnél elég megjelenned egy nyílt alkalmon. Ha inkább egyénileg, saját tempóban mozognál, de közösségi háttérrel, az I Bike Budapest vagy a Budapest Racquet Society illik jobban hozzád. Ha pedig egy vadonatúj, gyorsan terjedő sportot próbálnál ki, a PickMeBall Club pickleball közössége remek belépő, mivel a sportág maga is kifejezetten kezdőbarátnak számít világszerte.",
+      },
+      {
+        type: "citation",
+        text: "PickleballScorer: a pickleball növekedési statisztikái, amiért világszerte ez a leggyorsabban terjedő sportág",
+        href: "https://pickleballscorer.com/blog/pickleball-statistics-2026",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Melyik sportközösséghez a legkönnyebb csatlakozni felszerelés nélkül?",
+            a: "A Bikás Park Streetball és az I Bike Budapest a legkönnyebb belépő, mert az egyikhez elég egy pár tornacipő, a másikhoz pedig már egy alap kerékpár is elegendő.",
+          },
+          {
+            q: "Van olyan közösség, ami több sportágat is lefed egyszerre?",
+            a: "Igen, a ChempZ app pontosan erre való: sportágtól függetlenül segít pályát és játékostársat találni, ha nem egy konkrét közösséghez, hanem egy adott alkalomhoz keresel társaságot.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "A teljes sport-közösség listát a Budapesti Közösségek listájában böngészheted kategória szerint, a futóklubokról pedig külön cikkben olvashatsz részletesebben.",
       },
     ],
   },

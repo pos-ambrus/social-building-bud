@@ -76,6 +76,38 @@ export default function BlogBody({ blocks }: { blocks: BlogBlock[] }) {
             </p>
           );
         }
+        if (block.type === "table") {
+          return (
+            <div key={i} className="overflow-x-auto rounded-xl ring-1 ring-inset ring-pin-blue/10">
+              <table className="w-full min-w-[560px] border-collapse text-sm">
+                <thead>
+                  <tr className="bg-accent-soft/80">
+                    {block.headers.map((h) => (
+                      <th
+                        key={h}
+                        style={{ fontFamily: "var(--font-display)" }}
+                        className="px-4 py-3 text-left text-xs uppercase tracking-wide text-ink"
+                      >
+                        {h}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {block.rows.map((row, ridx) => (
+                    <tr key={ridx} className={ridx % 2 === 0 ? "bg-paper" : "bg-accent-soft/30"}>
+                      {row.map((cell, cidx) => (
+                        <td key={cidx} className="px-4 py-3 align-top text-ink/80">
+                          {cell}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          );
+        }
         // faq
         return (
           <div key={i} className="space-y-4 pt-2">
