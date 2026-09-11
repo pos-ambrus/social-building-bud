@@ -90,25 +90,24 @@ export default async function CategoryPage({ params }: Props) {
         item: { "@id": `${SITE_URL}/klub/${club.id}#organization` },
       })),
     },
-    // Külön, felső szintű Organization csomópontok: az entitás-egyértelműsítéshez
-    // az AI-motorok a sameAs linkeket keresik, és a beágyazott ItemList itemeket
-    // több feldolgozó nem bontja ki.
-    {
-      "@context": "https://schema.org",
-      "@graph": list.map((club) => {
-        const sameAs = [club.instagram_url, club.website_url].filter(Boolean);
-        return {
-          "@type": "Organization",
-          "@id": `${SITE_URL}/klub/${club.id}#organization`,
-          name: club.name,
-          description: club.description,
-          url: club.website_url ?? club.instagram_url ?? `${SITE_URL}/klub/${club.id}`,
-          image: club.image_url,
-          areaServed: { "@type": "City", name: "Budapest" },
-          ...(sameAs.length > 0 && { sameAs }),
-        };
-      }),
-    },
+    // Minden klub külön, felső szintű Organization csomópontként is megjelenik.
+    // Az entitás-egyértelműsítéshez az AI-motorok a sameAs linkeket keresik, a
+    // beágyazott ItemList itemeket és a @graph tömböket viszont több feldolgozó
+    // nem bontja ki, ezért kapnak saját blokkot.
+    ...list.map((club) => {
+      const sameAs = [club.instagram_url, club.website_url].filter(Boolean);
+      return {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": `${SITE_URL}/klub/${club.id}#organization`,
+        name: club.name,
+        description: club.description,
+        url: club.website_url ?? club.instagram_url ?? `${SITE_URL}/klub/${club.id}`,
+        image: club.image_url,
+        areaServed: { "@type": "City", name: "Budapest" },
+        ...(sameAs.length > 0 && { sameAs }),
+      };
+    }),
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",

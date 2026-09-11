@@ -22,12 +22,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const club = getClubById(id);
   if (!club) return {};
 
-  const title = `${club.name} (${club.category}) Budapest`;
+  // A Google ~60 karakternél vágja a címet, ezért a leghosszabb változattal
+  // kezdünk, és addig rövidítünk, amíg belefér.
+  const candidates = [
+    `${club.name} - ${club.category} közösség Budapesten`,
+    `${club.name} - ${club.category} Budapest`,
+    `${club.name} - Budapest`,
+    club.name,
+  ];
+  const title = candidates.find((c) => c.length <= 60) ?? club.name;
+
   const description = `${club.description} Nézd meg, hogyan csatlakozhatsz a ${club.name} közösséghez Budapesten.`;
   const url = `/klub/${club.id}`;
 
   return {
-    title: { absolute: `${title} | Budapesti Közösségek` },
+    title: { absolute: title },
     description,
     alternates: { canonical: url },
     openGraph: {
