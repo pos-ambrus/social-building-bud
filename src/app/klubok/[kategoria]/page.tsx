@@ -87,14 +87,27 @@ export default async function CategoryPage({ params }: Props) {
         "@type": "ListItem",
         position: i + 1,
         url: `${SITE_URL}/klub/${club.id}`,
-        item: {
+        item: { "@id": `${SITE_URL}/klub/${club.id}#organization` },
+      })),
+    },
+    // Külön, felső szintű Organization csomópontok: az entitás-egyértelműsítéshez
+    // az AI-motorok a sameAs linkeket keresik, és a beágyazott ItemList itemeket
+    // több feldolgozó nem bontja ki.
+    {
+      "@context": "https://schema.org",
+      "@graph": list.map((club) => {
+        const sameAs = [club.instagram_url, club.website_url].filter(Boolean);
+        return {
           "@type": "Organization",
+          "@id": `${SITE_URL}/klub/${club.id}#organization`,
           name: club.name,
           description: club.description,
           url: club.website_url ?? club.instagram_url ?? `${SITE_URL}/klub/${club.id}`,
-          sameAs: [club.instagram_url, club.website_url].filter(Boolean),
-        },
-      })),
+          image: club.image_url,
+          areaServed: { "@type": "City", name: "Budapest" },
+          ...(sameAs.length > 0 && { sameAs }),
+        };
+      }),
     },
     {
       "@context": "https://schema.org",
@@ -145,11 +158,13 @@ export default async function CategoryPage({ params }: Props) {
         ))}
       </div>
 
-      <div className="mt-10 grid grid-cols-1 gap-5 lg:grid-cols-2">
+      <ol className="mt-10 grid list-none grid-cols-1 gap-5 lg:grid-cols-2">
         {list.map((club) => (
-          <ClubCard key={club.id} club={club} />
+          <li key={club.id}>
+            <ClubCard club={club} />
+          </li>
         ))}
-      </div>
+      </ol>
 
       <div className="mt-16 max-w-2xl border-t-2 border-ink/10 pt-8">
         <h2

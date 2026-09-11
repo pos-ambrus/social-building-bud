@@ -235,11 +235,13 @@ export default async function ClubPage({ params }: Props) {
           <p className="mb-6 text-sm text-ink/60">
             További közösségek a {club.category} kategóriából.
           </p>
-          <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
+          <ol className="grid list-none grid-cols-1 gap-5 lg:grid-cols-2">
             {related.map((c) => (
-              <ClubCard key={c.id} club={c} />
+              <li key={c.id}>
+                <ClubCard club={c} />
+              </li>
             ))}
-          </div>
+          </ol>
           <Link
             href={categoryHref(club.category)}
             className="mt-6 inline-block text-sm font-medium text-pin-blue hover:underline"

@@ -23,18 +23,24 @@ export default function ClubCard({ club }: { club: Club }) {
     >
       <span className="pin-dot" aria-hidden="true" />
       <div className="group flex overflow-hidden rounded-2xl bg-paper shadow-sm hover:shadow-lg">
-        <Link href={clubHref} className="block w-28 shrink-0 sm:w-32" tabIndex={-1} aria-hidden="true">
+        <Link href={clubHref} className="block w-28 shrink-0 sm:w-32" tabIndex={-1}>
           <div className="tape-corner relative h-full w-full overflow-hidden bg-accent-soft">
             <Image
               src={club.image_url}
-              alt=""
+              alt={`${club.name} - ${club.category} közösség Budapesten`}
               fill
               sizes="120px"
               className="object-cover"
             />
             {logoUrl && (
               <div className="absolute bottom-1 left-1 h-6 w-6 overflow-hidden rounded-full bg-white shadow-md ring-2 ring-white">
-                <Image src={logoUrl} alt="" fill sizes="24px" className="object-contain p-0.5" />
+                <Image
+                  src={logoUrl}
+                  alt={`${club.name} logója`}
+                  fill
+                  sizes="24px"
+                  className="object-contain p-0.5"
+                />
               </div>
             )}
           </div>
