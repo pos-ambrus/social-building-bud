@@ -10,6 +10,11 @@ export type BlogBlock =
 export type BlogPost = {
   slug: string;
   title: string;
+  /**
+   * Rövidebb változat a <title> taghez, ha a H1 túllépné azt a ~60 karaktert,
+   * amennyit a Google kiír. A H1 marad a hosszú, beszédes változat.
+   */
+  metaTitle?: string;
   description: string;
   kind: "listicle" | "guide";
   category: string | null;
@@ -176,6 +181,7 @@ export const posts: BlogPost[] = [
   {
     slug: "nyelvcsere-networking-kozossegek-budapesten",
     title: "4 közösség Budapesten, ahol nyelvet gyakorolhatsz és új embereket ismerhetsz meg",
+    metaTitle: "Nyelvcsere Budapesten: 4 közösség, ahol gyakorolhatsz",
     description:
       "Helyi és nemzetközi közösségek, ahol nyelvet gyakorolhatsz, digitális nomádokkal, expatokkal vagy egyszerűen nyitott emberekkel ismerkedhetsz Budapesten.",
     kind: "listicle",
@@ -245,6 +251,7 @@ export const posts: BlogPost[] = [
   {
     slug: "8-kozosseg-ahova-egyedul-is-mehetsz",
     title: "8 közösség Budapesten, ahova egyedül is mehetsz, és mégsem leszel egyedül",
+    metaTitle: "8 budapesti közösség, ahova egyedül is elmehetsz",
     description:
       "Futás, könyvklub, társasjáték, jóga és túrázás: nyolc valódi budapesti közösség, amelyhez egyedül is bátran csatlakozhatsz.",
     kind: "listicle",
@@ -401,6 +408,7 @@ export const posts: BlogPost[] = [
   {
     slug: "tarsasjatek-kozossegek-budapesten",
     title: "3 társasjáték-közösség Budapesten, ahova ingyen csatlakozhatsz",
+    metaTitle: "3 ingyenes társasjáték-közösség Budapesten",
     description:
       "Angol nyelvű és magyar társasjáték-esték, ahol modern klasszikusoktól a stratégiai játékokig mindent kipróbálhatsz új emberek társaságában.",
     kind: "listicle",
@@ -460,6 +468,7 @@ export const posts: BlogPost[] = [
   {
     slug: "joga-meditacio-kozossegek-kezdoknek",
     title: "Jóga és meditáció Budapesten kezdőknek: 4 közösség, ahol nulla tapasztalattal is elindulhatsz",
+    metaTitle: "Jóga és meditáció Budapesten kezdőknek: 4 közösség",
     description:
       "Szabadtéri jóga, wellness-közösség és önismereti meditáció Budapesten: négy valódi közösség, amely kezdőknek is barátságos.",
     kind: "listicle",
@@ -529,6 +538,7 @@ export const posts: BlogPost[] = [
   {
     slug: "hogyan-talalj-hobbi-sportcsapatot-budapesten",
     title: "Hogyan találj hobbi sportcsapatot Budapesten, ha csapatjátékos vagy?",
+    metaTitle: "Hogyan találj hobbi sportcsapatot Budapesten?",
     description:
       "Kosárlabda, foci, kerékpáros póló: gyakorlati tanácsok, ha nem egyéni sportot, hanem valódi csapatot keresel Budapesten, edzői szerződés nélkül.",
     kind: "guide",
@@ -598,6 +608,7 @@ export const posts: BlogPost[] = [
   {
     slug: "legjobb-platformok-budapesti-kozossegek-kereseshez",
     title: "A legjobb platformok, ahol budapesti közösségeket kereshetsz, összehasonlítva",
+    metaTitle: "Hol keress budapesti közösséget? Platformok összevetve",
     description:
       "Meetup, Facebook-csoportok, Instagram vagy egy dedikált klublista: melyik platform éri meg, ha budapesti közösséget keresel? Egyenes összehasonlítás.",
     kind: "listicle",
@@ -681,6 +692,7 @@ export const posts: BlogPost[] = [
   {
     slug: "hogyan-segitenek-sportkozossegek-ha-egyedul-kezdesz",
     title: "Hogyan segítenek a budapesti sportközösségek, ha egyedül vágnál bele?",
+    metaTitle: "Budapesti sportközösségek, ha egyedül vágnál bele",
     description:
       "Miért könnyebb egyedül csatlakozni egy sportközösséghez, mint azt elsőre gondolnád, és mely budapesti klubok a legjobb kiindulópontok ehhez.",
     kind: "guide",
@@ -818,6 +830,7 @@ export const posts: BlogPost[] = [
   {
     slug: "hogyan-talalj-kozosseget-budapesti-kozossegekkel",
     title: "Hogyan találj közösséget Budapesten a Budapesti Közösségek segítségével",
+    metaTitle: "Hogyan találj közösséget Budapesten? Lépésről lépésre",
     description:
       "Lépésről lépésre útmutató, hogyan böngéssz, szűrj és csatlakozz egy valódi budapesti klubhoz a Budapesti Közösségek listán keresztül, regisztráció nélkül.",
     kind: "guide",

@@ -17,12 +17,14 @@ export async function generateMetadata({
   const post = getPostBySlug(slug);
   if (!post) return {};
 
+  const metaTitle = post.metaTitle ?? post.title;
+
   return {
-    title: { absolute: post.title },
+    title: { absolute: metaTitle },
     description: post.description,
     alternates: { canonical: `/blog/${post.slug}` },
-    openGraph: { title: post.title, description: post.description, url: `/blog/${post.slug}` },
-    twitter: { title: post.title, description: post.description },
+    openGraph: { title: metaTitle, description: post.description, url: `/blog/${post.slug}` },
+    twitter: { title: metaTitle, description: post.description },
   };
 }
 
