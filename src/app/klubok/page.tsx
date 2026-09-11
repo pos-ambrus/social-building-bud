@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import HomeContent from "@/components/HomeContent";
 import { clubs, getCategories } from "@/data/clubs";
+import { categoryHref } from "@/lib/slug";
 
 const TITLE = "Klubok";
 const DESCRIPTION = "Böngéssz az összes valódi budapesti közösségi klub között, kategória szerint szűrve.";
@@ -79,6 +81,30 @@ export default async function KlubokPage({
         <li>Kattints a klub Instagram- vagy weboldal-linkjére, és csatlakozz ingyen</li>
       </ul>
       <HomeContent clubs={clubs} categories={categories} initialCategory={kategoria} />
+
+      <div className="mt-16 border-t-2 border-ink/10 pt-8">
+        <h2
+          style={{ fontFamily: "var(--font-display)" }}
+          className="mb-1 text-xl uppercase tracking-tight text-ink"
+        >
+          Böngészés kategória szerint
+        </h2>
+        <p className="mb-5 text-sm text-ink/60">
+          Minden kategóriának saját oldala van, a hozzá tartozó összes budapesti
+          közösséggel.
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {categories.map((c) => (
+            <Link
+              key={c}
+              href={categoryHref(c)}
+              className="rounded-full bg-paper px-3 py-1.5 text-sm text-ink/70 shadow-sm transition-colors hover:text-pin-blue"
+            >
+              {c}
+            </Link>
+          ))}
+        </div>
+      </div>
 
       <div className="mt-16 max-w-2xl border-t-2 border-ink/10 pt-8">
         <h2 style={{ fontFamily: "var(--font-display)" }} className="mb-4 text-xl uppercase tracking-tight text-ink">

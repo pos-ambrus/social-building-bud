@@ -14,6 +14,14 @@ Készítette és karbantartja egy magánszemély (kapcsolat: sociallybud@gmail.c
   böngészés.
 - [Klubok](https://www.sociallybudapest.hu/klubok): a teljes,
   kereshető és szűrhető klublista.
+- Kategóriaoldalak `/klubok/{kategória-slug}` alatt, például
+  [Sport](https://www.sociallybudapest.hu/klubok/sport),
+  [Társasjáték](https://www.sociallybudapest.hu/klubok/tarsasjatek),
+  [Nyelvcsere / Networking](https://www.sociallybudapest.hu/klubok/nyelvcsere-networking).
+  Mindegyik az adott témához tartozó összes közösséget listázza.
+- Klubodalak `/klub/{klub-slug}` alatt, például
+  [Budapest Bike Polo](https://www.sociallybudapest.hu/klub/budapest-bike-polo).
+  Egy klub leírása, kategóriája, kerülete és közösségi média linkjei.
 - [Miért csináltam?](https://www.sociallybudapest.hu/about): az oldal célja,
   gyakori kérdések, kapcsolat.
 - [Blog](https://www.sociallybudapest.hu/blog): útmutatók és listák
