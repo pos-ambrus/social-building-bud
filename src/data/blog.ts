@@ -35,14 +35,14 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Ha futóklubot keresel Budapesten, jó eséllyel nem kizárólag a teljesítményed miatt akarsz csatlakozni, hanem azért, mert a közös futás egyszerre mozgás és társaság. Nem kell versenyzőnek lenned ahhoz, hogy örömöd legyen benne: a legtöbb budapesti futóközösség kifejezetten a vegyes szintű, beszélgetős tempót részesíti előnyben a teljesítménnyel szemben. Az alábbi hat klub mind valódi, aktív budapesti közösség, mindegyikhez ingyenesen csatlakozhatsz, klubtagság vagy előzetes futótapasztalat nélkül.",
+        text: "Ha futóklubot keresel Budapesten, valljuk be, ritkán a személyes rekordodért csatlakozol, sokkal inkább azért, mert a közös futás egyszerre mozgás és társaság. Nem kell versenyzőnek lenned ahhoz, hogy örömöd legyen benne: a legtöbb budapesti futóközösség tudatosan a vegyes szintű, beszélgetős tempót részesíti előnyben a teljesítménnyel szemben. Ez a hat klub mind valódi, aktív budapesti közösség, mindegyikhez ingyenesen csatlakozhatsz, klubtagság vagy előzetes futótapasztalat nélkül.",
       },
       {
         type: "clublist",
         items: [
           {
             name: "Bridget Runners Budapest",
-            note: "Budapest első kifejezetten női futóklubja. A közös hétvégi futásokat rendszerint közös brunch követi, így a hangsúly legalább annyira van a beszélgetésen és az ismerkedésen, mint magán a futáson. Kezdőknek is barátságos: a csoport több tempóban fut, senki nem marad le egyedül.",
+            note: "Budapest első, tisztán női futóklubja. A közös hétvégi futásokat rendszerint közös brunch követi, így legalább annyira a beszélgetésről és az ismerkedésről szól, mint a futásról. Kezdőknek is barátságos: a csoport több tempóban fut, senki nem marad le egyedül.",
             href: "https://linktr.ee/bridgetrunners",
           },
           {
@@ -52,7 +52,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Angyalföldi Futóklub",
-            note: "Kerületi futóklub a XIII. kerületben, amely kifejezetten kezdőknek és haladóknak egyaránt szól. A kerületi jelleg miatt sokan a szomszédságból csatlakoznak, ezért a hangulat kevésbé formális, mint egy nagyvárosi futóegyesületnél.",
+            note: "Kerületi futóklub a XIII. kerületben, kezdőknek és haladóknak egyaránt. A kerületi jelleg miatt sokan a szomszédságból csatlakoznak, ezért a hangulat kevésbé formális, mint egy nagyvárosi futóegyesületnél.",
             href: "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
           },
           {
@@ -75,7 +75,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Melyik futóklubot válaszd?" },
       {
         type: "p",
-        text: "Ha teljesen kezdő vagy, a Mozaik Med szigeti futása vagy az Angyalföldi Futóklub a legkevésbé megterhelő belépő, mert nincs elvárt tempó, és a hangulat kifejezetten laza. Ha inkább a közösségi élmény a fontos a teljesítménynél, a Running Latte Club vagy a Run Crew Budapest ajánlott a kávézós, baráti hangvételéért. Ha kifejezetten nőtársakkal futnál, a Bridget Runners Budapest a legjobb kiindulópont, mert kifejezetten erre a közegre épült fel a közösség.",
+        text: "Ha teljesen kezdő vagy, a Mozaik Med szigeti futása vagy az Angyalföldi Futóklub a legkevésbé megterhelő belépő, mert nincs elvárt tempó, és a hangulat igazán laza. Ha inkább a közösségi élmény számít neked a teljesítménynél, a Running Latte Club vagy a Run Crew Budapest jó választás a kávézós, baráti hangvételéért. Ha pedig konkrétan nőtársakkal futnál, a Bridget Runners Budapest a legjobb kiindulópont, hiszen erre a közegre épült a közösség.",
       },
       {
         type: "citation",
@@ -87,7 +87,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             q: "Kell-e felszerelés vagy előzetes tapasztalat egy budapesti futóklubhoz csatlakozáshoz?",
-            a: "Nem, a legtöbb itt felsorolt klub kifejezetten kezdőbarát: elég egy pár futócipő, a tempót mindenhol a csoporthoz lehet igazítani.",
+            a: "Nem, a legtöbb itt felsorolt klub kezdőbarát: elég egy pár futócipő, a tempót mindenhol a csoporthoz lehet igazítani.",
           },
           {
             q: "Fizetni kell-e ezekhez a futóklubokhoz?",
@@ -114,32 +114,32 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Az első alkalom mindig a legnehezebb: bemenni egy terembe, vagy odaállni egy futócsoporthoz, ahol senkit sem ismersz. Ez teljesen normális reakció, és pontosan emiatt lett a legtöbb itt szereplő közösség eleve kezdőbarátra tervezve. A legtöbb szervező is pontosan tudja, milyen érzés elsőként megjelenni, hiszen ő maga is így kezdte egykor. Az alábbi néhány dolog segít, hogy az első alkalom ne legyen akkora falat.",
+        text: "Az első alkalom mindig a legnehezebb: bemenni egy terembe, vagy odaállni egy futócsoporthoz, ahol senkit sem ismersz. Teljesen normális, ha ettől félsz, és pontosan emiatt lett a legtöbb itt szereplő közösség eleve kezdőbarátra tervezve. A szervezők is tudják, milyen érzés elsőként megjelenni, hiszen ők maguk is így kezdték egykor. Néhány apróság sokat segít abban, hogy az első alkalom ne legyen akkora falat.",
       },
       { type: "h2", text: "Válassz olyan közösséget, ahol van visszatérő, fix alkalom" },
       {
         type: "p",
-        text: "Egy heti rendszerességű futás, könyvklub vagy nyelvcsere sokkal kevésbé nyomasztó, mint egy egyszeri nagy esemény, mert tudod, hogy ha most nem sikerül igazán megismerkedned valakivel, jövő héten újra ott lesz a lehetőség. Az egyszeri, nagy létszámú rendezvényeken sokkal nagyobb a nyomás, hogy már az első alkalommal minden jól sikerüljön, miközben egy rendszeres alkalomnál ez a nyomás fokozatosan feloldódik.",
+        text: "Egy heti rendszerességű futás, könyvklub vagy nyelvcsere sokkal kevésbé nyomasztó, mint egy egyszeri nagy esemény, mert tudod, hogy ha most nem sikerül igazán megismerkedned valakivel, jövő héten újra ott lesz a lehetőség. Egy nagy létszámú, egyszeri rendezvényen sokkal nagyobb a nyomás, hogy már elsőre minden jól sikerüljön, egy rendszeres alkalomnál viszont ez a nyomás fokozatosan feloldódik.",
       },
       { type: "h2", text: "Írj előre üzenetet a szervezőnek" },
       {
         type: "p",
-        text: "A legtöbb budapesti közösség Instagramon vagy Facebookon aktív, és a szervezők szívesen válaszolnak egy rövid üzenetre azelőtt, hogy megjelennél. Ez nemcsak a gyakorlati kérdéseket (hol, mikor, mit hozz magaddal) tisztázza, hanem azt is elősegíti, hogy már legyen egy ismerős név, amikor odaérsz, ami sokat old a kezdeti feszültségen.",
+        text: "A legtöbb budapesti közösség Instagramon vagy Facebookon aktív, és a szervezők szívesen válaszolnak egy rövid üzenetre, mielőtt megjelennél. Ez nemcsak a gyakorlati kérdéseket tisztázza (hol, mikor, mit hozz magaddal), hanem azt is elősegíti, hogy legyen már egy ismerős név, mire odaérsz, ez pedig sokat old a kezdeti feszültségen.",
       },
-      { type: "h2", text: "Ne az első csoportnál add fel" },
+      { type: "h2", text: "Ne add fel az első csoportnál" },
       {
         type: "p",
-        text: "Nem minden közösség hangulata fog illeni hozzád elsőre, és ez teljesen rendben van. Ha az első próbálkozás nem jött be, ez nem azt jelenti, hogy neked nem való a közösségi élet, csak azt, hogy ez a konkrét csoport nem volt a megfelelő. Budapesten ugyanabban a témában (legyen az futás, olvasás vagy társasjáték) rendszerint több különböző hangulatú közösség is működik párhuzamosan, tehát ha az egyik nem vált be, van hova továbblépni.",
+        text: "Nem minden közösség hangulata fog illeni hozzád elsőre, és ez teljesen rendben van. Ha az első próbálkozás nem jött be, az nem azt jelenti, hogy neked nem való a közösségi élet, csak azt, hogy ez a konkrét csoport nem volt a megfelelő. Budapesten ugyanabban a témában, legyen az futás, olvasás vagy társasjáték, rendszerint több különböző hangulatú közösség is működik párhuzamosan, tehát ha az egyik nem jön be, van hova továbblépni.",
       },
       { type: "h2", text: "Figyelj a testbeszédedre, mielőtt megszólalnál" },
       {
         type: "p",
-        text: "Mielőtt bárkivel beszélgetnél, a testbeszéded már sokat elárul arról, mennyire vagy nyitott. Egy nyitott testtartás (nem keresztbe font kar, felemelt fej, rövid szemkontaktus) sokkal könnyebbé teszi mások számára, hogy odalépjenek hozzád, mintha telefonba nézve, zárkózottan állnál a csoport szélén. Nem kell azonnal beszélgetést kezdeményezned: elég, ha látszik rajtad, hogy szívesen fogadnál egy megszólítást.",
+        text: "Mielőtt bárkivel beszélgetnél, a testbeszéded már sokat elárul arról, mennyire vagy nyitott. Egy nyitott testtartás (nem keresztbe font kar, felemelt fej, rövid szemkontaktus) sokkal könnyebbé teszi mások számára, hogy odalépjenek hozzád, mintha telefonba nézve, zárkózottan állnál a csoport szélén. Nem kell azonnal beszélgetést kezdeményezned, elég, ha látszik rajtad, hogy szívesen fogadnál egy megszólítást.",
       },
-      { type: "h2", text: "Használd ki a közös tevékenységet beszélgetési alapként" },
+      { type: "h2", text: "Építs a közös tevékenységre beszélgetési alapként" },
       {
         type: "p",
-        text: "Az egyik legnagyobb előnye annak, ha egy aktivitás köré szerveződő közösséghez csatlakozol (futás, könyvklub, társasjáték), hogy sosem kell a semmiből beszélgetést indítanod. Mindig ott a közös téma: hogy ment a mai táv, mit gondolsz a könyvről, ki nyerte az előző kört. Ez jóval kevésbé megterhelő, mint egy tisztán társasági eseményen, ahol a beszélgetést a nulláról kell felépíteni.",
+        text: "Az egyik legnagyobb előnye annak, ha egy aktivitás köré szerveződő közösséghez csatlakozol, hogy sosem kell a semmiből beszélgetést indítanod. Mindig ott a közös téma: hogy ment a mai táv, mit gondolsz a könyvről, ki nyerte az előző kört. Ez sokkal kevésbé megterhelő, mint egy tisztán társasági eseményen, ahol a beszélgetést a nulláról kell felépíteni.",
       },
       {
         type: "list",
@@ -162,7 +162,7 @@ export const posts: BlogPost[] = [
             a: "Ez gyakori, és nem jelenti azt, hogy rosszul csináltad. A legtöbb visszatérő közösségi alkalomnál a második-harmadik alkalomra alakulnak ki az első igazi ismeretségek.",
           },
           {
-            q: "Melyik budapesti közösségek a legjobbak, ha kifejezetten újként, ismerősök nélkül költöztem a városba?",
+            q: "Melyik budapesti közösségek a legjobbak, ha újként, ismerősök nélkül költöztem a városba?",
             a: "A rendszeres, alacsony belépési küszöbű közösségek (ingyenes futóklubok, nyelvcsere-estek, könyvklubok) a legjobb kiindulópont, mert nincs elvárt előzetes tudás vagy kapcsolat.",
           },
         ],
@@ -186,7 +186,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Budapest tele van nemzetközi közösséggel: külföldiek, digitális nomádok, és olyan helyiek, akik szívesen gyakorolnának egy idegen nyelvet valódi, élő beszélgetésben. Az alábbi négy közösség mind aktív, ingyenesen látogatható, és mindegyiknek pontosan az a lényege, hogy új emberekkel hozzon össze, akár egy közös nyelv, akár egyszerűen a közös nyitottság mentén.",
+        text: "Budapest tele van nemzetközi közösséggel: külföldiek, digitális nomádok, és olyan helyiek, akik szívesen gyakorolnának egy idegen nyelvet valódi, élő beszélgetésben. Ez a négy közösség mind aktív, ingyenesen látogatható, és mindegyiknek az a lényege, hogy új emberekkel hozzon össze, akár egy közös nyelv, akár egyszerűen a közös nyitottság mentén.",
       },
       {
         type: "clublist",
@@ -213,10 +213,10 @@ export const posts: BlogPost[] = [
           },
         ],
       },
-      { type: "h2", text: "Melyiket válaszd, ha kifejezetten nyelvet gyakorolnál?" },
+      { type: "h2", text: "Melyiket válaszd, ha tényleg nyelvet gyakorolnál?" },
       {
         type: "p",
-        text: "Ha konkrétan nyelvgyakorlás a cél, a Budapest Language Exchange (BPLX) a legrégebbi és legkiforrottabb formátum erre, mert a struktúrája kifejezetten a rotáló beszélgetésekre épül. Ha inkább laza, nyelvfüggetlen ismerkedésre vágysz nemzetközi közegben, az International Socializing in Budapest szombat esti alkalmai jobban illenek hozzád. A Budapest Digital Nomads elsősorban azoknak jó, akik szakmailag is szeretnének kapcsolódni más külföldiekhez, a Havervagy pedig azoknak, akik egyszerűen csak új baráti kört keresnek, nyelvtől és szakmától teljesen függetlenül.",
+        text: "Ha konkrétan nyelvgyakorlás a cél, a Budapest Language Exchange (BPLX) a legrégebbi és legkiforrottabb formátum erre, hiszen a struktúrája a rotáló beszélgetésekre épül. Ha inkább laza, nyelvfüggetlen ismerkedésre vágysz nemzetközi közegben, az International Socializing in Budapest szombat esti alkalmai jobban illenek hozzád. A Budapest Digital Nomads elsősorban azoknak jó, akik szakmailag is kapcsolódnának más külföldiekhez, a Havervagy pedig azoknak, akik egyszerűen csak új baráti kört keresnek, nyelvtől és szakmától függetlenül.",
       },
       {
         type: "citation",
@@ -228,7 +228,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             q: "Kell-e jól beszélnem angolul ezekhez a közösségekhez?",
-            a: "Nem feltétlenül. A legtöbb ilyen alkalom kifejezetten kevert szintű, sok résztvevő maga is nyelvet gyakorol, tehát a tökéletlen nyelvtudás nem akadály.",
+            a: "Nem feltétlenül. A legtöbb ilyen alkalom kevert szintű, sok résztvevő maga is nyelvet gyakorol, tehát a tökéletlen nyelvtudás nem akadály.",
           },
           {
             q: "Kell-e előzetesen jelentkezni ezekre az alkalmakra?",
@@ -255,7 +255,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Az egyik leggyakoribb ok, amiért valaki nem csatlakozik egy közösséghez, hogy nincs kivel elmennie elsőre. Az alábbi nyolc budapesti közösségnek pontosan az a lényege, hogy egyedül érkező emberekre van kitalálva: vegyes hátterű, nyitott csoportok, ahol nem kell ismerőssel érkezned, és nem is számítanak rá.",
+        text: "Az egyik leggyakoribb ok, amiért valaki nem csatlakozik egy közösséghez, hogy nincs kivel elmennie elsőre. Ez a nyolc budapesti közösség pont erre van kitalálva: vegyes hátterű, nyitott csoportok, ahol nem kell ismerőssel érkezned, és nem is számítanak rá.",
       },
       {
         type: "clublist",
@@ -282,30 +282,30 @@ export const posts: BlogPost[] = [
           },
           {
             name: "International Socializing in Budapest",
-            note: "Heti szombat esti összejövetel helyieknek, expatoknak és utazóknak nyelvgyakorlásra és ismerkedésre, kifejezetten egyedül érkezőkre kalibrálva.",
+            note: "Heti szombat esti összejövetel helyieknek, expatoknak és utazóknak nyelvgyakorlásra és ismerkedésre, pont az egyedül érkezőkre szabva.",
             href: "https://www.meetup.com/international-socializing-in-budapest/",
           },
           {
             name: "Just Connect",
-            note: "Offline közösségi eseménysorozat, amely hegyi túrákkal és laza összejövetelekkel hoz össze nyitott embereket, sokszor kifejezetten azoknak, akik új városban keresnek társaságot.",
+            note: "Offline közösségi eseménysorozat, amely hegyi túrákkal és laza összejövetelekkel hoz össze nyitott embereket, sokszor pont azoknak, akik új városban keresnek társaságot.",
             href: "https://www.instagram.com/justconnect.hu/",
           },
           {
             name: "Budapest Personal Growth Meetup",
-            note: "Nyílt, vallástól és szervezettől független meditációs és önismereti közösség, változó helyszíneken. A közös téma (önismeret) miatt a beszélgetések gyakran mélyebbek, mint egy átlagos ismerkedős eseményen.",
+            note: "Nyílt, vallástól és szervezettől független meditációs és önismereti közösség, változó helyszíneken. A közös téma miatt a beszélgetések gyakran mélyebbek, mint egy átlagos ismerkedős eseményen.",
             href: "https://www.meetup.com/budapest-personal-growth-szemelyes-fejl%C5%91des-meetup/",
           },
           {
             name: "Havervagy",
-            note: "Közösség nyitott, hasonló gondolkodású embereknek, akik szeretnének új barátokat találni, kifejezetten azzal a céllal létrehozva, hogy az egyedül érkezők is otthon érezzék magukat.",
+            note: "Közösség nyitott, hasonló gondolkodású embereknek, akik szeretnének új barátokat találni: azzal a céllal jött létre, hogy az egyedül érkezők is otthon érezzék magukat.",
             href: "https://www.instagram.com/havervagy/",
           },
         ],
       },
-      { type: "h2", text: "Miért pont ezek a közösségek egyedülállóknak valók?" },
+      { type: "h2", text: "Miért pont ezek a közösségek jók egyedülállóknak?" },
       {
         type: "p",
-        text: "Mindegyik felsorolt közösségnek van egy közös vonása: a résztvevők nagy része maga is egyedül, ismerős nélkül érkezik, tehát a csoport hozzá van szokva az új arcokhoz. Nincs zárt, régóta összeszokott klikk, amibe nehéz bekerülni, a rendszeres, nyílt alkalmak miatt mindig van friss ismerkedés, és a szervezők is tudatosan figyelnek arra, hogy az újonnan érkezők ne érezzék magukat kívülállónak.",
+        text: "Mindegyik felsorolt közösségnek van egy közös vonása: a résztvevők nagy része maga is egyedül, ismerős nélkül érkezik, tehát a csoport hozzá van szokva az új arcokhoz. Nincs zárt, régóta összeszokott klikk, amibe nehéz bekerülni, a rendszeres, nyílt alkalmak miatt mindig van friss ismerkedés, a szervezők pedig tudatosan figyelnek arra, hogy az újonnan érkezők ne érezzék magukat kívülállónak.",
       },
       {
         type: "citation",
@@ -317,11 +317,11 @@ export const posts: BlogPost[] = [
         items: [
           {
             q: "Melyik a legkevésbé megterhelő belépő, ha még sosem jártam hasonló közösségben?",
-            a: "A Mozaik Med szigeti futása vagy a TIA Game Cave a legkevésbé megterhelő kezdés, mert nincs elvárt előzetes tudás, és a hangulat kifejezetten laza.",
+            a: "A Mozaik Med szigeti futása vagy a TIA Game Cave a legkevésbé megterhelő kezdés, mert nincs elvárt előzetes tudás, és a hangulat igazán laza.",
           },
           {
             q: "Mennyire kell aktívnak vagy extrovertáltnak lennem ezekhez a közösségekhez?",
-            a: "Egyáltalán nem szükséges: a legtöbb felsorolt közösség kifejezetten introvertált vagy csendesebb embereknek is barátságos, mert a közös tevékenység (futás, olvasás, társasjáték) önmagában is beszélgetési alapot ad.",
+            a: "Egyáltalán nem szükséges: a legtöbb felsorolt közösség csendesebb, introvertáltabb embereknek is barátságos, mert a közös tevékenység (futás, olvasás, társasjáték) önmagában is beszélgetési alapot ad.",
           },
         ],
       },
@@ -344,7 +344,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A magány nem csak kellemetlen érzés, hanem mérhető egészségügyi kockázati tényező is. Az Egészségügyi Világszervezet (WHO) 2023-as jelentése a társas elszigeteltséget és a magányt globális közegészségügyi problémaként azonosította, hasonló súlyú kockázati tényezőként, mint a dohányzás vagy a mozgásszegény életmód. Ez azt jelenti, hogy a rendszeres közösségi részvétel nem luxus vagy szabadidős tevékenység, hanem egy olyan beruházás, aminek mérhető hozadéka van a hosszú távú egészségre.",
+        text: "A magány nem csak kellemetlen érzés, hanem mérhető egészségügyi kockázati tényező is. Az Egészségügyi Világszervezet (WHO) 2023-as jelentése a társas elszigeteltséget és a magányt globális közegészségügyi problémaként azonosította, hasonló súlyú kockázati tényezőként, mint a dohányzás vagy a mozgásszegény életmód. Ez azt jelenti, hogy a rendszeres közösségi részvétel nem luxus vagy szabadidős tevékenység, hanem olyan befektetés, aminek mérhető hozadéka van a hosszú távú egészségre.",
       },
       {
         type: "citation",
@@ -359,17 +359,17 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Miért nehezebb ez felnőttként, mint gyerekként?" },
       {
         type: "p",
-        text: "Gyerekként és egyetemistaként a barátságok szinte automatikusan alakulnak ki: közös iskola, kollégium, közös órarend biztosítja a rendszeres találkozást. Felnőttként, munka mellett, ez a struktúra megszűnik, ezért kell tudatosan felkeresni azokat a helyeket (klubok, közösségek, rendszeres programok), amik pótolják ezt a korábban véletlenszerűen adott találkozási felületet.",
+        text: "Gyerekként és egyetemistaként a barátságok szinte automatikusan alakulnak ki: közös iskola, kollégium, közös órarend biztosítja a rendszeres találkozást. Felnőttként, munka mellett ez a struktúra megszűnik, ezért kell tudatosan felkeresni azokat a helyeket (klubok, közösségek, rendszeres programok), amik pótolják ezt a korábban véletlenszerűen adott találkozási felületet.",
       },
       { type: "h2", text: "Mennyi közösség elég: a minőség vagy a mennyiség számít?" },
       {
         type: "p",
-        text: "Nem szükséges tucatnyi közösséghez csatlakozni ahhoz, hogy érezhető legyen a különbség. A kutatások szerint már egy vagy két, rendszeresen látogatott közösség is mérhetően csökkenti a magány érzését, feltéve, hogy a részvétel valóban rendszeres, és nem csak alkalmi. Sokkal nagyobb védőhatása van egy heti visszatérő futóklubnak, mint négy különböző, ritkán látogatott csoportnak, mert a rendszeresség az, ami a felszínes ismerkedésből tényleges kapcsolatot épít.",
+        text: "Nem kell tucatnyi közösséghez csatlakoznod ahhoz, hogy érezhető legyen a különbség. A kutatások szerint már egy vagy két, rendszeresen látogatott közösség is mérhetően csökkenti a magány érzését, feltéve, hogy a részvétel valóban rendszeres, nem csak alkalmi. Sokkal nagyobb védőhatása van egy heti visszatérő futóklubnak, mint négy különböző, ritkán látogatott csoportnak, mert a rendszeresség az, ami a felszínes ismerkedésből tényleges kapcsolatot épít.",
       },
       { type: "h2", text: "Mi történik, ha halogatod a közösségkeresést?" },
       {
         type: "p",
-        text: "A magány sajátossága, hogy önerősítő folyamat: minél tovább marad valaki elszigetelve, annál nehezebbnek tűnik az első lépés megtétele, ami tovább mélyíti az elszigeteltséget. Ezért érdemes minél korábban, még mielőtt a magány krónikussá válna, tudatosan keresni egy rendszeres közösségi alkalmat, ahelyett hogy a megfelelő pillanatra várnánk. A kutatások szerint a halogatás maga is növeli a szorongást a társas helyzetekkel kapcsolatban, tehát minél tovább vársz, annál nehezebb lesz az első lépés.",
+        text: "A magány sajátossága, hogy önerősítő folyamat: minél tovább marad valaki elszigetelve, annál nehezebbnek tűnik az első lépés megtétele, ez pedig tovább mélyíti az elszigeteltséget. Ezért érdemes minél korábban, még mielőtt a magány krónikussá válna, tudatosan keresni egy rendszeres közösségi alkalmat, ahelyett hogy a megfelelő pillanatra várnál. A kutatások szerint maga a halogatás is növeli a szorongást a társas helyzetekkel kapcsolatban, tehát minél tovább vársz, annál nehezebb lesz az első lépés.",
       },
       {
         type: "list",
@@ -411,7 +411,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A társasjáték az egyik legjobb ürügy az ismerkedésre, mert a játék önmagában ad beszélgetési alapot, és nem kell aktívan társalgási témát keresned. Budapesten több aktív, ingyenesen látogatható társasjáték-közösség működik, ezek közül mutatunk be hármat, amelyekhez kortól és tapasztalattól függetlenül csatlakozhatsz.",
+        text: "A társasjáték az egyik legjobb ürügy az ismerkedésre, mert a játék önmagában ad beszélgetési alapot, és nem kell aktívan társalgási témát keresned. Budapesten több aktív, ingyenesen látogatható társasjáték-közösség működik, ebből mutatunk be hármat, amelyekhez kortól és tapasztalattól függetlenül csatlakozhatsz.",
       },
       {
         type: "clublist",
@@ -423,7 +423,7 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Budapest Board Game Nights",
-            note: "Angol nyelvű társasjáték-esték, amelyek változó budapesti helyszíneken (gyakran társasjáték-bárokban) zajlanak. A közösség kifejezetten nyitott mindenkire, aki angolul szeretne beszélgetni és játszani egyszerre.",
+            note: "Angol nyelvű társasjáték-esték, amelyek változó budapesti helyszíneken, gyakran társasjáték-bárokban zajlanak. Bárkit szívesen látnak, aki angolul szeretne beszélgetni és játszani egyszerre.",
             href: "https://www.facebook.com/bpboardgames/",
           },
           {
@@ -436,7 +436,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Melyiket válaszd, ha még sosem jártál társasjáték-közösségben?" },
       {
         type: "p",
-        text: "A TIA Game Cave a legjobb kiindulópont, ha magyar nyelvű, ingyenes és tagságmentes közeget keresel. Ha inkább nemzetközi, angol nyelvű társaságban ismerkednél, a Budapest Board Game Nights és a Board Games in English is kiváló választás: mindkettő rendszeresen vált helyszínt, így folyamatosan van apropó egy új találkozóra. A Board Games in English nagyobb létszáma miatt szinte minden héten van program, ha gyakrabban szeretnél járni.",
+        text: "A TIA Game Cave a legjobb kiindulópont, ha magyar nyelvű, ingyenes és tagságmentes közeget keresel. Ha inkább nemzetközi, angol nyelvű társaságban ismerkednél, a Budapest Board Game Nights és a Board Games in English is kiváló választás: mindkettő rendszeresen vált helyszínt, így folyamatosan van apropó egy új találkozóra. A Board Games in English nagyobb létszáma miatt szinte minden héten van program, ha gyakrabban járnál.",
       },
       {
         type: "faq",
@@ -447,7 +447,7 @@ export const posts: BlogPost[] = [
           },
           {
             q: "Milyen korosztálynak ajánlottak ezek a közösségek?",
-            a: "A TIA Game Cave kifejezetten széles korosztályt (14-99 év) céloz meg, a nemzetközi közösségek pedig elsősorban felnőtteknek szólnak, de nincs szigorú korhatár egyiknél sem.",
+            a: "A TIA Game Cave széles korosztályt (14-99 év) céloz meg, a nemzetközi közösségek pedig elsősorban felnőtteknek szólnak, de nincs szigorú korhatár egyiknél sem.",
           },
         ],
       },
@@ -461,7 +461,7 @@ export const posts: BlogPost[] = [
     slug: "joga-meditacio-kozossegek-kezdoknek",
     title: "Jóga és meditáció Budapesten kezdőknek: 4 közösség, ahol nulla tapasztalattal is elindulhatsz",
     description:
-      "Szabadtéri jóga, wellness-közösség és önismereti meditáció Budapesten: négy valódi közösség, amely kifejezetten kezdőknek is barátságos.",
+      "Szabadtéri jóga, wellness-közösség és önismereti meditáció Budapesten: négy valódi közösség, amely kezdőknek is barátságos.",
     kind: "listicle",
     category: "Jóga / Wellness",
     author: DEFAULT_AUTHOR,
@@ -470,7 +470,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A jóga és a meditáció sokak számára ijesztően szakértőinek tűnik elsőre, pedig a legtöbb budapesti közösség pontosan azoknak szól, akik korábban sosem próbálták. Az alábbi négy közösség mind nyitott kezdőknek, és egyikhez sem kell drága stúdióbérlet vagy előzetes tudás.",
+        text: "A jóga és a meditáció sokak számára ijesztően szakértőinek tűnik elsőre, pedig a legtöbb budapesti közösség pontosan azoknak szól, akik korábban sosem próbálták. Ez a négy közösség mind nyitott kezdőknek, és egyikhez sem kell drága stúdióbérlet vagy előzetes tudás.",
       },
       {
         type: "clublist",
@@ -482,17 +482,17 @@ export const posts: BlogPost[] = [
           },
           {
             name: "Conscious Budapest",
-            note: "Wellness-közösség jógával, légzőgyakorlatokkal, alkoholmentes társasági alkalmakkal és közösségi sétákkal. A cél kifejezetten a valódi, mély kapcsolódás, nem csak a fizikai gyakorlat.",
+            note: "Wellness-közösség jógával, légzőgyakorlatokkal, alkoholmentes társasági alkalmakkal és közösségi sétákkal. A cél a valódi, mély kapcsolódás, nem csak a fizikai gyakorlat.",
             href: "https://www.meetup.com/yogamindfulnessbudapest/",
           },
           {
             name: "Budapest Personal Growth Meetup",
-            note: "Nyílt, vallástól és szervezettől független meditációs és önismereti közösség, változó helyszíneken. Kifejezetten azoknak ajánlott, akik a fizikai gyakorlat mellett a belső munkára is nyitottak.",
+            note: "Nyílt, vallástól és szervezettől független meditációs és önismereti közösség, változó helyszíneken. Azoknak ajánlott elsősorban, akik a fizikai gyakorlat mellett a belső munkára is nyitottak.",
             href: "https://www.meetup.com/budapest-personal-growth-szemelyes-fejl%C5%91des-meetup/",
           },
           {
             name: "Artemis Compass",
-            note: "Természethez kapcsolódó, önismereti programok, ahol a természet csendje és nyugalma segít közelebb kerülni önmagunkhoz. Jó választás, ha a hagyományos teremben tartott meditáció helyett inkább a szabadban keresnéd a nyugalmat.",
+            note: "Természethez kapcsolódó, önismereti programok, ahol a természet csendje és nyugalma segít közelebb kerülni önmagunkhoz. Jó választás, ha a teremben tartott meditáció helyett inkább a szabadban keresnéd a nyugalmat.",
             href: "https://www.facebook.com/profile.php?id=61574524619037",
           },
         ],
@@ -500,7 +500,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Melyiket válaszd, ha teljesen kezdő vagy?" },
       {
         type: "p",
-        text: "Ha a fizikai gyakorlat áll közelebb hozzád, a Margitszigeti Jóga a legkevésbé megterhelő kezdés, mert szabadtéri, laza hangulatú, és nem igényel semmilyen előzetes tudást. Ha inkább a társasági, közösségi élmény a fontos, a Conscious Budapest szélesebb programkínálata (jóga mellett séták, teázások, szauna) jobban illik hozzád. Ha kifejezetten az önismereti, elmélyültebb irányba mennél, a Budapest Personal Growth Meetup vagy az Artemis Compass a jobb választás.",
+        text: "Ha a fizikai gyakorlat áll közelebb hozzád, a Margitszigeti Jóga a legkevésbé megterhelő kezdés, mert szabadtéri, laza hangulatú, és nem igényel semmilyen előzetes tudást. Ha inkább a társasági, közösségi élmény a fontos, a Conscious Budapest szélesebb programkínálata (jóga mellett séták, teázások, szauna) jobban illik hozzád. Ha pedig az önismereti, elmélyültebb irányba mennél, a Budapest Personal Growth Meetup vagy az Artemis Compass a jobb választás.",
       },
       {
         type: "citation",
@@ -544,7 +544,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Kezdd a spontán, nyílt pályás közösségeknél" },
       {
         type: "p",
-        text: "A legkönnyebb belépési pont azok a közösségek, ahol nincs fix csapatbeosztás, csak megjelensz, és csatlakozol az aktuális meccshez. Budapesten ilyen például a Bikás Park Streetball, ahol utcai kosárlabda-meccsekhez lehet spontán csatlakozni, vagy a Budapest Bike Polo, amely heti rendszerességű edzéseket és meccseket tart kezdőknek is nyitottan.",
+        text: "A legkönnyebb belépési pont azok a közösségek, ahol nincs fix csapatbeosztás, csak megjelensz, és csatlakozol az aktuális meccshez. Budapesten ilyen például a Bikás Park Streetball, ahol utcai kosárlabda-meccsekhez lehet spontán csatlakozni, vagy a Budapest Bike Polo, amely heti rendszerességű edzéseket és meccseket tart, kezdőknek is nyitottan.",
       },
       { type: "h2", text: "Próbáld ki a ChempZ appot, ha egy adott pályához vagy sportághoz keresel társakat" },
       {
@@ -564,7 +564,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Keress rá Facebook-csoportokra, ha konkrét sportágat szeretnél" },
       {
         type: "p",
-        text: "Ha kifejezetten focihoz, kosárlabdához vagy röplabdához keresel csapattársakat, érdemes rákeresni a hobbi csapatsport Facebook-csoportokra: ezekben rendszeresen posztolnak azok a csapatok, akiknek éppen hiányzik egy-két játékosuk egy adott meccshez vagy szezonhoz. Ez a legjobb módja annak, hogy fix csapatba kerülj anélkül, hogy egyesületi tagságot vállalnál.",
+        text: "Ha focihoz, kosárlabdához vagy röplabdához keresel csapattársakat, érdemes rákeresni a hobbi csapatsport Facebook-csoportokra: ezekben rendszeresen posztolnak azok a csapatok, akiknek éppen hiányzik egy-két játékosuk egy adott meccshez vagy szezonhoz. Ez a legjobb módja annak, hogy fix csapatba kerülj anélkül, hogy egyesületi tagságot vállalnál.",
       },
       {
         type: "citation",
@@ -574,7 +574,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Ne várd meg, amíg tökéletesen felkészült leszel" },
       {
         type: "p",
-        text: "A hobbi szintű csapatoknál a cél a közös élmény, nem a versenyszerű teljesítmény, ezért nem kell edzésbe hozott formában érkezned. A legtöbb szervező kifejezetten örül az új arcoknak, és a csapat szintjéhez igazítja a tempót, hasonlóan ahhoz, ahogy a futóklubok is vegyes szinteket fogadnak be.",
+        text: "A hobbi szintű csapatoknál a cél a közös élmény, nem a versenyszerű teljesítmény, ezért nem kell edzésbe hozott formában érkezned. A legtöbb szervező örül az új arcoknak, és a csapat szintjéhez igazítja a tempót, hasonlóan ahhoz, ahogy a futóklubok is vegyes szinteket fogadnak be.",
       },
       {
         type: "faq",
@@ -585,7 +585,7 @@ export const posts: BlogPost[] = [
           },
           {
             q: "Mi van, ha egy adott csapatnál nincs éppen hely?",
-            a: "Ez gyakori, mert a hobbi csapatoknak korlátozott a létszáma. Érdemes több csoportba is beszállni és több csapatot is megkeresni, mert Budapesten egyszerre több hasonló kezdeményezés fut párhuzamosan.",
+            a: "Ez gyakori, mert a hobbi csapatoknak korlátozott a létszáma. Érdemes több csoportba is beszállni, és több csapatot is megkeresni, mert Budapesten egyszerre több hasonló kezdeményezés fut párhuzamosan.",
           },
         ],
       },
@@ -608,7 +608,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Ha valaha megpróbáltál már közösséget keresni Budapesten, valószínűleg pontosan tudod, milyen szétszórt ez a terep: az egyik klub Meetup-on szervez, a másik Facebook-csoportban, a harmadik meg csak Instagramon posztol, valahol elrejtve a story highlightok között. Nincs egyetlen egyértelmű hely, ahova bárki automatikusan menne. Az alábbiakban négy platformot hasonlítunk össze aszerint, hogy melyik mire jó valójában, nem pedig aszerint, hogy melyiket ismered a legjobban.",
+        text: "Ha valaha megpróbáltál már közösséget keresni Budapesten, valószínűleg pontosan tudod, milyen szétszórt ez a terep: az egyik klub Meetupon szervez, a másik Facebook-csoportban, a harmadik meg csak Instagramon posztol, valahol elrejtve a story highlightok között. Nincs egyetlen egyértelmű hely, ahova bárki automatikusan menne. Négy platformot hasonlítunk össze aszerint, hogy melyik mire jó valójában, nem pedig aszerint, hogy melyiket ismered a legjobban.",
       },
       {
         type: "table",
@@ -647,12 +647,12 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Miért nehéz csak Facebookon vagy Instagramon keresgélni?" },
       {
         type: "p",
-        text: "A Facebook és az Instagram remek arra, hogy egy már megtalált közösséggel kapcsolatban maradj, de rossz felfedezőeszköz. A keresés a legtöbbször csak a csoport vagy a fiók nevére működik jól, a leírásra vagy a tevékenység típusára nem lehet rendesen szűrni. Ha nem tudod pontosan, mit keresel, könnyen tíz-húsz percet elveszíthetsz a görgetésben, mielőtt egyáltalán rátalálsz egy releváns csoportra.",
+        text: "A Facebook és az Instagram remek arra, hogy egy már megtalált közösséggel kapcsolatban maradj, felfedezőeszköznek viszont gyenge. A keresés a legtöbbször csak a csoport vagy a fiók nevére működik jól, a leírásra vagy a tevékenység típusára nem lehet rendesen szűrni. Ha nem tudod pontosan, mit keresel, könnyen tíz-húsz percet elveszíthetsz a görgetésben, mielőtt egyáltalán rátalálsz egy releváns csoportra.",
       },
       { type: "h2", text: "Miben más egy dedikált klublista, mint a Meetup?" },
       {
         type: "p",
-        text: "A Meetup nagyszerű nemzetközi eszköz, és Budapesten is több aktív angol nyelvű közösség szervez rajta programokat. A különbség inkább abban van, mennyire helyi és magyar nyelvű a kínálat: egy kifejezetten Budapestre fókuszáló, magyar nyelvű lista (mint amit itt olvasol) jobban lefedi azokat a kisebb, informális magyar közösségeket is, amik sosem regisztráltak Meetupra, mert nem érezték szükségét egy nemzetközi platformnak.",
+        text: "A Meetup nagyszerű nemzetközi eszköz, és Budapesten is több aktív angol nyelvű közösség szervez rajta programokat. A különbség inkább abban van, mennyire helyi és magyar nyelvű a kínálat: egy Budapestre fókuszáló, magyar nyelvű lista (mint amit itt olvasol) jobban lefedi azokat a kisebb, informális magyar közösségeket is, amik sosem regisztráltak Meetupra, mert nem érezték szükségét egy nemzetközi platformnak.",
       },
       {
         type: "citation",
@@ -668,7 +668,7 @@ export const posts: BlogPost[] = [
           },
           {
             q: "Miért van szükség egyáltalán egy külön klublistára a Facebook és a Meetup mellett?",
-            a: "Mert egyik platform sem lett kifejezetten közösség-felfedezésre tervezve: mindkettő elsősorban a már megtalált csoportok kezelésére és eseményszervezésre optimalizált, nem a böngészésre.",
+            a: "Mert egyik platform sem közösség-felfedezésre lett tervezve: mindkettő elsősorban a már megtalált csoportok kezelésére és eseményszervezésre optimalizált, nem a böngészésre.",
           },
         ],
       },
@@ -691,22 +691,22 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Sokan azért halogatják a sportolást Budapesten, mert nincs kivel elmenniük. Ez érthető, de fordítva is igaz: a legtöbb budapesti sportközösség kifejezetten azokra épül, akik egyedül érkeznek. A közös mozgás olyan szerkezetet ad a találkozásnak, ami sok más társasági helyzetből hiányzik, és pontosan ez teszi könnyebbé az egyedüli kezdést, mint amilyennek elsőre tűnik.",
+        text: "Sokan azért halogatják a sportolást Budapesten, mert nincs kivel elmenniük. Ez érthető, de fordítva is igaz: a legtöbb budapesti sportközösség pont azokra épül, akik egyedül érkeznek. A közös mozgás olyan szerkezetet ad a találkozásnak, ami sok más társasági helyzetből hiányzik, ez teszi könnyebbé az egyedüli kezdést, mint amilyennek elsőre tűnik.",
       },
       { type: "h2", text: "A közös mozgás levesz egy réteg nyomást a beszélgetésről" },
       {
         type: "p",
-        text: "Amikor futsz, kosarazol vagy pickleballozol valakivel, nem kell aktívan társalgási témát keresned. A mozgás maga adja a keretet: lehet csendben futni egymás mellett, aztán a szünetben szó nélkül is természetesen alakul ki beszélgetés. Ez sokkal kevésbé megterhelő, mint egy tisztán társasági eseményen ülni és aktívan beszélgetést kezdeményezni valakivel, akit még nem ismersz.",
+        text: "Amikor futsz, kosarazol vagy pickleballozol valakivel, nem kell aktívan társalgási témát keresned. A mozgás maga adja a keretet: lehet csendben futni egymás mellett, aztán a szünetben szó nélkül is természetesen alakul ki beszélgetés. Ez sokkal kevésbé megterhelő, mint egy tisztán társasági eseményen ülni, és aktívan beszélgetést kezdeményezni valakivel, akit még nem ismersz.",
       },
       { type: "h2", text: "A vegyes szintű csoportok miatt nem kell felkészültnek lenned" },
       {
         type: "p",
-        text: "A legtöbb itt felsorolt sportközösség kifejezetten vegyes szintekre épül: senki nem várja el, hogy versenyszerű formában érkezz. Az Angyalföldi Futóklub és a Mozaik Med közösségi futása pontosan emiatt jó kiindulópont, mert a tempót mindig a csoporthoz igazítják, nem fordítva.",
+        text: "A legtöbb itt felsorolt sportközösség vegyes szintekre épül: senki nem várja el, hogy versenyszerű formában érkezz. Az Angyalföldi Futóklub és a Mozaik Med közösségi futása pont emiatt jó kiindulópont, hiszen a tempót mindig a csoporthoz igazítják, nem fordítva.",
       },
       { type: "h2", text: "A spontán, nyílt alkalmak csökkentik a belépési küszöböt" },
       {
         type: "p",
-        text: "Azoknál a közösségeknél, ahol nincs fix csapatbeosztás, csak megjelensz és csatlakozol az aktuális meccshez, jóval kisebb a tétje az első alkalomnak. A Bikás Park Streetball és a PickMeBall Club is ilyen: nem kell előre bejelentkezned egy csapatba, elég odaállni, és a csoport magától befogad.",
+        text: "Azoknál a közösségeknél, ahol nincs fix csapatbeosztás, csak megjelensz és csatlakozol az aktuális meccshez, jóval kisebb a tétje az első alkalomnak. A Bikás Park Streetball és a PickMeBall Club is ilyen: nem kell előre bejelentkezned egy csapatba, elég odaállni, a csoport magától befogad.",
       },
       {
         type: "clublist",
@@ -743,7 +743,7 @@ export const posts: BlogPost[] = [
         items: [
           {
             q: "Melyik sportközösséggel érdemes kezdeni, ha teljesen új vagyok ebben?",
-            a: "A Mozaik Med szigeti futása vagy a Bikás Park Streetball a legkevésbé megterhelő kezdés, mert nincs elvárt előzetes tudás, és a hangulat kifejezetten laza.",
+            a: "A Mozaik Med szigeti futása vagy a Bikás Park Streetball a legkevésbé megterhelő kezdés, mert nincs elvárt előzetes tudás, és a hangulat igazán laza.",
           },
           {
             q: "Mi van, ha egyáltalán nem vagyok formában?",
@@ -770,7 +770,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Budapesten nem csak futóklubból van sok: szinte minden sportágnak megvan a maga informális, ingyenesen látogatható közössége. Az alábbi táblázat sportág szerint mutatja meg, hova érdemes menned, attól függően, mi érdekel és mennyire vagy kezdő.",
+        text: "Budapesten nem csak futóklubból van sok: szinte minden sportágnak megvan a maga informális, ingyenesen látogatható közössége. A táblázat sportág szerint mutatja meg, hova érdemes menned, attól függően, mi érdekel és mennyire vagy kezdő.",
       },
       {
         type: "table",
@@ -789,7 +789,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Melyiket válaszd, ha nem tudod, hol kezdd?" },
       {
         type: "p",
-        text: "Ha kifejezetten csapatban, meccsszerű keretek között sportolnál, a Bikás Park Streetball vagy a Budapest Bike Polo a jó kiindulópont, mert mindkettőnél elég megjelenned egy nyílt alkalmon. Ha inkább egyénileg, saját tempóban mozognál, de közösségi háttérrel, az I Bike Budapest vagy a Budapest Racquet Society illik jobban hozzád. Ha pedig egy vadonatúj, gyorsan terjedő sportot próbálnál ki, a PickMeBall Club pickleball közössége remek belépő, mivel a sportág maga is kifejezetten kezdőbarátnak számít világszerte.",
+        text: "Ha csapatban, meccsszerű keretek között sportolnál, a Bikás Park Streetball vagy a Budapest Bike Polo a jó kiindulópont, mindkettőnél elég megjelenned egy nyílt alkalmon. Ha inkább egyénileg, saját tempóban mozognál, de közösségi háttérrel, az I Bike Budapest vagy a Budapest Racquet Society illik jobban hozzád. Ha pedig egy vadonatúj, gyorsan terjedő sportot próbálnál ki, a PickMeBall Club pickleball közössége remek belépő, mivel maga a sportág is kezdőbarátnak számít világszerte.",
       },
       {
         type: "citation",
@@ -828,7 +828,7 @@ export const posts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A Budapesti Közösségek egy egyszerű dolgot próbál megoldani: hogy ne kelljen tucatnyi Facebook-csoportot és Instagram-fiókot végigböngészned ahhoz, hogy megtaláld a hozzád illő közösséget. Az alábbiakban végigvezetünk azon, pontosan hogyan érdemes használni az oldalt, az első kereséstől a tényleges csatlakozásig.",
+        text: "A Budapesti Közösségek egy egyszerű dolgot próbál megoldani: hogy ne kelljen tucatnyi Facebook-csoportot és Instagram-fiókot végigböngészned ahhoz, hogy megtaláld a hozzád illő közösséget. Végigvezetünk azon, pontosan hogyan érdemes használni az oldalt, az első kereséstől a tényleges csatlakozásig.",
       },
       { type: "h2", text: "Hol kezdd, ha még fogalmad sincs, mit keresel?" },
       {
@@ -838,7 +838,7 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Hogyan szűrj, ha már tudod, mit keresel?" },
       {
         type: "p",
-        text: "Ha pontosan tudod, milyen aktivitást keresel, ugorj egyenesen a Klubok oldalra, és vagy válassz kategóriát a legördülő listából, vagy írj be egy kulcsszót a keresőmezőbe. A keresés a klub nevében és a leírásában is talál egyezést, tehát akkor is működik, ha csak egy tevékenységre emlékszel (például „futás” vagy „társasjáték”), nem egy konkrét klubnévre.",
+        text: "Ha pontosan tudod, milyen aktivitást keresel, ugorj egyenesen a Klubok oldalra, és vagy válassz kategóriát a legördülő listából, vagy írj be egy kulcsszót a keresőmezőbe. A keresés a klub nevében és a leírásában is talál egyezést, tehát akkor is működik, ha csak egy tevékenységre emlékszel, mondjuk „futás” vagy „társasjáték”, nem egy konkrét klubnévre.",
       },
       { type: "h2", text: "Mi történik, ha rátaláltál egy klubra?" },
       {
@@ -896,12 +896,12 @@ export const posts: BlogPost[] = [
       { type: "h2", text: "Mire figyelj a klub közösségi oldalán, mielőtt megjelennél?" },
       {
         type: "p",
-        text: "A jó jel, ha a klub világosan kiírja a találkozási pontot, az időpontot és azt, hogy kezdők is jöhetnek-e. Ha a posztokban rendszeresen szerepel olyan mondat, mint „bárki csatlakozhat” vagy „nem kell tapasztalat”, az jó eséllyel azt jelenti, hogy a szervezők tudatosan gondoltak az újonnan érkezőkre, nem csak utólag toldották be ezt a mondatot.",
+        text: "Jó jel, ha a klub világosan kiírja a találkozási pontot, az időpontot, és azt, hogy kezdők is jöhetnek-e. Ha a posztokban rendszeresen szerepel olyan mondat, mint „bárki csatlakozhat” vagy „nem kell tapasztalat”, az jó eséllyel azt jelenti, hogy a szervezők tudatosan gondoltak az újonnan érkezőkre, nem csak utólag toldották be ezt a mondatot.",
       },
       { type: "h2", text: "Miért számít, hogy van-e vegyes szintű csoport?" },
       {
         type: "p",
-        text: "Ha egy klub kifejezetten megemlíti, hogy a tempót vagy a szintet a csoporthoz igazítják, az sokkal megbízhatóbb jel, mint egy általános „mindenkit szeretettel várunk” szlogen. A vegyes szintű csoportoknál a szervezők valóban számítanak rá, hogy lesznek kezdők, nem csak elméletben engedik meg a részvételüket.",
+        text: "Ha egy klub megemlíti, hogy a tempót vagy a szintet a csoporthoz igazítják, az sokkal megbízhatóbb jel, mint egy általános „mindenkit szeretettel várunk” szlogen. A vegyes szintű csoportoknál a szervezők valóban számítanak rá, hogy lesznek kezdők, nem csak elméletben engedik meg a részvételüket.",
       },
       { type: "h2", text: "Mit jelent, ha gyorsan válaszolnak egy privát üzenetre?" },
       {
@@ -913,17 +913,17 @@ export const posts: BlogPost[] = [
         items: [
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten, ahol a leírás is kifejezetten kiemeli, hogy bármilyen futótempóval csatlakozhatsz.",
+            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten, ahol a leírás is kiemeli, hogy bármilyen futótempóval csatlakozhatsz.",
             href: "https://mozaikmed.hu/",
           },
           {
             name: "Angyalföldi Futóklub",
-            note: "Kerületi futóklub, amely kifejezetten kezdőknek és haladóknak egyaránt szól, kerületi, kevésbé formális hangulattal.",
+            note: "Kerületi futóklub, amely kezdőknek és haladóknak egyaránt szól, kerületi, kevésbé formális hangulattal.",
             href: "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
           },
           {
             name: "TIA Game Cave",
-            note: "Ingyenes belépésű társasjáték-közösség, ahol nincs tagsági díj, és a szervezők kifejezetten széles korosztályt céloznak meg.",
+            note: "Ingyenes belépésű társasjáték-közösség, ahol nincs tagsági díj, és a szervezők széles korosztályt céloznak meg.",
             href: "https://www.facebook.com/groups/263358474501496/",
           },
         ],
