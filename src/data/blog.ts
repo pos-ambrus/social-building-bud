@@ -815,6 +815,143 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "hogyan-talalj-kozosseget-budapesti-kozossegekkel",
+    title: "Hogyan találj közösséget Budapesten a Budapesti Közösségek segítségével",
+    description:
+      "Lépésről lépésre útmutató, hogyan böngéssz, szűrj és csatlakozz egy valódi budapesti klubhoz a Budapesti Közösségek listán keresztül, regisztráció nélkül.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    body: [
+      {
+        type: "p",
+        text: "A Budapesti Közösségek egy egyszerű dolgot próbál megoldani: hogy ne kelljen tucatnyi Facebook-csoportot és Instagram-fiókot végigböngészned ahhoz, hogy megtaláld a hozzád illő közösséget. Az alábbiakban végigvezetünk azon, pontosan hogyan érdemes használni az oldalt, az első kereséstől a tényleges csatlakozásig.",
+      },
+      { type: "h2", text: "Hol kezdd, ha még fogalmad sincs, mit keresel?" },
+      {
+        type: "p",
+        text: "Ha nincs konkrét elképzelésed, a legjobb kiindulópont a főoldal kategória szerinti böngészője. Itt tizenhat kategória közül választhatsz (sport, nyelvcsere, könyvklub, jóga és sok más), mindegyikhez rövid leírással, hogy lásd, mire számíthatsz, mielőtt rákattintanál.",
+      },
+      { type: "h2", text: "Hogyan szűrj, ha már tudod, mit keresel?" },
+      {
+        type: "p",
+        text: "Ha pontosan tudod, milyen aktivitást keresel, ugorj egyenesen a Klubok oldalra, és vagy válassz kategóriát a legördülő listából, vagy írj be egy kulcsszót a keresőmezőbe. A keresés a klub nevében és a leírásában is talál egyezést, tehát akkor is működik, ha csak egy tevékenységre emlékszel (például „futás” vagy „társasjáték”), nem egy konkrét klubnévre.",
+      },
+      { type: "h2", text: "Mi történik, ha rátaláltál egy klubra?" },
+      {
+        type: "p",
+        text: "Minden klubkártyán ott van egy közvetlen link az adott közösség Instagram- vagy weboldalára. Nincs köztes regisztrációs lépés: a Budapesti Közösségek csak összekapcsol téged a klubbal, magát a csatlakozást közvetlenül ott intézed, ahol a közösség ténylegesen aktív.",
+      },
+      {
+        type: "list",
+        items: [
+          "Böngéssz kategória szerint a főoldalon, ha még nem tudod, mit keresel",
+          "Használd a keresőt vagy a szűrőt a Klubok oldalon, ha már van konkrét elképzelésed",
+          "Kattints a klub Instagram- vagy weboldal-linkjére, és lépj kapcsolatba közvetlenül velük",
+          "Ha elakadtál, olvasd el a blogot: sok konkrét listát és útmutatót találsz kategóriánként",
+        ],
+      },
+      {
+        type: "citation",
+        text: "Thinkific: statisztikák arról, miért fontos szerepet játszanak a közösségek az emberek életében",
+        href: "https://www.thinkific.com/blog/community-statistics/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell regisztrálnom a Budapesti Közösségek oldalán?",
+            a: "Nem, az oldal böngészéséhez soha nem kell fiókot létrehoznod. A tényleges csatlakozás mindig az adott klub saját Instagram- vagy weboldalán történik.",
+          },
+          {
+            q: "Mit tegyek, ha nem találom a keresett tevékenységet?",
+            a: "Írj emailt a Rólunk oldalon található címre: ha ismersz egy valódi, aktív budapesti közösséget, amit még nem listáztunk, szívesen felvesszük.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Kezdd itt: böngéssz kategória szerint, vagy ugorj egyenesen a teljes klublistára a Budapesti Közösségek oldalán.",
+      },
+    ],
+  },
+  {
+    slug: "kezdobarat-sportklubok-budapesten-igy-ismerd-fel",
+    title: "Kezdőbarát sportklubok Budapesten: így ismerd fel őket",
+    description:
+      "Milyen konkrét jelekből tudod megállapítani, hogy egy budapesti sportklub tényleg kezdőbarát-e, mielőtt először megjelennél egy edzésen.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    body: [
+      {
+        type: "p",
+        text: "Nem minden klub egyformán kezdőbarát, még akkor sem, ha a leírásában ez szerepel. Szerencsére van néhány konkrét jel, amiből már a csatlakozás előtt, a klub Instagram- vagy Facebook-oldalát végignézve is meg lehet állapítani, tényleg befogadó közegre számíthatsz-e, vagy inkább egy régóta összeszokott, zárt csapatra.",
+      },
+      { type: "h2", text: "Mire figyelj a klub közösségi oldalán, mielőtt megjelennél?" },
+      {
+        type: "p",
+        text: "A jó jel, ha a klub világosan kiírja a találkozási pontot, az időpontot és azt, hogy kezdők is jöhetnek-e. Ha a posztokban rendszeresen szerepel olyan mondat, mint „bárki csatlakozhat” vagy „nem kell tapasztalat”, az jó eséllyel azt jelenti, hogy a szervezők tudatosan gondoltak az újonnan érkezőkre, nem csak utólag toldották be ezt a mondatot.",
+      },
+      { type: "h2", text: "Miért számít, hogy van-e vegyes szintű csoport?" },
+      {
+        type: "p",
+        text: "Ha egy klub kifejezetten megemlíti, hogy a tempót vagy a szintet a csoporthoz igazítják, az sokkal megbízhatóbb jel, mint egy általános „mindenkit szeretettel várunk” szlogen. A vegyes szintű csoportoknál a szervezők valóban számítanak rá, hogy lesznek kezdők, nem csak elméletben engedik meg a részvételüket.",
+      },
+      { type: "h2", text: "Mit jelent, ha gyorsan válaszolnak egy privát üzenetre?" },
+      {
+        type: "p",
+        text: "Mielőtt először elmennél, írj egy rövid üzenetet a klubnak. Az, hogy milyen gyorsan és milyen hangnemben válaszolnak, sokat elárul arról, mennyire aktívan törődnek az új érdeklődőkkel. Egy kezdőbarát klub általában örül a kérdésnek, és konkrét, gyakorlati választ ad, nem csak egy általános linket küld vissza.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Mozaik Med közösségi futás",
+            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten, ahol a leírás is kifejezetten kiemeli, hogy bármilyen futótempóval csatlakozhatsz.",
+            href: "https://mozaikmed.hu/",
+          },
+          {
+            name: "Angyalföldi Futóklub",
+            note: "Kerületi futóklub, amely kifejezetten kezdőknek és haladóknak egyaránt szól, kerületi, kevésbé formális hangulattal.",
+            href: "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
+          },
+          {
+            name: "TIA Game Cave",
+            note: "Ingyenes belépésű társasjáték-közösség, ahol nincs tagsági díj, és a szervezők kifejezetten széles korosztályt céloznak meg.",
+            href: "https://www.facebook.com/groups/263358474501496/",
+          },
+        ],
+      },
+      {
+        type: "citation",
+        text: "Running Club Check-In: tizenkét gyakorlati tipp, hogyan fogadj be új tagokat egy futóklubban",
+        href: "https://runningclubcheckin.com/welcome-new-running-club-members/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Elég csak a klub leírását elolvasni, hogy tudjam, kezdőbarát-e?",
+            a: "Nem feltétlenül. A leírás csak kiindulópont: a friss posztok hangneme és az, hogyan válaszolnak egy privát üzenetre, sokkal megbízhatóbb jelzés a tényleges hozzáállásról.",
+          },
+          {
+            q: "Mi van, ha egy klub nem válaszol az üzenetemre?",
+            a: "Ez önmagában nem feltétlenül rossz jel, de ha ismételten sem kapsz választ, érdemes inkább egy másik, aktívabban kommunikáló közösséget keresni a listánkban.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "A teljes, kezdőbarát sportklub-listát kategória szerint böngészheted a Budapesti Közösségek oldalán.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
