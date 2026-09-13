@@ -965,6 +965,322 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "budapesti-kozossegkereso-oldalak-kulfoldieknek",
+    title: "Budapesti közösségkereső oldalak külföldieknek, összehasonlítva",
+    metaTitle: "Közösségkereső oldalak Budapesten külföldieknek",
+    description:
+      "Meetup, Facebook, InterNations vagy Instagram? Végigvesszük, melyik platformon mit találsz, ha frissen költöztél Budapestre és angolul beszélő közösséget keresel.",
+    kind: "listicle",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-13",
+    updatedAt: "2026-09-13",
+    body: [
+      {
+        type: "p",
+        text: "Ha most költöztél Budapestre, a nehézség nem az, hogy nincs közösségi élet, hanem az, hogy szét van szórva öt különböző felületre, és mindegyik mást tud. Van, ahol angolul beszélnek, de fizetni kell, és van, ahol ingyenes minden, de csak magyarul megy a szervezés. Ez a lista végigveszi, melyik platformon mit érdemes keresni.",
+      },
+      {
+        type: "p",
+        text: "Fontos különbség az általános közösségkereséshez képest: külföldiként a nyelv és a belépési küszöb sokkal többet számít, mint a kínálat mérete. Egy húszezer tagú magyar nyelvű csoport kevesebbet ér, mint egy negyvenfős, ahol angolul is szólnak hozzád.",
+      },
+      { type: "h2", text: "Melyik platformon mit találsz?" },
+      {
+        type: "table",
+        headers: ["Platform", "Nyelv", "Ingyenes?", "Mire jó igazán"],
+        rows: [
+          ["Meetup", "Főleg angol", "Böngészés igen", "Visszatérő, heti eseményekre"],
+          ["Facebook csoportok", "Vegyes", "Igen", "Gyakorlati kérdésekre, lakhatásra"],
+          ["InterNations", "Angol", "Részben", "Formálisabb networkingre"],
+          ["Instagram", "Vegyes", "Igen", "Kisebb, informális csapatokra"],
+          ["Budapesti Közösségek", "Magyar felület", "Igen", "Egy helyen átlátni a kínálatot"],
+        ],
+      },
+      { type: "h2", text: "A platformok részletesen" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Meetup",
+            note: "Külföldiként ez a legkézenfekvőbb kiindulópont, mert Budapesten a Meetup-csoportok többsége eleve angolul szervez. A nagy előnye a rendszeresség: a csoportok ismétlődő eseményeket hirdetnek, tehát nem egy alkalomra jelentkezel be, hanem beállhatsz egy heti ritmusba. Hátránya, hogy a kapcsolatfelvétel a platform belső üzenetküldőjén megy, és sok csoport évek óta inaktívan áll a listán, tehát mindig nézd meg, mikor volt az utolsó esemény.",
+            href: "https://www.meetup.com/cities/hu/budapest/",
+          },
+          {
+            name: "Facebook csoportok",
+            note: "Itt a legnagyobb a tömeg, és itt a legzajosabb. A budapesti expat csoportok elsősorban gyakorlati kérdésekre jók: albérlet, ügyintézés, orvoskeresés, használt bútor. Közösségi programot is hirdetnek bennük, de az elvész a napi ötven poszt között. Érdemes a keresőt használni konkrét kifejezésre, nem görgetni. Csoportba lépni jellemzően pár kérdés megválaszolásával lehet.",
+            href: "https://www.facebook.com/groups/648464231947085/",
+          },
+          {
+            name: "InterNations",
+            note: "Ez a formálisabb, networking felé hajló véglet. Az eseményei szervezettek, gyakran bárban vagy étteremben zajlanak, és nagyrészt dolgozó, hosszabb távra érkező külföldiek járnak rájuk. Aki szakmai kapcsolatokat is építene, annak ez a leghatékonyabb. Aki viszont laza, hobbi alapú társaságot keres, annak drága és kissé merev lehet, mert a tartalom jelentős része fizetős tagsághoz kötött.",
+            href: "https://www.internations.org/budapest-expats",
+          },
+          {
+            name: "Instagram",
+            note: "A budapesti kis közösségek nagy része ma már kizárólag itt él. Futóklubok, sétálós csapatok, társasjátékos esték: sokuknak nincs weboldala, se Meetup-oldala, csak egy Instagram-fiókja, ahol a sztorikban hirdetik a következő alkalmat. Ez a legfrissebb forrás, viszont a legnehezebben kereshető, mert hashtag alapján kell vadászni, és a múltbeli eseményeket nem archiválja senki.",
+            href: "https://www.instagram.com/explore/tags/budapestcommunity/",
+          },
+          {
+            name: "Budapesti Közösségek",
+            note: "Ez a mi listánk, és azért készült, mert a fenti négy platformot külön-külön kell végigböngészni. Egy helyen gyűjti össze a valódi, aktív budapesti közösségeket kategória szerint, mindegyiknél ott a saját Instagram- vagy weboldal-linkjük. A felület magyar nyelvű, viszont sok listázott közösség angolul működik, és ezt a leírásuk jelzi. Ingyenes, és nem kell hozzá regisztrálni.",
+            href: "https://www.sociallybudapest.hu/klubok",
+          },
+        ],
+      },
+      { type: "h2", text: "Melyikkel kezdd, ha egy hete vagy itt?" },
+      {
+        type: "p",
+        text: "Kezdd a Meetuppal, mert ott a legkisebb a súrlódás: angolul van, látod az időpontot, és látod, hányan mennek. Ha két hét alatt nem találsz semmit, ami tetszik, akkor váltsd az Instagramot, mert a kisebb és lazább csapatok ott vannak. A Facebookot hagyd a praktikus ügyekre, ne a barátkozásra.",
+      },
+      {
+        type: "citation",
+        text: "InterNations: Budapest expat közösségi útmutató",
+        href: "https://www.internations.org/budapest-expats",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell magyarul tudni egy budapesti közösséghez csatlakozni?",
+            a: "A legtöbb esetben nem. A nyelvcsere, társasjáték és túrázó közösségek jelentős része angolul működik, és a sportközösségeknél sokszor nincs is szükség sok beszédre. A klub saját oldalán jellemzően jelzik, milyen nyelven megy a szervezés.",
+          },
+          {
+            q: "Melyik platform a legolcsóbb?",
+            a: "A Facebook, az Instagram és a Budapesti Közösségek használata ingyenes. A Meetupon a böngészés és a csatlakozás ingyenes, egyes események viszont kérhetnek helyszíni hozzájárulást. Az InterNations tartalmának egy része fizetős tagsághoz kötött.",
+          },
+          {
+            q: "Mennyi idő, mire tényleg megismersz valakit?",
+            a: "Reálisan három vagy négy alkalom ugyanannál a csoportnál. Az első alkalom szinte mindig kínos, a második már ismerős arcokat hoz. Ezért éri meg rendszeres eseményt választani egyszeri program helyett.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "egyedul-is-latogathato-sportok-budapesten",
+    title: "Egyedül is látogatható sportok Budapesten: kezdő útmutató",
+    metaTitle: "Egyedül is látogatható sportok Budapesten",
+    description:
+      "Nem minden sportba lehet ugyanolyan könnyen egyedül beállni. Végigvesszük sportáganként, hol nem tűnsz fel kezdőként, és mit kell vinned az első alkalomra.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-13",
+    updatedAt: "2026-09-13",
+    body: [
+      {
+        type: "p",
+        text: "A legtöbb tanács arról szól, hogyan válassz közösséget. Ez az útmutató másról szól: arról, hogy maga a sportág mennyire engedi meg, hogy egyedül állj be. Mert ez sportáganként nagyon eltér, és sokkal többet számít, mint gondolnád.",
+      },
+      {
+        type: "p",
+        text: "A kulcskérdés mindig ugyanaz: ha egyedül érkezel, kell-e bárkit megkérned bármire ahhoz, hogy elkezdj sportolni? Ahol a válasz nem, ott könnyű dolgod lesz. Ahol párt vagy csapatot kell találni, ott az első alkalom nehezebb.",
+      },
+      { type: "h2", text: "Mennyire könnyű egyedül beállni?" },
+      {
+        type: "table",
+        headers: ["Sportág", "Egyedül beállni", "Kell hozzá felszerelés", "Beszélned kell?"],
+        rows: [
+          ["Futás", "Nagyon könnyű", "Cipő", "Alig"],
+          ["Túrázás", "Nagyon könnyű", "Cipő, víz", "Amennyit szeretnél"],
+          ["Közös séta", "Nagyon könnyű", "Semmi", "Ez a lényege"],
+          ["Utcai kosárlabda", "Könnyű", "Semmi", "Egy mondat"],
+          ["Pickleball", "Közepes", "Kölcsönözhető", "Igen, párt kell"],
+          ["Tenisz", "Nehezebb", "Ütő", "Igen, partner kell"],
+          ["Bike polo", "Közepes", "Bringa, kölcsön is", "Igen"],
+        ],
+      },
+      { type: "h2", text: "Futás: a legkisebb belépési küszöb" },
+      {
+        type: "p",
+        text: "A futóklub azért a legegyszerűbb kezdés, mert nincs benne holtidő. Megérkezel, elindultok, és futás közben nem elvárás a társalgás. Ha valaki melléd ér, beszélgettek, ha nem, akkor sem furcsa. A legtöbb budapesti futóklub külön jelzi, ha több tempócsoportban indul, tehát nem kell attól tartanod, hogy lemaradsz.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Mozaik Med közösségi futás",
+            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten. Nincs nevezés és nincs szintfeltétel, bárki csatlakozhat futótempótól függetlenül, tehát tipikusan az a fajta alkalom, ahova az első alkalommal is be lehet esni.",
+            href: "https://www.instagram.com/mozaikmed/",
+          },
+          {
+            name: "Run Crew Budapest",
+            note: "Magukat elsősorban közösségnek, másodsorban futóklubnak tartják. Együtt futnak, majd együtt kávéznak vagy strandolnak utána, tehát ha a futás után is maradna kedved beszélgetni, itt erre külön van alkalom.",
+            href: "https://www.instagram.com/the_runcrew/",
+          },
+        ],
+      },
+      { type: "h2", text: "Túrázás és séta: ahol az idő dolgozik neked" },
+      {
+        type: "p",
+        text: "A túra azért működik jól kezdőként, mert hosszú. Egy háromórás túrán nincs az a kínos csend, ami egy egyórás programon van, egyszerűen mert van idő természetesen szóba elegyedni. Ráadásul van közös téma, hiszen ugyanazt az útvonalat járjátok.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Hikers",
+            note: "Nemzetközi közösség, amely havi rendszerességgel szervez vezetett túrákat Budapest környéki helyszínekre. Minden szinten fogadnak túrázókat, és mivel vezetett programokról van szó, nem neked kell útvonalat terveznod.",
+            href: "https://budapesthikers.com/",
+          },
+          {
+            name: "Hot Girls Walk Club Budapest",
+            note: "Nők közössége, akik rendszeres közös sétákat szerveznek Budapesten. A séta a legalacsonyabb belépési küszöbű formátum: nem kell hozzá felszerelés, nem kell edzettség, és a beszélgetés maga a program.",
+            href: "https://www.instagram.com/hotgirlswalkbudapest/",
+          },
+        ],
+      },
+      { type: "h2", text: "Labdajátékok: itt kell egy mondatot kimondanod" },
+      {
+        type: "p",
+        text: "Az utcai kosárlabda a legnyitottabb labdajáték, mert a pályán jellemzően folyamatosan cserélődnek a csapatok. Egyetlen mondat kell hozzá, hogy beszállhatsz-e a következő meccsbe. A teniszhez és a pickleballhoz viszont partner kell, tehát ott érdemes olyan közösséget keresni, amelyik maga szervezi a párokat.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Bikás Park Streetball",
+            note: "Utcai kosárlabda közösség a Bikás parki pályákon, ahol bárki csatlakozhat egy spontán meccshez. Nincs nevezés és nincs tagdíj, a pálya adott, a csapatok pedig helyben állnak össze.",
+            href: "https://www.instagram.com/bikas_park/",
+          },
+          {
+            name: "PickMeBall Club",
+            note: "Budapesti pickleball közösség rendszeres edzésekkel és tornákkal, kezdőknek és haladóknak egyaránt. Mivel a pickleball itthon még új sportág, a legtöbb résztvevő maga is kezdő volt nemrég, ami sokat old a helyzeten.",
+            href: "https://www.instagram.com/pickmeball.club/",
+          },
+          {
+            name: "ChempZ",
+            note: "Ingyenes pálya- és meccskereső alkalmazás, amivel a közeledben találhatsz pályákat és játékostársakat bármilyen sportághoz. Akkor hasznos, ha nem közösséget, hanem konkrét meccset keresel egy adott estére, és fiók nélkül is böngészhető.",
+            href: "https://chempz.hu/",
+          },
+        ],
+      },
+      { type: "h2", text: "Mennyit érdemes mozogni egyáltalán?" },
+      {
+        type: "p",
+        text: "Az Egészségügyi Világszervezet felnőtteknek heti legalább 150 perc közepes intenzitású mozgást javasol. Ez a gyakorlatban két vagy három közösségi alkalom hetente, ami pont az a ritmus, amiben a legtöbb budapesti klub működik. Tehát ha heti kétszer eljársz valahová, az egyszerre fedezi a mozgásigényt és a társaságot.",
+      },
+      {
+        type: "citation",
+        text: "WHO: fizikai aktivitásra vonatkozó ajánlások",
+        href: "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Melyik sporttal kezdjem, ha nagyon félek egyedül elmenni?",
+            a: "Közös sétával vagy futással. Mindkettőnél elindul a program abban a percben, ahogy megérkezel, tehát nincs az az ácsorgós, bemutatkozós szakasz, ami a legtöbb embert visszatartja.",
+          },
+          {
+            q: "Kell előre jelentkeznem?",
+            a: "Sportágtól függ. A szabadtéri futásokra és a streetball pályára jellemzően nem, a teniszhez, pickleballhoz és a vezetett túrákhoz viszont általában igen, mert ott pályát vagy létszámot kell tervezni.",
+          },
+          {
+            q: "Mi van, ha nagyon rossz formában vagyok?",
+            a: "A közösségi alkalmak nem edzések, hanem közös mozgás. A legtöbb futóklub több tempócsoportot indít, a túrák nehézségét pedig előre jelzik. A közös séta gyakorlatilag bármilyen formában vállalható.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "mit-kinalnak-a-budapesti-hobbi-sportklubok",
+    title: "Mit kínálnak valójában a budapesti hobbi sportklubok?",
+    metaTitle: "Mit kínálnak a budapesti hobbi sportklubok?",
+    description:
+      "Mennyibe kerül, mit kell vinni, mi történik az első alkalmon, és mit nem adnak meg. Reális elvárások a budapesti hobbi sportközösségekről.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-13",
+    updatedAt: "2026-09-13",
+    body: [
+      {
+        type: "p",
+        text: "Sokan azért nem mennek el egy hobbi sportklubba, mert fogalmuk sincs, mibe csöppennek. Fizetni kell? Lesz edző? Kinevetnek, ha rosszul csinálom? Ez az útmutató végigveszi, mit kapsz valójában, és mit nem.",
+      },
+      {
+        type: "p",
+        text: "Fontos tisztázni a kiindulópontot: a hobbi sportklub nem edzőterem és nem sportegyesület. Valahol a kettő között van, és pont ettől olcsóbb, lazább és barátságosabb, mint amire számítasz.",
+      },
+      { type: "h2", text: "Mit kapsz egy hobbi sportklubtól?" },
+      {
+        type: "list",
+        items: [
+          "Fix időpontot és helyszínt, tehát nem neked kell szervezned",
+          "Társaságot, akik ugyanabban az időben ugyanoda járnak",
+          "Alacsony vagy nulla költséget, mert a legtöbb közösség nem kér tagdíjat",
+          "Belépési pontot egy sportághoz, amit egyedül nem próbálnál ki",
+          "Gyakran közös programot a sport után, kávét vagy sört",
+        ],
+      },
+      { type: "h2", text: "Mit nem kapsz meg?" },
+      {
+        type: "list",
+        items: [
+          "Személyre szabott edzéstervet, mert ez nem személyi edzés",
+          "Garantált fejlődést, mert nem teljesítményközpontú a dolog",
+          "Felszerelést minden esetben, bár sok helyen van kölcsön",
+          "Versenyeztetést, hacsak a klub külön nem jelzi",
+          "Igazolást vagy tagsági kártyát, mert jellemzően nincs formális tagság",
+        ],
+      },
+      { type: "h2", text: "Mennyibe kerül?" },
+      {
+        type: "p",
+        text: "A budapesti hobbi sportközösségek jelentős része teljesen ingyenes, különösen a szabadtéri formák: futás, séta, utcai kosárlabda, túra. Ahol pálya kell, ott jellemzően a pályabérlet arányos részét osztjátok el egymás között. Tagdíj a legtöbb helyen nincs, és ahol van, azt a klub a saját oldalán feltünteti.",
+      },
+      {
+        type: "table",
+        headers: ["Típus", "Tipikus költség", "Miért"],
+        rows: [
+          ["Szabadtéri futás, séta", "Ingyenes", "Nincs helyszínköltség"],
+          ["Utcai kosárlabda", "Ingyenes", "Közterületi pálya"],
+          ["Vezetett túra", "Ingyenes vagy utazás ára", "A túravezető jellemzően önkéntes"],
+          ["Pályás sport", "Osztott pályabérlet", "A pályát fizetni kell"],
+          ["Társasjáték-est", "Fogyasztás", "A helyszín jellemzően bár vagy kávézó"],
+        ],
+      },
+      { type: "h2", text: "Mi történik az első alkalmon?" },
+      {
+        type: "p",
+        text: "A reális forgatókönyv: megérkezel, valaki köszön, megkérdezi a neved, aztán elkezdődik a program. Nincs bemutatkozókör és nincs szintfelmérés. A legtöbb ember nem fog rád különösebben figyelni, és ez jó hír, nem rossz.",
+      },
+      {
+        type: "p",
+        text: "Az első alkalom szinte mindig kicsit kellemetlen. A második már nem, mert lesz két ismerős arc. Ezért érdemes eleve úgy odamenni, hogy legalább háromszor kipróbálod, mielőtt eldöntöd, hogy való-e neked.",
+      },
+      { type: "h2", text: "Miért éri meg a sportnál többet is nézni benne?" },
+      {
+        type: "p",
+        text: "A rendszeres, személyes kapcsolatok mérhetően jót tesznek az egészségnek, és a hobbi sportklub pont ilyet ad: ugyanazokat az embereket látod hetente, minimális szervezési erőfeszítéssel. Ez felnőttként meglepően nehezen pótolható máshonnan.",
+      },
+      {
+        type: "citation",
+        text: "Harvard Health: a szoros kapcsolatok egészségügyi hatásai",
+        href: "https://www.health.harvard.edu/staying-healthy/the-health-benefits-of-strong-relationships",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell tagdíjat fizetni egy budapesti hobbi sportklubban?",
+            a: "A legtöbb esetben nem. A szabadtéri közösségek jellemzően ingyenesek, a pályás sportoknál pedig a pályabérletet szokták elosztani a résztvevők között. Ha egy klubnak van díja, azt a saját oldalán tünteti fel.",
+          },
+          {
+            q: "Lesz edző, aki megmutatja, hogyan kell?",
+            a: "Ritkán. A hobbi sportklub nem edzés, hanem közös mozgás. Valaki jellemzően elmagyarázza az alapokat, de nem számíthatsz strukturált oktatásra. Ha erre van szükséged, keress külön kezdő kurzust.",
+          },
+          {
+            q: "Mi van, ha nem tetszik?",
+            a: "Nem mész többet. Mivel a legtöbb közösségnél nincs formális tagság és nincs elköteleződés, semmit nem kell lemondanod. Emiatt nyugodtan kipróbálhatsz többet is párhuzamosan.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
