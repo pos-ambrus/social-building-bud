@@ -893,18 +893,23 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "kezdobarat-sportklubok-budapesten-igy-ismerd-fel",
-    title: "Kezdőbarát sportklubok Budapesten: így ismerd fel őket",
+    title: "Kezdőbarát sportklubok Budapesten: így ismerd fel és csatlakozz",
+    metaTitle: "Kezdőbarát sportklubok Budapesten",
     description:
-      "Milyen konkrét jelekből tudod megállapítani, hogy egy budapesti sportklub tényleg kezdőbarát-e, mielőtt először megjelennél egy edzésen.",
+      "Miből tudod megállapítani, hogy egy budapesti sportklub tényleg kezdőbarát-e, és konkrétan melyikhez csatlakozhatsz ingyen, közvetlen linkkel.",
     kind: "guide",
     category: "Sport",
     author: DEFAULT_AUTHOR,
     publishedAt: "2026-09-03",
-    updatedAt: "2026-09-03",
+    updatedAt: "2026-09-13",
     body: [
       {
         type: "p",
         text: "Nem minden klub egyformán kezdőbarát, még akkor sem, ha a leírásában ez szerepel. Szerencsére van néhány konkrét jel, amiből már a csatlakozás előtt, a klub Instagram- vagy Facebook-oldalát végignézve is meg lehet állapítani, tényleg befogadó közegre számíthatsz-e, vagy inkább egy régóta összeszokott, zárt csapatra.",
+      },
+      {
+        type: "p",
+        text: "Az útmutató két részből áll. Először végigvesszük, mire figyelj, ha magad akarod eldönteni egy klubról. Utána jön a konkrét lista: kilenc budapesti sportközösség, amelyik kezdőket is fogad, mindegyiknél a közvetlen linkkel.",
       },
       { type: "h2", text: "Mire figyelj a klub közösségi oldalán, mielőtt megjelennél?" },
       {
@@ -921,25 +926,80 @@ export const posts: BlogPost[] = [
         type: "p",
         text: "Mielőtt először elmennél, írj egy rövid üzenetet a klubnak. Az, hogy milyen gyorsan és milyen hangnemben válaszolnak, sokat elárul arról, mennyire aktívan törődnek az új érdeklődőkkel. Egy kezdőbarát klub általában örül a kérdésnek, és konkrét, gyakorlati választ ad, nem csak egy általános linket küld vissza.",
       },
+      { type: "h2", text: "Kezdőbarát budapesti sportklubok, ahova ingyen csatlakozhatsz" },
+      {
+        type: "p",
+        text: "Az alábbi közösségek mindegyike vagy kimondottan jelzi, hogy kezdőket is vár, vagy olyan formátumban működik, ahol a szintkülönbség nem okoz problémát. A linkek közvetlenül a klub saját oldalára visznek, tehát nem kell nálunk regisztrálnod.",
+      },
+      {
+        type: "table",
+        headers: ["Klub", "Sportág", "Költség", "Előzetes jelentkezés"],
+        rows: [
+          ["Mozaik Med közösségi futás", "Futás", "Ingyenes", "Nem kell"],
+          ["Run Crew Budapest", "Futás", "Ingyenes", "Nem kell"],
+          ["Bridget Runners Budapest", "Futás, nőknek", "Ingyenes", "Nem kell"],
+          ["Bikás Park Streetball", "Kosárlabda", "Ingyenes", "Nem kell"],
+          ["Hot Girls Walk Club", "Séta, nőknek", "Ingyenes", "Nem kell"],
+          ["Budapest Hikers", "Túra", "Utazás ára", "Jellemzően igen"],
+          ["Budapest Bike Polo", "Bike polo", "Ingyenes", "Érdemes szólni"],
+          ["PickMeBall Club", "Pickleball", "Pályaköltség", "Igen"],
+          ["Budapest Racquet Society", "Tenisz", "Pályaköltség", "Igen"],
+        ],
+      },
       {
         type: "clublist",
         items: [
           {
             name: "Mozaik Med közösségi futás",
-            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten, ahol a leírás is kiemeli, hogy bármilyen futótempóval csatlakozhatsz.",
+            note: "Ingyenes, keddenkénti közösségi futás a Margitszigeten. A leírásuk külön kiemeli, hogy bármilyen futótempóval csatlakozhatsz, tehát nincs az a helyzet, hogy lemaradsz és utánad kell jönni. Nincs nevezés, egyszerűen oda kell menni a megadott időpontban, ami a legalacsonyabb belépési küszöb az egész listán.",
             href: "https://mozaikmed.hu/",
           },
           {
-            name: "Angyalföldi Futóklub",
-            note: "Kerületi futóklub, amely kezdőknek és haladóknak egyaránt szól, kerületi, kevésbé formális hangulattal.",
-            href: "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
+            name: "Run Crew Budapest",
+            note: "Magukat elsősorban közösségnek, másodsorban futóklubnak tartják, és ez a sorrend kezdőként sokat számít. Együtt futnak, majd együtt kávéznak vagy strandolnak utána, tehát ha a futás alatt nem jött szóba semmi, utána még van rá alkalom. Viszonylag friss csapat, ami azt is jelenti, hogy nincsenek évtizedes belső körök.",
+            href: "https://www.instagram.com/the_runcrew/",
           },
           {
-            name: "TIA Game Cave",
-            note: "Ingyenes belépésű társasjáték-közösség, ahol nincs tagsági díj, és a szervezők széles korosztályt céloznak meg.",
-            href: "https://www.facebook.com/groups/263358474501496/",
+            name: "Bridget Runners Budapest",
+            note: "Budapest első női futóklubja, közös hétvégi futásokkal és utána brunch-csal. A leírásuk kifejezetten kezdőbarátnak jelöli magát, és a hétvégi időzítés miatt nem kell munka után rohanni. Ha nőként tartasz attól, hogy egy vegyes klubban túl gyors lesz a tempó, ez a legjobb kiindulópont.",
+            href: "https://linktr.ee/bridgetrunners",
+          },
+          {
+            name: "Bikás Park Streetball",
+            note: "Utcai kosárlabda a Bikás parki pályákon, ahol bárki beállhat egy spontán meccsbe. Azért kezdőbarát, mert a csapatok helyben állnak össze és folyamatosan cserélődnek, tehát egyetlen mondatba kerül a becsatlakozás. Nincs tagdíj, nincs nevezés, és nem kell felszerelést vinned.",
+            href: "https://www.instagram.com/bikas_park/",
+          },
+          {
+            name: "Hot Girls Walk Club Budapest",
+            note: "Nők közössége, akik rendszeres közös sétákat szerveznek Budapesten. A séta a legkisebb belépési küszöbű mozgásforma: nem kell hozzá edzettség, felszerelés és átöltözés sem. Ha még a futóklub is soknak tűnik, ez az a formátum, ahol tényleg csak meg kell jelenni.",
+            href: "https://www.instagram.com/hotgirlswalkbudapest/",
+          },
+          {
+            name: "Budapest Hikers",
+            note: "Nemzetközi közösség, amely havi rendszerességgel szervez vezetett túrákat Budapest környéki helyszínekre, minden szinten. Kezdőként azért jó, mert a túra hosszú, tehát természetesen alakul a beszélgetés, és mert nem neked kell útvonalat terveznek. A túrák nehézségét előre jelzik, így tudsz magadnak valót választani.",
+            href: "https://budapesthikers.com/",
+          },
+          {
+            name: "Budapest Bike Polo",
+            note: "Kerékpáros pólóklub heti rendszerességű edzésekkel a Puskás Aréna melletti pályán. Külön kiírják, hogy kezdőket is szívesen látnak, ami ennél a sportágnál ritka. Mivel kevesen űzik itthon, szinte mindenki kezdőként érkezett valamikor, és jellemzően van kölcsönfelszerelés is.",
+            href: "https://www.budapestbikepolo.hu/",
+          },
+          {
+            name: "PickMeBall Club",
+            note: "Budapesti pickleball közösség rendszeres edzésekkel és tornákkal, kezdőknek és haladóknak egyaránt. A pickleball itthon még új sportág, tehát a résztvevők többsége maga is nemrég kezdte, ami sokat old a kezdeti feszélyezettségen. Ütőt jellemzően lehet kölcsönözni, tehát nem kell előre vásárolnod.",
+            href: "https://www.instagram.com/pickmeball.club/",
+          },
+          {
+            name: "Budapest Racquet Society",
+            note: "Teniszközösség, amely közös játékalkalmakat és meccseket szervez minden szinten, saját pálya nélkül. Pont ez a lényege: nem neked kell partnert és pályát keresned, a közösség hozza össze a párokat. Teniszhez ez a legnagyobb akadály, és itt meg van oldva helyetted.",
+            href: "https://www.instagram.com/budapestracquetsociety/",
           },
         ],
+      },
+      { type: "h2", text: "Melyikkel kezdj, ha még sosem jártál sportközösségben?" },
+      {
+        type: "p",
+        text: "A Mozaik Med futással vagy a Hot Girls Walk Clubbal, mert ezeknél nincs előzetes jelentkezés, nincs költség, és nem kell felszerelés. Ha egyszer túl vagy az első alkalmon, onnantól sokkal könnyebb lesz egy pályás sportot is kipróbálni, ahol már írni kell valakinek előre.",
       },
       {
         type: "citation",
@@ -957,11 +1017,19 @@ export const posts: BlogPost[] = [
             q: "Mi van, ha egy klub nem válaszol az üzenetemre?",
             a: "Ez önmagában nem feltétlenül rossz jel, de ha ismételten sem kapsz választ, érdemes inkább egy másik, aktívabban kommunikáló közösséget keresni a listánkban.",
           },
+          {
+            q: "Ingyenesek a kezdőbarát sportklubok Budapesten?",
+            a: "A szabadtéri formák jellemzően igen: a futás, a séta és az utcai kosárlabda nem kerül semmibe. Ahol pálya kell, például teniszhez vagy pickleballhoz, ott a pályabérlet arányos részét szokták elosztani a résztvevők között.",
+          },
+          {
+            q: "Kell felszerelést vinnem az első alkalomra?",
+            a: "A futáshoz és a sétához csak cipő kell. Az utcai kosárlabdához semmi. A pickleballhoz és a bike polóhoz jellemzően van kölcsönfelszerelés, de ezt érdemes előre megkérdezni a klubtól.",
+          },
         ],
       },
       {
         type: "p",
-        text: "A teljes, kezdőbarát sportklub-listát kategória szerint böngészheted a Budapesti Közösségek oldalán.",
+        text: "A teljes, kategória szerint böngészhető sportklub-lista a Budapesti Közösségek oldalán érhető el, regisztráció nélkül.",
       },
     ],
   },
