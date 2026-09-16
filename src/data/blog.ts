@@ -1281,6 +1281,145 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "budapesti-kozossegek-regisztracio-nelkul",
+    title: "Hogyan találj budapesti közösséget regisztráció nélkül?",
+    metaTitle: "Budapesti közösségek regisztráció nélkül",
+    description:
+      "A legtöbb közösségkereső oldalhoz fiók kell. Megmutatjuk, hol lehet regisztráció nélkül böngészni, és melyik budapesti klubot éred el fiók nélkül is.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-13",
+    updatedAt: "2026-09-13",
+    body: [
+      {
+        type: "p",
+        text: "Közösséget keresel Budapesten, rákattintasz az első találatra, és rögtön egy regisztrációs űrlap fogad. Email, jelszó, profilkép, érdeklődési körök. Mire végigérsz, elment a kedved az egésztől. Ez az útmutató arról szól, hogyan lehet ezt kikerülni.",
+      },
+      {
+        type: "p",
+        text: "A regisztráció nem csak idő. Egy új fiók új adatbázis, ahol ott van az email-címed, és onnantól kapod a hírleveleket is. Ha csak annyit szeretnél megtudni, van-e Budapesten kezdőbarát futóklub, ez aránytalanul nagy ár.",
+      },
+      { type: "h2", text: "Melyik platformhoz kell fiók?" },
+      {
+        type: "p",
+        text: "Érdemes két dolgot szétválasztani: a böngészéshez kell-e fiók, és a kapcsolatfelvételhez kell-e. A kettő gyakran nem ugyanaz.",
+      },
+      {
+        type: "table",
+        headers: ["Platform", "Böngészéshez kell fiók?", "Kapcsolatfelvételhez kell fiók?"],
+        rows: [
+          ["Facebook csoportok", "Jellemzően igen", "Igen"],
+          ["Meetup", "Részben, korlátozottan", "Igen, a jelentkezéshez"],
+          ["InterNations", "Részben", "Igen"],
+          ["Instagram", "Korlátozottan", "Igen, az üzenethez"],
+          ["Budapesti Közösségek", "Nem", "A klub saját csatornáján múlik"],
+        ],
+      },
+      {
+        type: "p",
+        text: "Az utolsó sor fontos, és nem akarjuk szebbnek mutatni a valóságnál. Nálunk a böngészéshez tényleg nem kell semmi. Viszont ha egy klub csak Instagramon van jelen, akkor ahhoz, hogy üzenj nekik, mégis kelleni fog egy Instagram-fiók. Ezért gyűjtöttük külön össze azokat, amelyeknél ez sem szükséges.",
+      },
+      { type: "h2", text: "Miért jobb, ha nem kell regisztrálni?" },
+      {
+        type: "list",
+        items: [
+          "Gyorsabb, mert két perc alatt átlátod a kínálatot, nem húsz alatt",
+          "Kevesebb személyes adatot adsz ki egy olyan szolgáltatásnak, amit talán egyszer használsz",
+          "Nem kapsz hírlevelet olyantól, akitől nem kértél",
+          "Meg tudod nézni, van-e egyáltalán neked való, mielőtt bármit megosztanál magadról",
+          "Nem kell jelszót kitalálnod és tárolnod egy újabb helyre",
+        ],
+      },
+      {
+        type: "p",
+        text: "Ez nem csak kényelmi kérdés. Az európai adatvédelmi szabályozás adattakarékossági elve is arról szól, hogy csak annyi személyes adatot kérjenek el, amennyi a célhoz feltétlenül szükséges. Egy klublista böngészéséhez pedig semennyi nem szükséges.",
+      },
+      {
+        type: "citation",
+        text: "GDPR 5. cikk: az adatkezelés elvei, köztük az adattakarékosság",
+        href: "https://gdpr-info.eu/art-5-gdpr/",
+      },
+      { type: "h2", text: "Budapesti közösségek, amiket fiók nélkül is elérsz" },
+      {
+        type: "p",
+        text: "Ezeknek saját weboldaluk van, tehát a programjaikat meg tudod nézni, és a kapcsolatfelvételhez sem kell közösségimédia-fiók.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Hikers",
+            note: "Nemzetközi túraközösség, amely havi rendszerességgel szervez vezetett túrákat Budapest környéki helyszínekre, minden szinten. A túrák időpontja és útvonala a saját weboldalukon olvasható, és emailen is elérhetők, tehát a teljes folyamat végigvihető bármilyen közösségi oldal nélkül.",
+            href: "https://budapesthikers.com/",
+          },
+          {
+            name: "Túrázók Baráti Köre",
+            note: "Természetjáró egyesület rendszeres közös túrákkal minden szintű túrázónak. A turakor.hu-n fent van a túranaptár és a túravezetők elérhetősége, tehát előre látod, mikor hova indulnak, és kit kereshetsz konkrét kérdéssel.",
+            href: "https://turakor.hu/",
+          },
+          {
+            name: "I Bike Budapest (Kerékpárosklub)",
+            note: "Kerékpáros közösség és érdekvédelmi klub, amely rendszeres közös felvonulásokat és túrákat szervez. A weboldaluk teljes értékű hírforrás a budapesti kerékpáros eseményekről, és a kapcsolati adataik is nyilvánosak rajta.",
+            href: "https://kerekparosklub.hu/",
+          },
+          {
+            name: "Toastmasters Magyarország",
+            note: "Nyilvános beszéd és vezetői készségfejlesztő klubok hálózata Budapesten és országszerte. A toastmasters.hu listázza a klubokat és a találkozóik helyszínét, a legtöbb klubnál pedig vendégként is be lehet ülni egy alkalomra, előzetes regisztráció nélkül.",
+            href: "https://toastmasters.hu/klubok/",
+          },
+          {
+            name: "ChempZ",
+            note: "Ingyenes sportpálya- és meccskereső, amivel a közeledben találhatsz pályákat és játékostársakat. Kifejezetten azért került ebbe a listába, mert fiók nélkül is böngészhető, tehát meg tudod nézni, van-e a környékeden pálya, mielőtt bármit létrehoznál.",
+            href: "https://chempz.hu/",
+          },
+          {
+            name: "Latinfo",
+            note: "Latin táncos események gyűjtőoldala Budapesten: salsa, bachata és egyéb social dance alkalmak egy helyen. Az eseménynaptár szabadon böngészhető, és mivel a legtöbb social dance estre egyszerűen be lehet sétálni, a részvételhez sem kell előre jelentkezni.",
+            href: "https://latinfo.hu/events/",
+          },
+        ],
+      },
+      { type: "h2", text: "Így keress fiók nélkül, lépésről lépésre" },
+      {
+        type: "list",
+        items: [
+          "Böngéssz kategória szerint, és szűkíts arra, ami tényleg érdekel",
+          "Nézd meg a klub leírásában, milyen nyelven működik és van-e szintfeltétel",
+          "Ellenőrizd, van-e saját weboldala, mert akkor fiók nélkül is írhatsz nekik",
+          "Ha csak Instagramon van, döntsd el, megéri-e a fiók, vagy keress alternatívát",
+          "Az első alkalomra ne jelentkezz be sehova, csak menj el és nézd meg",
+        ],
+      },
+      { type: "h2", text: "Kinek való ez a megközelítés?" },
+      {
+        type: "p",
+        text: "Elsősorban annak, aki most érkezett a városba, és még csak tájékozódik. Frissen költözött külföldieknek, digitális nomádoknak és azoknak a budapestieknek, akik évek után szeretnének újra közösségbe járni. Mindhárom esetben az a lényeg, hogy előbb lásd a kínálatot, és csak utána köteleződj el bármi mellett.",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Tényleg nem kell regisztrálni a Budapesti Közösségek használatához?",
+            a: "Nem. A teljes lista böngészhető és kereshető fiók nélkül, és nem kérünk email-címet sem. Ha viszont egy klub csak Instagramon érhető el, ahhoz, hogy nekik írj, kelleni fog egy Instagram-fiók, mert ez már az ő csatornájuk.",
+          },
+          {
+            q: "Ingyenes is, vagy csak regisztrációmentes?",
+            a: "Mindkettő. A böngészés ingyenes, és az is ingyenes, ha egy klub fel szeretne kerülni a listára. A listázott közösségek nagy része szintén nem kér tagdíjat, ahol pedig van díj, azt a klub a saját oldalán tünteti fel.",
+          },
+          {
+            q: "Angolul is működik, ha nem beszélek magyarul?",
+            a: "A felület magyar nyelvű, viszont sok listázott közösség angolul működik, és ezt a leírásuk jelzi. A nyelvcsere, társasjáték és túraközösségek jelentős része nemzetközi társaságot vár.",
+          },
+          {
+            q: "Honnan tudom, hogy egy klub még aktív?",
+            a: "Minden klubnál ott van a saját Instagram- vagy weboldal-linkje. Ott látod, mikor posztoltak utoljára, ami a legmegbízhatóbb jelzés. A listát folyamatosan frissítjük, de a klub saját csatornája mindig naprakészebb.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
