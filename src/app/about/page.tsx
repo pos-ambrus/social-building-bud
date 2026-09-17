@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import ClubSubmitForm from "@/components/ClubSubmitForm";
+import { getCategories } from "@/data/clubs";
 
 const TITLE = "Miért csináltam?";
 const DESCRIPTION = "Miért hoztuk létre a Budapesti Közösségek oldalt, és hogyan kerülhet fel egy klub a listára.";
@@ -31,6 +33,7 @@ const FAQ = [
 ];
 
 export default function AboutPage() {
+  const categories = getCategories();
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -94,6 +97,20 @@ export default function AboutPage() {
           elintézem.
         </p>
       </div>
+
+      <h2
+        id="klub-felvetele"
+        style={{ fontFamily: "var(--font-display)" }}
+        className="mt-12 text-xl uppercase tracking-tight text-ink"
+      >
+        Jelentsd be a klubod
+      </h2>
+      <p className="mt-2 mb-5 text-sm leading-relaxed text-ink/70">
+        Elég a név és egy link, a többi mező opcionális. Ha megadod, mikor
+        találkoztok, azt is kiírom a klub oldalára, mert a látogatók jellemzően
+        ezt keresik a legjobban.
+      </p>
+      <ClubSubmitForm categories={categories} />
 
       <h2 style={{ fontFamily: "var(--font-display)" }} className="mt-12 text-xl uppercase tracking-tight text-ink">
         Gyakori kérdések

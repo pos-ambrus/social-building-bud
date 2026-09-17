@@ -63,6 +63,7 @@ export default function ClubCard({ club }: { club: Club }) {
               {club.category}
             </Link>
             {club.district && <span>📍 {club.district}</span>}
+            {club.schedule && <span>🕐 {club.schedule}</span>}
           </div>
           <p className="line-clamp-2 flex-1 text-sm text-ink/55">{club.description}</p>
           <div className="flex flex-wrap items-center gap-1.5 pt-1">

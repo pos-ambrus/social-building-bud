@@ -8,6 +8,12 @@ export type Club = {
   category: string;
   district: string | null;
   description: string;
+  /**
+   * Mikor találkoznak, szabad szövegként, például "keddenként 18:00, Margitsziget".
+   * Szándékosan nem strukturált: a klubok maguk küldik be, és úgyis változik.
+   * Hiányozhat, ilyenkor sehol nem jelenik meg.
+   */
+  schedule?: string | null;
   website_url: string | null;
   instagram_url: string | null;
   image_url: string;

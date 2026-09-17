@@ -48,6 +48,11 @@ export const metadata: Metadata = {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
   },
+  // A Search Console tulajdonjog-igazolása. Ugyanez a token megy TXT rekordként
+  // is a DNS-be a domain property-hez; ez itt az URL-prefix property tartalék útja.
+  verification: {
+    google: "DjPBc52-ySMpiC5lM5CbGd8Ggrt7zkHUxG85hlYJl5U",
+  },
 };
 
 const jsonLd = {

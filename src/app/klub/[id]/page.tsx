@@ -175,6 +175,7 @@ export default async function ClubPage({ params }: Props) {
               {club.category}
             </Link>
             {club.district && <span>📍 {club.district}</span>}
+            {club.schedule && <span>🕐 {club.schedule}</span>}
             <span>{club.type}</span>
           </div>
 
