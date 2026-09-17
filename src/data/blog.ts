@@ -1852,6 +1852,672 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "tancos-kozossegek-budapesten",
+    title: "Táncos közösségek Budapesten: hol kezdd partner nélkül?",
+    metaTitle: "Táncos közösségek Budapesten",
+    description:
+      "Salsa, bachata és más social dance alkalmak Budapesten. Hogyan menj el egyedül, mit vegyél fel, és mit csinálj az első estén.",
+    kind: "guide",
+    category: "Tánc",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "A legtöbben azért nem mennek el egy táncos estre, mert azt hiszik, párban kell érkezni. Pont fordítva van. A social dance lényege, hogy a helyszínen cserélgetitek a partnereket, tehát ha párban jössz, még furcsább.",
+      },
+      {
+        type: "p",
+        text: "Ez a tánc egyik nagy előnye közösségi szempontból: egyetlen este alatt tíz emberrel váltasz pár mondatot, anélkül hogy bármilyen társalgási terhet kellene cipelned. A tánc maga adja a keretet.",
+      },
+      { type: "h2", text: "Hol találsz social dance alkalmakat Budapesten?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Latinfo",
+            note: "Latin táncos események gyűjtőoldala Budapesten: salsa, bachata és egyéb social dance alkalmak egy helyen. Nem egy klub, hanem egy naptár, ami pont ezért hasznos kezdőként: látod, melyik estén hol van program, és nem kell húsz külön Facebook-oldalt követned. Az eseménynaptár szabadon böngészhető, regisztráció nélkül.",
+            href: "https://latinfo.hu/events/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ez a kategória jelenleg egyetlen tételből áll a listánkban, de ez nem véletlen. A budapesti táncos színtér nagyrészt eseményalapú, nem klubalapú: nem egy csapathoz csatlakozol, hanem estékre jársz. A gyűjtőoldal ezért többet ér, mint egy konkrét klub.",
+      },
+      { type: "h2", text: "Mi történik egy social dance estén?" },
+      {
+        type: "p",
+        text: "A tipikus felállás: este nyolckor kezdődik egy kezdő óra, ahol megtanítják az alaplépéseket, majd kilenctől szól a zene és szabad tánc van. A kezdő óra a legfontosabb rész, ha most jössz először, mert utána már nem nulláról indulsz.",
+      },
+      {
+        type: "p",
+        text: "Felkérés mindkét irányban megy, tehát nőként sem kell megvárnod, hogy valaki odajöjjön. Visszautasítani is teljesen rendben van, és nem sértődik meg senki.",
+      },
+      { type: "h2", text: "Mit vigyél és mit vegyél fel?" },
+      {
+        type: "list",
+        items: [
+          "Kényelmes, sima talpú cipő, amiben tudsz fordulni, ne gumitalpú edzőcipő",
+          "Pótpóló, mert két óra tánc után tényleg jól jön",
+          "Dezodor, ez itt nem udvariassági kérdés, hanem alap",
+          "Vizespalack, mert a bárpultnál sorbaállni idő",
+          "Semmi mást, táncoshoz nem kell felszerelés",
+        ],
+      },
+      {
+        type: "p",
+        text: "A tánc egyébként azon kevés mozgásformák egyike, ami egyszerre ad állóképességet, koordinációt és társas kapcsolatot. Az ausztrál állami egészségügyi tájékoztató külön kiemeli a szociális hasznát is, nem csak a fizikait.",
+      },
+      {
+        type: "citation",
+        text: "Better Health Channel: a tánc egészségügyi és szociális előnyei",
+        href: "https://www.betterhealth.vic.gov.au/health/healthyliving/dance-health-benefits",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Elmehetek egyedül egy táncos estre?",
+            a: "Igen, és a résztvevők jelentős része egyedül érkezik. A social dance formátum kifejezetten arra épül, hogy a helyszínen cserélgetitek a partnereket, tehát nem hátrány egyedül jönni.",
+          },
+          {
+            q: "Kell előzetes tánctudás?",
+            a: "Nem. A legtöbb esemény előtt van kezdő óra, ahol az alaplépéseket megtanítják. Ha erre időben odaérsz, az este hátralévő részében már el tudsz boldogulni.",
+          },
+          {
+            q: "Mennyibe kerül egy ilyen este?",
+            a: "Jellemzően egy belépő árába, ami a kezdő órát is tartalmazza. Ez általában olcsóbb, mint egy tánciskolai bérlet, mert alkalmanként fizetsz.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "digitalis-nomad-kozossegek-budapesten",
+    title: "Digitális nomád közösségek Budapesten: hol találsz társaságot?",
+    metaTitle: "Digitális nomád közösségek Budapesten",
+    description:
+      "Néhány hónapra érkeztél Budapestre dolgozni? Hol találsz gyorsan társaságot, coworking helyet és gyakorlati segítséget a beköltözéshez.",
+    kind: "guide",
+    category: "Networking / Digitális Nomád",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "Aki néhány hónapra érkezik Budapestre dolgozni, annak nincs ideje lassan beépülni valahová. A klasszikus tanács, hogy járj el rendszeresen ugyanoda fél éven át, itt egyszerűen nem alkalmazható.",
+      },
+      {
+        type: "p",
+        text: "Ezért a digitális nomád közösségek másképp működnek, mint a többi. Sűrűbb az eseménynaptár, gyorsabb a belépés, és a gyakorlati kérdések is beleférnek, nem csak a társasági rész.",
+      },
+      { type: "h2", text: "Hol kezdd?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Digital Nomads",
+            note: "Facebook közösség digitális nomádoknak, ahol egyszerre megy a szállás- és álláskeresés, illetve a rendszeres közösségi események szervezése. Ez a hármas kombináció a lényege: nem csak társaságot ad, hanem a beköltözés első heteit is megkönnyíti. Belépés után érdemes a csoport keresőjét használni konkrét kérdésre, mert a napi posztfolyamban minden elvész.",
+            href: "https://www.facebook.com/groups/648464231947085/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ebben a kategóriában jelenleg egy tétel szerepel a listánkban, de ez nem jelenti azt, hogy ennyi van. Egyszerűen a legtöbb nomád közösség zárt csoportként vagy magánüzenetekben szerveződik, és nem hirdeti magát nyilvánosan.",
+      },
+      { type: "h2", text: "Milyen más közösségek jöhetnek szóba?" },
+      {
+        type: "p",
+        text: "Érdemes túllépni a szigorúan nomád címkén. A nyelvcsere-estek és a startup meetupok közönsége nagyrészt ugyanaz: nemzetközi, mobilis, angolul beszélő emberek. Ha ott is körülnézel, sokkal nagyobb merítésed lesz.",
+      },
+      {
+        type: "list",
+        items: [
+          "Nyelvcsere-estek, ahol heti rendszerességgel cserélődik a társaság",
+          "Startup és tech meetupok, ahol sokan szintén ideiglenesen vannak itt",
+          "Coworking irodák közösségi eseményei, amiket gyakran csak helyben hirdetnek",
+          "Túraközösségek, amelyek hétvégi programot adnak, nem esti elköteleződést",
+          "Angol nyelvű társasjáték-esték, ahol a nyelv nem akadály",
+        ],
+      },
+      { type: "h2", text: "A gyakorlati rész: mire figyelj a tartózkodással?" },
+      {
+        type: "p",
+        text: "Magyarország kínál külön tartózkodási engedélyt távmunkát végző harmadik országbeli állampolgároknak, amit gyakran White Card néven emlegetnek. A feltételek időnként változnak, ezért ezt mindig hivatalos forrásból nézd meg, ne fórumposztból.",
+      },
+      {
+        type: "p",
+        text: "Az uniós állampolgároknak ez nem releváns, nekik regisztrációs igazolás kell hosszabb tartózkodás esetén. Mindkét eljárásról az idegenrendészeti főigazgatóság oldala a mérvadó forrás.",
+      },
+      {
+        type: "citation",
+        text: "Országos Idegenrendészeti Főigazgatóság: tartózkodási engedélyek",
+        href: "https://oif.gov.hu/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Mennyi idő alatt lehet társaságot találni Budapesten?",
+            a: "Ha heti két eseményre eljársz, jellemzően három vagy négy hét alatt lesznek ismerős arcok. Ehhez viszont ugyanazokra az eseményekre kell visszajárni, nem mindig másikra.",
+          },
+          {
+            q: "Elég az angol, vagy kell magyarul tudni?",
+            a: "Budapesten a nemzetközi közönségű közösségekben elég az angol. A nyelvcsere, a társasjáték, a tech meetupok és több túraközösség is angolul működik.",
+          },
+          {
+            q: "Hol dolgozzak, ha nem akarok mindig kávézóban ülni?",
+            a: "A coworking irodák többsége kínál napijegyet is, nem csak havi bérletet. Ez azért hasznos, mert így ki tudod próbálni, melyik helyen milyen a közösség, mielőtt elköteleződsz.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "meditacio-kozossegek-budapesten",
+    title: "Meditációs közösségek Budapesten kezdőknek",
+    metaTitle: "Meditációs közösségek Budapesten",
+    description:
+      "Független, vallástól mentes meditációs és önismereti csoportok Budapesten, ahol nulla tapasztalattal is elkezdheted.",
+    kind: "guide",
+    category: "Meditáció / Spiritualitás",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "Sokan azért nem próbálnak ki egy meditációs csoportot, mert attól tartanak, hogy valamilyen szervezethez kell csatlakozniuk, vagy hogy hitbeli elvárás lesz. Ez a félelem érthető, és pont ezért hangsúlyozza a legtöbb budapesti csoport, hogy független.",
+      },
+      {
+        type: "p",
+        text: "A másik gyakori tévhit, hogy előbb otthon meg kell tanulni meditálni, és csak utána szabad csoportba menni. Fordítva könnyebb: csoportban sokkal egyszerűbb elkezdeni, mert van keret és van vezetés.",
+      },
+      { type: "h2", text: "Budapesti meditációs és önismereti közösségek" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Personal Growth Meetup",
+            note: "Nyílt, vallástól és szervezettől független meditációs és önismereti közösség, változó helyszíneken. A függetlenség itt kimondott alapelv, nem utólagos magyarázat, ami kezdőként a legfontosabb szempont. A találkozókat Meetupon hirdetik, tehát előre látod az időpontot és a létszámot.",
+            href: "https://www.meetup.com/budapest-personal-growth-szemelyes-fejl%C5%91des-meetup/",
+          },
+          {
+            name: "Artemis Compass",
+            note: "Természethez kapcsolódó önismereti programok, ahol a természet csendje és nyugalma adja a keretet. Ez a formátum akkor való neked, ha egy szobában ülve nehezen kapcsolódsz ki, viszont egy erdei séta közben igen. Hosszabb, jellemzően félnapos vagy egész napos programokról van szó, nem esti egyórás alkalmakról.",
+            href: "https://www.facebook.com/profile.php?id=61574524619037",
+          },
+        ],
+      },
+      { type: "h2", text: "Mire számíts az első alkalmon?" },
+      {
+        type: "p",
+        text: "A tipikus csoportos ülés rövid bevezetéssel indul, majd jön egy vezetett gyakorlat, jellemzően tíz és húsz perc között. Utána szokott lenni egy kör, ahol el lehet mondani, hogyan ment, de ez sehol nem kötelező.",
+      },
+      {
+        type: "p",
+        text: "Ha az első alkalommal végig kalandozik a figyelmed, az nem kudarc, hanem a normál működés. Erről szól a gyakorlás: észreveszed, hogy elkalandoztál, és visszatérsz. Ennyi.",
+      },
+      { type: "h2", text: "Mit ad a csoport, amit egy alkalmazás nem?" },
+      {
+        type: "list",
+        items: [
+          "Fix időpontot, tehát nem halasztod el minden nap",
+          "Vezetést, amit menet közben kérdezhetsz meg, nem egy előre felvett hangot",
+          "Embereket, akik ugyanazzal küzdenek, és ez önmagában megnyugtató",
+          "Kizökkenthetetlen húsz percet, mert nem tudsz közben telefont nézni",
+        ],
+      },
+      {
+        type: "p",
+        text: "A tudatos jelenlét gyakorlását több egészségügyi szolgálat is hivatalosan ajánlja stresszkezelésre, tehát nem ezoterikus témáról van szó. A brit NHS külön útmutatót tart fenn hozzá.",
+      },
+      {
+        type: "citation",
+        text: "NHS: útmutató a tudatos jelenlét gyakorlásához",
+        href: "https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell valamilyen hitet vagy világnézetet elfogadnom?",
+            a: "A listánkban szereplő csoportok kifejezetten függetlenek, tehát nem. A meditáció itt gyakorlat, nem világnézet, és senki nem várja el, hogy bármit elfogadj.",
+          },
+          {
+            q: "Kell előzetes tapasztalat?",
+            a: "Nem. A vezetett csoportos gyakorlatok pont kezdőknek a legkönnyebbek, mert nem neked kell tartanod a struktúrát. Sokan éppen a csoportban kezdik el.",
+          },
+          {
+            q: "Mit vigyek magammal?",
+            a: "Kényelmes ruhát és semmi mást. A párnát vagy széket a helyszín jellemzően biztosítja, a természetben tartott programokhoz pedig időjárásnak megfelelő öltözéket érdemes vinni.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "lmbtq-kozossegek-budapesten",
+    title: "LMBTQ+ közösségek Budapesten: hol találsz biztonságos teret?",
+    metaTitle: "LMBTQ+ közösségek Budapesten",
+    description:
+      "Hol találsz befogadó közösségi programokat Budapesten, mit érdemes tudni előre, és hova fordulj, ha többre van szükséged a társaságnál.",
+    kind: "guide",
+    category: "LMBTQ+ Közösség",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "A legtöbb közösségkereső tanács abból indul ki, hogy a nehézség a bátorság. LMBTQ+ emberként viszont sokszor nem ez a kérdés, hanem az, hogy hol nem kell magyarázkodni, és hol lehet a program a lényeg, nem a bemutatkozás.",
+      },
+      {
+        type: "p",
+        text: "Ez a rész rövid lesz, mert őszintén az: a nyilvánosan hirdető, nyitott LMBTQ+ közösségek száma Budapesten korlátozott. Amit tudunk, azt viszont pontosan adjuk meg.",
+      },
+      { type: "h2", text: "Nyitott közösség a listánkban" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Dykes on Hikes Budapest",
+            note: "Leszbikus túraközösség, amely rendszeres közös kirándulásokat szervez Budapest környékén. A túra formátum itt kifejezetten jól működik, mert hosszú, kötetlen, és nincs benne se bemutatkozókör, se ivós helyzet. A programokat Instagramon hirdetik, és nyitottak új résztvevőkre.",
+            href: "https://www.instagram.com/dykesonhikes_budapest/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ha tudsz további nyitott budapesti LMBTQ+ közösségről, szólj, és felvesszük a listára. Ingyenes, és nem kérünk cserébe semmit.",
+      },
+      { type: "h2", text: "Milyen más közösségek szoktak befogadók lenni?" },
+      {
+        type: "p",
+        text: "Nem minden közösségnek kell kifejezetten LMBTQ+ fókuszúnak lennie ahhoz, hogy jól érezd magad benne. A tapasztalat szerint a nemzetközi közönségű, angol nyelvű csoportok és a tevékenységközpontú közösségek a legkiszámíthatóbbak.",
+      },
+      {
+        type: "list",
+        items: [
+          "Nyelvcsere-estek, ahol eleve vegyes és nemzetközi a társaság",
+          "Társasjáték-közösségek, ahol a játék a téma, nem a magánélet",
+          "Túraközösségek, ahol hosszú a program és laza a beszélgetés",
+          "Önkéntes akciók, ahol a közös cél adja a keretet",
+        ],
+      },
+      { type: "h2", text: "Hova fordulj, ha nem csak társaságra van szükséged?" },
+      {
+        type: "p",
+        text: "Ez az oldal közösségeket gyűjt, nem segítő szolgáltatás. Ha jogi kérdésed van, diszkrimináció ért, vagy pszichológiai segítségre lenne szükséged, arra külön szervezetek vannak, amelyek ezzel foglalkoznak.",
+      },
+      {
+        type: "p",
+        text: "A Háttér Társaság Magyarország legrégebb óta működő LMBTQ+ szervezete, amely jogsegély- és lelkisegély-szolgálatot is működtet. Érdemes onnan tájékozódni, mert náluk naprakész és szakszerű az információ.",
+      },
+      {
+        type: "citation",
+        text: "Háttér Társaság: jogsegély, lelkisegély és tájékoztatás",
+        href: "https://hatter.hu/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Vannak nyitott LMBTQ+ közösségek Budapesten?",
+            a: "Vannak, de a nyilvánosan hirdetők száma korlátozott. A listánkban jelenleg egy túraközösség szerepel, emellett érdemes a nemzetközi közönségű, tevékenységközpontú csoportokat is megnézni.",
+          },
+          {
+            q: "Honnan tudom, hogy egy közösség befogadó?",
+            a: "A legjobb jelzés a klub saját kommunikációja: hogyan írnak a résztvevőikről, és válaszolnak-e érdemben egy privát üzenetre. Ha bizonytalan vagy, kérdezz rá közvetlenül, mielőtt elmennél.",
+          },
+          {
+            q: "Kell fizetni a részvételért?",
+            a: "A listánkban szereplő közösségek programjai ingyenesek. Ami költség felmerülhet, az az odautazás, túra esetén jellemzően egy tömegközlekedési jegy ára.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "onkentes-lehetosegek-budapesten",
+    title: "Önkéntes lehetőségek Budapesten, ahol egy alkalomra is beállhatsz",
+    metaTitle: "Önkéntes lehetőségek Budapesten",
+    description:
+      "Hol segíthetsz Budapesten elköteleződés nélkül, mit kell tudni az első akció előtt, és miért a legkönnyebb így embereket megismerni.",
+    kind: "guide",
+    category: "Önkéntesség / Közösségi akció",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "Az önkéntesség kettős haszna, hogy közben csinálsz valami értelmeset, és közben ismersz meg embereket. Ez sokkal könnyebb helyzet, mint egy olyan esemény, ahol a beszélgetés maga a program.",
+      },
+      {
+        type: "p",
+        text: "A legtöbben azért nem kezdenek bele, mert azt hiszik, hosszú távra kell elköteleződni. A budapesti akciók jelentős részéhez viszont egyetlen alkalomra is be lehet állni, előzetes tapasztalat nélkül.",
+      },
+      { type: "h2", text: "Hol kezdd Budapesten?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Bike Maffia",
+            note: "Civil közösség, amely ingyenes, bárki által csatlakoztatható jótékonysági akciókat szervez kerékpárral. A formátum lényege, hogy egy akcióra is beállhatsz, nem kell tagnak lenned vagy előre elköteleződnöd. Kerékpár kell hozzá, de nem versenytempó: a lényeg a szállítás, nem a sebesség. Az aktuális akciókat a saját oldalukon és Instagramon hirdetik.",
+            href: "https://bikemaffia.com/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ebben a kategóriában jelenleg egy szervezet szerepel a listánkban, ami kevés ahhoz képest, hány önkéntes kezdeményezés működik Budapesten. A többségük viszont nem közösségként hirdeti magát, hanem alkalmi felhívásokkal, amiket nehéz folyamatosan követni.",
+      },
+      { type: "h2", text: "Milyen típusú önkéntes munkák léteznek?" },
+      {
+        type: "table",
+        headers: ["Típus", "Időigény", "Kell hozzá tapasztalat", "Mennyire társas"],
+        rows: [
+          ["Ételosztás, adománygyűjtés", "Néhány óra", "Nem", "Nagyon"],
+          ["Környezeti akció, szemétszedés", "Fél nap", "Nem", "Közepesen"],
+          ["Állatmenhelyi segítség", "Néhány óra", "Nem", "Közepesen"],
+          ["Korrepetálás, mentorálás", "Heti rendszeresség", "Részben", "Nagyon"],
+          ["Rendezvényszervezés", "Változó", "Nem", "Nagyon"],
+        ],
+      },
+      { type: "h2", text: "Mire figyelj az első alkalom előtt?" },
+      {
+        type: "list",
+        items: [
+          "Kérdezd meg előre, mennyi ideig tart, hogy ne érjen meglepetés",
+          "Nézd meg, kell-e valamilyen felszerelés, például kesztyű vagy kerékpár",
+          "Vidd magaddal, hogy nem baj, ha most csinálod először, mert tényleg nem baj",
+          "Ne vállalj rögtön rendszerességet, előbb próbáld ki egyszer",
+          "Ha nem jön be a szervezet, attól még az önkéntesség jöhet, keress másikat",
+        ],
+      },
+      { type: "h2", text: "Tényleg jót tesz, vagy csak jól hangzik?" },
+      {
+        type: "p",
+        text: "Mérhetően jót tesz. Egy nagy, több tanulmányt összesítő elemzés szerint az önkéntesek körében alacsonyabb a depresszió aránya és jobb az általános jóllét, mint a nem önkénteskedőknél. A hatás nem csak érzés kérdése.",
+      },
+      {
+        type: "citation",
+        text: "Systematic review: az önkéntesség hatása az egészségre és a túlélésre",
+        href: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3766013/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell hosszú távra elköteleződnöm?",
+            a: "Nem. A budapesti akciók jelentős részéhez egyetlen alkalomra is be lehet állni. Ha utána nem mész többet, azzal senkinek nem okozol problémát.",
+          },
+          {
+            q: "Kell előzetes tapasztalat vagy képzettség?",
+            a: "A legtöbb akcióhoz nem. Amihez igen, például mentoráláshoz vagy korrepetáláshoz, ott a szervezet külön jelzi, és jellemzően ad hozzá felkészítést is.",
+          },
+          {
+            q: "Jó ez arra, hogy embereket ismerjek meg?",
+            a: "Igen, sőt ez az egyik legjobb formátum erre. Van közös cél és van közös feladat, tehát nem kell társalgási témát keresni, a beszélgetés munka közben alakul.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "kozossegek-szuloknek-budapesten",
+    title: "Közösségek szülőknek Budapesten: hol találsz társaságot gyerekkel?",
+    metaTitle: "Közösségek szülőknek Budapesten",
+    description:
+      "Hova mehetsz kisgyerekkel Budapesten, ha társaságra vágysz, és mit érdemes tudni, ha külföldiként vagy friss szülőként kezdenéd.",
+    kind: "guide",
+    category: "Szülők / Családok",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "Kisgyerekkel a régi társasági élet nagy része egyszerűen eltűnik. Az esti programok kiesnek, a spontán találkozás megszűnik, és minden a gyerek napirendjéhez igazodik. Az újat viszont pont ezért nehéz felépíteni.",
+      },
+      {
+        type: "p",
+        text: "A szülői közösségek ezzel a korláttal együtt vannak megtervezve. Nappal vannak, gyerekkel együtt lehet menni, és senki nem néz furcsán, ha közben félbeszakad a beszélgetés.",
+      },
+      { type: "h2", text: "Hol kezdd Budapesten?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Moms\u0027 Community Budapest",
+            note: "Közösség kismamáknak és külföldi anyukáknak Budapesten, ahol rendszeresen szerveznek találkozókat és beszélgetéseket egymásnak. A külföldi fókusz azért fontos, mert családdal külföldre költözve a szülő szokott a leginkább elszigetelődni: nincs munkahelyi közeg és nincs rokonság a közelben. A programokat Instagramon hirdetik.",
+            href: "https://www.instagram.com/momscommunitybudapest/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ebben a kategóriában jelenleg egy közösség szerepel nálunk. Budapesten ennél sokkal több működik, de a többségük kerületi szinten, zárt Facebook-csoportokban szerveződik, amiket kívülről szinte lehetetlen megtalálni.",
+      },
+      { type: "h2", text: "Hol keress még, ha kerületi csoportot szeretnél?" },
+      {
+        type: "list",
+        items: [
+          "A helyi bölcsőde vagy védőnői szolgálat hirdetőtábláján, ez még mindig működik",
+          "Kerületi Facebook-csoportokban, a keresőben a kerület nevére és a baba szóra",
+          "Játszóházakban és babás kávézókban, ahol gyakran van fix heti alkalom",
+          "Könyvtárak baba-mama programjain, amik jellemzően ingyenesek",
+          "Babahordozó és szoptatást segítő csoportoknál, ezek jellemzően nyitottak",
+        ],
+      },
+      { type: "h2", text: "Mit adnak ezek a közösségek azon túl, hogy társaság?" },
+      {
+        type: "p",
+        text: "A gyakorlati információt. Hogy melyik orvos jó, hol van használtruha-börze, melyik játszótéren van árnyék nyáron. Ez a fajta tudás máshonnan nagyon nehezen szerezhető meg, és pont ez az, amit egy külföldről érkező szülő a leginkább nélkülöz.",
+      },
+      {
+        type: "p",
+        text: "A másik, kevésbé látványos haszon, hogy kiderül: amit élsz, az normális. A szülői magány és kimerültség nem személyes kudarc, és ezt egy csoportban sokkal könnyebb elhinni, mint egyedül.",
+      },
+      {
+        type: "citation",
+        text: "UNICEF Parenting: gyakorlati útmutatók szülőknek",
+        href: "https://www.unicef.org/parenting/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Vihetem a gyereket a találkozókra?",
+            a: "Igen, a szülői közösségek nagy része eleve úgy van megtervezve, hogy a gyerekekkel együtt érkeztek. Az időpontok is jellemzően nappaliak emiatt.",
+          },
+          {
+            q: "Van angol nyelvű szülői közösség Budapesten?",
+            a: "Igen, több csoport kifejezetten a Budapestre költöző külföldi szülőket célozza, és angolul működik. A klub leírásában jellemzően jelzik a nyelvet.",
+          },
+          {
+            q: "Kell fizetni a részvételért?",
+            a: "A közösségi találkozók jellemzően ingyenesek. Ahol kávézóban vagy játszóházban van a program, ott a saját fogyasztásodat vagy a belépőt fizeted.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "nyilvanos-beszed-klubok-budapesten",
+    title: "Nyilvános beszéd klubok Budapesten: hol gyakorolhatsz biztonságosan?",
+    metaTitle: "Nyilvános beszéd klubok Budapesten",
+    description:
+      "Hogyan működik egy beszédklub, mi történik az első alkalmon, és miért lehet vendégként úgy is bemenni, hogy egy szót sem szólsz.",
+    kind: "guide",
+    category: "Nyilvános beszéd",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "A nyilvános beszédtől való félelem a leggyakoribb félelmek között van, és pont ezért működnek a beszédklubok. Nem attól múlik el, hogy elolvasol róla egy könyvet, hanem attól, hogy sokszor megcsinálod egy olyan közegben, ahol nem történik baj.",
+      },
+      {
+        type: "p",
+        text: "Ezek a klubok azért hatékonyak, mert strukturáltak. Minden alkalomnak fix menete van, előre tudod, mikor kerülsz sorra, és mindenki más is ugyanabban a cipőben jár.",
+      },
+      { type: "h2", text: "Hol találsz ilyen klubot Budapesten?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Toastmasters Magyarország",
+            note: "Beszédklubok hálózata Budapesten és országszerte, ahol a nyilvános beszéd és a vezetői készségek fejlesztése a cél. A Toastmasters nemzetközi módszertan szerint működik, tehát minden klubban ugyanaz a felépítés, és a visszajelzés is strukturált, nem ad hoc vélemény. Budapesten több klub is működik, köztük angol nyelvűek, és a legtöbbnél vendégként be lehet ülni egy alkalomra.",
+            href: "https://toastmasters.hu/klubok/",
+          },
+        ],
+      },
+      { type: "h2", text: "Mi történik egy alkalmon?" },
+      {
+        type: "p",
+        text: "A tipikus felépítés három részből áll. Először jönnek az előre elkészített beszédek, jellemzően öt-hét percesek. Utána egy rögtönzési blokk, ahol rövid kérdésekre kell egy-két percben válaszolni. Végül a visszajelzés, ahol kijelölt emberek értékelik az elhangzottakat.",
+      },
+      {
+        type: "p",
+        text: "A visszajelzés mindig ugyanazt a szerkezetet követi: mi működött, mit lehetne másképp, és egy összegzés. Nem szabad zúzás, hanem módszer, és ettől lesz elviselhető kritikát kapni.",
+      },
+      { type: "h2", text: "Vendégként kell beszélnem?" },
+      {
+        type: "p",
+        text: "Nem. Az első alkalmon vendégként csak beülsz és nézed. A legtöbb klub a rögtönzési blokknál megkérdezi a vendégeket, hogy szeretnének-e részt venni, de a nem is teljesen elfogadható válasz.",
+      },
+      {
+        type: "p",
+        text: "Ez a beszédklubok legnagyobb előnye a kurzusokhoz képest: kipróbálhatod, mielőtt bármit fizetnél vagy vállalnál. Érdemes két vagy három klubot is megnézni, mert a hangulatuk nagyon eltérő tud lenni.",
+      },
+      { type: "h2", text: "Mennyi idő alatt látszik eredmény?" },
+      {
+        type: "list",
+        items: [
+          "Az első három alkalom arról szól, hogy megszokd a helyzetet",
+          "Az első saját beszéd általában az ötödik alkalom környékén jön",
+          "A rögtönzés fejlődik a leggyorsabban, mert azt minden alkalommal gyakorlod",
+          "Fél év rendszeres járás után a legtöbben már nem kerülik a felszólalást a munkahelyükön sem",
+        ],
+      },
+      {
+        type: "citation",
+        text: "Toastmasters International: a klubok működése és módszertana",
+        href: "https://www.toastmasters.org/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell fizetni egy beszédklubért?",
+            a: "Vendégként az első alkalmak jellemzően ingyenesek. Ha tag leszel, van tagdíj, ami a nemzetközi szervezeti tagságot és a tananyagot fedezi. A pontos összeget a klub tudja megmondani.",
+          },
+          {
+            q: "Van angol nyelvű beszédklub Budapesten?",
+            a: "Igen, több budapesti klub angolul működik. Ez akkor hasznos, ha munkahelyi prezentációkra készülsz angolul, vagy ha nem beszélsz magyarul.",
+          },
+          {
+            q: "Mi van, ha nagyon félek a nyilvános beszédtől?",
+            a: "Akkor vagy a legjobb helyen. A résztvevők többsége pontosan emiatt jött, és a klub felépítése arra van kitalálva, hogy fokozatosan, kis lépésekben haladj.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "katolikus-kozossegek-budapesten",
+    title: "Katolikus közösségek Budapesten: hol találsz befogadó csoportot?",
+    metaTitle: "Katolikus közösségek Budapesten",
+    description:
+      "Imacsoportok, kórusok és beszélgetős közösségek Budapesten, és hogyan találd meg őket, ha a plébániák nem hirdetik magukat online.",
+    kind: "guide",
+    category: "Katolikus Közösségek",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "A plébániai közösségek nagy része nem hirdeti magát online, ezért kívülről szinte láthatatlanok. Pedig sok helyen kifejezetten várják az újakat, csak nincs, aki ezt kiírja egy weboldalra.",
+      },
+      {
+        type: "p",
+        text: "Ez a gyakorlatban azt jelenti, hogy a keresés nem a Google-lel kezdődik, hanem egy plébániai hirdetőtáblával vagy egy kérdéssel mise után. Ez szokatlan, de működik.",
+      },
+      { type: "h2", text: "Hol keress először?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Katolikus Közösségek",
+            note: "Katolikus közösségeket összegyűjtő portál: imacsoportok, kórusok, beszélgetős és hitmélyítő közösségek Budapesten és országszerte. Gyűjtőoldalként pont azt a hiányt tölti be, amiről fent szó volt, tehát egy helyen látod, milyen típusú közösségek működnek, és hol. Innen érdemes indulni, mielőtt egyesével végigjárnád a plébániákat.",
+            href: "https://kozossegek.hu/",
+          },
+        ],
+      },
+      { type: "h2", text: "Milyen típusú közösségek léteznek?" },
+      {
+        type: "table",
+        headers: ["Típus", "Mire jó", "Milyen gyakran", "Kell hozzá előismeret"],
+        rows: [
+          ["Imacsoport", "Elmélyülés, csendes közösség", "Hetente", "Nem"],
+          ["Kórus", "Zenélés és közösség együtt", "Hetente próba", "Ének, nem kotta"],
+          ["Beszélgetős kör", "Kérdések, hitmélyítés", "Kéthetente", "Nem"],
+          ["Ifjúsági közösség", "Kortársak, programok", "Hetente", "Nem"],
+          ["Karitatív csoport", "Konkrét segítés", "Alkalmanként", "Nem"],
+        ],
+      },
+      { type: "h2", text: "Mit csinálj, ha nem tudod, hova tartozol?" },
+      {
+        type: "p",
+        text: "Menj el egy misére, és maradj utána tíz percet. A hirdetéseknél szinte mindig elhangzik, milyen közösségi alkalmak vannak a héten. Ha ez nem elég, a sekrestyében meg lehet kérdezni, és ott jellemzően szívesen válaszolnak.",
+      },
+      {
+        type: "p",
+        text: "Ha most térnél vissza évek kihagyás után, vagy egyáltalán nem vagy biztos semmiben, azt nyugodtan mondd is meg. A beszélgetős köröket kifejezetten kérdésekre találták ki, nem kész válaszokra.",
+      },
+      { type: "h2", text: "Mire számíts az első alkalmon?" },
+      {
+        type: "list",
+        items: [
+          "Kisebb létszám, mint gondolnád, jellemzően öt és húsz fő között",
+          "Bemutatkozás, de nem kikérdezés, és nem kell élettörténetet mondanod",
+          "Nincs elvárt tudásszint, a csoportok többsége vegyes összetételű",
+          "Jellemzően nincs semmilyen költség",
+        ],
+      },
+      {
+        type: "citation",
+        text: "Magyar Katolikus Egyház hivatalos oldala",
+        href: "https://katolikus.hu/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell gyakorló hívőnek lennem, hogy csatlakozhassak?",
+            a: "A legtöbb beszélgetős és ifjúsági közösség nyitott a kereső, bizonytalan érdeklődőkre is. Az imacsoportok és a kórusok jellemzően gyakorló közösségek, de oda is el lehet menni először megnézni.",
+          },
+          {
+            q: "Hogyan találom meg a hozzám közeli plébániát?",
+            a: "Az egyházmegyei és plébániakereső oldalakon kerület és cím szerint kereshetsz. A plébánia hirdetései jellemzően a templom hirdetőtábláján és a misék végén hangzanak el.",
+          },
+          {
+            q: "Van angol nyelvű katolikus közösség Budapesten?",
+            a: "Igen, Budapesten több angol nyelvű mise és hozzá kapcsolódó közösség működik, elsősorban a belvárosban. Ezekről a gyűjtőoldalakon és az egyházmegyei tájékoztatókban érdemes tájékozódni.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
