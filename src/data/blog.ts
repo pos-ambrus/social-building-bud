@@ -1488,6 +1488,370 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "turaklubok-budapesten-kezdoknek",
+    title: "Túraklubok Budapesten: hova csatlakozz, ha kezdő vagy?",
+    metaTitle: "Túraklubok Budapesten kezdőknek",
+    description:
+      "Három budapesti túraközösség, ahol vezetett túrákra mehetsz minden szinten, plusz mit vigyél az első alkalomra és hogyan válassz nehézséget.",
+    kind: "listicle",
+    category: "Túra / Természetjárás",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "A túrázás az egyik legkönnyebb módja annak, hogy egyedül csatlakozz egy csoporthoz. Órákig tart, közben végig van min menni és miről beszélni, és senkinek nem tűnik fel, ha az első fél órát csendben töltöd. Ez kezdőként sokat számít.",
+      },
+      {
+        type: "p",
+        text: "A másik előnye, hogy Budapestről indulva rengeteg útvonal elérhető tömegközlekedéssel. Nem kell autó, és nem kell egész napot rászánni, ha nem akarsz. A budai hegyek a város része, nem kirándulóhely valahol messze.",
+      },
+      { type: "h2", text: "Budapesti túraközösségek, ahova kezdőként is mehetsz" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Hikers",
+            note: "Nemzetközi közösség, amely havi rendszerességgel szervez vezetett túrákat Budapest környéki festői helyszínekre. Minden szinten fogadnak túrázókat, és mivel vezetett programokról van szó, nem neked kell térképet olvasnod vagy útvonalat terveznek. A kommunikáció angolul megy, tehát akkor is jó választás, ha nem beszélsz magyarul. Az időpontokat és a találkozási pontot a saját weboldalukon teszik közzé.",
+            href: "https://budapesthikers.com/",
+          },
+          {
+            name: "Túrázók Baráti Köre",
+            note: "Természetjáró egyesület rendszeres közös túrákkal, minden szintű túrázónak. A turakor.hu-n fent van a túranaptár, tehát hetekre előre látod, mikor hova indulnak, és ki vezeti az adott túrát. Egyesületként strukturáltabban működik, mint egy laza baráti társaság, ami kezdőként inkább előny: tudod, mire számíts, és van kihez fordulni kérdéssel.",
+            href: "https://turakor.hu/",
+          },
+          {
+            name: "Just Connect",
+            note: "Offline közösségi eseménysorozat, amely hegyi túrákkal és laza összejövetelekkel hoz össze nyitott embereket. Itt a túra inkább ürügy az ismerkedésre, mint önmagában a cél, tehát ha kifejezetten azért mennél, hogy embereket ismerj meg, ez a leginkább erre kihegyezett a három közül. A programjaikat a saját oldalukon és Instagramon hirdetik.",
+            href: "https://justconnect.hu/",
+          },
+        ],
+      },
+      { type: "h2", text: "Mit vigyél az első túrára?" },
+      {
+        type: "list",
+        items: [
+          "Bakancs vagy megbízható talpú edzőcipő, a budai hegyekben sok a kő",
+          "Legalább másfél liter víz, nyáron több",
+          "Réteges öltözék, mert a hegyen mindig hidegebb van, mint a városban",
+          "Valami harapnivaló, mert megállni enni nem szégyen",
+          "Feltöltött telefon, a térkép és a kapcsolattartás miatt",
+        ],
+      },
+      { type: "h2", text: "Honnan tudod, hogy egy túra nem lesz túl nehéz?" },
+      {
+        type: "p",
+        text: "A legtöbb közösség előre kiírja a táv hosszát és a szintemelkedést. A táv önmagában keveset mond, a szintemelkedés sokkal többet. Kezdőként a tíz kilométer alatti, 300 méter szintemelkedés alatti túrák a biztonságosak.",
+      },
+      {
+        type: "p",
+        text: "Ha bizonytalan vagy, írj a szervezőnek. Egy jó túravezető örül a kérdésnek, és őszintén megmondja, ha az adott útvonal nem kezdőknek való. Az útvonalakat egyébként előre is megnézheted a Magyar Természetjáró Szövetség térképes adatbázisában.",
+      },
+      {
+        type: "citation",
+        text: "Természetjáró: a Magyar Természetjáró Szövetség túraútvonal-adatbázisa",
+        href: "https://www.termeszetjaro.hu/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell fizetni egy budapesti túraközösség túrájáért?",
+            a: "A túravezetés jellemzően ingyenes, mert a túravezetők önkéntesek. Ami költség felmerül, az az odautazás, tehát jellemzően egy tömegközlekedési jegy vagy bérlet ára.",
+          },
+          {
+            q: "Kell előre jelentkezni?",
+            a: "A vezetett túrákra általában igen, mert a szervezők tudni akarják a létszámot. Ez jellemzően egy rövid üzenet vagy egy űrlap, nem bonyolult regisztráció.",
+          },
+          {
+            q: "Mi van, ha nem bírom a tempót?",
+            a: "A jól szervezett túrákon van seprűs, aki hátul megy, és senkit nem hagynak le. Ha ez fontos neked, kérdezd meg előre, mert nem minden csoport dolgozik így.",
+          },
+          {
+            q: "Egyedül is mehetek, vagy kell valakit vinnem?",
+            a: "Egyedül is mehetsz, sőt a résztvevők jelentős része egyedül érkezik. A túra hossza miatt ez az egyik legkönnyebben egyedül vállalható közösségi program.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "noi-kozossegek-budapesten",
+    title: "Női közösségek Budapesten: 4 csapat, ahol könnyű ismerkedni",
+    metaTitle: "Női közösségek Budapesten",
+    description:
+      "Közös séták, futás, beszélgetős estek. Négy budapesti női közösség, ahova egyedül is elmehetsz, és mindegyiknél ott a közvetlen link.",
+    kind: "listicle",
+    category: "Női közösség",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "Felnőttként barátkozni nehezebb, mint bárki bevallaná. Az iskola és az egyetem után megszűnik az a közeg, ahol hetente ugyanazokkal találkozol, és ismerkedni onnantól tudatos döntés kérdése lesz. A női közösségek pontosan erre a hiányra épültek.",
+      },
+      {
+        type: "p",
+        text: "Ezek a csapatok abban különböznek egy sima sportklubtól, hogy nem a tevékenység a lényeg, hanem a kapcsolódás. A séta vagy a futás csak a keret, ami miatt van hol és mikor találkozni.",
+      },
+      { type: "h2", text: "Budapesti női közösségek, ahova egyedül is elmehetsz" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Hot Girls Walk Club Budapest",
+            note: "Nők közössége, akik rendszeres közös sétákat szerveznek Budapesten. Ez a legkisebb belépési küszöbű formátum az egész listán: nem kell hozzá edzettség, felszerelés, átöltözés, és nincs bemutatkozókör sem. Elindultok együtt, és a beszélgetés magától alakul. Ha még sosem mentél el egyedül semmilyen közösségi programra, ez a legjobb első lépés.",
+            href: "https://www.instagram.com/hotgirlswalkbudapest/",
+          },
+          {
+            name: "SocialGirlsBudapest",
+            note: "Nők közössége Budapesten, ahol kifejezetten az a cél, hogy tartalmas barátságok szülessenek hasonló gondolkodású emberek között. Nem egy adott tevékenység köré szerveződnek, hanem a kapcsolódás köré, tehát változatos programokkal találkozol. Akkor a legjobb választás, ha nem egy hobbit keresel, hanem embereket.",
+            href: "https://www.instagram.com/socialgirlsbudapest/",
+          },
+          {
+            name: "Bridget Runners Budapest",
+            note: "Budapest első női futóklubja, közös hétvégi futásokkal és utána brunch-csal. A leírásuk kezdőbarátnak jelöli magát, és a hétvégi időzítés miatt nem kell munka után rohanni. A futás utáni közös étkezés miatt itt tényleg van idő beszélgetni, nem csak lefutjátok a távot és hazamentek.",
+            href: "https://linktr.ee/bridgetrunners",
+          },
+          {
+            name: "Feminista Meetup Budapest",
+            note: "Feminista közösségi találkozók, ahol az érdeklődők beszélgethetnek és kapcsolódhatnak egymáshoz. Ez a leginkább beszélgetés-központú a négy közül, tehát ha témák mentén ismerkednél, nem mozgás közben, ez a neked való formátum. A programokat Instagramon hirdetik.",
+            href: "https://www.instagram.com/feministameetup/",
+          },
+        ],
+      },
+      { type: "h2", text: "Melyiket válaszd?" },
+      {
+        type: "table",
+        headers: ["Közösség", "Formátum", "Kell hozzá mozgás?", "Kinek való"],
+        rows: [
+          ["Hot Girls Walk Club", "Közös séta", "Minimális", "Aki most kezdi"],
+          ["SocialGirlsBudapest", "Vegyes programok", "Nem", "Aki barátokat keres"],
+          ["Bridget Runners", "Futás plusz brunch", "Igen", "Aki mozogna is"],
+          ["Feminista Meetup", "Beszélgetés", "Nem", "Aki témák mentén kapcsolódna"],
+        ],
+      },
+      { type: "h2", text: "Miért könnyebb egy női közösségbe belépni?" },
+      {
+        type: "p",
+        text: "Sokaknak egyszerűen kisebb a tét. Nincs jelen az ismerkedési szituáció, nincs felmérés, és a csoport nagy része maga is azért van ott, mert új embereket keres. Ez azt jelenti, hogy nem te vagy az egyetlen új arc.",
+      },
+      {
+        type: "p",
+        text: "Ez nem apróság. A tartós magány mérhető egészségügyi kockázat, és a kutatások szerint az egyik leghatékonyabb ellenszere a rendszeres, alacsony tétű személyes találkozás. Pont ezt adja egy heti séta.",
+      },
+      {
+        type: "citation",
+        text: "American Psychological Association: a magány és társas elszigeteltség hatásai",
+        href: "https://www.apa.org/monitor/2023/06/cover-story-loneliness-epidemic",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Egyedül is elmehetek egy női közösség programjára?",
+            a: "Igen, sőt a résztvevők nagy része egyedül érkezik. Ezek a közösségek kifejezetten azért jöttek létre, hogy legyen hova menni egyedül, tehát nem kell barátnőt vinned magaddal.",
+          },
+          {
+            q: "Kell fizetni a részvételért?",
+            a: "A felsorolt közösségek programjai jellemzően ingyenesek. Ahol közös étkezés is van, ott a saját fogyasztásodat fizeted, mást nem.",
+          },
+          {
+            q: "Mi van, ha nem ismerek senkit és nem tudom, mit mondjak?",
+            a: "A sétás és futós formátumok pont ezért működnek jól: menet közben nem kell folyamatosan beszélni, és a csend sem kínos. Az első alkalom szinte mindig kellemetlen kicsit, a másodikon már lesz ismerős arc.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "konyvklubok-budapesten",
+    title: "Könyvklubok Budapesten: hol találsz olvasótársakat?",
+    metaTitle: "Könyvklubok Budapesten",
+    description:
+      "Hogyan működik egy könyvklub, mire számíts az első alkalmon, és melyik két budapesti olvasókörhöz csatlakozhatsz most.",
+    kind: "guide",
+    category: "Könyvklub",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "A könyvklub abban különbözik a legtöbb közösségtől, hogy előre tudod, miről lesz szó. Nem kell társalgási témát keresned, mert a téma adott. Sokaknak pont ez az a biztonsági háló, ami miatt egyáltalán el mernek menni először.",
+      },
+      {
+        type: "p",
+        text: "A másik előnye a ritmus. A legtöbb klub havonta egyszer találkozik, ami elég ritka ahhoz, hogy beleférjen bárki naptárába, és elég rendszeres ahhoz, hogy pár hónap alatt tényleg megismerd a többieket.",
+      },
+      { type: "h2", text: "Hogyan működik egy könyvklub?" },
+      {
+        type: "p",
+        text: "A klub előre kihirdeti a következő könyvet, jellemzően négy vagy hat héttel a találkozó előtt. A megbeszélt időpontban összejöttök egy kávézóban vagy egy könyvtárban, és valaki felvezeti a beszélgetést pár kérdéssel. Nincs feleltetés és nincs helyes válasz.",
+      },
+      {
+        type: "p",
+        text: "Ha nem olvastad végig a könyvet, attól még mehetsz. Ezt a legtöbb klub külön jelzi is. Rosszabb nem elmenni, mint félig olvasottan megjelenni, mert az utóbbi legalább beszélgetés.",
+      },
+      { type: "h2", text: "Budapesti könyvklubok, amikhez csatlakozhatsz" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Unicorn Book Club",
+            note: "Non-fiction fókuszú könyvklub havi rendszerességű beszélgetésekkel Budapesten. Ez a fókusz ritka, mert a könyvklubok többsége szépirodalommal foglalkozik, tehát ha ismeretterjesztő vagy szakmai könyveket olvasnál közösségben, itt találsz társakat. Saját weboldaluk van, tehát a kapcsolatfelvételhez nem kell közösségimédia-fiók.",
+            href: "https://unicornbookclub.hu/",
+          },
+          {
+            name: "Könyvklub Budapesten",
+            note: "Olvasósarok könyvszerető embereknek, közös beszélgetésekkel és könyvajánlókkal. Lazább, kevésbé formalizált működés, ami akkor jó, ha nem szeretnél havi kötelező olvasmányt vállalni, csak olvasni szerető emberekkel találkoznál. Instagramon hirdetik az alkalmakat és az ajánlókat.",
+            href: "https://www.instagram.com/budapestolvasosarok/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ez a kategória jelenleg a legkisebb a listánkban, mert a budapesti könyvklubok többsége zárt baráti kör, és nem hirdeti magát nyilvánosan. Ha tudsz olyanról, ami nyitott új tagokra, szólj, és felvesszük.",
+      },
+      { type: "h2", text: "Mi van, ha nem találsz magadnak valót?" },
+      {
+        type: "p",
+        text: "Indíts egyet. A könyvklub az egyik legkönnyebben elindítható közösségi forma, mert nem kell hozzá helyszín, felszerelés és pénz. Kell egy kávézó, egy könyv és három ember.",
+      },
+      {
+        type: "list",
+        items: [
+          "Válassz egy könyvet, ne kérdezd meg előre mindenkit, mert abból nem lesz döntés",
+          "Tűzz ki egy dátumot négy hét múlvára, hogy legyen idő elolvasni",
+          "Foglalj asztalt egy csendesebb kávézóban hat főre",
+          "Írj ki három vagy négy kérdést, amivel elindul a beszélgetés",
+          "A találkozó végén rögtön beszéljétek meg a következő könyvet és időpontot",
+        ],
+      },
+      {
+        type: "p",
+        text: "Az olvasás közösségi formája egyébként bizonyítottan hozzájárul a mentális jólléthez, nem csak a műveltséghez. A brit Reading Agency évek óta erre építi a programjait.",
+      },
+      {
+        type: "citation",
+        text: "The Reading Agency: az olvasás és a közös olvasás jótékony hatásai",
+        href: "https://readingagency.org.uk/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell előre elolvasnom a könyvet?",
+            a: "Jó, ha elolvasod, de nem feltétel. A legtöbb budapesti könyvklub kifejezetten jelzi, hogy félig olvasottan vagy akár olvasás nélkül is mehetsz, főleg ha most csatlakozol először.",
+          },
+          {
+            q: "Kerül pénzbe egy könyvklub?",
+            a: "Maga a részvétel jellemzően ingyenes. Ami költség felmerül, az a könyv ára és a helyszínen elfogyasztott kávé. A könyvet könyvtárból is kikölcsönözheted.",
+          },
+          {
+            q: "Van angol nyelvű könyvklub Budapesten?",
+            a: "Igen, több klub angol nyelvű könyveket olvas és angolul beszélget. A klub saját oldalán jellemzően jelzik, milyen nyelven megy a beszélgetés, érdemes ezt ellenőrizni csatlakozás előtt.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "startup-tech-kozossegek-budapesten",
+    title: "Startup és tech közösségek Budapesten: hova érdemes járni?",
+    metaTitle: "Startup és tech közösségek Budapesten",
+    description:
+      "Melyik budapesti startup és tech meetupra érdemes bemenned, mire számíts érdeklődőként, és hogyan építs kapcsolatokat kínos networking nélkül.",
+    kind: "guide",
+    category: "Startup / Tech",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-17",
+    updatedAt: "2026-09-17",
+    body: [
+      {
+        type: "p",
+        text: "A budapesti startup és tech színtér elég kicsi ahhoz, hogy pár rendszeres eseményen keresztül gyakorlatilag az egészet meg lehessen ismerni. A nehézség nem a kínálat, hanem az, hogy tudd, melyek ezek az események.",
+      },
+      {
+        type: "p",
+        text: "A másik gyakori tévhit, hogy ezekre csak alapítóként vagy fejlesztőként érdemes bemenni. A legtöbb meetup nyitott érdeklődőkre is, és senki nem kéri számon, mit csinálsz.",
+      },
+      { type: "h2", text: "Hova járj Budapesten?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Startup Hungary",
+            note: "Vállalkozó-vezette közösség, amely évi ötvennél is több eseménnyel pörgeti a magyar startup ökoszisztémát. A First Monday sorozat, a workshopok és az alapítói vacsorák mind más közönséget hoznak, tehát érdemes végignézni, melyik formátum illik hozzád. Ha egyetlen helyen akarod átlátni, kik mozognak a hazai színtéren, itt kezdd.",
+            href: "https://www.startuphungary.io/",
+          },
+          {
+            name: "AI Meetup Budapest",
+            note: "Havi rendszerességű mesterséges intelligencia közösségi találkozó, ahol AI-szakemberek és érdeklődők osztják meg a tapasztalataikat. A havi ritmus miatt könnyű beépíteni a naptáradba, és mivel a téma gyorsan változik, itt tényleg friss dolgokról hallasz. Érdeklődőként is be lehet ülni, nem kell fejlesztőnek lenned.",
+            href: "https://aimeetup.hu/",
+          },
+          {
+            name: "Budapest Digital Nomads",
+            note: "Nem klasszikus tech közösség, hanem digitális nomádok csoportja, de a tagság jelentős része IT-ban vagy online vállalkozásban dolgozik. Álláslehetőségek, szállás és rendszeres közösségi események is mennek benne. Akkor hasznos, ha külföldiként érkeztél, és egyszerre keresel szakmai és baráti kapcsolatokat.",
+            href: "https://www.facebook.com/groups/648464231947085/",
+          },
+        ],
+      },
+      { type: "h2", text: "Mire számíts az első meetupon?" },
+      {
+        type: "p",
+        text: "A tipikus felállás: érkezés és beszélgetés, egy vagy két rövid előadás, majd újra kötetlen beszélgetés. Az előadás alatt nem kell semmit csinálnod, ami kezdőként megnyugtató, mert van egy jó órányi időszak, amikor csak ülsz és hallgatsz.",
+      },
+      {
+        type: "p",
+        text: "A valódi értéke az utolsó szakasznak van. Ott dől el, megismersz-e valakit, és ott szoktak a legtöbben hazamenni, mert kényelmetlen. Ha egyetlen dolgot csinálsz jól, akkor maradj még húsz percet.",
+      },
+      { type: "h2", text: "Hogyan kezdj beszélgetést kínos networking nélkül?" },
+      {
+        type: "list",
+        items: [
+          "Az előadásról kérdezz, ne a másik munkájáról, mert arra mindenki ugyanazt mondja",
+          "Állj oda egy hármas csoporthoz, ne kettőhöz, mert ott van hely egy negyediknek",
+          "Mondd ki, hogy először vagy itt, mert ez rendszerint segítőkészséget vált ki",
+          "Ne osztogass névjegyet, inkább kérdezz vissza valamire, amit mondtak",
+          "Egy jó beszélgetés többet ér, mint tíz bemutatkozás",
+        ],
+      },
+      {
+        type: "p",
+        text: "Érdemes tudni, hogy a magyar startup színtér tőkebevonás és cégszám szempontjából is követhető nyilvános adatokból. Ha üzleti oldalról érdekel, kiket keress, ezekből előre fel tudsz készülni.",
+      },
+      {
+        type: "citation",
+        text: "Dealroom: a magyar startup ökoszisztéma adatai",
+        href: "https://www.dealroom.co/guides/hungary",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell fejlesztőnek vagy alapítónak lennem, hogy bemehessek?",
+            a: "Nem. A budapesti startup és tech meetupok többsége nyitott érdeklődőkre is. Senki nem kéri számon a hátteredet, és a résztvevők jelentős része maga is tanulni jött.",
+          },
+          {
+            q: "Ingyenesek ezek az események?",
+            a: "A közösségi meetupok jellemzően ingyenesek vagy jelképes összegbe kerülnek. A nagyobb konferenciák fizetősek, de azok már nem közösségi alkalmak, hanem rendezvények.",
+          },
+          {
+            q: "Milyen nyelven mennek?",
+            a: "Vegyesen. Az AI Meetup és több nemzetközi közönségű esemény angolul zajlik, más alkalmak magyarul. Az esemény leírásában jellemzően szerepel, melyik nyelv az elsődleges.",
+          },
+          {
+            q: "Egyedül menjek, vagy vigyek valakit?",
+            a: "Egyedül menj. Ha ismerőssel érkezel, nagy eséllyel végig egymással beszélgettek, és pont az marad el, amiért érdemes volt eljönni.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
