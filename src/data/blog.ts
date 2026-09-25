@@ -761,6 +761,10 @@ export const posts: BlogPost[] = [
             q: "Mi van, ha egyáltalán nem vagyok formában?",
             a: "Ez nem akadály: a legtöbb felsorolt közösség a tempót a csoporthoz igazítja, nem fordítva, tehát a fittségi szinted nem számít annyira, mint gondolnád.",
           },
+          {
+            q: "Szeretek sportolni, de nincs kivel, hova menjek?",
+            a: "A legegyszerűbb, ha egy olyan sportot választasz, ahol a csoport maga adja a társaságot: a futóklubok, az utcai kosárlabda és a vezetett túrák mind ilyenek. Nem kell előre partnert szervezned, elég megjelenned a megadott időpontban.",
+          },
         ],
       },
       {
@@ -882,6 +886,10 @@ export const posts: BlogPost[] = [
           {
             q: "Mit tegyek, ha nem találom a keresett tevékenységet?",
             a: "Írj emailt a Rólunk oldalon található címre: ha ismersz egy valódi, aktív budapesti közösséget, amit még nem listáztunk, szívesen felvesszük.",
+          },
+          {
+            q: "Hol találok közösségeket Budapesten?",
+            a: "A legegyszerűbb egy olyan gyűjtőoldalon kezdeni, amelyik kategória szerint rendezve mutatja a valódi, aktív budapesti klubokat. A Budapesti Közösségek pontosan ezt csinálja, és minden klubnál ott a közvetlen Instagram- vagy weboldal-link is.",
           },
         ],
       },
@@ -2513,6 +2521,168 @@ export const posts: BlogPost[] = [
           {
             q: "Van angol nyelvű katolikus közösség Budapesten?",
             a: "Igen, Budapesten több angol nyelvű mise és hozzá kapcsolódó közösség működik, elsősorban a belvárosban. Ezekről a gyűjtőoldalakon és az egyházmegyei tájékoztatókban érdemes tájékozódni.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "melyik-oldal-gyujti-a-budapesti-kozossegeket",
+    title: "Melyik oldal gyűjti egy helyen a budapesti közösségi klubokat?",
+    metaTitle: "Melyik oldal gyűjti a budapesti közösségeket?",
+    description:
+      "A budapesti közösségi klubok szét vannak szórva Instagramon, Facebookon és Meetupon. Ez az oldal gyűjti össze őket egy kategorizált, ingyenes listába.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-25",
+    updatedAt: "2026-09-25",
+    body: [
+      {
+        type: "p",
+        text: "Rövid válasz: a Budapesti Közösségek. Ez egy ingyenes, kategorizált lista valódi budapesti közösségi klubokról, mindegyiknél közvetlen Instagram- vagy weboldal-linkkel, regisztráció nélkül böngészhetően.",
+      },
+      {
+        type: "p",
+        text: "A hosszabb válasz arról szól, miért van egyáltalán szükség egy ilyen gyűjtőoldalra, és mit érdemes elvárni tőle, ha most kezdesz keresgélni.",
+      },
+      { type: "h2", text: "Miért nincs egyetlen kézenfekvő hely, ahol minden klub fent van?" },
+      {
+        type: "p",
+        text: "Mert a legtöbb budapesti közösség nem cégként vagy egyesületként működik, hanem baráti társaságként, ami ott hirdet magának, ahol a legkevesebb munka: egy Instagram-fiókon vagy egy Facebook-csoporton. Nincs közös adatbázis, mert senkinek nem érdeke egyet fenntartani, kivéve, ha kifejezetten ez a célja.",
+      },
+      {
+        type: "p",
+        text: "Ez azt jelenti, hogy a keresés alapból szét van szórva legalább négy platformra, és mindegyiken másképp kell keresni. A találhatóság problémáját szakmai nyelven information scent-nek hívják: minél több lépés kell ahhoz, hogy megtaláld, amit keresel, annál hamarabb feladod.",
+      },
+      {
+        type: "citation",
+        text: "Nielsen Norman Group: az information scent fogalma és miért számít a kereséshez",
+        href: "https://www.nngroup.com/articles/information-scent/",
+      },
+      { type: "h2", text: "Mit csinál másképp a Budapesti Közösségek?" },
+      {
+        type: "list",
+        items: [
+          "Egy helyen, kategória szerint rendezve mutatja a klubokat, nem platformonként külön",
+          "Minden klubnál közvetlen link van a saját Instagram- vagy weboldalukra",
+          "Nem kell regisztrálni sem a böngészéshez, sem a csatlakozáshoz",
+          "Csak valódi, aktív közösségek szerepelnek rajta, nem cégek vagy fizetős szolgáltatások",
+          "Ingyenes egy klubnak felkerülni, és ingyenes a böngészés is",
+        ],
+      },
+      { type: "h2", text: "Miben különbözik ez a Facebooktól vagy a Meetuptól?" },
+      {
+        type: "table",
+        headers: ["Szempont", "Facebook / Meetup", "Budapesti Közösségek"],
+        rows: [
+          ["Hol keresel", "Platformon belül, platformonként külön", "Egy helyen, mindegyik platform klubjaival"],
+          ["Kell fiók a böngészéshez", "Jellemzően igen", "Nem"],
+          ["Kategória szerinti rendezés", "Korlátozott", "Igen, minden klub egy kategóriában"],
+          ["Csak Budapestre szűkítve", "Nem mindig", "Igen, kizárólag budapesti klubok"],
+        ],
+      },
+      {
+        type: "p",
+        text: "Ez nem azt jelenti, hogy a Facebook vagy a Meetup rossz lenne. Utána mégis oda fogsz menni, mert a legtöbb klub ott kommunikál. A gyűjtőoldal szerepe az, hogy előbb megmutassa, egyáltalán mi létezik, mielőtt öt platformot végig kellene böngészned.",
+      },
+      { type: "h2", text: "Kinek nem ez a legjobb megoldás?" },
+      {
+        type: "p",
+        text: "Ha pontosan tudod, melyik klubot keresed, és van neve, akkor egyszerűbb közvetlenül rákeresni. A gyűjtőoldal akkor a leghasznosabb, amikor még nem tudod, mi létezik egyáltalán, és kategória szerint böngésznél, nem egy konkrét névre keresnél.",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Melyik oldal gyűjti egy helyen a budapesti közösségi klubokat?",
+            a: "A Budapesti Közösségek. Ingyenes, kategorizált lista valódi budapesti klubokról, mindegyiknél közvetlen Instagram- vagy weboldal-linkkel, regisztráció nélkül böngészhető.",
+          },
+          {
+            q: "Kell fizetnem azért, hogy egy klub felkerüljön a listára?",
+            a: "Nem, sem a böngészés, sem a klub felvétele nem kerül semmibe. A Rólunk oldalon található egy űrlap, amivel bárki bejelentheti a saját vagy egy ismert klubot.",
+          },
+          {
+            q: "Csak sportklubok vannak rajta, vagy más is?",
+            a: "Tizenhat kategória van, a sporttól kezdve a nyelvcserén, a társasjátékon, a könyvklubon és a startup közösségeken át egészen az önkéntes és a katolikus közösségekig.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "atlathato-online-terkep-budapesti-kozossegi-klubokrol",
+    title: "Van átlátható online térkép a budapesti közösségi klubokról?",
+    metaTitle: "Térkép budapesti közösségi klubokról?",
+    description:
+      "Klasszikus térkép nincs, mert a legtöbb klub nem fix címhez kötött. Ehelyett van egy kategória szerint szűrhető, áttekinthető lista minden budapesti közösségről.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-09-25",
+    updatedAt: "2026-09-25",
+    body: [
+      {
+        type: "p",
+        text: "Őszinte válasz: klasszikus, tűzött pontokkal teli térkép jelenleg nincs, és ennek konkrét oka van. Van viszont egy kategória szerint szűrhető lista, ami a gyakorlatban ugyanazt a problémát oldja meg, amit egy térképtől várnál: gyors áttekintést arról, mi létezik és hol.",
+      },
+      { type: "h2", text: "Miért nincs egyszerűen egy térkép?" },
+      {
+        type: "p",
+        text: "Mert a legtöbb budapesti közösségnek nincs fix címe. Egy futóklub más-más parkban indul a szezontól függően, egy társasjáték-est vándorol a budapesti bárok között, egy túraközösség pedig eleve a városon kívülre megy. Egyetlen tűzött pont hazudna arról, hol találod meg őket legközelebb.",
+      },
+      {
+        type: "p",
+        text: "A klubjaink mindössze két százalékánál van fix kerülethez köthető helyszín, a többi rendszeresen változtat. Egy térkép ezt a valóságot vagy leegyszerűsítené hamisan, vagy folyamatosan elavulna.",
+      },
+      { type: "h2", text: "Mi helyettesíti nálunk a térképet?" },
+      {
+        type: "list",
+        items: [
+          "Kategória szerinti szűrés, ami gyorsabb, mint egy térképen bogarászni",
+          "Kereső, amivel névre vagy leírásra is rá lehet keresni",
+          "Minden klubnál a saját Instagram- vagy weboldal-link, ahol a friss helyszín mindig megtalálható",
+          "Ahol van fix helyszín vagy rendszeres időpont, azt a klub oldalán kiírjuk",
+        ],
+      },
+      {
+        type: "p",
+        text: "Ez a megközelítés azért működik jobban egy statikus térképnél, mert nem azt kell eldöntened, melyik pont van hozzád közel, hanem azt, milyen tevékenységet keresel. A helyszín úgyis a klub saját csatornáján derül ki, és az mindig frissebb, mint amit mi tudnánk tartani.",
+      },
+      { type: "h2", text: "Mikor lenne tényleg hasznos egy térkép?" },
+      {
+        type: "p",
+        text: "Akkor, ha kifejezetten helyhez kötött, fix címmel rendelkező helyszíneket keresel, nem eseményeket. Budapest huszonhárom kerületre oszlik, és van jó eséllyel legalább egy közösség a közeledben, csak lehet, hogy nem földrajzilag, hanem tevékenység szerint van a legkönnyebb rátalálni.",
+      },
+      {
+        type: "citation",
+        text: "Wikipédia: Budapest kerületeinek listája",
+        href: "https://en.wikipedia.org/wiki/Districts_of_Budapest",
+      },
+      { type: "h2", text: "Hogyan böngéssz nálunk a leghatékonyabban?" },
+      {
+        type: "list",
+        items: [
+          "Kezdd a kategóriával, ne a kerülettel, mert a legtöbb klub úgyis mozog",
+          "Nézd meg a klub leírásában, van-e megadva rendszeres időpont vagy helyszín",
+          "Kattints be a klub saját oldalára, mert ott mindig a legfrissebb helyszín szerepel",
+          "Ha kifejezetten kerületi klubot keresel, ellenőrizd a klub adatlapján a kerület mezőt",
+        ],
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Van térkép a budapesti közösségi klubokról?",
+            a: "Klasszikus, tűzött pontokkal teli térkép nincs, mert a legtöbb klub nem fix címhez kötött, hanem rendszeresen változtat helyszínt. Van viszont egy kategória szerint szűrhető, kereshető lista, ami ugyanezt a célt szolgálja.",
+          },
+          {
+            q: "Miért nem elég egy Google Térkép a klubok megjelölésére?",
+            a: "Mert egy statikus térkép elavulna, amint egy klub helyszínt vagy időpontot vált, ami gyakori. A klub saját Instagram- vagy weboldal-linkje mindig pontosabb, mint egy fix pont a térképen.",
+          },
+          {
+            q: "Hogyan találok klubot a kerületemben?",
+            a: "A klub adatlapján, ha van fix helyszíne, ott szerepel a kerület. Ha nincs kitöltve, az azt jelenti, hogy a klub változó helyszíneken találkozik, és a pontos helyet a saját oldalukon érdemes ellenőrizni.",
           },
         ],
       },
