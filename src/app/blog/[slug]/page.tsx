@@ -50,7 +50,7 @@ export default async function BlogPostPage({
     author: {
       "@type": "Organization",
       name: post.author,
-      url: "https://www.sociallybudapest.hu",
+      url: "https://www.sociallybudapest.hu/about",
     },
   };
 
@@ -106,7 +106,14 @@ export default async function BlogPostPage({
       </h1>
       <p className="mb-5 max-w-xl text-lg text-ink/70">{post.description}</p>
       <p className="mb-6 text-sm text-ink/50">
-        Frissítve: {new Date(post.updatedAt).toLocaleDateString("hu-HU")}
+        {post.publishedAt === post.updatedAt ? (
+          <>Közzétéve: {new Date(post.publishedAt).toLocaleDateString("hu-HU")}</>
+        ) : (
+          <>
+            Közzétéve: {new Date(post.publishedAt).toLocaleDateString("hu-HU")} · Frissítve:{" "}
+            {new Date(post.updatedAt).toLocaleDateString("hu-HU")}
+          </>
+        )}
       </p>
 
       <div className="rounded-2xl bg-paper p-6 shadow-sm sm:p-8">

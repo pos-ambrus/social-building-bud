@@ -8,7 +8,7 @@
     "schedule": "Hétvégente",
     "website_url": "https://linktr.ee/bridgetrunners",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-bridget-runners-budapest.jpg",
     "featured": true,
     "type": "Közösség"
   },
@@ -21,7 +21,7 @@
     "schedule": "Kedd és csütörtök este, vasárnap reggel",
     "website_url": null,
     "instagram_url": "https://www.instagram.com/runnershighbud/",
-    "image_url": "https://images.unsplash.com/photo-1590333748338-d629e4564ad9?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-runners-high-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -34,7 +34,7 @@
     "schedule": null,
     "website_url": "https://www.facebook.com/p/Angyalf%C3%B6ldi-Fut%C3%B3klub-100063959566104/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1540539234-c14a20fb7c7b?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-angyalfoldi-futoklub.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -47,7 +47,7 @@
     "schedule": null,
     "website_url": "https://www.meetup.com/budapest/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1515169067868-5387ec356754?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/nyelvcsere-networking-budapest-language-exchange.jpg",
     "featured": true,
     "type": "Közösség"
   },
@@ -60,7 +60,7 @@
     "schedule": "Szombat esténként",
     "website_url": "https://www.meetup.com/international-socializing-in-budapest/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1675716921224-e087a0cca69a?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/nyelvcsere-networking-international-socializing-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -86,7 +86,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/budapestolvasosarok/",
-    "image_url": "https://images.unsplash.com/photo-1763896081109-ed6bf56ae955?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/konyvklub-konyvklub-budapesten.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -99,7 +99,7 @@
     "schedule": null,
     "website_url": "https://turakor.hu/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1660314002642-77bbfe3e9b48?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/tura-termeszetjaras-turazok-baratikore.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -112,7 +112,7 @@
     "schedule": null,
     "website_url": "https://latinfo.hu/events/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1555489401-79c274997434?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/tanc-latinfo.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -125,7 +125,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/margitszigetijoga.hu/",
-    "image_url": "https://images.unsplash.com/photo-1687436874774-fa0d4616bec9?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/joga-wellness-margitszigeti-joga.jpg",
     "featured": true,
     "type": "Közösség"
   },
@@ -138,7 +138,7 @@
     "schedule": null,
     "website_url": "https://kerekparosklub.hu/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1684230413889-836e331a8201?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-i-bike-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -151,7 +151,7 @@
     "schedule": null,
     "website_url": "https://www.facebook.com/thecafeclubbudapest/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1690540293162-bfb097e68a34?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-the-cafe-club-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -164,7 +164,7 @@
     "schedule": null,
     "website_url": "https://www.facebook.com/groups/648464231947085/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1702047149248-a6049168d2a8?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/networking-digitalis-nomad-budapest-digital-nomads.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -177,7 +177,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/budapestracquetsociety/",
-    "image_url": "https://images.unsplash.com/photo-1545151414-8a948e1ea54f?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-budapest-racquet-society.jpg",
     "featured": true,
     "type": "Közösség"
   },
@@ -190,7 +190,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/runninglatteclub/",
-    "image_url": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-running-latte-club.jpg",
     "featured": true,
     "type": "Közösség"
   },
@@ -203,7 +203,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/bikas_park/",
-    "image_url": "https://images.unsplash.com/photo-1519684093736-61f49e250672?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-bikas-park-streetball.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -216,7 +216,7 @@
     "schedule": null,
     "website_url": "https://www.meetup.com/budapest-personal-growth-szemelyes-fejl%C5%91des-meetup/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1643682661119-28da0685be2c?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/meditacio-spiritualitas-budapest-personal-growth-meetup.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -242,7 +242,7 @@
     "schedule": "Havonta",
     "website_url": "https://aimeetup.hu/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1576085898323-218337e3e43c?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/startup-tech-ai-meetup-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -255,7 +255,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/feministameetup/",
-    "image_url": "https://images.unsplash.com/photo-1731374403011-3377564287aa?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/noi-kozosseg-feminista-meetup-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -268,7 +268,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/dykesonhikes_budapest/",
-    "image_url": "https://images.unsplash.com/photo-1627289496743-8a9a08bb228a?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/lmbtq-kozosseg-dykes-on-hikes-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -281,7 +281,7 @@
     "schedule": null,
     "website_url": "https://www.facebook.com/groups/263358474501496/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1677094365560-9f88ce594e7c?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/tarsasjatek-tia-game-cave.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -307,7 +307,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/the_runcrew/",
-    "image_url": "https://images.unsplash.com/photo-1590333748338-d629e4564ad9?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-run-crew-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -333,7 +333,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/justconnect.hu/",
-    "image_url": "https://images.unsplash.com/photo-1660314002642-77bbfe3e9b48?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/tura-termeszetjaras-just-connect.jpg",
     "featured": true,
     "type": "Közösség"
   },
@@ -346,7 +346,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/momscommunitybudapest/",
-    "image_url": "https://images.unsplash.com/photo-1649730836675-bf065fb8bb55?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/szulok-csaladok-moms-community-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -359,7 +359,7 @@
     "schedule": null,
     "website_url": "https://toastmasters.hu/klubok/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/nyilvanos-beszed-toastmasters-magyarorszag.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -372,7 +372,7 @@
     "schedule": null,
     "website_url": "https://www.facebook.com/profile.php?id=61574524619037",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/meditacio-spiritualitas-artemis-compass.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -385,7 +385,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/havervagy/",
-    "image_url": "https://images.unsplash.com/photo-1635829933414-02613bc5464c?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/nyelvcsere-networking-havervagy.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -398,7 +398,7 @@
     "schedule": null,
     "website_url": "https://www.facebook.com/groups/1596852831973904",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1758518729685-f88df7890776?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-profi-med-performance-kozosseg.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -411,7 +411,7 @@
     "schedule": null,
     "website_url": "https://kozossegek.hu/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1609234656388-0ff363383899?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/katolikus-kozossegek-katolikus-kozossegek.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -424,7 +424,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/socialgirlsbudapest/",
-    "image_url": "https://images.unsplash.com/photo-1695141482205-08e4e76c2a79?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/noi-kozosseg-socialgirlsbudapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -450,7 +450,7 @@
     "schedule": "Hetente, Puskás Aréna melletti pálya",
     "website_url": "https://www.budapestbikepolo.hu/",
     "instagram_url": "https://www.instagram.com/budapestbikepolo/",
-    "image_url": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-budapest-bike-polo.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -463,7 +463,7 @@
     "schedule": null,
     "website_url": "https://www.strava.com/clubs/PacePour",
     "instagram_url": "https://www.instagram.com/pacepour",
-    "image_url": "https://images.unsplash.com/photo-1634921363975-46fa99024422?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-pace-and-pour.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -476,7 +476,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.facebook.com/bpboardgames/",
-    "image_url": "https://images.unsplash.com/photo-1677188010559-0667a1ed33a0?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/tarsasjatek-budapest-board-game-nights.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -489,7 +489,7 @@
     "schedule": null,
     "website_url": "https://www.meetup.com/board-games-in-english/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1677094365537-c786fb4c7b84?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/tarsasjatek-board-games-in-english.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -502,7 +502,7 @@
     "schedule": null,
     "website_url": "https://www.meetup.com/yogamindfulnessbudapest/",
     "instagram_url": null,
-    "image_url": "https://images.unsplash.com/photo-1529693662653-9d480530a697?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/joga-wellness-conscious-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -515,7 +515,7 @@
     "schedule": null,
     "website_url": "https://chempz.hu/",
     "instagram_url": "https://www.instagram.com/chempz_app/",
-    "image_url": "https://images.unsplash.com/photo-1770064319432-9c5f134afca7?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-chempz.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -528,7 +528,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/pickmeball.club/",
-    "image_url": "https://images.unsplash.com/photo-1693142518820-78d7a05f1546?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/sport-pickmeball-club.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -541,7 +541,7 @@
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/hotgirlswalkbudapest/",
-    "image_url": "https://images.unsplash.com/photo-1500027014421-46ccc843776a?w=600&h=450&fit=crop&auto=format&q=80",
+    "image_url": "/images/clubs/noi-kozosseg-hot-girls-walk-club-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   }

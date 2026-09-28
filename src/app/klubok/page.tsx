@@ -72,7 +72,7 @@ export default async function KlubokPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <h1 style={{ fontFamily: "var(--font-display)" }} className="mb-2 text-3xl uppercase tracking-tight text-ink">
-        Klubok
+        Budapesti Közösségek klubjai
       </h1>
       <h2 className="mb-6 text-sm text-ink/60">Hogyan találod meg a neked való klubot?</h2>
       <ul className="mb-8 list-disc space-y-1 pl-5 text-sm text-ink/60">

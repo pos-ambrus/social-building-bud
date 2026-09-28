@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const PHOTOS = [
   {
-    src: "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&h=400&fit=crop&auto=format&q=80",
+    src: "/images/hero/kozos-futas-budapesten-napkeltekor.jpg",
     alt: "Közös futás Budapesten napkeltekor",
     top: "2%",
     left: "8%",
@@ -13,7 +13,7 @@ const PHOTOS = [
     z: 3,
   },
   {
-    src: "https://images.unsplash.com/photo-1660314002642-77bbfe3e9b48?w=400&h=400&fit=crop&auto=format&q=80",
+    src: "/images/hero/turazo-kozosseg-budapest-kornyeki-hegyekben.jpg",
     alt: "Túrázó közösség a hegyekben Budapest környékén",
     top: "34%",
     left: "44%",
@@ -24,7 +24,7 @@ const PHOTOS = [
     z: 2,
   },
   {
-    src: "https://images.unsplash.com/photo-1763896081109-ed6bf56ae955?w=400&h=400&fit=crop&auto=format&q=80",
+    src: "/images/hero/konyvklub-tagok-kozos-beszelgetese.jpg",
     alt: "Könyvklub-tagok közös beszélgetése",
     top: "58%",
     left: "4%",

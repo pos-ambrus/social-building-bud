@@ -4,7 +4,7 @@ import { posts } from "@/data/blog";
 
 const TITLE = "Blog";
 const DESCRIPTION =
-  "Útmutatók és listák budapesti közösségekről: hogyan találj klubot, futóklubot vagy nyelvcsere-közösséget, ami hozzád illik.";
+  "A Budapesti Közösségek blogja: útmutatók és listák budapesti közösségekről, hogyan találj klubot, futóklubot vagy nyelvcsere-közösséget, ami hozzád illik.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -27,7 +27,7 @@ export default function BlogIndexPage() {
         style={{ fontFamily: "var(--font-display)" }}
         className="mb-2 text-3xl uppercase tracking-tight text-ink"
       >
-        Blog
+        Budapesti Közösségek blog
       </h1>
       <p className="mb-10 max-w-xl text-ink/60">{DESCRIPTION}</p>
 

@@ -55,18 +55,30 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${SITE_URL}/#organization`,
+  name: SITE_NAME,
+  url: SITE_URL,
+  logo: `${SITE_URL}/icon.svg`,
+  description: SITE_DESCRIPTION,
+};
+
+const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": `${SITE_URL}/#website`,
   name: SITE_NAME,
   url: SITE_URL,
   description: SITE_DESCRIPTION,
   inLanguage: "hu",
   dateModified: new Date().toISOString().slice(0, 10),
+  publisher: { "@id": `${SITE_URL}/#organization` },
   author: {
     "@type": "Organization",
     name: "Budapesti Közösségek szerkesztősége",
-    url: SITE_URL,
+    url: `${SITE_URL}/about`,
   },
 };
 
@@ -82,7 +94,11 @@ export default function RootLayout({
       <body className={`${inter.variable} ${anton.variable} ${caveat.variable} flex min-h-screen flex-col bg-background font-sans text-foreground antialiased`}>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
         {GA_MEASUREMENT_ID && (
           <>

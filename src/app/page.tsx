@@ -69,9 +69,9 @@ export default function Home() {
               style={{ fontFamily: "var(--font-display)" }}
               className="text-5xl uppercase leading-[1.05] tracking-tight text-ink sm:text-7xl"
             >
-              Találd meg a közösséged
+              Budapesti Közösségek
               <br />
-              Budapesten
+              Találd meg a sajátod
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-lg text-ink/70 lg:mx-0">
               Kézzel válogatott, valódi budapesti közösségi klubok. Remélem, te is
