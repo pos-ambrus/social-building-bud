@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TranslateToggle from "./TranslateToggle";
 
 export default function SiteHeader() {
   return (
@@ -21,6 +22,7 @@ export default function SiteHeader() {
           <Link href="/about" className="hidden transition-colors hover:text-pin-blue sm:inline">
             Miért csináltam?
           </Link>
+          <TranslateToggle />
           <Link
             href="/about"
             className="inline-flex shrink-0 items-center whitespace-nowrap rounded-full border-2 border-cta bg-cta px-3 py-1.5 text-xs font-semibold text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover sm:px-4 sm:py-2 sm:text-sm"
