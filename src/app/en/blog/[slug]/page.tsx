@@ -2,10 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import BlogBody from "@/components/BlogBody";
-import { getPostBySlug, posts } from "@/data/blog";
+import { postsEn } from "@/data/blog.en";
+import { getHuBlogSlug } from "@/lib/blogSlugMap";
+import { getCategoryEn } from "@/lib/categoriesEn";
+
+function getPostBySlugEn(slug: string) {
+  return postsEn.find((p) => p.slug === slug);
+}
 
 export function generateStaticParams() {
-  return posts.map((post) => ({ slug: post.slug }));
+  return postsEn.map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({
@@ -14,30 +20,37 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const post = getPostBySlug(slug);
+  const post = getPostBySlugEn(slug);
   if (!post) return {};
 
   const metaTitle = post.metaTitle ?? post.title;
+  const huSlug = getHuBlogSlug(post.slug);
 
   return {
     title: { absolute: metaTitle },
     description: post.description,
-    alternates: { canonical: `/blog/${post.slug}` },
-    openGraph: { title: metaTitle, description: post.description, url: `/blog/${post.slug}` },
+    alternates: {
+      canonical: `/en/blog/${post.slug}`,
+      languages: huSlug
+        ? { hu: `/blog/${huSlug}`, en: `/en/blog/${post.slug}` }
+        : { en: `/en/blog/${post.slug}` },
+    },
+    openGraph: { title: metaTitle, description: post.description, url: `/en/blog/${post.slug}` },
     twitter: { title: metaTitle, description: post.description },
   };
 }
 
-export default async function BlogPostPage({
+export default async function BlogPostPageEn({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = getPostBySlug(slug);
+  const post = getPostBySlugEn(slug);
   if (!post) notFound();
 
   const faqBlock = post.body.find((b) => b.type === "faq");
+  const categoryEn = post.category ? getCategoryEn(post.category) : null;
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -46,11 +59,11 @@ export default async function BlogPostPage({
     description: post.description,
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
-    inLanguage: "hu",
+    inLanguage: "en",
     author: {
       "@type": "Organization",
       name: post.author,
-      url: "https://www.sociallybudapest.hu/about",
+      url: "https://www.sociallybudapest.hu/en/about",
     },
   };
 
@@ -80,7 +93,7 @@ export default async function BlogPostPage({
         />
       )}
 
-      <Link href="/blog" className="text-sm font-medium text-pin-blue hover:underline">
+      <Link href="/en/blog" className="text-sm font-medium text-pin-blue hover:underline">
         ← Blog
       </Link>
 
@@ -94,7 +107,7 @@ export default async function BlogPostPage({
             className={`h-1.5 w-1.5 rounded-full ${post.kind === "listicle" ? "bg-cta" : "bg-pin-blue"}`}
             aria-hidden="true"
           />
-          {post.category ?? (post.kind === "listicle" ? "Lista" : "Útmutató")}
+          {categoryEn ? categoryEn.name : post.kind === "listicle" ? "List" : "Guide"}
         </span>
       </div>
 
@@ -107,11 +120,11 @@ export default async function BlogPostPage({
       <p className="mb-5 max-w-xl text-lg text-ink/70">{post.description}</p>
       <p className="mb-6 text-sm text-ink/50">
         {post.publishedAt === post.updatedAt ? (
-          <>Közzétéve: {new Date(post.publishedAt).toLocaleDateString("hu-HU")}</>
+          <>Published: {new Date(post.publishedAt).toLocaleDateString("en-GB")}</>
         ) : (
           <>
-            Közzétéve: {new Date(post.publishedAt).toLocaleDateString("hu-HU")} · Frissítve:{" "}
-            {new Date(post.updatedAt).toLocaleDateString("hu-HU")}
+            Published: {new Date(post.publishedAt).toLocaleDateString("en-GB")} · Updated:{" "}
+            {new Date(post.updatedAt).toLocaleDateString("en-GB")}
           </>
         )}
       </p>
@@ -122,10 +135,10 @@ export default async function BlogPostPage({
 
       <div className="mt-10 border-t-2 border-ink/10 pt-6">
         <Link
-          href={post.category ? `/klubok?kategoria=${encodeURIComponent(post.category)}` : "/klubok"}
+          href={categoryEn ? `/en/clubs?category=${categoryEn.slug}` : "/en/clubs"}
           className="inline-flex items-center rounded-full border-2 border-cta bg-cta px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-paper transition-colors hover:border-cta-hover hover:bg-cta-hover"
         >
-          {post.category ? `${post.category} klubok böngészése` : "Klubok böngészése"} →
+          {categoryEn ? `Browse ${categoryEn.name} clubs` : "Browse clubs"} →
         </Link>
       </div>
     </div>

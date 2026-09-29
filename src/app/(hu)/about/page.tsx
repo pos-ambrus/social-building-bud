@@ -8,7 +8,7 @@ const DESCRIPTION = "Miért hoztuk létre a Budapesti Közösségek oldalt, és 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  alternates: { canonical: "/about" },
+  alternates: { canonical: "/about", languages: { hu: "/about", en: "/en/about" } },
   openGraph: { title: TITLE, description: DESCRIPTION, url: "/about" },
   twitter: { title: TITLE, description: DESCRIPTION },
 };

@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ClubCard from "@/components/ClubCard";
-import ClubLinkButton from "@/components/ClubLinkButton";
+import ClubCardEn from "@/components/ClubCardEn";
+import ClubLinkButtonEn from "@/components/ClubLinkButtonEn";
 import { clubs, getClubById } from "@/data/clubs";
-import { categoryHref } from "@/lib/slug";
+import { categoryHrefEn, getCategoryEn } from "@/lib/categoriesEn";
+import { getScheduleEn } from "@/lib/scheduleEn";
 
 const SITE_URL = "https://www.sociallybudapest.hu";
 
@@ -22,23 +23,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const club = getClubById(id);
   if (!club) return {};
 
-  // A Google ~60 karakternél vágja a címet, ezért a leghosszabb változattal
-  // kezdünk, és addig rövidítünk, amíg belefér.
+  const categoryEn = getCategoryEn(club.category);
   const candidates = [
-    `${club.name} - ${club.category} közösség Budapesten`,
-    `${club.name} - ${club.category} Budapest`,
+    `${club.name} - ${categoryEn.name} community in Budapest`,
+    `${club.name} - ${categoryEn.name} Budapest`,
     `${club.name} - Budapest`,
     club.name,
   ];
   const title = candidates.find((c) => c.length <= 60) ?? club.name;
 
-  const description = `${club.description} Nézd meg, hogyan csatlakozhatsz a ${club.name} közösséghez Budapesten.`;
-  const url = `/klub/${club.id}`;
+  const description = `${club.description_en} See how to join ${club.name} in Budapest.`;
+  const url = `/en/club/${club.id}`;
 
   return {
     title: { absolute: title },
     description,
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: { hu: `/klub/${club.id}`, en: url } },
     openGraph: {
       title,
       description,
@@ -50,11 +50,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function ClubPage({ params }: Props) {
+export default async function ClubPageEn({ params }: Props) {
   const { id } = await params;
   const club = getClubById(id);
   if (!club) notFound();
 
+  const categoryEn = getCategoryEn(club.category);
+  const scheduleEn = getScheduleEn(club.schedule);
   const related = clubs
     .filter((c) => c.category === club.category && c.id !== club.id)
     .slice(0, 4);
@@ -63,18 +65,18 @@ export default async function ClubPage({ params }: Props) {
 
   const faq = [
     {
-      q: `Hogyan csatlakozhatok a ${club.name} közösséghez?`,
+      q: `How do I join ${club.name}?`,
       a: externalUrl
-        ? `Nyisd meg a közösség saját oldalát, és vedd fel velük közvetlenül a kapcsolatot. Nálunk nem kell regisztrálni, mi csak összegyűjtjük és egy helyen mutatjuk meg a budapesti közösségeket.`
-        : "Vedd fel a közösséggel közvetlenül a kapcsolatot. Nálunk nem kell regisztrálni a csatlakozáshoz.",
+        ? "Open the community's own page and reach out to them directly. You do not need to register with us, we just collect and show Budapest communities in one place."
+        : "Reach out to the community directly. You do not need to register with us to join.",
     },
     {
-      q: `Kezdőként is mehetek a ${club.name} programjaira?`,
-      a: "A listánkon szereplő közösségek túlnyomó része nyitott arra, hogy előzetes tapasztalat nélkül, egyedül érkezz. A pontos feltételeket a közösség saját oldalán érdemes ellenőrizni, mert azt ők tartják naprakészen.",
+      q: `Can I go to ${club.name} events as a beginner?`,
+      a: "The vast majority of communities on our list are open to people arriving alone with no prior experience. It is worth checking the exact conditions on the community's own page, since they keep that current.",
     },
     {
-      q: "Kerül valamibe a csatlakozás?",
-      a: "Ez az oldal ingyenes, és a listázott közösségek nagy része sem kér tagdíjat. Ha egy közösségnek mégis van részvételi díja, azt a saját oldalán tünteti fel.",
+      q: "Does joining cost anything?",
+      a: "This site is free, and most listed communities charge no membership fee either. If a community does have a participation fee, it states this on its own page.",
     },
   ];
 
@@ -83,23 +85,24 @@ export default async function ClubPage({ params }: Props) {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Főoldal", item: SITE_URL },
-        { "@type": "ListItem", position: 2, name: "Klubok", item: `${SITE_URL}/klubok` },
+        { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/en` },
+        { "@type": "ListItem", position: 2, name: "Clubs", item: `${SITE_URL}/en/clubs` },
         {
           "@type": "ListItem",
           position: 3,
-          name: club.category,
-          item: `${SITE_URL}${categoryHref(club.category)}`,
+          name: categoryEn.name,
+          item: `${SITE_URL}${categoryHrefEn(club.category)}`,
         },
-        { "@type": "ListItem", position: 4, name: club.name, item: `${SITE_URL}/klub/${club.id}` },
+        { "@type": "ListItem", position: 4, name: club.name, item: `${SITE_URL}/en/club/${club.id}` },
       ],
     },
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": `${SITE_URL}/klub/${club.id}#organization`,
       name: club.name,
-      description: club.description,
-      url: externalUrl ?? `${SITE_URL}/klub/${club.id}`,
+      description: club.description_en,
+      url: externalUrl ?? `${SITE_URL}/en/club/${club.id}`,
       image: club.image_url,
       sameAs: [club.instagram_url, club.website_url].filter(Boolean),
       areaServed: { "@type": "City", name: "Budapest" },
@@ -133,17 +136,17 @@ export default async function ClubPage({ params }: Props) {
         />
       ))}
 
-      <nav aria-label="Morzsamenü" className="mb-6 text-sm text-ink/50">
-        <Link href="/" className="hover:text-pin-blue">
-          Főoldal
+      <nav aria-label="Breadcrumb" className="mb-6 text-sm text-ink/50">
+        <Link href="/en" className="hover:text-pin-blue">
+          Home
         </Link>
         <span className="px-2">/</span>
-        <Link href="/klubok" className="hover:text-pin-blue">
-          Klubok
+        <Link href="/en/clubs" className="hover:text-pin-blue">
+          Clubs
         </Link>
         <span className="px-2">/</span>
-        <Link href={categoryHref(club.category)} className="hover:text-pin-blue">
-          {club.category}
+        <Link href={categoryHrefEn(club.category)} className="hover:text-pin-blue">
+          {categoryEn.name}
         </Link>
       </nav>
 
@@ -169,23 +172,24 @@ export default async function ClubPage({ params }: Props) {
 
           <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-ink/60">
             <Link
-              href={categoryHref(club.category)}
+              href={categoryHrefEn(club.category)}
               className="rounded-full bg-accent-soft px-3 py-1 font-medium text-pin-blue"
             >
-              {club.category}
+              {categoryEn.name}
             </Link>
             {club.district && <span>📍 {club.district}</span>}
-            {club.schedule && <span>🕐 {club.schedule}</span>}
-            <span>{club.type}</span>
+            {scheduleEn && <span>🕐 {scheduleEn}</span>}
+            <span>{club.type === "Közösség" ? "Community" : "Venue"}</span>
           </div>
 
-          <p className="mt-6 text-lg leading-relaxed text-ink/85">{club.description}</p>
+          <p className="mt-6 text-lg leading-relaxed text-ink/85">{club.description_en}</p>
 
           <p className="mt-4 text-ink/70">
-            A {club.name} a {club.category} kategóriában szerepel a budapesti
-            közösségek listáján. A csatlakozáshoz nem kell nálunk regisztrálni: nyisd
-            meg a közösség saját oldalát, és vedd fel velük közvetlenül a kapcsolatot.
-            Az aktuális időpontokat és helyszíneket mindig ők tartják naprakészen.
+            {club.name} is listed in the {categoryEn.name} category on the
+            Budapest communities list. You do not need to register with us to
+            join: open their own page and reach out to them directly. They
+            always keep the current times and locations up to date
+            themselves.
           </p>
 
           {(club.instagram_url || club.website_url) && (
@@ -194,18 +198,18 @@ export default async function ClubPage({ params }: Props) {
                 style={{ fontFamily: "var(--font-display)" }}
                 className="mb-3 text-lg uppercase tracking-tight text-ink"
               >
-                Csatlakozás
+                How to join
               </h2>
               <div className="flex flex-wrap gap-2">
                 {club.instagram_url && (
-                  <ClubLinkButton
+                  <ClubLinkButtonEn
                     href={club.instagram_url}
                     clubName={club.name}
                     linkType="instagram"
                   />
                 )}
                 {club.website_url && (
-                  <ClubLinkButton
+                  <ClubLinkButtonEn
                     href={club.website_url}
                     clubName={club.name}
                     linkType="website"
@@ -222,7 +226,7 @@ export default async function ClubPage({ params }: Props) {
           style={{ fontFamily: "var(--font-display)" }}
           className="mb-4 text-xl uppercase tracking-tight text-ink"
         >
-          Gyakran ismételt kérdések
+          Frequently asked questions
         </h2>
         <div className="space-y-4">
           {faq.map((item) => (
@@ -240,23 +244,23 @@ export default async function ClubPage({ params }: Props) {
             style={{ fontFamily: "var(--font-display)" }}
             className="mb-1 text-xl uppercase tracking-tight text-ink"
           >
-            Hasonló közösségek
+            Similar communities
           </h2>
           <p className="mb-6 text-sm text-ink/60">
-            További közösségek a {club.category} kategóriából.
+            More communities in the {categoryEn.name} category.
           </p>
           <ol className="grid list-none grid-cols-1 gap-5 lg:grid-cols-2">
             {related.map((c) => (
               <li key={c.id}>
-                <ClubCard club={c} />
+                <ClubCardEn club={c} />
               </li>
             ))}
           </ol>
           <Link
-            href={categoryHref(club.category)}
+            href={categoryHrefEn(club.category)}
             className="mt-6 inline-block text-sm font-medium text-pin-blue hover:underline"
           >
-            Összes {club.category} közösség megtekintése →
+            See all {categoryEn.name} communities →
           </Link>
         </section>
       )}

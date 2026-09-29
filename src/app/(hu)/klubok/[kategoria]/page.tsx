@@ -5,6 +5,7 @@ import ClubCard from "@/components/ClubCard";
 import { clubs, getCategories } from "@/data/clubs";
 import { getCategorySeo } from "@/lib/categorySeo";
 import { categoryHref, categorySlug, getCategoryBySlug } from "@/lib/slug";
+import { getCategoryEn } from "@/lib/categoriesEn";
 
 const SITE_URL = "https://www.sociallybudapest.hu";
 
@@ -32,7 +33,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: seo.title,
     description: seo.description,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      languages: { hu: url, en: `/en/clubs/${getCategoryEn(category).slug}` },
+    },
     openGraph: { title: seo.title, description: seo.description, url },
     twitter: { title: seo.title, description: seo.description },
   };

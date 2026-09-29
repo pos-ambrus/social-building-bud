@@ -10,7 +10,7 @@ const DESCRIPTION = "Böngéssz az összes valódi budapesti közösségi klub k
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  alternates: { canonical: "/klubok" },
+  alternates: { canonical: "/klubok", languages: { hu: "/klubok", en: "/en/clubs" } },
   openGraph: { title: TITLE, description: DESCRIPTION, url: "/klubok" },
   twitter: { title: TITLE, description: DESCRIPTION },
 };

@@ -5,7 +5,7 @@ import HeroPhotos from "@/components/HeroPhotos";
 import { clubs, getCategories } from "@/data/clubs";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/", languages: { hu: "/", en: "/en" } },
 };
 
 const STAT_ROTATIONS = [-3, 2, -1.5];

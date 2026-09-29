@@ -3,7 +3,7 @@ import { Anton, Caveat, Inter } from "next/font/google";
 import Script from "next/script";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import "./globals.css";
+import "../globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
