@@ -154,7 +154,7 @@ export default async function ClubPageEn({ params }: Props) {
         <div className="tape-corner relative h-56 w-full overflow-hidden bg-accent-soft sm:h-72">
           <Image
             src={club.image_url}
-            alt={club.name}
+            alt={`${club.name} - ${categoryEn.name} community in Budapest`}
             fill
             sizes="(max-width: 896px) 100vw, 896px"
             className="object-cover"
@@ -185,8 +185,8 @@ export default async function ClubPageEn({ params }: Props) {
           <p className="mt-6 text-lg leading-relaxed text-ink/85">{club.description_en}</p>
 
           <p className="mt-4 text-ink/70">
-            {club.name} is listed in the {categoryEn.name} category on the
-            Budapest communities list. You do not need to register with us to
+            {club.name} is listed in the {categoryEn.name} category on
+            Budapesti Közösségek, the Budapest communities list. You do not need to register with us to
             join: open their own page and reach out to them directly. They
             always keep the current times and locations up to date
             themselves.

@@ -62,7 +62,14 @@ export default function BlogIndexPageEn() {
             <p className="mt-2 text-sm text-ink/70">{post.description}</p>
 
             <p className="mt-4 text-xs text-ink/45">
-              {new Date(post.publishedAt).toLocaleDateString("en-GB")}
+              {post.publishedAt === post.updatedAt ? (
+                <>Published {new Date(post.publishedAt).toLocaleDateString("en-GB")}</>
+              ) : (
+                <>
+                  Published {new Date(post.publishedAt).toLocaleDateString("en-GB")} · Updated{" "}
+                  {new Date(post.updatedAt).toLocaleDateString("en-GB")}
+                </>
+              )}
             </p>
           </Link>
         ))}

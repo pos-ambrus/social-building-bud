@@ -79,7 +79,7 @@
     "schedule": "Havonta",
     "website_url": "https://unicornbookclub.hu/",
     "instagram_url": null,
-    "image_url": "https://raw.githubusercontent.com/sitcom987/unicorn-site/refs/heads/main/images/og-konyvklub-unicorn.jpg",
+    "image_url": "/images/clubs/konyvklub-unicorn-book-club-budapest.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -201,7 +201,7 @@
     "category": "Sport",
     "district": null,
     "description": "Futóközösség, amely a közös futást kávézással köti össze: nem klubhelyiség, hanem baráti találkozópontok.",
-    "description_en": "A running community that pairs group runs with coffee afterward — not a clubhouse, just friendly meeting points.",
+    "description_en": "A running community that pairs group runs with coffee afterward, not a clubhouse, just friendly meeting points.",
     "schedule": null,
     "website_url": null,
     "instagram_url": "https://www.instagram.com/runninglatteclub/",
@@ -247,7 +247,7 @@
     "schedule": null,
     "website_url": "https://www.startuphungary.io/",
     "instagram_url": "https://www.instagram.com/startup_hungary/",
-    "image_url": "https://cdn.prod.website-files.com/64805b4f2e801cea6a10cdb8/64865f00bfa0a739d83c121b_Startup-Hungary-OG-image.png",
+    "image_url": "/images/clubs/startup-tech-startup-hungary-budapest.jpg",
     "featured": true,
     "type": "Közösség"
   },
@@ -317,7 +317,7 @@
     "schedule": null,
     "website_url": "https://bikemaffia.com/",
     "instagram_url": "https://www.instagram.com/budapest_bike_maffia/",
-    "image_url": "https://new.bikemaffia.com/wp-content/uploads/2026/04/bbm_logo_felirattal1100x530.png",
+    "image_url": "/images/clubs/onkentesseg-kozossegi-akcio-budapest-bike-maffia.png",
     "featured": true,
     "type": "Közösség"
   },
@@ -345,7 +345,7 @@
     "schedule": "Keddenként, Margitsziget",
     "website_url": "https://mozaikmed.hu/",
     "instagram_url": "https://www.instagram.com/mozaikmed/",
-    "image_url": "https://mozaikmed.hu/View/site_assets/images/mmse_default_share.png",
+    "image_url": "/images/clubs/sport-mozaik-med-futas-margitsziget.png",
     "featured": false,
     "type": "Közösség"
   },
@@ -471,7 +471,7 @@
     "schedule": "Havonta, vezetett túrák",
     "website_url": "https://budapesthikers.com/",
     "instagram_url": null,
-    "image_url": "https://budapesthikers.com/wp-content/uploads/2023/10/toomas-tartes-Yizrl9N_eDA-unsplash.jpg",
+    "image_url": "/images/clubs/tura-termeszetjaras-budapest-hikers.jpg",
     "featured": false,
     "type": "Közösség"
   },
@@ -584,6 +584,20 @@
     "website_url": null,
     "instagram_url": "https://www.instagram.com/hotgirlswalkbudapest/",
     "image_url": "/images/clubs/noi-kozosseg-hot-girls-walk-club-budapest.jpg",
+    "featured": false,
+    "type": "Közösség"
+  },
+  {
+    "id": "saturday-dance-class-women-leticia",
+    "name": "Saturday Dance Class (women)",
+    "category": "Tánc",
+    "district": "IX. kerület",
+    "description": "Csak nőknek szóló, szombatonkénti tánctanfolyam brazil funkkal és egyéb brazil ritmusokkal, pop zenével kísérve. A foglalkozás angolul és portugálul zajlik, nincs fix ár, mindenki annyit fizet, amennyit szeretne.",
+    "description_en": "A women-only Saturday dance class built around Brazilian funk and other Brazilian rhythms, mixed with pop music. Taught in English and Portuguese, with a pay-what-you-want model instead of a fixed price.",
+    "schedule": null,
+    "website_url": "https://linktr.ee/Leleticiah",
+    "instagram_url": "https://instagram.com/braziliandancer.leti",
+    "image_url": "/images/clubs/tanc-brazil-tanc-leticia.jpg",
     "featured": false,
     "type": "Közösség"
   }

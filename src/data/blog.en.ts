@@ -2671,4 +2671,319 @@ export const postsEn: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "love-sports-but-no-one-to-do-it-with",
+    title: "Love sports but have no one to do it with? Find the option that fits you",
+    metaTitle: "Love sports but no one to do it with? 4 options",
+    description:
+      "Not all sporting company is the same kind. We walk through four distinct paths, and which one fits you if you enjoy moving but struggle to stay motivated alone.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "A familiar feeling: you'd love to move more, but exercising alone quickly turns into a motivation problem. The issue is rarely the sport itself, it's that you don't know what kind of company to look for. There are four fundamentally different paths, and not all of them fit everyone.",
+      },
+      { type: "h2", text: "Which path fits your type?" },
+      {
+        type: "list",
+        items: [
+          "If you like predictable, weekly structure: join a fixed-time hobby sports club where the same crowd shows up every time.",
+          "If your schedule is more flexible and you don't want to commit to one team: pick a gym class format that you can drop into session by session.",
+          "If you're more competitive and want a single partner rather than a whole team: look for a sports-partner group or app where you coordinate with one person directly.",
+          "If you're still not sure which sport you want: go to a free, one-off community event before committing to anything.",
+        ],
+      },
+      { type: "h2", text: "A fixed community: when routine is what motivates you" },
+      {
+        type: "p",
+        text: "If you've noticed you only stick to a sport when someone expects you there, a weekly fixed community is the best match. There's no need to coordinate every single time, you just know that Tuesday evening has the run or the pickup game, and the group counts on you.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Bridget Runners Budapest",
+            note: "A weekly, fixed-time running community where the regulars know each other, and the same crowd is waiting week after week.",
+            href: "https://linktr.ee/bridgetrunners",
+          },
+          {
+            name: "Bikás Park Streetball",
+            note: "A regular, casual pickup basketball scene where you just show up, with no prior coordination or team assignment needed.",
+            href: "https://www.instagram.com/bikas_park/",
+          },
+          {
+            name: "Budapest Racquet Society",
+            note: "A recurring community for racquet sports like tennis and padel, where members regularly meet at the same time.",
+            href: "https://www.instagram.com/budapestracquetsociety/",
+          },
+        ],
+      },
+      { type: "h2", text: "A sports partner: when you don't need a whole team" },
+      {
+        type: "p",
+        text: "Some people don't need a big group, just one reliable sports partner they can coordinate with regularly. Communities built specifically around pairing people up, rather than group events, work best here.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Pace & Pour",
+            note: "A running community where it's easy to find a partner at a similar pace for shared runs, not just large group events.",
+            href: "https://www.strava.com/clubs/PacePour",
+          },
+          {
+            name: "PickMeBall Club",
+            note: "A pickleball community where sessions are typically built around small matches, in pairs or foursomes.",
+            href: "https://www.instagram.com/pickmeball.club/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "If none of the categories above fit you exactly, keep browsing the full sports lineup: a sport we haven't mentioned here might be the one whose community format finally clicks.",
+      },
+      {
+        type: "citation",
+        text: "American Heart Association: why exercising with others helps long-term consistency",
+        href: "https://www.heart.org/en/healthy-living/fitness/getting-active/make-exercise-a-group-activity",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "What if I don't know which type fits me?",
+            a: "Try the lowest-commitment option first: a free one-off event, or a single trial session with a fixed community. From there it becomes clear quickly whether routine or flexibility motivates you more.",
+          },
+          {
+            q: "Do I need to already be at some level to join?",
+            a: "For most of the communities mentioned here, no. Hobby sports clubs and sports-partner groups are overwhelmingly beginner-friendly, with mixed levels.",
+          },
+          {
+            q: "What if none of these formats click right away?",
+            a: "That's common, and it doesn't mean sports or group exercise isn't for you. Try a different format before giving up: people who didn't find their place in a team often do with a single sports partner.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "where-to-find-communities-in-budapest",
+    title: "Where do I find communities in Budapest? A practical search guide",
+    metaTitle: "Where to find communities in Budapest?",
+    description:
+      "Step by step: how to actually find active communities in Budapest, from Instagram hashtags through Facebook groups to directory lists.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "The question is rarely whether a community that fits you exists in Budapest, it almost certainly does. The real problem is where and how to search, because most smaller communities have neither a website nor any advertising. This guide walks through where to look, step by step, and what to watch for so you don't land on a long-dead group.",
+      },
+      { type: "h2", text: "1. Define exactly what you're looking for" },
+      {
+        type: "p",
+        text: "The more specific your search, the easier it is to find a match. Instead of \"I want to do sports,\" think in terms of \"beginner-friendly, weekly running, not competitive.\" That exact phrase will also become your search keyword later.",
+      },
+      { type: "h2", text: "2. Search by hashtag and location on Instagram" },
+      {
+        type: "p",
+        text: "Most small Budapest communities today live primarily on Instagram, often without their own website. Search the activity's name with a \"budapest\" or \"bp\" suffix in both Hungarian and English (for example #futóklubbudapest, #runclubbudapest), and check location-tagged results too, not just hashtags. Before taking anything seriously, check when they last posted: an account silent for half a year is probably no longer active.",
+      },
+      { type: "h2", text: "3. Check the larger platforms too" },
+      {
+        type: "p",
+        text: "Facebook groups and Meetup are useful when you're looking for something more organized and recurring, though you'll run into inactive groups more often here. Member count alone never tells the full story, it's always the date of the last event that tells you whether a community is still alive.",
+      },
+      { type: "h2", text: "4. Use a directory if you want to scan several categories at once" },
+      {
+        type: "p",
+        text: "If you're not after one specific group but want an overview of what exists in Budapest by category, a hand-curated directory is faster than searching platform by platform. That's exactly why Budapesti Közösségek collects real, active clubs in one place, browsable by category.",
+      },
+      { type: "h2", text: "5. Don't skip offline channels" },
+      {
+        type: "p",
+        text: "Not every community advertises itself online. Noticeboards at district community centers, library program guides, and flyers at the neighborhood coffee shop often point to small, local communities that will never show up in an online search.",
+      },
+      {
+        type: "table",
+        headers: ["Channel", "Good for", "Less good for"],
+        rows: [
+          ["Instagram hashtags", "Fresh, small, informal crews", "Hard to search systematically"],
+          ["Facebook groups", "More organized, recurring events", "Many inactive groups"],
+          ["A directory (like this site)", "Quick overview by category", "Not every micro-community makes it on"],
+          ["Offline noticeboards", "Local, district-level communities", "Slow, not searchable online"],
+        ],
+      },
+      {
+        type: "citation",
+        text: "Pew Research Center: how people use social media to find local groups and interests",
+        href: "https://www.pewresearch.org/internet/2021/09/23/social-media-use-in-2021/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "How do I know if a community is still active?",
+            a: "Check the last post or event. If it's within the last few weeks, it's probably active. If it's older than half a year, it's worth messaging first before showing up to an event.",
+          },
+          {
+            q: "How much time should I spend searching before joining something?",
+            a: "An evening or two is plenty if you're searching with a specific phrase. If it takes more than a week and nothing fits, your search is probably too broad, so narrow it down.",
+          },
+          {
+            q: "What if my interest is too niche and I can't find anything?",
+            a: "Search a broader, related category instead, and ask around there whether anyone knows of a group matching your narrower interest. Most niche communities spread by word of mouth, not public advertising.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "best-budapest-club-directory-sites-for-newcomers",
+    title: "Best Budapest club directory sites for newcomers: a first-month roadmap",
+    metaTitle: "Budapest club directories for newcomers: first month",
+    description:
+      "Not a platform comparison, a timeline: what to do in week one, week two, and by the end of your first month if you just moved to Budapest and want to find a community.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "Most guides tell you which platform to check. This one is about something else: in what order and when to act if you just arrived in Budapest and want to reach a regular community within four weeks.",
+      },
+      { type: "h2", text: "Week 1: map out what interests you" },
+      {
+        type: "p",
+        text: "In the first week, don't join anything yet, just look around. Browse a categorized community directory and note 3-4 activities you'd enjoy regardless of whether you've found a community for them yet. This will narrow down what's actually worth searching for.",
+      },
+      { type: "h2", text: "Week 2: message, don't just browse" },
+      {
+        type: "p",
+        text: "In week two, pick 2-3 communities from your list and send a short message: when's the next session, is sign-up needed, what should you bring. Most Budapest community organizers reply quickly, and this is far more reliable than relying on a posted schedule alone.",
+      },
+      { type: "h2", text: "Week 3: show up to your first session" },
+      {
+        type: "p",
+        text: "Pick the community with the lowest barrier to entry first: free, no equipment needed, and recurring rather than a one-off event. If the first session doesn't click, that's fine, it's part of the process.",
+      },
+      { type: "h2", text: "Week 4: narrow down, and lock in one fixed slot" },
+      {
+        type: "p",
+        text: "By the end of the month, you'll typically have one or two communities that stood out from the rest. This is the point to build one of them into your weekly routine as a fixed slot, because that routine is what turns familiar faces into actual friendships.",
+      },
+      {
+        type: "table",
+        headers: ["Timeframe", "What to do", "Goal"],
+        rows: [
+          ["Week 1", "Survey, browse categories", "Figure out what interests you"],
+          ["Week 2", "Message 2-3 communities", "Practical info, confidence"],
+          ["Week 3", "First session, low-barrier community", "First real experience"],
+          ["Week 4", "Lock in a fixed weekly slot", "Routine, real connection"],
+        ],
+      },
+      {
+        type: "citation",
+        text: "InterNations: Budapest expat community guide",
+        href: "https://www.internations.org/budapest-expats",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "What if I still haven't found anything I like by the end of the first month?",
+            a: "That's not unusual, especially with a niche interest. Extend the process by another month, and in the meantime try broader categories too, not just your narrowest interest.",
+          },
+          {
+            q: "Should I try several communities in parallel during the first month?",
+            a: "Yes, it's actually recommended. Two or three parallel attempts show you faster which community format fits you than waiting to finish one before trying the next.",
+          },
+          {
+            q: "Do I need to speak Hungarian to follow this roadmap?",
+            a: "Not necessarily. Many Budapest communities operate in English too, and that's worth confirming in the community's description or your first message to the organizer.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-beginner-sports-clubs-work-in-budapest",
+    title: "How do beginner sports clubs in Budapest actually work? Cost, sign-up, trial sessions",
+    metaTitle: "How do beginner sports clubs in Budapest work?",
+    description:
+      "Not which club to pick, but what to actually expect: whether you need to pay, how a trial session works, and what gear to bring the first time.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "Most of the anxiety about a first session doesn't come from the sport itself, it comes from not knowing what to expect in practice. Do you need to pay? Do you need to sign up in advance? What should you bring? This guide covers the logistics, not which club to choose.",
+      },
+      { type: "h2", text: "Do you need to pay to join?" },
+      {
+        type: "p",
+        text: "Most Budapest hobby sports clubs are free, especially ones organized as informal, friend-group communities (running, street basketball, hiking). Where there is a cost, it typically comes from court or venue rental (padel, tennis, pickleball), and it's split among participants on the spot rather than charged as membership.",
+      },
+      { type: "h2", text: "How does a trial session actually work?" },
+      {
+        type: "p",
+        text: "Most clubs don't have a formal concept of a \"trial session,\" you simply show up to the next regular session. It's worth messaging the organizer beforehand to say you're new, since many groups make a point of welcoming newcomers and helping them settle in.",
+      },
+      {
+        type: "table",
+        headers: ["Sport", "Typical cost", "What to bring the first time"],
+        rows: [
+          ["Running", "Free", "Running shoes, layered clothing"],
+          ["Street basketball", "Free", "Sports shoes"],
+          ["Cycling club", "Free", "Your own bike, helmet"],
+          ["Padel / tennis / pickleball", "Split court rental", "Sports shoes, comfortable clothing (racquets often available to borrow)"],
+          ["Hiking", "Free", "Hiking boots, water, layered clothing"],
+        ],
+      },
+      { type: "h2", text: "What should you ask the organizer in advance?" },
+      {
+        type: "list",
+        items: [
+          "Whether there's any cost, and if so, whether it's paid on-site or in advance",
+          "Whether you need your own gear, or borrowing is possible for the first session",
+          "Whether there's a headcount limit or sign-up requirement, especially for sports that need a booked court",
+          "How beginner-friendly that specific session is, versus being aimed at more advanced players that day",
+        ],
+      },
+      {
+        type: "citation",
+        text: "Harvard Health Publishing: why exercising with others helps your motivation",
+        href: "https://www.health.harvard.edu/heart-health/need-more-inspiration-to-exercise-dont-go-it-alone",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Do I need to sign up in advance for a running club?",
+            a: "Usually not, showing up at the stated time and place is enough. For sports that need a booked court (like padel), it's worth messaging ahead since there may be a headcount limit.",
+          },
+          {
+            q: "What if I don't have my own gear?",
+            a: "For many racquet sports (padel, tennis), gear can often be borrowed for the first session, worth confirming with the organizer beforehand. Running and hiking, though, require your own shoes.",
+          },
+          {
+            q: "How much does an average session cost if the sport isn't free?",
+            a: "For sports needing a booked court, typically a few thousand forints per person, split among participants. This varies by club and venue, so it's worth asking directly.",
+          },
+        ],
+      },
+    ],
+  },
 ];

@@ -43,7 +43,7 @@ export default async function KlubokPage({
   const faq = [
     {
       q: "Hogyan szűrhetek kategória szerint?",
-      a: "Válassz egy kategóriát a legördülő listából, vagy kattints egy kategória-címkére bármelyik klubkártyán — a lista azonnal leszűkül.",
+      a: "Válassz egy kategóriát a legördülő listából, vagy kattints egy kategória-címkére bármelyik klubkártyán, és a lista azonnal leszűkül.",
     },
     {
       q: "Ingyenes csatlakozni egy klubhoz?",

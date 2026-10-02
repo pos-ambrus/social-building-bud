@@ -9,27 +9,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "raw.githubusercontent.com",
-      },
-      {
-        protocol: "https",
-        hostname: "cdn.prod.website-files.com",
-      },
-      {
-        protocol: "https",
         hostname: "aimeetup.hu",
-      },
-      {
-        protocol: "https",
-        hostname: "new.bikemaffia.com",
-      },
-      {
-        protocol: "https",
-        hostname: "mozaikmed.hu",
-      },
-      {
-        protocol: "https",
-        hostname: "budapesthikers.com",
       },
     ],
   },

@@ -2688,6 +2688,321 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "szeretsz-sportolni-de-nincs-kivel",
+    title: "Szeretsz sportolni, de nincs kivel? Így találod meg a hozzád illő megoldást",
+    metaTitle: "Szeretsz sportolni, de nincs kivel? 4 lehetőség",
+    description:
+      "Nem mindegy, milyen típusú társaságot keresel sportoláshoz. Végigvesszük a négy fő utat, és hogy melyik illik hozzád, ha szereted a mozgást, de egyedül nehezen motiválod magad.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "Ismerős érzés: szívesen mozognál többet, de egyedül edzeni hamar motivációvesztésbe fullad. A probléma ritkán maga a sport, inkább az, hogy nem tudod, milyen formában keresd a társaságot hozzá. Négy alapvetően eltérő út létezik, és nem mindegyik illik mindenkihez.",
+      },
+      { type: "h2", text: "Melyik utat válaszd a saját típusod szerint?" },
+      {
+        type: "list",
+        items: [
+          "Ha szereted a kiszámítható, heti rendszerességet: csatlakozz egy fix időpontú hobbi sportklubhoz, ahol mindig ugyanaz a társaság jár.",
+          "Ha inkább rugalmas az időbeosztásod, és nem köteleznéd el magad egy csapathoz: válassz edzőtermi csoportos órát, ahova alkalomról alkalomra be lehet szállni.",
+          "Ha versenyszerűbb, egy-egy társra vágysz, nem egész csapatra: keress sportpartner-kereső csoportot vagy appot, ahol konkrétan egy emberrel egyeztetsz.",
+          "Ha még azt sem tudod biztosan, milyen sportot szeretnél: menj el egy-egy ingyenes, alkalmi közösségi eseményre, mielőtt bármi mellett elköteleződnél.",
+        ],
+      },
+      { type: "h2", text: "A fix közösség: amikor a rendszeresség motivál" },
+      {
+        type: "p",
+        text: "Ha azt veszed észre, hogy csak akkor mozogsz rendszeresen, ha van kinek beszámolnod róla, egy heti fix alkalmú közösség a legjobb választás. Nem kell hozzá előzetes egyeztetés minden alkalommal, elég tudnod, hogy kedden este ott a futás vagy a kosárlabda, és a csapat számít rád.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Bridget Runners Budapest",
+            note: "Heti rendszerességű, fix időpontú futóközösség, ahol a visszatérő tagok ismerik egymást, és hétről hétre ugyanaz a társaság vár.",
+            href: "https://linktr.ee/bridgetrunners",
+          },
+          {
+            name: "Bikás Park Streetball",
+            note: "Rendszeres, kötetlen utcai kosárlabda, ahova elég csak megjelenni, nincs előzetes egyeztetés vagy csapatba sorolás.",
+            href: "https://www.instagram.com/bikas_park/",
+          },
+          {
+            name: "Budapest Racquet Society",
+            note: "Visszatérő közösség teniszhez és padelhez hasonló ütős sportokhoz, ahol a tagok rendszeresen ugyanazon az időponton találkoznak.",
+            href: "https://www.instagram.com/budapestracquetsociety/",
+          },
+        ],
+      },
+      { type: "h2", text: "A sportpartner: amikor nem egész csapat kell" },
+      {
+        type: "p",
+        text: "Van, akinek nem egy nagy csoport a megoldás, hanem egyetlen megbízható sportpartner, akivel rendszeresen egyeztetni tud. Erre jók azok a közösségek, amelyek kifejezetten párok, kettesek szervezésére épülnek, nem csoportos eseményekre.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Pace & Pour",
+            note: "Futókat összekötő közösség, ahol könnyű hasonló tempójú partnert találni közös futásokhoz, nem csak nagy csoportos eseményeken.",
+            href: "https://www.strava.com/clubs/PacePour",
+          },
+          {
+            name: "PickMeBall Club",
+            note: "Pickleball-közösség, ahol az alkalmak jellemzően kis létszámú, párban vagy négyesben zajló meccsek köré szerveződnek.",
+            href: "https://www.instagram.com/pickmeball.club/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Ha egyik fenti kategória sem illik rád pontosan, böngéssz tovább a teljes sportkínálatban: lehet, hogy egy még nem említett sportág közösségi formája lesz a befutó.",
+      },
+      {
+        type: "citation",
+        text: "American Heart Association: miért segít a társas sportolás a hosszú távú kitartásban",
+        href: "https://www.heart.org/en/healthy-living/fitness/getting-active/make-exercise-a-group-activity",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Mi van, ha nem tudom, melyik típus illik hozzám?",
+            a: "Próbáld ki a legkisebb elköteleződésű utat először: egy ingyenes, alkalmi eseményt vagy egyetlen próbaalkalmat egy fix közösségnél. Onnan gyorsan kiderül, hogy a rendszeresség vagy a rugalmasság motivál-e jobban.",
+          },
+          {
+            q: "Kell már valamilyen szinten sportolnom ahhoz, hogy csatlakozzam?",
+            a: "A legtöbb itt említett közösségnél nem. A hobbi sportklubok és sportpartner-kereső csoportok túlnyomó része kifejezetten kezdőbarát, vegyes szintekkel.",
+          },
+          {
+            q: "Mi van, ha egyik forma sem jön be elsőre?",
+            a: "Ez gyakori, és nem jelenti azt, hogy a sport vagy a közösségi mozgás nem neked való. Próbálj ki egy másik formátumot, mielőtt feladnád: aki csapatban nem találta meg a helyét, gyakran egy sportpartnerrel igen.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hol-talalok-kozossegeket-budapesten",
+    title: "Hol találok közösségeket Budapesten? Gyakorlati keresési útmutató",
+    metaTitle: "Hol találok közösségeket Budapesten?",
+    description:
+      "Lépésről lépésre: hogyan keress rá ténylegesen aktív budapesti közösségekre, Instagram-hashtagektől a Facebook-csoportokon át a közösségi listákig.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "A kérdés ritkán az, hogy létezik-e a neked való közösség Budapesten, szinte biztos, hogy létezik. A valódi probléma az, hogy hol és hogyan keress rá, mert a legtöbb kisebb közösségnek nincs se weboldala, se hirdetése. Ez az útmutató sorban végigveszi, hol érdemes keresni, és mire figyelj, hogy ne egy rég elhalt csoportba fuss bele.",
+      },
+      { type: "h2", text: "1. Határozd meg pontosan, mit keresel" },
+      {
+        type: "p",
+        text: "Minél konkrétabb a keresésed, annál könnyebb lesz rátalálni. A „sportolni szeretnék” helyett gondolj inkább arra, hogy „kezdőbarát, heti futás, nem versenyszerű”. A pontos kifejezés később a keresési kulcsszavad is lesz.",
+      },
+      { type: "h2", text: "2. Keress hashtaggel és helyszín szerint Instagramon" },
+      {
+        type: "p",
+        text: "A budapesti kisközösségek nagy része ma elsősorban Instagramon él, gyakran saját weboldal nélkül. Keress rá a tevékenység magyar és angol nevére „budapest” vagy „bp” toldalékkal (pl. #futóklubbudapest, #runclubbudapest), és nézd meg a helyszín szerinti találatokat is, nem csak a hashtageket. Mielőtt bármit komolyan vennél, nézd meg, mikor posztoltak utoljára: egy fél éve néma fiók valószínűleg már nem aktív.",
+      },
+      { type: "h2", text: "3. Nézz rá a nagyobb platformokra is" },
+      {
+        type: "p",
+        text: "A Facebook-csoportok és a Meetup jól jönnek, ha szervezettebb, visszatérő eseményt keresel, bár itt gyakrabban futsz bele régóta inaktív csoportokba. Ránézésre a tagszám sosem elég, mindig az utolsó esemény dátuma mondja meg, hogy él-e még a közösség.",
+      },
+      { type: "h2", text: "4. Használj gyűjtőoldalt, ha egyszerre több kategóriát néznél át" },
+      {
+        type: "p",
+        text: "Ha nem egyetlen konkrét csoportot keresel, hanem átlátnád, egyáltalán mi létezik Budapesten kategória szerint, egy kézzel válogatott gyűjtőlista gyorsabb, mint platformonként külön keresgélni. A Budapesti Közösségek pont ezért gyűjti egy helyre a valódi, aktív klubokat, kategóriánként böngészhetően.",
+      },
+      { type: "h2", text: "5. Ne hagyd ki az offline csatornákat" },
+      {
+        type: "p",
+        text: "Nem minden közösség hirdeti magát online. Kerületi közösségi házak faliújságjai, könyvtárak programfüzetei és a szomszédos kávézók hirdetőfelületei sokszor olyan apró, helyi közösségekről árulkodnak, amelyek sosem fognak feljönni egy internetes keresésre.",
+      },
+      {
+        type: "table",
+        headers: ["Csatorna", "Mire jó", "Mire kevésbé"],
+        rows: [
+          ["Instagram hashtag", "Friss, kis, informális csapatokra", "Nehéz rendszerezetten keresni benne"],
+          ["Facebook csoportok", "Szervezettebb, visszatérő eseményekre", "Sok az inaktív csoport"],
+          ["Gyűjtőlista (pl. ez az oldal)", "Gyors áttekintésre kategória szerint", "Nem minden mikroközösség kerül fel rá"],
+          ["Offline hirdetőfelületek", "Helyi, kerületi közösségekre", "Lassú, nem kereshető online"],
+        ],
+      },
+      {
+        type: "citation",
+        text: "Pew Research Center: hogyan használják az emberek a közösségi médiát helyi csoportok és érdeklődési körök megtalálására",
+        href: "https://www.pewresearch.org/internet/2021/09/23/social-media-use-in-2021/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Honnan tudom, hogy egy közösség még aktív-e?",
+            a: "Nézd meg az utolsó posztot vagy eseményt. Ha néhány héten belüli, valószínűleg aktív. Ha fél évnél régebbi, érdemes előtte üzenetben rákérdezni, mielőtt elmennél egy alkalomra.",
+          },
+          {
+            q: "Mennyi időt érdemes keresésre szánni, mielőtt csatlakoznék valamihez?",
+            a: "Egy-két estét bőven elég, ha konkrét kifejezéssel keresel. Ha egy hétnél tovább tart, és semmi nem jön be, valószínűleg túl általános a keresésed, érdemes pontosítani.",
+          },
+          {
+            q: "Mi van, ha a keresett téma túl niche, és semmit nem találok?",
+            a: "Ilyenkor érdemes egy tágabb, rokon kategóriában keresni, és onnan rákérdezni, van-e valaki, aki tud a szűkebb témádhoz illő csoportról. A legtöbb niche közösség szóbeszéden keresztül terjed, nem nyilvános hirdetésen.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "budapesti-kozossegi-utmutato-ujonnan-erkezetteknek",
+    title: "Budapesti közösségi útmutató újonnan érkezetteknek: az első hónap",
+    metaTitle: "Közösségi útmutató újonnan érkezetteknek Budapesten",
+    description:
+      "Nem egy platformlista, hanem egy ütemterv: mit érdemes csinálni az első héten, a második héten és az első hónap végére, ha most költöztél Budapestre, és közösséget keresnél.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "A legtöbb útmutató azt mondja meg, melyik platformot nézd meg. Ez másról szól: arról, milyen sorrendben és mikor érdemes lépned, ha most érkeztél Budapestre, és négy hét alatt szeretnél eljutni odáig, hogy legyen legalább egy rendszeres közösséged.",
+      },
+      { type: "h2", text: "1. hét: térképezd fel, mi érdekel" },
+      {
+        type: "p",
+        text: "Az első héten még ne csatlakozz semmihez, csak nézz körbe. Böngéssz végig egy kategorizált közösségi listát, és jegyezd fel 3-4 olyan tevékenységet, amit egyébként is szívesen csinálnál, függetlenül attól, hogy van-e hozzá közösség. Ez később leszűkíti, mit érdemes ténylegesen keresned.",
+      },
+      { type: "h2", text: "2. hét: küldj üzenetet, ne csak böngéssz" },
+      {
+        type: "p",
+        text: "A második héten válassz ki 2-3 közösséget a listádról, és írj nekik rövid üzenetet: mikor van a következő alkalom, kell-e előzetes jelentkezés, mit érdemes vinni. A legtöbb budapesti közösség szervezője gyorsan válaszol, és ez a lépés sokkal biztosabb, mint csak kiposztolt időpontra hagyatkozni.",
+      },
+      { type: "h2", text: "3. hét: menj el az első alkalomra" },
+      {
+        type: "p",
+        text: "Válaszd azt a közösséget elsőnek, ahol a legalacsonyabb a belépési küszöb: ingyenes, nem kell hozzá felszerelés, és rendszeres, nem egyszeri esemény. Ha az első alkalom nem üt be igazán, az nem baj, ez a folyamat része.",
+      },
+      { type: "h2", text: "4. hét: szűkíts, és válassz ki egy fix pontot a hetedre" },
+      {
+        type: "p",
+        text: "A hónap végére jellemzően már van egy-két közösség, ami jobban bejött a többinél. Ekkorra érdemes ezt beépíteni a heti rutinodba fix pontként, mert a rendszeresség az, ami ismerősségből barátsággá alakítja a kapcsolatokat.",
+      },
+      {
+        type: "table",
+        headers: ["Időszak", "Teendő", "Cél"],
+        rows: [
+          ["1. hét", "Felmérés, kategóriák böngészése", "Kiderül, mi érdekel"],
+          ["2. hét", "Üzenetküldés 2-3 közösségnek", "Gyakorlati infók, bátorság"],
+          ["3. hét", "Első alkalom, alacsony küszöbű közösségnél", "Első tapasztalat"],
+          ["4. hét", "Fix pont beépítése a hétbe", "Rendszeresség, valódi ismeretség"],
+        ],
+      },
+      {
+        type: "citation",
+        text: "InterNations: Budapest expat közösségi útmutató",
+        href: "https://www.internations.org/budapest-expats",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Mi van, ha az első hónap végére sem találok semmit, ami bejön?",
+            a: "Ez nem szokatlan, különösen, ha niche érdeklődésed van. Ilyenkor érdemes egy hónappal meghosszabbítani a folyamatot, és közben tágabb kategóriákat is kipróbálni, nem csak a legszűkebb érdeklődési körödet.",
+          },
+          {
+            q: "Érdemes egyszerre több közösségbe is bejárni az első hónapban?",
+            a: "Igen, sőt ajánlott. Két-három párhuzamos próbálkozás gyorsabban megmutatja, melyik közösségi forma illik hozzád, mint ha végigvárnál egyet, mielőtt a következőt kipróbálnád.",
+          },
+          {
+            q: "Kell magyarul tudnom ehhez az ütemtervhez?",
+            a: "Nem feltétlenül. Sok budapesti közösség angolul is működik, ezt a leírásukban vagy a szervezővel váltott első üzenetben érdemes tisztázni.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hogyan-mukodik-egy-kezdo-sportklub-budapesten",
+    title: "Hogyan működik egy kezdő sportklub Budapesten? Ár, regisztráció, próbaalkalom",
+    metaTitle: "Hogyan működik egy kezdő sportklub Budapesten?",
+    description:
+      "Nem azt nézzük, melyik klubot válaszd, hanem azt, mi vár rád gyakorlatban: kell-e fizetni, hogyan zajlik egy próbaalkalom, és milyen felszerelést kell vinned elsőre.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "A legtöbb félelem az első alkalommal kapcsolatban nem a sportból fakad, hanem abból, hogy nem tudod, mire számíts gyakorlatban. Kell fizetni? Kell előre jelentkezni? Mit vigyél magaddal? Ez az útmutató a logisztikai részleteket veszi végig, nem azt, melyik klubot válaszd.",
+      },
+      { type: "h2", text: "Kell fizetni a csatlakozásért?" },
+      {
+        type: "p",
+        text: "A budapesti hobbi sportklubok túlnyomó része ingyenes, különösen azok, amelyek informális, baráti közösségként szerveződnek (futás, utcai kosárlabda, túrázás). Ahol mégis van költség, az jellemzően pályabérlésből adódik (pl. padel, tenisz, pickleball), és ezt a klub maga osztja szét a résztvevők között, nem tagdíj formájában.",
+      },
+      { type: "h2", text: "Hogyan zajlik egy próbaalkalom?" },
+      {
+        type: "p",
+        text: "A legtöbb klubnál nincs formális „próbaalkalom” fogalom, egyszerűen megjelensz az első rendszeres eseményen. Érdemes előtte írni a szervezőnek, hogy jelezd, új vagy, mert sok csoport külön köszönti az újonnan érkezőket, és segít beilleszkedni.",
+      },
+      {
+        type: "table",
+        headers: ["Sportág", "Jellemző költség", "Mit vigyél elsőre"],
+        rows: [
+          ["Futás", "Ingyenes", "Futócipő, réteges ruházat"],
+          ["Utcai kosárlabda / streetball", "Ingyenes", "Sportcipő"],
+          ["Kerékpáros klub", "Ingyenes", "Saját kerékpár, bukósisak"],
+          ["Padel / tenisz / pickleball", "Pályabérlés megosztva", "Sportcipő, kényelmes ruházat (ütő gyakran kölcsönözhető)"],
+          ["Túrázás", "Ingyenes", "Túrabakancs, víz, réteges ruházat"],
+        ],
+      },
+      { type: "h2", text: "Mit kérdezz meg előre a szervezőtől?" },
+      {
+        type: "list",
+        items: [
+          "Van-e bármilyen költség az alkalmon, és ha igen, helyszínen vagy előre kell fizetni",
+          "Kell-e saját felszerelés, vagy van lehetőség kölcsönzésre az első alkalomra",
+          "Van-e létszámkorlát vagy előzetes jelentkezés, különösen pályafoglalást igénylő sportoknál",
+          "Mennyire kezdőbarát az adott alkalom, vagy inkább haladóknak szól aznap",
+        ],
+      },
+      {
+        type: "citation",
+        text: "Harvard Health Publishing: miért segít jobban a motivációban, ha nem egyedül sportolsz",
+        href: "https://www.health.harvard.edu/heart-health/need-more-inspiration-to-exercise-dont-go-it-alone",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Kell előzetesen bejelentkeznem egy futóklubhoz?",
+            a: "A legtöbb esetben nem, elég megjelenni a megadott időpontban és helyszínen. Pályafoglalást igénylő sportoknál (pl. padel) viszont érdemes előre szólni, mert ott létszámkorlát lehet.",
+          },
+          {
+            q: "Mi van, ha nincs saját felszerelésem?",
+            a: "Sok ütős sportnál (padel, tenisz) az első alkalomra kölcsönözhető felszerelés, ezt érdemes előre egyeztetni a szervezővel. Futáshoz, túrázáshoz viszont saját cipő szükséges.",
+          },
+          {
+            q: "Mennyibe kerül egy átlagos alkalom, ha nem ingyenes a sportág?",
+            a: "Pályabérlést igénylő sportoknál jellemzően pár ezer forint fejenként, megosztva a résztvevők között. Ez klubonként és pályánként eltér, ezért érdemes rákérdezni.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

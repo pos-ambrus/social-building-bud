@@ -23,7 +23,7 @@ const FAQ = [
   },
   {
     q: "Hogyan találom meg a nekem való közösséget?",
-    a: "Böngéssz kategória szerint a főoldalon, vagy keress rá kulcsszóval a teljes klublistában — mindkettő ingyenes és regisztráció nélküli.",
+    a: "Böngéssz kategória szerint a főoldalon, vagy keress rá kulcsszóval a teljes klublistában, mindkettő ingyenes és regisztráció nélküli.",
   },
   {
     q: "Fizetni kell egy klubhoz csatlakozáshoz?",

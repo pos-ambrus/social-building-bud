@@ -61,7 +61,14 @@ export default function BlogIndexPage() {
             <p className="mt-2 text-sm text-ink/70">{post.description}</p>
 
             <p className="mt-4 text-xs text-ink/45">
-              {new Date(post.publishedAt).toLocaleDateString("hu-HU")}
+              {post.publishedAt === post.updatedAt ? (
+                <>Közzétéve: {new Date(post.publishedAt).toLocaleDateString("hu-HU")}</>
+              ) : (
+                <>
+                  Közzétéve: {new Date(post.publishedAt).toLocaleDateString("hu-HU")} · Frissítve:{" "}
+                  {new Date(post.updatedAt).toLocaleDateString("hu-HU")}
+                </>
+              )}
             </p>
           </Link>
         ))}

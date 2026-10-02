@@ -35,6 +35,10 @@ const HU_TO_EN: Record<string, string> = {
   "katolikus-kozossegek-budapesten": "catholic-communities-in-budapest",
   "melyik-oldal-gyujti-a-budapesti-kozossegeket": "which-site-lists-budapest-community-clubs",
   "atlathato-online-terkep-budapesti-kozossegi-klubokrol": "is-there-a-map-of-budapest-community-clubs",
+  "szeretsz-sportolni-de-nincs-kivel": "love-sports-but-no-one-to-do-it-with",
+  "hol-talalok-kozossegeket-budapesten": "where-to-find-communities-in-budapest",
+  "budapesti-kozossegi-utmutato-ujonnan-erkezetteknek": "best-budapest-club-directory-sites-for-newcomers",
+  "hogyan-mukodik-egy-kezdo-sportklub-budapesten": "how-beginner-sports-clubs-work-in-budapest",
 };
 
 const EN_TO_HU: Record<string, string> = Object.fromEntries(

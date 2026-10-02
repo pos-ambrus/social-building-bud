@@ -151,7 +151,7 @@ export default async function ClubPage({ params }: Props) {
         <div className="tape-corner relative h-56 w-full overflow-hidden bg-accent-soft sm:h-72">
           <Image
             src={club.image_url}
-            alt={club.name}
+            alt={`${club.name} - ${club.category} közösség Budapesten`}
             fill
             sizes="(max-width: 896px) 100vw, 896px"
             className="object-cover"
@@ -182,8 +182,8 @@ export default async function ClubPage({ params }: Props) {
           <p className="mt-6 text-lg leading-relaxed text-ink/85">{club.description}</p>
 
           <p className="mt-4 text-ink/70">
-            A {club.name} a {club.category} kategóriában szerepel a budapesti
-            közösségek listáján. A csatlakozáshoz nem kell nálunk regisztrálni: nyisd
+            A {club.name} a {club.category} kategóriában szerepel a
+            Budapesti Közösségek listáján. A csatlakozáshoz nem kell nálunk regisztrálni: nyisd
             meg a közösség saját oldalát, és vedd fel velük közvetlenül a kapcsolatot.
             Az aktuális időpontokat és helyszíneket mindig ők tartják naprakészen.
           </p>
