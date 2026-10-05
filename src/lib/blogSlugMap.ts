@@ -39,6 +39,10 @@ const HU_TO_EN: Record<string, string> = {
   "hol-talalok-kozossegeket-budapesten": "where-to-find-communities-in-budapest",
   "budapesti-kozossegi-utmutato-ujonnan-erkezetteknek": "best-budapest-club-directory-sites-for-newcomers",
   "hogyan-mukodik-egy-kezdo-sportklub-budapesten": "how-beginner-sports-clubs-work-in-budapest",
+  "most-vegeztem-az-egyetemmel-elfogyott-a-baratikorom": "just-graduated-and-lost-my-friend-group",
+  "felmondtam-es-hazakoltoztem-hogyan-epits-uj-kozosseget": "quit-my-job-and-moved-back-how-to-build-a-new-community",
+  "30-utan-nehez-barator-talalni-budapesten": "hard-to-make-friends-after-30-in-budapest",
+  "van-outdoor-boulder-lehetoseg-budapesten": "is-there-outdoor-bouldering-in-budapest",
 };
 
 const EN_TO_HU: Record<string, string> = Object.fromEntries(

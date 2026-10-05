@@ -2986,4 +2986,308 @@ export const postsEn: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "just-graduated-and-lost-my-friend-group",
+    title: "I just graduated and lost my friend group: what now?",
+    metaTitle: "Just graduated, lost my friend group",
+    description:
+      "University handed you company automatically: classmates, dorms, shared classes. A job doesn't. What do you do when your calendar suddenly goes empty after graduation?",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "At university, social life didn't require planning: classmates, dorms, and shared breaks put you in the same room as people constantly. Once you start working, that structure disappears overnight. Coworkers won't necessarily become friends, and suddenly you're the one responsible for having anyone to see on a weekend.",
+      },
+      { type: "h2", text: "Why this is harder than it looks" },
+      {
+        type: "p",
+        text: "During university, friendship came almost for free: you shared physical space with the same people daily, whether you planned it or not. Once you're working, you have to deliberately create that space yourself, and that takes a different kind of effort than you're used to. It's not harder because you're doing something wrong, it's harder because the system that used to do the work for you is gone.",
+      },
+      { type: "h2", text: "What should you look for as a fresh graduate?" },
+      {
+        type: "list",
+        items: [
+          "A weekly, recurring session rather than a one-off event, since that best replaces the repeated contact university gave you",
+          "A community with a mixed age range and background, not just other recent graduates, so you build a wider network faster",
+          "A low cost and time commitment while you're still adjusting to your new work routine",
+        ],
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Language Exchange (BPLX)",
+            note: "A weekly, rotating-conversation format that's easy to join alone, with a genuinely mixed-age crowd.",
+            href: "https://www.meetup.com/budapest/",
+          },
+          {
+            name: "TIA Game Cave",
+            note: "A free board game community where the game itself gives you something to talk about, so you don't have to start a conversation from nothing.",
+            href: "https://www.facebook.com/groups/263358474501496/",
+          },
+          {
+            name: "Havervagy",
+            note: "Built specifically for people looking for a new friend group, organized around meeting people rather than one specific activity.",
+            href: "https://www.instagram.com/havervagy/",
+          },
+        ],
+      },
+      { type: "h2", text: "What to avoid starting with" },
+      {
+        type: "p",
+        text: "Skip the big, one-off networking events until you've got your own routine going. They take a lot of energy and rarely lead to a lasting connection, because the other attendees usually don't come back either. A smaller, weekly session builds real acquaintances far faster than one big annual event.",
+      },
+      {
+        type: "citation",
+        text: "American Psychological Association: how a major life transition affects your social connections",
+        href: "https://www.apa.org/topics/healthy-workplaces/make-friends",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "How long does it take to build a new friend group after graduation?",
+            a: "Realistically two to three months of showing up weekly to the same place. It rarely happens faster, and that's completely normal.",
+          },
+          {
+            q: "What if I'd rather just become friends with my coworkers?",
+            a: "That can work too, but don't rely on it alone: workplace relationships often fade when you change jobs, so it's worth building a community independent of your job as well.",
+          },
+          {
+            q: "Do I specifically need a community aimed at young adults?",
+            a: "Not necessarily. Mixed-age communities are often more stable and have less turnover than groups aimed specifically at students or recent graduates.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "quit-my-job-and-moved-back-how-to-build-a-new-community",
+    title: "I quit my job and moved back: how do you build a new community in Budapest?",
+    metaTitle: "Quit my job, moved back: new community in Budapest",
+    description:
+      "Moving back from abroad or going through a big transition scatters your old friend group, and your schedule no longer matches anyone else's. How do you find a community when you're starting over?",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "If you quit your job, moved back from abroad, or went through some other major transition, you're facing a double challenge: your old friend group has since scattered or moved on to a different rhythm, and your schedule no longer matches a typical work routine. While everyone else works nine to five, you might have free weekday mornings, and oddly enough, that can work in your favor rather than against you.",
+      },
+      { type: "h2", text: "Make use of your weekday free time" },
+      {
+        type: "p",
+        text: "Most communities meet on weekends or evenings, because their members build their lives around a job. If you have free time on weekday mornings or afternoons, you can get into sessions that are otherwise packed with working people, and because fewer people show up midweek, it's easier to actually get to know someone.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Margitszigeti Jóga",
+            note: "Outdoor community yoga sessions that often run on weekday mornings too, fitting a more flexible schedule.",
+            href: "https://www.instagram.com/margitszigetijoga.hu/",
+          },
+          {
+            name: "Budapest Bike Maffia",
+            note: "Volunteer cycling actions you can join for a single session with no commitment, often held on weekdays.",
+            href: "https://bikemaffia.com/",
+          },
+          {
+            name: "Budapest Digital Nomads",
+            note: "A Facebook community that regularly organizes daytime, flexibly scheduled meetups, not just evening events.",
+            href: "https://www.facebook.com/groups/648464231947085/",
+          },
+        ],
+      },
+      { type: "h2", text: "Don't expect to be back where you were before you left" },
+      {
+        type: "p",
+        text: "After a major transition, it's normal for your social life to rebuild from scratch, even if you previously had an extensive friend group in the very same city. Some old connections will stick around, but they won't automatically replace the day-to-day company you need. That has to be rebuilt deliberately, with new communities.",
+      },
+      { type: "h2", text: "Look for communities that attract people going through a similar shift" },
+      {
+        type: "p",
+        text: "Members of digital nomad and startup communities have often just arrived themselves or are mid-transition in some form, so they tend to be more open to meeting someone new than a long-closed, settled friend group. That doesn't mean these are the only communities worth trying, but they're a good starting point if you're rebuilding everything at once.",
+      },
+      {
+        type: "citation",
+        text: "Harvard Business Review: how to rebuild your social circle after a major career change",
+        href: "https://hbr.org/2022/05/how-to-make-friends-as-an-adult",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "How long does it take to rebuild a full friend group after a major transition?",
+            a: "Typically around six months before a few regular connections take hold. That's longer than many people expect, but it doesn't mean you're doing something wrong.",
+          },
+          {
+            q: "Should I only look for communities where everyone's been through a similar transition?",
+            a: "Not necessarily, but it can help a lot at first, since the atmosphere there tends to be more open to new people than in a long-settled group.",
+          },
+          {
+            q: "What if part of my old friend group is still in Budapest?",
+            a: "It's worth staying in touch with them, but don't rely on them alone: if their rhythm no longer matches yours, you'll still want a new community to cover the day-to-day company you're missing.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hard-to-make-friends-after-30-in-budapest",
+    title: "Hard to make friends after 30? These Budapest communities have a low barrier to entry",
+    metaTitle: "Hard to make friends after 30 in Budapest?",
+    description:
+      "Past 30, you no longer have school, university or a dorm automatically putting people in the same room, and showing up alone to an unfamiliar group can feel daunting. This list gives you a starting point.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "Past 30, most friendships no longer form the way they did when you were younger: there's no school, dorm, or university automatically gathering people in one place. On top of that comes another feeling, that it's somehow too late to walk into an unfamiliar group, and that everyone else already has their circle settled. That feeling is almost never as true as it seems.",
+      },
+      { type: "h2", text: "Why this feels harder than it actually is" },
+      {
+        type: "p",
+        text: "Most adult communities are in constant turnover: someone moves away, someone's schedule changes, and new people keep arriving too. What looks from the outside like a closed, long-settled group is often far more open than you'd think, simply because organizers know that turnover is a normal part of adult community life.",
+      },
+      { type: "h2", text: "Where's the barrier to entry lowest?" },
+      {
+        type: "p",
+        text: "The easiest entry points are communities where the format itself does the work: you don't need to know anyone, you don't need to start a conversation, you just need to show up.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "TIA Game Cave",
+            note: "The board game gives you something to talk about, so you don't have to start the conversation yourself: one round in, you've met a few people almost automatically.",
+            href: "https://www.facebook.com/groups/263358474501496/",
+          },
+          {
+            name: "Hot Girls Walk Club Budapest",
+            note: "Group walks where the movement provides the structure, with no icebreaker round or expectation of prior acquaintance.",
+            href: "https://www.instagram.com/hotgirlswalkbudapest/",
+          },
+          {
+            name: "Toastmasters Magyarország",
+            note: "A structured, predictable format where you know exactly what to expect, and you can sit in as a guest listener for a session.",
+            href: "https://toastmasters.hu/klubok/",
+          },
+        ],
+      },
+      { type: "h2", text: "Give it at least three sessions" },
+      {
+        type: "p",
+        text: "Past 30, the first session rarely produces an instant, deep friendship, and that's not on you. In most adult communities, the first real, name-level acquaintances form on the second or third visit. If the first session doesn't feel special, that doesn't mean you picked the wrong place.",
+      },
+      {
+        type: "citation",
+        text: "Harvard Business Review: why making friends gets harder as an adult, and what to do about it",
+        href: "https://hbr.org/2022/05/how-to-make-friends-as-an-adult",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Are long-running communities really open to new members?",
+            a: "In most cases, yes, because organizers know the community would eventually shrink away without new people. A long history doesn't mean a group is closed to newcomers.",
+          },
+          {
+            q: "What if I feel out of place age-wise at a given session?",
+            a: "Most communities listed here have a genuinely mixed age range, and it's the activity itself that connects people, not age. If a specific session does skew noticeably toward one age group, it's worth trying another community around the same theme.",
+          },
+          {
+            q: "How long should I realistically expect before a first real friendship?",
+            a: "Two to three months of showing up weekly is usually enough for the first real friendship that holds up outside the community too. It can happen faster, but don't count on it by default.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "is-there-outdoor-bouldering-in-budapest",
+    title: "Is there outdoor bouldering in Budapest? Real natural locations",
+    metaTitle: "Is there outdoor bouldering in Budapest?",
+    description:
+      "Budapest is mostly known for its indoor bouldering gyms, but the Buda Hills have real, natural limestone bouldering spots too. We cover where, and why there's no free community built around it.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR_EN,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "The short answer is yes: Budapest isn't just about indoor bouldering gyms, the Buda Hills have several real, natural limestone spots you can boulder on year-round. The longer answer is that there's no free, casual community built around them, and there's a specific regulatory reason for that.",
+      },
+      { type: "h2", text: "Where are the real outdoor bouldering spots?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Oroszlán-sziklák (Lion Boulders)",
+            note: "Natural limestone boulders on the south side of Kecske-hegy, with sections specifically suited to bouldering, 2 to 10 meters high, across a range of difficulty levels.",
+            href: "https://www.thecrag.com/en/climbing/hungary/budapest/area/4701577743",
+          },
+          {
+            name: "Francia-bánya",
+            note: "A 200-meter-wide, 5 to 6 meter high rock wall on the north side of Látó-hegy, one of Budapest's most popular practice spots, climbable year-round.",
+            href: "https://www.termeszetjaro.hu/hu/list/sziklamaszo-helyek/201908310/",
+          },
+          {
+            name: "Kecske-hegyi kőfejtő",
+            note: "A former quarry with overhanging limestone walls that stay sheltered from rain and snow, so it remains climbable even in worse weather.",
+            href: "https://www.termeszetjaro.hu/hu/poi/sziklamaszas/kecske-hegyi-kofejto-sziklamaszo-hely-/55776114/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "All three spots are reachable by public transport, and other parts of the Buda Hills (Róka-hegy, Kis-Sváb-hegy, Mátyás-hegy) have further climbing terrain too, though those are built more for roped sport climbing than specifically for bouldering.",
+      },
+      { type: "h2", text: "Why isn't there a free, casual community for this?" },
+      {
+        type: "p",
+        text: "This has a specific cause, it's not just a gap that happened by chance. Accessing Hungary's official outdoor climbing sites, including the ones above, typically requires membership in MHSSZ (the Hungarian Mountaineering and Sport Climbing Association) and the climbing permit tied to it. In practice, that permit is only available through paid club membership, which is why Budapest's climbing groups are almost without exception fee-based associations, not the kind of free, Instagram-run crew you'd find around running or hiking.",
+      },
+      { type: "h2", text: "What if you want to try it anyway?" },
+      {
+        type: "p",
+        text: "If you're a beginner just trying it out, it's simpler to start at an indoor bouldering gym first (no permit or membership needed, just an entry ticket), and look into a climbing association afterward if you want the outdoor version too. Most associations (such as Gi Falmászó Klub or Krea-Túra) run outdoor trips for their members, in exchange for an annual membership fee and the MHSSZ permit.",
+      },
+      {
+        type: "citation",
+        text: "Hungarian Mountaineering and Sport Climbing Association (MHSSZ): rock climbing and the permit it requires",
+        href: "https://mhssz.hu/sziklamaszas/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Is outdoor bouldering free in Budapest?",
+            a: "The rock itself is free, but the official access permit from MHSSZ requires paid club membership. In practice, it's not free if you want to go through official channels.",
+          },
+          {
+            q: "Can I go to Oroszlán-sziklák or Francia-bánya alone as a beginner?",
+            a: "It's possible, but not recommended without gear, experience, or someone to go with. It's worth practicing indoors first, then getting out to the rock through an association's organized trip.",
+          },
+          {
+            q: "Is there any free Budapest community I can join for this?",
+            a: "We haven't found a free, membership-fee-free community specifically dedicated to this. If that changes and a genuine free group shows up, we'll update this article and our club list too.",
+          },
+        ],
+      },
+    ],
+  },
 ];

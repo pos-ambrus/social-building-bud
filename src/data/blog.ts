@@ -3003,6 +3003,310 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "most-vegeztem-az-egyetemmel-elfogyott-a-baratikorom",
+    title: "Most végeztem az egyetemmel, és elfogyott a baráti köröm: mi legyen most?",
+    metaTitle: "Végeztem az egyetemmel, elfogyott a baráti köröm",
+    description:
+      "Az egyetem automatikusan adta a társaságot: évfolyamtársak, kollégium, közös órák. A munka után ez megszűnik. Mit tegyél, ha a diploma után hirtelen üresen tátong a naptárad?",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "Az egyetemen a társasági élet nem igényelt tervezést: ott voltak az évfolyamtársak, a kollégium, a közös szünetek. Munkába állás után ez a struktúra egyik napról a másikra eltűnik. A kollégák nem feltétlenül lesznek barátok, és hirtelen te magad felelsz azért, hogy legyen kivel találkozni hétvégén.",
+      },
+      { type: "h2", text: "Miért nehezebb ez, mint amilyennek tűnik" },
+      {
+        type: "p",
+        text: "Az egyetem alatt a barátság szinte ingyen jött: napi szinten ugyanazokkal az emberekkel voltál egy térben, akarva-akaratlanul. Munka mellett ehhez tudatosan kell teret teremteni, és ez másfajta energiát igényel, mint amihez hozzászoktál. Nem azért nehéz, mert valamit rosszul csinálsz, hanem mert a korábbi rendszer, ami eddig helyetted dolgozott, megszűnt.",
+      },
+      { type: "h2", text: "Mit keress, ha friss diplomásként indulsz újra?" },
+      {
+        type: "list",
+        items: [
+          "Heti rendszerességű, visszatérő alkalmat, nem egyszeri eseményt, mert ez pótolja leginkább az egyetemi évfolyam ismétlődő találkozásait",
+          "Olyan közösséget, ahol vegyes korosztály és háttér van jelen, nem csak frissen végzettek, mert így gyorsabban kialakul egy tágabb kapcsolati háló",
+          "Alacsony anyagi és időbeli belépési küszöböt, amíg az új munkahelyi rutinodhoz igazodsz",
+        ],
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Budapest Language Exchange (BPLX)",
+            note: "Heti rendszerességű, rotáló beszélgetéseken alapuló közösség, ahova egyedül is könnyű bekapcsolódni, és a résztvevők kor szerint is vegyesek.",
+            href: "https://www.meetup.com/budapest/",
+          },
+          {
+            name: "TIA Game Cave",
+            note: "Ingyenes társasjáték-közösség, ahol a játék adja a beszélgetés alapját, tehát nem kell a semmiből társalgást kezdeni.",
+            href: "https://www.facebook.com/groups/263358474501496/",
+          },
+          {
+            name: "Havervagy",
+            note: "Kifejezetten azoknak szól, akik új baráti kört keresnek, nem egy konkrét tevékenység köré szerveződik, hanem magára az ismerkedésre.",
+            href: "https://www.instagram.com/havervagy/",
+          },
+        ],
+      },
+      { type: "h2", text: "Mivel ne kezdj?" },
+      {
+        type: "p",
+        text: "Kerüld az egyszeri, nagy létszámú networking eseményeket, amíg nincs meg a saját rutinod. Ezek sok energiát visznek el, és ritkán vezetnek visszatérő kapcsolathoz, mert a résztvevők maguk sem térnek vissza. Egy kisebb, heti alkalom sokkal gyorsabban hoz valódi ismerősöket, mint egy évi egyszeri nagy rendezvény.",
+      },
+      {
+        type: "citation",
+        text: "American Psychological Association: hogyan hat a nagy élethelyzeti váltás a társas kapcsolatokra",
+        href: "https://www.apa.org/topics/healthy-workplaces/make-friends",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Mennyi idő alatt alakul ki egy új baráti kör diploma után?",
+            a: "Reálisan két-három hónap, ha heti rendszerességgel jársz ugyanoda. Ennél gyorsabban ritkán történik, és ez teljesen normális.",
+          },
+          {
+            q: "Mi van, ha a kollégáimmal szeretnék inkább barátkozni?",
+            a: "Ez is működhet, de ne csak erre építs: a munkahelyi kapcsolatok gyakran a munkahelyváltással megszűnnek, ezért érdemes emellett egy attól független közösséget is keresni.",
+          },
+          {
+            q: "Muszáj kifejezetten fiatal felnőtteknek szóló közösséget keresnem?",
+            a: "Nem feltétlenül. A vegyes korosztályú közösségek gyakran stabilabbak és kevésbé jönnek-mennek a tagjai, mint a kifejezetten egyetemistáknak vagy frissdiplomásoknak szóló csoportok.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "felmondtam-es-hazakoltoztem-hogyan-epits-uj-kozosseget",
+    title: "Felmondtam és hazaköltöztem: hogyan építs új közösséget Budapesten?",
+    metaTitle: "Felmondtam, hazaköltöztem: új közösség Budapesten",
+    description:
+      "Külföldről hazaköltözve vagy egy nagy váltás után a régi baráti kör szétszéledt, az időbeosztásod pedig teljesen más, mint a többieké. Hogyan találj közösséget, ha épp újrakezdesz?",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "Ha felmondtál, külföldről hazaköltöztél, vagy más nagy váltáson mentél keresztül, kettős nehézséggel szembesülsz: a régi baráti köröd azóta szétszéledt vagy más ritmusban él, és az időbeosztásod is eltér a megszokott munkarendtől. Amíg mások kilenctől ötig dolgoznak, neked hétköznap délelőtt is szabad időd lehet, és ez furcsa módon előny is lehet, nem csak hátrány.",
+      },
+      { type: "h2", text: "Használd ki a hétköznapi szabad időt" },
+      {
+        type: "p",
+        text: "A legtöbb közösség hétvégén vagy este találkozik, mert a tagjai munka mellett szervezik az életüket. Ha neked hétköznap napközben is van szabad időd, olyan alkalmakra is bejuthatsz, amik egyébként tele vannak munkaidőben dolgozókkal, és ahol kevesebb a tolongás, könnyebb igazán megismerkedni valakivel.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Margitszigeti Jóga",
+            note: "Szabadtéri, közösségi jógaórák, amelyek gyakran hétköznap délelőtt is tartanak alkalmakat, tehát jól illeszkednek egy rugalmasabb napirendhez.",
+            href: "https://www.instagram.com/margitszigetijoga.hu/",
+          },
+          {
+            name: "Budapest Bike Maffia",
+            note: "Önkéntes kerékpáros akciók, amelyekhez egy-egy alkalomra is lehet csatlakozni, elköteleződés nélkül, gyakran hétközben is.",
+            href: "https://bikemaffia.com/",
+          },
+          {
+            name: "Budapest Digital Nomads",
+            note: "Facebook közösség, ahol rendszeresen szerveződnek napközbeni, rugalmas időbeosztású találkozók, nemcsak esti programok.",
+            href: "https://www.facebook.com/groups/648464231947085/",
+          },
+        ],
+      },
+      { type: "h2", text: "Ne várd el magadtól, hogy azonnal ugyanott tarts, mint elköltözés előtt" },
+      {
+        type: "p",
+        text: "Egy nagy váltás után természetes, hogy a társasági életed is nulláról épül újra, még akkor is, ha korábban már volt egyszer kiterjedt baráti köröd ugyanabban a városban. A régi kapcsolatok egy része megmarad, de nem fogja automatikusan pótolni a napi szintű társaságot, amire szükséged van. Ezt tudatosan, új közösségekkel kell újraépíteni.",
+      },
+      { type: "h2", text: "Keress olyan közösséget, ami hasonló váltáson átesőket is vonz" },
+      {
+        type: "p",
+        text: "A digitális nomád és startup közösségek tagjai gyakran maguk is most érkeztek vagy most váltottak irányt valamilyen formában, ezért nyitottabbak az új ismerkedésre, mint egy régóta zárt, bejáratott baráti társaság. Ez nem jelenti, hogy csak ilyen közösségekhez érdemes menned, de jó kiindulópont, ha most kezdesz mindent újra.",
+      },
+      {
+        type: "citation",
+        text: "Harvard Business Review: hogyan építs újra társasági kapcsolatokat egy nagy karrierváltás után",
+        href: "https://hbr.org/2022/05/how-to-make-friends-as-an-adult",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Mennyi idő alatt épül újra egy teljes baráti kör egy nagy váltás után?",
+            a: "Jellemzően fél év, mire kialakul néhány rendszeres kapcsolat. Ez hosszabb, mint amire sokan számítanak, de ez nem azt jelenti, hogy valamit rosszul csinálsz.",
+          },
+          {
+            q: "Érdemes csak olyan közösséget keresnem, ahol mindenki hasonló váltáson van túl?",
+            a: "Nem feltétlenül, de kezdésnek sokat segíthet, mert ott eleve nyitottabb a légkör az új ismerkedésre, mint egy régóta összeszokott csoportnál.",
+          },
+          {
+            q: "Mi van, ha a régi baráti köröm egy része még Budapesten van?",
+            a: "Érdemes velük is tartani a kapcsolatot, de ne csak rájuk építs: ha más ritmusban élnek, mint te, a napi szintű társaság hiányát ettől függetlenül új közösséggel érdemes pótolni.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "30-utan-nehez-barator-talalni-budapesten",
+    title: "30 után nehéz barátot találni? Ezek a budapesti közösségek alacsony belépési küszöbbel indítanak",
+    metaTitle: "30 után nehéz barátot találni Budapesten?",
+    description:
+      "Harmincon túl már nincs meg az iskola, az egyetem vagy a kollégium automatikus társasága, és sokszor az is nyomaszt, hogy egyedül állj be egy ismeretlen csoportba. Ez a lista ehhez ad kiindulópontot.",
+    kind: "guide",
+    category: null,
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "Harminc fölött a legtöbb barátság már nem úgy jön létre, mint fiatalabb korban: nincs iskola, kollégium vagy egyetem, ami automatikusan egy térbe gyűjtene embereket. Ezt tetézi egy másik érzés is, hogy mintha már túl késő lenne elindulni egy ismeretlen csoporthoz, és mindenki másnak már megvan a maga bejáratott baráti köre. Ez utóbbi szinte sosem igaz annyira, mint amennyire érződik.",
+      },
+      { type: "h2", text: "Miért érződik ez nehezebbnek, mint tényleg az" },
+      {
+        type: "p",
+        text: "A legtöbb felnőtt közösség folyamatosan cserélődik: valaki elköltözik, valakinek megváltozik az időbeosztása, és rendszeresen érkeznek új emberek is. Amit kívülről zárt, régóta összeszokott csoportnak látsz, belülről gyakran sokkal nyitottabb, mint gondolnád, egyszerűen azért, mert a szervezők is tudják, hogy a fluktuáció a felnőttkori közösségek természetes velejárója.",
+      },
+      { type: "h2", text: "Hol a legalacsonyabb a belépési küszöb?" },
+      {
+        type: "p",
+        text: "A legkönnyebb belépő azok a közösségek, ahol a formátum maga old meg mindent: nem kell ismerned senkit, nem kell beszélgetést kezdeményezned, elég megjelenned.",
+      },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "TIA Game Cave",
+            note: "A társasjáték adja a beszélgetési alapot, tehát nem neked kell társalgást indítanod: egy parti alatt szinte automatikusan megismersz pár embert.",
+            href: "https://www.facebook.com/groups/263358474501496/",
+          },
+          {
+            name: "Hot Girls Walk Club Budapest",
+            note: "Közös séták, ahol a mozgás adja a keretet, és nincs bemutatkozókör vagy elvárt előzetes ismeretség.",
+            href: "https://www.instagram.com/hotgirlswalkbudapest/",
+          },
+          {
+            name: "Toastmasters Magyarország",
+            note: "Strukturált, kiszámítható formátum, ahol előre tudod, mi fog történni, és vendégként meghallgatóként is be lehet ülni egy alkalomra.",
+            href: "https://toastmasters.hu/klubok/",
+          },
+        ],
+      },
+      { type: "h2", text: "Adj neki legalább három alkalmat" },
+      {
+        type: "p",
+        text: "Harminc fölött az első alkalom ritkán hoz azonnali, mély barátságot, és ez nem a te hibád. A legtöbb felnőtt közösségnél a második vagy harmadik alkalomra alakulnak ki az első igazi, név szerinti ismeretségek. Ha az első alkalom után nem érzel semmi különöset, az nem jelenti, hogy rossz helyre mentél.",
+      },
+      {
+        type: "citation",
+        text: "Harvard Business Review: miért nehezebb felnőttként barátkozni, és mit lehet tenni ellene",
+        href: "https://hbr.org/2022/05/how-to-make-friends-as-an-adult",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Tényleg nyitottak az új tagokra a régóta működő közösségek?",
+            a: "A legtöbb esetben igen, mert a szervezők tudják, hogy enélkül a közösség előbb-utóbb elfogyna. A hosszú múlt nem jelenti azt, hogy a csoport zárt lenne az új emberek felé.",
+          },
+          {
+            q: "Mi van, ha egy adott korosztályban úgy érzem, kilógok?",
+            a: "A legtöbb itt listázott közösség kifejezetten vegyes korosztályú, és a tevékenység maga köti össze az embereket, nem az életkor. Ha mégis kirívóan más korosztály jár egy adott alkalomra, érdemes másik, hasonló témájú közösséget is kipróbálni.",
+          },
+          {
+            q: "Mennyi idő alatt várható el reálisan az első valódi barátság?",
+            a: "Két-három hónap heti rendszerességgel a legtöbb esetben elég az első igazi, a közösségen kívül is működő barátsághoz. Ennél rövidebb idő alatt is megtörténhet, de ne ezt várd el alapból.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "van-outdoor-boulder-lehetoseg-budapesten",
+    title: "Van outdoor boulder lehetőség Budapesten? Valódi szabadtéri helyszínek",
+    metaTitle: "Van outdoor boulder Budapesten?",
+    description:
+      "Budapest elsősorban a termeiről ismert, de a budai-hegyekben valódi, természetes sziklás boulder helyszínek is vannak. Végigvesszük, hol, és miért nincs hozzá ingyenes közösség.",
+    kind: "guide",
+    category: "Sport",
+    author: DEFAULT_AUTHOR,
+    publishedAt: "2026-10-02",
+    updatedAt: "2026-10-02",
+    body: [
+      {
+        type: "p",
+        text: "A rövid válasz igen: Budapest nem csak a beltéri boulder termeiről ismert, a budai-hegységben több valódi, természetes mészkősziklás helyszín is van, ahol egész évben lehet boulderezni. A hosszabb válasz viszont az, hogy ezekhez nem tartozik ingyenes, laza közösség, és ennek konkrét, szabályozási oka van.",
+      },
+      { type: "h2", text: "Hol vannak a valódi szabadtéri boulder helyszínek?" },
+      {
+        type: "clublist",
+        items: [
+          {
+            name: "Oroszlán-sziklák",
+            note: "A Kecske-hegy déli oldalán található természetes mészkősziklák, kifejezetten boulderezésre alkalmas falszakaszokkal, 2-10 méteres magasságban, változatos nehézségi szinteken.",
+            href: "https://www.thecrag.com/en/climbing/hungary/budapest/area/4701577743",
+          },
+          {
+            name: "Francia-bánya",
+            note: "A Látó-hegy északi oldalán található 200 méter széles, 5-6 méter magas sziklafal, Budapest egyik legnépszerűbb gyakorlóhelye, egész évben jól mászható.",
+            href: "https://www.termeszetjaro.hu/hu/list/sziklamaszo-helyek/201908310/",
+          },
+          {
+            name: "Kecske-hegyi kőfejtő",
+            note: "Egykori kőfejtő áthajló mészkőfalakkal, ami eső és hó ellen is védett, tehát rosszabb időben is mászható marad.",
+            href: "https://www.termeszetjaro.hu/hu/poi/sziklamaszas/kecske-hegyi-kofejto-sziklamaszo-hely-/55776114/",
+          },
+        ],
+      },
+      {
+        type: "p",
+        text: "Mindhárom helyszín tömegközlekedéssel megközelíthető, és a budai-hegység más pontjain (Róka-hegy, Kis-Sváb-hegy, Mátyás-hegy) is található további sziklamászó terep, bár ezek inkább kötélbiztosításos sportmászásra, nem kifejezetten boulderezésre vannak kiépítve.",
+      },
+      { type: "h2", text: "Miért nincs ehhez ingyenes, laza közösség?" },
+      {
+        type: "p",
+        text: "Ennek konkrét oka van, nem csak véletlen hiány. A magyarországi hivatalos sziklamászó helyekre (így a fentiekre is) a belépéshez jellemzően MHSSZ-tagság (Magyar Hegy- és Sportmászó Szövetség) és egy ahhoz kötött sziklamászó engedély szükséges. Ezt gyakorlatban csak fizetős egyesületi tagsággal lehet megszerezni, ezért a budapesti sziklamászó csoportok szinte kivétel nélkül tagdíjas egyesületek, nem ingyenes, Instagramon szerveződő társaságok, mint amilyeneket a futásnál vagy a túrázásnál megszoktunk.",
+      },
+      { type: "h2", text: "Mi van, ha mégis kipróbálnád?" },
+      {
+        type: "p",
+        text: "Ha kezdőként először csak kipróbálnád, egyszerűbb egy beltéri boulder teremben indulni (ott nincs engedély vagy tagság, csak belépőjegy), és onnan érdemes tájékozódni egy sziklamászó egyesületnél, ha a szabadtéri verzió is érdekel. A legtöbb egyesület (pl. Gi Falmászó Klub, Krea-Túra) szervez outdoor túrákat a tagjainak, cserébe éves tagdíjért és az MHSSZ-engedélyért.",
+      },
+      {
+        type: "citation",
+        text: "Magyar Hegy- és Sportmászó Szövetség: sziklamászás és az ehhez szükséges engedély",
+        href: "https://mhssz.hu/sziklamaszas/",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "Ingyenes a szabadtéri boulderezés Budapesten?",
+            a: "Maga a sziklafal ingyenes, de a hivatalos belépéshez szükséges MHSSZ-engedélyhez tagdíjas egyesületi tagság kell. Emiatt a gyakorlatban nem ingyenes, ha a szabályok szerint szeretnél menni.",
+          },
+          {
+            q: "Kezdőként mehetek egyedül az Oroszlán-sziklákhoz vagy a Francia-bányához?",
+            a: "Lehetséges, de nem ajánlott felszerelés, tapasztalat vagy kísérő nélkül. Érdemes először beltéri teremben gyakorolni, és onnantól egy egyesület szervezett túráján kijutni a sziklára.",
+          },
+          {
+            q: "Van egyáltalán ingyenes budapesti közösség, amihez csatlakozhatok ezzel kapcsolatban?",
+            a: "Jelenleg nem találtunk kifejezetten erre szakosodott, ingyenes, tagdíj nélküli közösséget. Ha ez változik, és felbukkan egy valódi, ingyenes csoport, frissítjük ezt a cikket és a klublistánkat is.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
